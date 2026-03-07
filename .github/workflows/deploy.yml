@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 * * * *'  # 毎時実行
   push:
-    branches: [main]
+    branches: [main, claude/ai-news-trends-site-1FbNz]
   workflow_dispatch:
 
 permissions:
