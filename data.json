@@ -1,0 +1,56 @@
+{
+  "news": {
+    "items": [
+      {
+        "title": "Yann LeCun, Pioneer of AI, Thinks Today's LLM's Are Nearly Obsolete",
+        "url": "https://www.newsweek.com/ai-impact-interview-yann-lecun-artificial-intelligence-2054237",
+        "points": 124,
+        "comments": 140,
+        "author": "alphadelphi",
+        "createdAt": "2025-04-02T22:59:55Z",
+        "domain": "newsweek.com"
+      },
+      {
+        "title": "Intel Neural-Chat-7B Model Achieves Top Ranking on LLM Leaderboard",
+        "url": "https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-neural-chat-7b-Model-Achieves-Top-Ranking-on-LLM/post/1549386",
+        "points": 37,
+        "comments": 64,
+        "author": "tosh",
+        "createdAt": "2023-12-03T15:03:50Z",
+        "domain": "community.intel.com"
+      },
+      {
+        "title": "Changed My Mind After Reading Larson's \"The Myth of Artificial Intelligence\"",
+        "url": "https://news.ycombinator.com/item?id=38904495",
+        "points": 10,
+        "comments": 12,
+        "author": "abss",
+        "createdAt": "2024-01-07T19:47:28Z",
+        "domain": "news.ycombinator.com"
+      }
+    ],
+    "fetchedAt": "2026-03-07T06:49:38.223Z",
+    "mock": false
+  },
+  "trends": {
+    "items": [
+      {
+        "rank": 1,
+        "topic": "#AI",
+        "url": "https://x.com/search?q=%23AI&src=trend_click"
+      },
+      {
+        "rank": 2,
+        "topic": "ChatGPT",
+        "url": "https://x.com/search?q=ChatGPT&src=trend_click"
+      },
+      {
+        "rank": 3,
+        "topic": "#生成AI",
+        "url": "https://x.com/search?q=%23%E7%94%9F%E6%88%90AI&src=trend_click"
+      }
+    ],
+    "fetchedAt": "2026-03-07T06:49:38.223Z",
+    "mock": true
+  }
+}
