@@ -14,20 +14,19 @@ function skeletonNews() {
     </div>`;
 }
 
-function skeletonTrend() {
+function skeletonTweet() {
   return `
-    <div class="skeleton skeleton-trend">
-      <div class="skeleton-rank"></div>
-      <div class="skeleton-trend-text">
-        <div class="skeleton-line medium"></div>
-        <div class="skeleton-line short"></div>
-      </div>
+    <div class="skeleton skeleton-tweet">
+      <div class="skeleton-line short" style="width:35%;margin-bottom:10px"></div>
+      <div class="skeleton-line full"></div>
+      <div class="skeleton-line medium"></div>
+      <div class="skeleton-line meta" style="width:50%;margin-top:10px"></div>
     </div>`;
 }
 
 function showSkeletons() {
   newsCards.innerHTML = [1, 2, 3].map(skeletonNews).join('');
-  trendsCards.innerHTML = [1, 2, 3].map(skeletonTrend).join('');
+  trendsCards.innerHTML = [1, 2, 3].map(skeletonTweet).join('');
 }
 
 // ── Render helpers ─────────────────────────────────────────────────────────
@@ -49,6 +48,12 @@ function mockBadge() {
   </div>`;
 }
 
+function formatNum(n) {
+  if (n >= 10000) return `${(n / 10000).toFixed(1)}万`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
+  return String(n);
+}
+
 function renderNews(items, isMock) {
   if (!items || items.length === 0) {
     newsCards.innerHTML = errorCard('ニュースが見つかりませんでした');
@@ -56,7 +61,7 @@ function renderNews(items, isMock) {
   }
   newsCards.innerHTML = (isMock ? mockBadge() : '') + items.map(item => `
     <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-      <div class="news-card-title">${escapeHtml(item.title)}</div>
+      <div class="news-card-title">${escapeHtml(item.titleJa || item.title)}</div>
       <div class="news-card-meta">
         ${item.domain ? `<span class="meta-domain">${escapeHtml(item.domain)}</span>` : ''}
         <span class="meta-item">
@@ -72,22 +77,23 @@ function renderNews(items, isMock) {
     </a>`).join('');
 }
 
-function renderTrends(items, isMock) {
+function renderTweets(items, isMock) {
   if (!items || items.length === 0) {
-    trendsCards.innerHTML = errorCard('トレンドが見つかりませんでした');
+    trendsCards.innerHTML = errorCard('ツイートが見つかりませんでした');
     return;
   }
+  const xIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`;
   trendsCards.innerHTML = (isMock ? mockBadge() : '') + items.map(item => `
-    <a class="trend-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-      <div class="trend-rank">${item.rank}</div>
-      <div class="trend-info">
-        <div class="trend-topic">${escapeHtml(item.topic)}</div>
-        <div class="trend-label">トレンド中</div>
+    <a class="tweet-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+      <div class="tweet-header">
+        <span class="tweet-author">${escapeHtml(item.author)}</span>
+        <span class="tweet-x-icon">${xIcon}</span>
       </div>
-      <div class="trend-x-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-        </svg>
+      <div class="tweet-text">${escapeHtml(item.text)}</div>
+      <div class="tweet-meta">
+        ${item.likes !== undefined ? `<span class="tweet-stat">♥ ${formatNum(item.likes)}</span>` : ''}
+        ${item.retweets !== undefined ? `<span class="tweet-stat">↻ ${formatNum(item.retweets)}</span>` : ''}
+        <span class="tweet-stat">${relativeTime(item.date)}</span>
       </div>
     </a>`).join('');
 }
@@ -145,12 +151,12 @@ async function fetchNews() {
   return { items, fetchedAt: new Date().toISOString() };
 }
 
-async function fetchTrends(bustCache = false) {
+async function fetchTweetsData(bustCache = false) {
   const url = bustCache ? `data.json?_=${Date.now()}` : 'data.json';
   const res = await fetch(url);
   if (!res.ok) throw new Error('data.json not found');
   const data = await res.json();
-  return data.trends;
+  return data.tweets || data.trends;
 }
 
 // ── Load ───────────────────────────────────────────────────────────────────
@@ -159,9 +165,9 @@ async function load(refresh = false) {
   setLoading(true);
   showSkeletons();
 
-  const [newsResult, trendsResult] = await Promise.allSettled([
+  const [newsResult, tweetsResult] = await Promise.allSettled([
     fetchNews(),
-    fetchTrends(refresh),
+    fetchTweetsData(refresh),
   ]);
 
   if (newsResult.status === 'fulfilled') {
@@ -170,10 +176,10 @@ async function load(refresh = false) {
     newsCards.innerHTML = errorCard('AIニュースの取得に失敗しました。しばらくしてから更新してください。');
   }
 
-  if (trendsResult.status === 'fulfilled') {
-    renderTrends(trendsResult.value.items, trendsResult.value.mock === true);
+  if (tweetsResult.status === 'fulfilled') {
+    renderTweets(tweetsResult.value.items, tweetsResult.value.mock === true);
   } else {
-    trendsCards.innerHTML = errorCard('Xのトレンド取得に失敗しました。しばらくしてから更新してください。');
+    trendsCards.innerHTML = errorCard('Xのツイート取得に失敗しました。しばらくしてから更新してください。');
   }
 
   const now = new Date().toLocaleString('ja-JP', {

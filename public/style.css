@@ -291,6 +291,76 @@ main {
   color: var(--accent-trends);
 }
 
+/* ── Tweet card ── */
+.tweet-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow);
+}
+
+.tweet-card:hover {
+  background: var(--bg-card-hover);
+  border-color: rgba(167, 139, 250, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(167, 139, 250, 0.1);
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tweet-author {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-trends);
+}
+
+.tweet-x-icon {
+  color: var(--text-dim);
+  transition: color 0.2s;
+  display: flex;
+}
+
+.tweet-card:hover .tweet-x-icon {
+  color: var(--accent-trends);
+}
+
+.tweet-text {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.55;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tweet-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tweet-stat {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.skeleton-tweet {
+  padding: 18px 20px;
+  height: 120px;
+}
+
 /* ── Skeleton loading ── */
 .skeleton {
   background: var(--bg-card);
