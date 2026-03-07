@@ -1,0 +1,44 @@
+{
+  "news": {
+    "items": [
+      {
+        "title": "OpenAI GPT-5 Achieves Record Scores on Major AI Benchmarks",
+        "url": "https://news.ycombinator.com/item?id=39999001",
+        "points": 1847,
+        "comments": 423,
+        "author": "techreporter",
+        "createdAt": "2025-01-01T00:00:00.000Z",
+        "domain": "openai.com"
+      },
+      {
+        "title": "Google DeepMind Releases AlphaCode 3, Outperforming Senior Engineers on Complex Tasks",
+        "url": "https://news.ycombinator.com/item?id=39999002",
+        "points": 1234,
+        "comments": 287,
+        "author": "airesearch",
+        "createdAt": "2025-01-01T00:00:00.000Z",
+        "domain": "deepmind.google"
+      },
+      {
+        "title": "Anthropic's Claude 4 Demonstrates Strong Reasoning with Extended Thinking Mode",
+        "url": "https://news.ycombinator.com/item?id=39999003",
+        "points": 987,
+        "comments": 198,
+        "author": "mlnews",
+        "createdAt": "2025-01-01T00:00:00.000Z",
+        "domain": "anthropic.com"
+      }
+    ],
+    "fetchedAt": "2025-01-01T00:00:00.000Z",
+    "mock": true
+  },
+  "trends": {
+    "items": [
+      { "rank": 1, "topic": "#AI", "url": "https://x.com/search?q=%23AI&src=trend_click" },
+      { "rank": 2, "topic": "ChatGPT", "url": "https://x.com/search?q=ChatGPT&src=trend_click" },
+      { "rank": 3, "topic": "#生成AI", "url": "https://x.com/search?q=%23%E7%94%9F%E6%88%90AI&src=trend_click" }
+    ],
+    "fetchedAt": "2025-01-01T00:00:00.000Z",
+    "mock": true
+  }
+}

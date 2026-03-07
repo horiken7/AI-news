@@ -109,20 +109,48 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-// ── Fetch ──────────────────────────────────────────────────────────────────
-
-async function fetchNews(refresh = false) {
-  const url = `/api/news${refresh ? '?refresh=true' : ''}`;
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(await res.text());
-  return res.json();
+function extractDomain(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return '';
+  }
 }
 
-async function fetchTrends(refresh = false) {
-  const url = `/api/trends${refresh ? '?refresh=true' : ''}`;
+// ── Fetch ──────────────────────────────────────────────────────────────────
+
+const AI_KEYWORDS = /\b(ai|artificial intelligence|llm|machine learning|deep learning|openai|anthropic|gemini|gpt|claude|chatgpt|neural|diffusion|generative|midjourney|stable diffusion|hugging face|transformer)\b/i;
+
+async function fetchNews() {
+  const res = await fetch(
+    'https://hn.algolia.com/api/v1/search?query=artificial+intelligence+AI+LLM&tags=story&hitsPerPage=30'
+  );
+  if (!res.ok) throw new Error(`HN API returned ${res.status}`);
+  const data = await res.json();
+
+  const items = data.hits
+    .filter(h => h.title && (AI_KEYWORDS.test(h.title) || AI_KEYWORDS.test(h.story_text || '')))
+    .sort((a, b) => b.points - a.points)
+    .slice(0, 3)
+    .map(h => ({
+      title: h.title,
+      url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+      points: h.points || 0,
+      comments: h.num_comments || 0,
+      author: h.author,
+      createdAt: h.created_at,
+      domain: h.url ? extractDomain(h.url) : 'news.ycombinator.com',
+    }));
+
+  return { items, fetchedAt: new Date().toISOString() };
+}
+
+async function fetchTrends(bustCache = false) {
+  const url = bustCache ? `data.json?_=${Date.now()}` : 'data.json';
   const res = await fetch(url);
-  if (!res.ok) throw new Error(await res.text());
-  return res.json();
+  if (!res.ok) throw new Error('data.json not found');
+  const data = await res.json();
+  return data.trends;
 }
 
 // ── Load ───────────────────────────────────────────────────────────────────
@@ -132,12 +160,12 @@ async function load(refresh = false) {
   showSkeletons();
 
   const [newsResult, trendsResult] = await Promise.allSettled([
-    fetchNews(refresh),
+    fetchNews(),
     fetchTrends(refresh),
   ]);
 
   if (newsResult.status === 'fulfilled') {
-    renderNews(newsResult.value.items, newsResult.value.mock === true);
+    renderNews(newsResult.value.items, false);
   } else {
     newsCards.innerHTML = errorCard('AIニュースの取得に失敗しました。しばらくしてから更新してください。');
   }
