@@ -10,6 +10,13 @@ const MOCK_NEWS = [
     title: 'OpenAI GPT-5 Achieves Record Scores on Major AI Benchmarks',
     titleJa: 'OpenAI GPT-5、主要AIベンチマークで過去最高スコアを達成',
     summaryJa: 'GPT-5は言語理解・数学的推論・コード生成など主要ベンチマークで人間の専門家レベルを超えるスコアを記録。前モデルGPT-4oから大幅な性能向上を確認。',
+    keyPoints: [
+      '言語理解・数学推論・コード生成の全分野でGPT-4oを大幅に上回るスコアを記録',
+      'マルチモーダル対応が強化され、画像・音声・動画の複合理解が可能に',
+      'APIは既存のGPT-4oエンドポイントと互換性を維持し移行コストを最小化',
+    ],
+    category: 'モデル進化',
+    impact: '高',
     url: 'https://news.ycombinator.com/item?id=39999001',
     points: 1847,
     comments: 423,
@@ -21,6 +28,13 @@ const MOCK_NEWS = [
     title: 'Google DeepMind Releases AlphaCode 3, Outperforming Senior Engineers on Complex Tasks',
     titleJa: 'Google DeepMind、AlphaCode 3を公開 ― 複雑なタスクでシニアエンジニアを凌駕',
     summaryJa: 'AlphaCode 3は競技プログラミングや大規模コードリファクタリングなど複雑なタスクでシニアエンジニアを上回る性能を発揮。自然言語による仕様からの実装も可能に。',
+    keyPoints: [
+      '競技プログラミングの上位1%相当の問題を解決できる精度を達成',
+      '自然言語の仕様書から本番レベルのコードを自動生成する機能を搭載',
+      'GitHubとの連携により既存リポジトリのコンテキストを理解してコード補完が可能',
+    ],
+    category: 'コード生成',
+    impact: '高',
     url: 'https://news.ycombinator.com/item?id=39999002',
     points: 1234,
     comments: 287,
@@ -32,6 +46,13 @@ const MOCK_NEWS = [
     title: "Anthropic's Claude 4 Demonstrates Strong Reasoning with Extended Thinking Mode",
     titleJa: 'AnthropicのClaude 4、拡張思考モードで高度な推論能力を実証',
     summaryJa: '拡張思考モードを搭載したClaude 4は複雑な数学問題や論理パズルで顕著な改善を示し、段階的な思考プロセスを可視化することでユーザーの信頼性向上にも貢献。',
+    keyPoints: [
+      '拡張思考モードにより複雑な数学・論理問題での正解率が前バージョン比30%向上',
+      '思考ステップを可視化することでハルシネーション（誤情報生成）を大幅に削減',
+      '長文コンテキスト（200K tokens）での一貫した推論精度を維持',
+    ],
+    category: '推論強化',
+    impact: '中',
     url: 'https://news.ycombinator.com/item?id=39999003',
     points: 987,
     comments: 198,
@@ -127,7 +148,7 @@ function loadTranslationCache(outputPath) {
     const existing = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
     const cache = {};
     for (const item of existing.news?.items || []) {
-      if (item.url) cache[item.url] = { titleJa: item.titleJa, summaryJa: item.summaryJa };
+      if (item.url) cache[item.url] = { titleJa: item.titleJa, summaryJa: item.summaryJa, keyPoints: item.keyPoints, impact: item.impact, category: item.category };
     }
     return cache;
   } catch {
@@ -140,8 +161,11 @@ async function translateNewsItems(items, cache) {
     const cached = cache[item.url];
     if (cached?.titleJa) {
       // 同じURLの翻訳が既にある場合はキャッシュを使用
-      item.titleJa = cached.titleJa;
+      item.titleJa  = cached.titleJa;
       item.summaryJa = cached.summaryJa || '';
+      item.keyPoints = cached.keyPoints || [];
+      item.impact    = cached.impact || '低';
+      item.category  = cached.category || '';
       console.log(`Cached translation reused: "${item.title}"`);
       delete item._storyText;
       continue;
@@ -182,6 +206,22 @@ async function translateNewsItems(items, cache) {
     } else {
       item.summaryJa = '';
     }
+
+    // summaryJa を文単位に分割して keyPoints を生成
+    if (item.summaryJa) {
+      item.keyPoints = item.summaryJa
+        .split(/。/)
+        .map(s => s.trim())
+        .filter(s => s.length > 10)
+        .slice(0, 3)
+        .map(s => s + '。');
+    } else {
+      item.keyPoints = [];
+    }
+
+    // ポイント数からインパクトを判定
+    item.impact = item.points >= 1000 ? '高' : item.points >= 500 ? '中' : '低';
+    item.category = '';
   }
   return items;
 }
