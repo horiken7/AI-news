@@ -3,54 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0f1117">
+  <meta name="theme-color" content="#0b0d18">
   <title>AI News Trends</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <div class="header-title">
-        <span class="header-icon">⚡</span>
-        <h1>AI News Trends</h1>
-      </div>
-      <button id="refresh-btn" class="refresh-btn" aria-label="最新情報を取得">
-        <svg class="refresh-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="23 4 23 10 17 10"></polyline>
-          <polyline points="1 20 1 14 7 14"></polyline>
-          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
-        </svg>
-        <span>更新</span>
-      </button>
-    </div>
+  <header class="hero">
+    <h1 class="hero-title">今日の <span class="c-purple">バズった</span> <span class="c-pink">AI</span> ニュース</h1>
+    <p class="hero-sub" id="hero-date">最も話題になったAIトピックを厳選</p>
   </header>
 
-  <main>
-    <div class="grid">
-      <section class="section" id="news-section">
-        <div class="section-header">
-          <div class="section-badge news-badge">AI</div>
-          <h2>AIに関するバズったニュース</h2>
-        </div>
-        <div class="cards-container" id="news-cards">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
+  <div class="action-bar">
+    <button id="refresh-btn" class="refresh-btn" aria-label="最新情報を取得">
+      <svg class="refresh-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="23 4 23 10 17 10"></polyline>
+        <polyline points="1 20 1 14 7 14"></polyline>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+      </svg>
+      <span>更新</span>
+    </button>
+  </div>
 
-      <section class="section" id="trends-section">
-        <div class="section-header">
-          <div class="section-badge trends-badge">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </div>
-          <h2>Xのバズったツイート</h2>
-        </div>
-        <div class="cards-container" id="trends-cards">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-    </div>
+  <main>
+    <section>
+      <div class="section-label">
+        <span class="section-label-icon news-icon">AI</span>
+        <span>AIに関するバズったニュース</span>
+        <div class="section-label-line"></div>
+      </div>
+      <div id="news-cards"></div>
+    </section>
+
+    <section>
+      <div class="section-label">
+        <span class="section-label-icon tweet-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </span>
+        <span>Xのバズったツイート</span>
+        <div class="section-label-line"></div>
+      </div>
+      <div id="trends-cards"></div>
+    </section>
   </main>
 
   <footer>

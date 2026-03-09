@@ -10,7 +10,12 @@
         "createdAt": "2025-04-02T22:59:55Z",
         "domain": "newsweek.com",
         "titleJa": "AIのパイオニアであるYann LeCunは、今日のLLMはほとんど時代遅れだと考えています",
-        "summaryJa": "MetaのチーフAI科学者であり、人工知能のパイオニアの1人であるYann LeCun氏は、LLMは5年以内に大部分が時代遅れになると考えています。"
+        "summaryJa": "MetaのチーフAI科学者であり、人工知能のパイオニアの1人であるYann LeCun氏は、LLMは5年以内に大部分が時代遅れになると考えています。",
+        "keyPoints": [
+          "MetaのチーフAI科学者であり、人工知能のパイオニアの1人であるYann LeCun氏は、LLMは5年以内に大部分が時代遅れになると考えています。"
+        ],
+        "impact": "低",
+        "category": ""
       },
       {
         "title": "Intel Neural-Chat-7B Model Achieves Top Ranking on LLM Leaderboard",
@@ -21,7 +26,10 @@
         "createdAt": "2023-12-03T15:03:50Z",
         "domain": "community.intel.com",
         "titleJa": "Intel Neural - Chat -7 BモデルがLLMランキングでトップランキングを達成",
-        "summaryJa": ""
+        "summaryJa": "",
+        "keyPoints": [],
+        "impact": "低",
+        "category": ""
       },
       {
         "title": "Changed My Mind After Reading Larson's \"The Myth of Artificial Intelligence\"",
@@ -32,10 +40,16 @@
         "createdAt": "2024-01-07T19:47:28Z",
         "domain": "news.ycombinator.com",
         "titleJa": "ラーソンの「人工知能の神話」を読んで気が変わった",
-        "summaryJa": "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、"
+        "summaryJa": "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、",
+        "keyPoints": [
+          "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。",
+          "Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、。"
+        ],
+        "impact": "低",
+        "category": ""
       }
     ],
-    "fetchedAt": "2026-03-09T00:37:27.394Z",
+    "fetchedAt": "2026-03-09T00:48:55.286Z",
     "mock": false
   },
   "tweets": {
@@ -44,7 +58,7 @@
         "text": "GPT-4oの新機能すごすぎる...画像を見せただけで完璧なコードを生成してくれた🤯 これもう普通のエンジニアいらないんじゃないか",
         "author": "@ai_enthusiast_jp",
         "url": "https://x.com/search?q=GPT-4o",
-        "date": "2026-03-08T22:37:22.529Z",
+        "date": "2026-03-08T22:48:50.160Z",
         "likes": 15200,
         "retweets": 4800
       },
@@ -52,7 +66,7 @@
         "text": "Claudeで論文要約してみたら、元の論文より分かりやすい解説が10秒で出てきた。研究者の働き方が根本から変わりそう",
         "author": "@researcher_ai",
         "url": "https://x.com/search?q=Claude+AI",
-        "date": "2026-03-08T19:37:22.529Z",
+        "date": "2026-03-08T19:48:50.160Z",
         "likes": 8900,
         "retweets": 2100
       },
@@ -60,12 +74,12 @@
         "text": "生成AIで作った動画、もう本物と区別つかなくなってきた。フェイクニュースや誤情報の問題、本当に深刻になってきてる",
         "author": "@media_watch_jp",
         "url": "https://x.com/search?q=%E7%94%9F%E6%88%90AI",
-        "date": "2026-03-08T16:37:22.529Z",
+        "date": "2026-03-08T16:48:50.160Z",
         "likes": 23400,
         "retweets": 8700
       }
     ],
-    "fetchedAt": "2026-03-09T00:37:27.394Z",
+    "fetchedAt": "2026-03-09T00:48:55.286Z",
     "mock": true
   }
 }
