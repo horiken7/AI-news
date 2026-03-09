@@ -35,7 +35,7 @@
         "summaryJa": "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、"
       }
     ],
-    "fetchedAt": "2026-03-08T11:27:12.437Z",
+    "fetchedAt": "2026-03-09T00:33:31.165Z",
     "mock": false
   },
   "tweets": {
@@ -44,7 +44,7 @@
         "text": "GPT-4oの新機能すごすぎる...画像を見せただけで完璧なコードを生成してくれた🤯 これもう普通のエンジニアいらないんじゃないか",
         "author": "@ai_enthusiast_jp",
         "url": "https://x.com/search?q=GPT-4o",
-        "date": "2026-03-08T09:27:07.453Z",
+        "date": "2026-03-08T22:33:23.273Z",
         "likes": 15200,
         "retweets": 4800
       },
@@ -52,7 +52,7 @@
         "text": "Claudeで論文要約してみたら、元の論文より分かりやすい解説が10秒で出てきた。研究者の働き方が根本から変わりそう",
         "author": "@researcher_ai",
         "url": "https://x.com/search?q=Claude+AI",
-        "date": "2026-03-08T06:27:07.453Z",
+        "date": "2026-03-08T19:33:23.273Z",
         "likes": 8900,
         "retweets": 2100
       },
@@ -60,12 +60,12 @@
         "text": "生成AIで作った動画、もう本物と区別つかなくなってきた。フェイクニュースや誤情報の問題、本当に深刻になってきてる",
         "author": "@media_watch_jp",
         "url": "https://x.com/search?q=%E7%94%9F%E6%88%90AI",
-        "date": "2026-03-08T03:27:07.453Z",
+        "date": "2026-03-08T16:33:23.273Z",
         "likes": 23400,
         "retweets": 8700
       }
     ],
-    "fetchedAt": "2026-03-08T11:27:12.437Z",
+    "fetchedAt": "2026-03-09T00:33:31.165Z",
     "mock": true
   }
 }
