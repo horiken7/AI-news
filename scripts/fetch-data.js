@@ -120,29 +120,32 @@ async function fetchArticleDescription(url) {
 }
 
 async function fetchNews() {
-  const res = await fetch(
-    'https://hn.algolia.com/api/v1/search?query=artificial+intelligence+AI+LLM&tags=story&hitsPerPage=30',
-    { headers: { 'User-Agent': USER_AGENT } }
-  );
+  // 直近72時間に絞ることで毎日ニュースが更新されるようにする
+  const since = Math.floor(Date.now() / 1000) - 72 * 3600;
+  const url = `https://hn.algolia.com/api/v1/search_by_date?query=AI+LLM+machine+learning&tags=story&hitsPerPage=50&numericFilters=created_at_i%3E${since},points%3E10`;
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`HN API returned ${res.status}`);
   const data = await res.json();
 
   const aiKeywords = /\b(ai|artificial intelligence|llm|machine learning|deep learning|openai|anthropic|gemini|gpt|claude|chatgpt|neural|diffusion|generative|midjourney|stable diffusion|hugging face|transformer)\b/i;
 
-  return data.hits
+  const hits = data.hits
     .filter(h => h.title && (aiKeywords.test(h.title) || aiKeywords.test(h.story_text || '')))
     .sort((a, b) => b.points - a.points)
-    .slice(0, 3)
-    .map(h => ({
-      title: h.title,
-      url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
-      points: h.points || 0,
-      comments: h.num_comments || 0,
-      author: h.author,
-      createdAt: h.created_at,
-      domain: (() => { try { return h.url ? new URL(h.url).hostname.replace(/^www\./, '') : 'news.ycombinator.com'; } catch { return 'news.ycombinator.com'; } })(),
-      _storyText: h.story_text || '',
-    }));
+    .slice(0, 3);
+
+  if (hits.length === 0) throw new Error('No AI stories found in last 72h');
+
+  return hits.map(h => ({
+    title: h.title,
+    url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+    points: h.points || 0,
+    comments: h.num_comments || 0,
+    author: h.author,
+    createdAt: h.created_at,
+    domain: (() => { try { return h.url ? new URL(h.url).hostname.replace(/^www\./, '') : 'news.ycombinator.com'; } catch { return 'news.ycombinator.com'; } })(),
+    _storyText: h.story_text || '',
+  }));
 }
 
 // URLをキーに既存の翻訳キャッシュを読み込む
@@ -237,7 +240,8 @@ async function fetchHNPosts() {
 
   for (const q of HN_TREND_QUERIES) {
     try {
-      const url = `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(q)}&tags=story&hitsPerPage=5&numericFilters=points%3E50`;
+      const since = Math.floor(Date.now() / 1000) - 72 * 3600;
+      const url = `https://hn.algolia.com/api/v1/search_by_date?query=${encodeURIComponent(q)}&tags=story&hitsPerPage=5&numericFilters=created_at_i%3E${since},points%3E10`;
       const res = await fetch(url, {
         headers: { 'User-Agent': USER_AGENT },
         signal: AbortSignal.timeout(8000),
