@@ -1,5 +1,4 @@
 const newsCards   = document.getElementById('news-cards');
-const trendsCards = document.getElementById('trends-cards');
 const refreshBtn  = document.getElementById('refresh-btn');
 const lastUpdated = document.getElementById('last-updated');
 const heroDate    = document.getElementById('hero-date');
@@ -18,19 +17,8 @@ function skeletonNews() {
     </div>`;
 }
 
-function skeletonTweet() {
-  return `
-    <div class="skeleton skeleton-tweet">
-      <div class="skeleton-line short" style="width:35%;margin-bottom:10px"></div>
-      <div class="skeleton-line full"></div>
-      <div class="skeleton-line medium"></div>
-      <div class="skeleton-line meta" style="width:45%;margin-top:10px"></div>
-    </div>`;
-}
-
 function showSkeletons() {
-  newsCards.innerHTML   = [1, 2, 3].map(skeletonNews).join('');
-  trendsCards.innerHTML = [1, 2, 3].map(skeletonTweet).join('');
+  newsCards.innerHTML = [1, 2, 3, 4, 5].map(skeletonNews).join('');
 }
 
 // ── Helpers ────────────────────────────────────────────────────────────────
@@ -72,8 +60,8 @@ function errorCard(message) {
 
 // ── Render: News ───────────────────────────────────────────────────────────
 
-const RANK_LABELS  = ['NO.1 バズ', 'NO.2', 'NO.3'];
-const RANK_CLASSES = ['rank-1', 'rank-2', 'rank-3'];
+const RANK_LABELS  = ['NO.1 バズ', 'NO.2', 'NO.3', 'NO.4', 'NO.5'];
+const RANK_CLASSES = ['rank-1', 'rank-2', 'rank-3', 'rank-4', 'rank-5'];
 
 const LINK_ICON = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
 
@@ -116,31 +104,6 @@ function renderNews(items, isMock) {
   }).join('');
 }
 
-// ── Render: HN posts ────────────────────────────────────────────────────────
-
-function renderTweets(items, isMock) {
-  if (!items || items.length === 0) {
-    trendsCards.innerHTML = errorCard('Hacker News の投稿が見つかりませんでした');
-    return;
-  }
-  trendsCards.innerHTML = (isMock ? mockBadge() : '') + items.map(item => `
-    <a class="tweet-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-      <div class="tweet-header">
-        <div class="tweet-header-left">
-          <span class="hn-source-badge">${escapeHtml(item.source || 'Hacker News')}</span>
-          <span class="tweet-author">${escapeHtml(item.author)}</span>
-        </div>
-        <span class="tweet-x-icon" style="font-weight:900;font-size:1rem;color:#ff6600">Y</span>
-      </div>
-      <div class="tweet-text">${escapeHtml(item.text)}</div>
-      <div class="tweet-meta">
-        ${item.likes    !== undefined ? `<span class="tweet-stat">▲ ${formatNum(item.likes)}</span>` : ''}
-        ${item.comments !== undefined ? `<span class="tweet-stat">💬 ${formatNum(item.comments)}</span>` : ''}
-        <span class="tweet-stat">${relativeTime(item.date)}</span>
-      </div>
-    </a>`).join('');
-}
-
 // ── Fetch ──────────────────────────────────────────────────────────────────
 
 async function fetchData(bustCache = false) {
@@ -164,16 +127,8 @@ async function load(refresh = false) {
     } else {
       newsCards.innerHTML = errorCard('AIニュースの取得に失敗しました。');
     }
-
-    const tweets = data.tweets || data.trends;
-    if (tweets) {
-      renderTweets(tweets.items, tweets.mock === true);
-    } else {
-      trendsCards.innerHTML = errorCard('Xのツイート取得に失敗しました。');
-    }
   } catch (err) {
-    newsCards.innerHTML   = errorCard('データの取得に失敗しました。しばらくしてから更新してください。');
-    trendsCards.innerHTML = '';
+    newsCards.innerHTML = errorCard('データの取得に失敗しました。しばらくしてから更新してください。');
   }
 
   // ヘッダーに日付を表示

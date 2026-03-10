@@ -16,7 +16,7 @@
         "points": 1847,
         "comments": 423,
         "author": "techreporter",
-        "createdAt": "2026-03-10T21:44:07.646Z",
+        "createdAt": "2026-03-10T21:49:34.766Z",
         "domain": "openai.com"
       },
       {
@@ -34,7 +34,7 @@
         "points": 1234,
         "comments": 287,
         "author": "airesearch",
-        "createdAt": "2026-03-10T18:44:07.646Z",
+        "createdAt": "2026-03-10T18:49:34.766Z",
         "domain": "deepmind.google"
       },
       {
@@ -52,44 +52,47 @@
         "points": 987,
         "comments": 198,
         "author": "mlnews",
-        "createdAt": "2026-03-10T15:44:07.646Z",
+        "createdAt": "2026-03-10T15:49:34.766Z",
         "domain": "anthropic.com"
+      },
+      {
+        "title": "Meta Releases LLaMA 4 with Mixture-of-Experts Architecture",
+        "titleJa": "Meta、Mixture-of-Experts アーキテクチャを採用したLLaMA 4を公開",
+        "summaryJa": "LLaMA 4はMoEアーキテクチャにより推論コストを大幅に削減しつつ高い精度を維持。オープンウェイトモデルとして公開され、ローカル実行やファインチューニングが容易に。",
+        "keyPoints": [
+          "MoEにより同等精度のDenseモデル比で推論コストを約60%削減",
+          "128Kトークンのコンテキストウィンドウをサポート",
+          "オープンウェイトで商用利用可能なライセンスで公開"
+        ],
+        "category": "オープンモデル",
+        "impact": "高",
+        "url": "https://news.ycombinator.com/item?id=39999004",
+        "points": 876,
+        "comments": 312,
+        "author": "opensourcefan",
+        "createdAt": "2026-03-10T13:49:34.766Z",
+        "domain": "ai.meta.com"
+      },
+      {
+        "title": "New Study Shows AI Coding Assistants Increase Developer Productivity by 55%",
+        "titleJa": "AIコーディングアシスタントが開発者の生産性を55%向上させると新研究が示す",
+        "summaryJa": "大規模な実験で、GitHub CopilotやCursorなどのAIコーディングツールを使用した開発者は使用しない開発者と比較して55%高い生産性を示した。特に定型コード作成での効果が顕著。",
+        "keyPoints": [
+          "1,000名以上の開発者を対象にした無作為化比較試験で実施",
+          "コードレビューや設計作業ではAI支援の効果は限定的と判明",
+          "経験の浅い開発者ほど生産性向上幅が大きい傾向"
+        ],
+        "category": "開発ツール",
+        "impact": "中",
+        "url": "https://news.ycombinator.com/item?id=39999005",
+        "points": 743,
+        "comments": 267,
+        "author": "devresearch",
+        "createdAt": "2026-03-10T11:49:34.766Z",
+        "domain": "research.github.com"
       }
     ],
-    "fetchedAt": "2026-03-10T23:44:09.164Z",
+    "fetchedAt": "2026-03-10T23:49:35.076Z",
     "mock": true
-  },
-  "tweets": {
-    "items": [
-      {
-        "text": "Agents that run while I sleep",
-        "author": "aray07",
-        "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=47327559",
-        "date": "2026-03-10T19:09:46Z",
-        "likes": 180,
-        "comments": 128
-      },
-      {
-        "text": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
-        "author": "sanchitmonga22",
-        "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=47326101",
-        "date": "2026-03-10T17:14:52Z",
-        "likes": 168,
-        "comments": 76
-      },
-      {
-        "text": "I built a programming language using Claude Code",
-        "author": "GeneralMaximus",
-        "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=47325595",
-        "date": "2026-03-10T16:37:29Z",
-        "likes": 101,
-        "comments": 146
-      }
-    ],
-    "fetchedAt": "2026-03-10T23:44:09.164Z",
-    "mock": false
   }
 }
