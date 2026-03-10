@@ -120,8 +120,8 @@ async function fetchArticleDescription(url) {
 }
 
 async function fetchNews() {
-  // 直近72時間に絞ることで毎日ニュースが更新されるようにする
-  const since = Math.floor(Date.now() / 1000) - 72 * 3600;
+  // 直近8時間に絞ることで毎時ニュースが更新されるようにする
+  const since = Math.floor(Date.now() / 1000) - 8 * 3600;
   const url = `https://hn.algolia.com/api/v1/search_by_date?query=AI+LLM+machine+learning&tags=story&hitsPerPage=50&numericFilters=created_at_i%3E${since},points%3E10`;
   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`HN API returned ${res.status}`);
@@ -240,7 +240,7 @@ async function fetchHNPosts() {
 
   for (const q of HN_TREND_QUERIES) {
     try {
-      const since = Math.floor(Date.now() / 1000) - 72 * 3600;
+      const since = Math.floor(Date.now() / 1000) - 8 * 3600;
       const url = `https://hn.algolia.com/api/v1/search_by_date?query=${encodeURIComponent(q)}&tags=story&hitsPerPage=5&numericFilters=created_at_i%3E${since},points%3E10`;
       const res = await fetch(url, {
         headers: { 'User-Agent': USER_AGENT },
