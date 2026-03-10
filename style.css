@@ -136,10 +136,11 @@ main {
   border: 1px solid rgba(168, 85, 247, 0.3);
 }
 
-.tweet-icon {
-  background: rgba(236, 72, 153, 0.15);
-  color: var(--pink);
-  border: 1px solid rgba(236, 72, 153, 0.3);
+.tweet-icon,
+.reddit-icon {
+  background: rgba(255, 69, 0, 0.12);
+  color: #ff6314;
+  border: 1px solid rgba(255, 69, 0, 0.25);
 }
 
 .section-label-line {
@@ -336,9 +337,9 @@ main {
 .tweet-card:last-child { margin-bottom: 0; }
 
 .tweet-card:hover {
-  border-color: rgba(236, 72, 153, 0.35);
+  border-color: rgba(255, 69, 0, 0.35);
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(236, 72, 153, 0.1);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 69, 0, 0.1);
 }
 
 .tweet-header {
@@ -348,10 +349,27 @@ main {
   margin-bottom: 8px;
 }
 
-.tweet-author {
-  font-size: 0.8rem;
+.tweet-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.subreddit-badge {
+  font-size: 0.7rem;
   font-weight: 700;
-  color: var(--purple);
+  color: #ff6314;
+  background: rgba(255, 69, 0, 0.1);
+  border: 1px solid rgba(255, 69, 0, 0.2);
+  border-radius: 100px;
+  padding: 2px 8px;
+}
+
+.tweet-author {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
 }
 
 .tweet-x-icon {
@@ -360,7 +378,7 @@ main {
   transition: color 0.2s;
 }
 
-.tweet-card:hover .tweet-x-icon { color: var(--pink); }
+.tweet-card:hover .tweet-x-icon { color: #ff6314; }
 
 .tweet-text {
   font-size: 0.9rem;
