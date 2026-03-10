@@ -2,87 +2,94 @@
   "news": {
     "items": [
       {
-        "title": "Yann LeCun, Pioneer of AI, Thinks Today's LLM's Are Nearly Obsolete",
-        "url": "https://www.newsweek.com/ai-impact-interview-yann-lecun-artificial-intelligence-2054237",
-        "points": 124,
-        "comments": 140,
-        "author": "alphadelphi",
-        "createdAt": "2025-04-02T22:59:55Z",
-        "domain": "newsweek.com",
-        "titleJa": "AIのパイオニアであるYann LeCunは、今日のLLMはほとんど時代遅れだと考えています",
-        "summaryJa": "MetaのチーフAI科学者であり、人工知能のパイオニアの1人であるYann LeCun氏は、LLMは5年以内に大部分が時代遅れになると考えています。",
+        "title": "OpenAI GPT-5 Achieves Record Scores on Major AI Benchmarks",
+        "titleJa": "OpenAI GPT-5、主要AIベンチマークで過去最高スコアを達成",
+        "summaryJa": "GPT-5は言語理解・数学的推論・コード生成など主要ベンチマークで人間の専門家レベルを超えるスコアを記録。前モデルGPT-4oから大幅な性能向上を確認。",
         "keyPoints": [
-          "MetaのチーフAI科学者であり、人工知能のパイオニアの1人であるYann LeCun氏は、LLMは5年以内に大部分が時代遅れになると考えています。"
+          "言語理解・数学推論・コード生成の全分野でGPT-4oを大幅に上回るスコアを記録",
+          "マルチモーダル対応が強化され、画像・音声・動画の複合理解が可能に",
+          "APIは既存のGPT-4oエンドポイントと互換性を維持し移行コストを最小化"
         ],
-        "impact": "低",
-        "category": ""
+        "category": "モデル進化",
+        "impact": "高",
+        "url": "https://news.ycombinator.com/item?id=39999001",
+        "points": 1847,
+        "comments": 423,
+        "author": "techreporter",
+        "createdAt": "2026-03-10T21:39:55.583Z",
+        "domain": "openai.com"
       },
       {
-        "title": "Intel Neural-Chat-7B Model Achieves Top Ranking on LLM Leaderboard",
-        "url": "https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-neural-chat-7b-Model-Achieves-Top-Ranking-on-LLM/post/1549386",
-        "points": 37,
-        "comments": 64,
-        "author": "tosh",
-        "createdAt": "2023-12-03T15:03:50Z",
-        "domain": "community.intel.com",
-        "titleJa": "Intel Neural - Chat -7 BモデルがLLMランキングでトップランキングを達成",
-        "summaryJa": "",
-        "keyPoints": [],
-        "impact": "低",
-        "category": ""
+        "title": "Google DeepMind Releases AlphaCode 3, Outperforming Senior Engineers on Complex Tasks",
+        "titleJa": "Google DeepMind、AlphaCode 3を公開 ― 複雑なタスクでシニアエンジニアを凌駕",
+        "summaryJa": "AlphaCode 3は競技プログラミングや大規模コードリファクタリングなど複雑なタスクでシニアエンジニアを上回る性能を発揮。自然言語による仕様からの実装も可能に。",
+        "keyPoints": [
+          "競技プログラミングの上位1%相当の問題を解決できる精度を達成",
+          "自然言語の仕様書から本番レベルのコードを自動生成する機能を搭載",
+          "GitHubとの連携により既存リポジトリのコンテキストを理解してコード補完が可能"
+        ],
+        "category": "コード生成",
+        "impact": "高",
+        "url": "https://news.ycombinator.com/item?id=39999002",
+        "points": 1234,
+        "comments": 287,
+        "author": "airesearch",
+        "createdAt": "2026-03-10T18:39:55.583Z",
+        "domain": "deepmind.google"
       },
       {
-        "title": "Changed My Mind After Reading Larson's \"The Myth of Artificial Intelligence\"",
-        "url": "https://news.ycombinator.com/item?id=38904495",
-        "points": 10,
-        "comments": 12,
-        "author": "abss",
-        "createdAt": "2024-01-07T19:47:28Z",
-        "domain": "news.ycombinator.com",
-        "titleJa": "ラーソンの「人工知能の神話」を読んで気が変わった",
-        "summaryJa": "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、",
+        "title": "Anthropic's Claude 4 Demonstrates Strong Reasoning with Extended Thinking Mode",
+        "titleJa": "AnthropicのClaude 4、拡張思考モードで高度な推論能力を実証",
+        "summaryJa": "拡張思考モードを搭載したClaude 4は複雑な数学問題や論理パズルで顕著な改善を示し、段階的な思考プロセスを可視化することでユーザーの信頼性向上にも貢献。",
         "keyPoints": [
-          "私は最近、Erik J. Larsonの著書「The Myth of Artificial Intelligence （人工知能の神話）」を掘り下げ、AIの現在の状態と将来の展望、特に大規模言語モデル（ LLM ）と人工知能（ AGI ）の追求に関する私の理解を再形成しました。",
-          "Larsonは、現在のAI （私はまだ帰納法と統計に基づいているためLLMを含めました）は、。"
+          "拡張思考モードにより複雑な数学・論理問題での正解率が前バージョン比30%向上",
+          "思考ステップを可視化することでハルシネーション（誤情報生成）を大幅に削減",
+          "長文コンテキスト（200K tokens）での一貫した推論精度を維持"
         ],
-        "impact": "低",
-        "category": ""
+        "category": "推論強化",
+        "impact": "中",
+        "url": "https://news.ycombinator.com/item?id=39999003",
+        "points": 987,
+        "comments": 198,
+        "author": "mlnews",
+        "createdAt": "2026-03-10T15:39:55.583Z",
+        "domain": "anthropic.com"
       }
     ],
-    "fetchedAt": "2026-03-10T01:53:43.511Z",
-    "mock": false
+    "fetchedAt": "2026-03-10T23:39:56.890Z",
+    "mock": true
   },
   "tweets": {
     "items": [
       {
-        "text": "GPT-4",
-        "author": "e0m",
+        "text": "Agents that run while I sleep",
+        "author": "aray07",
         "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=35154527",
-        "date": "2023-03-14T16:55:34Z",
-        "likes": 4091,
-        "comments": 2507
+        "url": "https://news.ycombinator.com/item?id=47327559",
+        "date": "2026-03-10T19:09:46Z",
+        "likes": 178,
+        "comments": 127
       },
       {
-        "text": "GPT-4o",
-        "author": "Lealen",
+        "text": "Launch HN: RunAnywhere (YC W26) – Faster AI Inference on Apple Silicon",
+        "author": "sanchitmonga22",
         "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=40345775",
-        "date": "2024-05-13T17:28:00Z",
-        "likes": 3138,
-        "comments": 2366
+        "url": "https://news.ycombinator.com/item?id=47326101",
+        "date": "2026-03-10T17:14:52Z",
+        "likes": 168,
+        "comments": 77
       },
       {
-        "text": "An AI agent published a hit piece on me",
-        "author": "scottshambaugh",
+        "text": "I built a programming language using Claude Code",
+        "author": "GeneralMaximus",
         "source": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=46990729",
-        "date": "2026-02-12T16:23:24Z",
-        "likes": 2346,
-        "comments": 951
+        "url": "https://news.ycombinator.com/item?id=47325595",
+        "date": "2026-03-10T16:37:29Z",
+        "likes": 100,
+        "comments": 145
       }
     ],
-    "fetchedAt": "2026-03-10T01:53:43.511Z",
+    "fetchedAt": "2026-03-10T23:39:56.890Z",
     "mock": false
   }
 }
