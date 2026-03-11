@@ -205,7 +205,7 @@ main {
 .rank-2 { background: linear-gradient(135deg, #fb923c, #f97316); color: #fff; }
 .rank-3 { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #1a1a1a; }
 .rank-4 { background: linear-gradient(135deg, #86efac, #22c55e); color: #1a1a1a; }
-.rank-5 { background: rgba(255,255,255,0.08); color: var(--text-muted); border: 1px solid rgba(255,255,255,0.12); }
+.rank-5 { background: linear-gradient(135deg, #7dd3fc, #38bdf8); color: #1a1a1a; }
 
 .category-tag {
   display: inline-flex;
