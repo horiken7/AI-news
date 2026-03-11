@@ -54,6 +54,11 @@ body {
   color: var(--text-muted);
 }
 
+.last-updated-bar {
+  text-align: center;
+  padding: 10px 24px 0;
+}
+
 /* ── Action bar ── */
 .action-bar {
   display: flex;
