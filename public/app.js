@@ -1,7 +1,8 @@
 const newsCards   = document.getElementById('news-cards');
 const refreshBtn  = document.getElementById('refresh-btn');
-const lastUpdated = document.getElementById('last-updated');
-const heroDate    = document.getElementById('hero-date');
+const lastUpdated     = document.getElementById('last-updated');
+const heroDate        = document.getElementById('hero-date');
+const heroLastUpdated = document.getElementById('hero-last-updated');
 
 // ── Skeletons ──────────────────────────────────────────────────────────────
 
@@ -135,6 +136,10 @@ async function load(refresh = false) {
   const now = new Date();
   const dateStr = now.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
   heroDate.textContent = `${dateStr} — 最も話題になったAIトピックを厳選`;
+
+  const pad = n => String(n).padStart(2, '0');
+  const jstStr = `${now.getFullYear()}/${pad(now.getMonth()+1)}/${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())} (JST)`;
+  heroLastUpdated.textContent = `最終更新: ${jstStr}`;
 
   lastUpdated.textContent = `最終更新: ${now.toLocaleString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}`;
 
