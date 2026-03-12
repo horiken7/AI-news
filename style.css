@@ -33,7 +33,7 @@ body {
 /* ── Hero ── */
 .hero {
   text-align: center;
-  padding: 52px 24px 36px;
+  padding: 52px 24px 8px;
   background: linear-gradient(180deg, rgba(124, 58, 237, 0.1) 0%, transparent 100%);
   border-bottom: 1px solid var(--border);
 }
@@ -56,7 +56,7 @@ body {
 
 .last-updated-bar {
   text-align: center;
-  padding: 10px 24px 0;
+  padding: 4px 24px 0;
 }
 
 /* ── Action bar ── */
