@@ -88,6 +88,15 @@ function renderNews(items, isMock) {
         </div>`
       : '';
 
+    const dateObj   = item.createdAt ? new Date(item.createdAt) : null;
+    const dateLabel = dateObj
+      ? `${dateObj.getMonth() + 1}月${dateObj.getDate()}日`
+      : '';
+    const timeLabel = item.createdAt ? relativeTime(item.createdAt) : '';
+    const dateDisplay = dateLabel && timeLabel
+      ? `${dateLabel} · ${timeLabel}`
+      : (dateLabel || timeLabel);
+
     return `
     <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
       <div class="card-header">
@@ -99,6 +108,7 @@ function renderNews(items, isMock) {
       ${keyPointsHtml}
       <div class="card-footer">
         <span class="card-source">${LINK_ICON} 出典: ${escapeHtml(item.domain || 'Hacker News')}</span>
+        ${dateDisplay ? `<span class="card-date">🗓 ${escapeHtml(dateDisplay)}</span>` : ''}
         <span class="impact-badge ${impactClass}">業界インパクト：${escapeHtml(impact)}</span>
       </div>
     </a>`;
