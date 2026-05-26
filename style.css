@@ -314,6 +314,12 @@ main {
   transition: color 0.2s;
 }
 
+.card-date {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
 .card-source:hover { color: var(--text-muted); }
 
 .impact-badge {
