@@ -4,8 +4,8 @@
       {
         "title": "AI agent bankrupted their operator while trying to scan DN42",
         "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-        "points": 407,
-        "comments": 134,
+        "points": 411,
+        "comments": 136,
         "author": "xiaoyu2006",
         "createdAt": "2026-06-12T04:42:53Z",
         "domain": "lantian.pub",
@@ -38,7 +38,7 @@
       {
         "title": "Claude Fable is relentlessly proactive",
         "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "points": 392,
+        "points": 393,
         "comments": 314,
         "author": "lumpa",
         "createdAt": "2026-06-12T01:06:51Z",
@@ -87,7 +87,28 @@
         "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-12T08:25:37.970Z",
+    "fetchedAt": "2026-06-12T08:27:06.240Z",
     "mock": false
+  },
+  "xTrends": {
+    "items": [
+      {
+        "topic": "Oracle AI Trade",
+        "locationLabel": "米国",
+        "bestRank": 2,
+        "appearances": 14,
+        "url": "https://x.com/search?q=Oracle%20AI%20Trade&src=typed_query&f=live"
+      },
+      {
+        "topic": "AI-powered",
+        "locationLabel": "米国",
+        "bestRank": 39,
+        "appearances": 3,
+        "url": "https://x.com/search?q=AI-powered&src=typed_query&f=live"
+      }
+    ],
+    "fetchedAt": "2026-06-12T08:27:06.240Z",
+    "source": "Trends24",
+    "partial": true
   }
 }
