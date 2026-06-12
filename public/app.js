@@ -1,4 +1,5 @@
 const newsCards = document.getElementById('news-cards');
+const xTrendCards = document.getElementById('x-trend-cards');
 const refreshBtn = document.getElementById('refresh-btn');
 const lastUpdated = document.getElementById('last-updated');
 const heroDate = document.getElementById('hero-date');
@@ -18,6 +19,15 @@ function skeletonNews() {
 
 function showSkeletons() {
   newsCards.innerHTML = [1, 2, 3, 4, 5].map(skeletonNews).join('');
+  xTrendCards.innerHTML = [1, 2, 3, 4, 5].map(skeletonTrend).join('');
+}
+
+function skeletonTrend() {
+  return `
+    <div class="skeleton skeleton-trend">
+      <div class="skeleton-line short"></div>
+      <div class="skeleton-line medium"></div>
+    </div>`;
 }
 
 function relativeTime(isoString) {
@@ -129,6 +139,29 @@ function renderNews(items) {
   }).join('');
 }
 
+function renderXTrends(xTrends) {
+  const items = xTrends?.items;
+  if (!Array.isArray(items) || items.length === 0) {
+    xTrendCards.innerHTML = errorCard('現在、公開トレンド内にAI関連トピックは確認できませんでした。');
+    return;
+  }
+
+  const status = items.length < 5
+    ? `<p class="trend-status">現在確認できたAI関連トピックは${items.length}件です。</p>`
+    : '';
+
+  xTrendCards.innerHTML = status + items.map((item, index) => `
+    <a class="x-trend-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+      <span class="x-trend-rank">${index + 1}</span>
+      <span class="x-trend-body">
+        <strong>${escapeHtml(item.topic)}</strong>
+        <span>${escapeHtml(item.locationLabel)}のXトレンド・最高${item.bestRank}位</span>
+      </span>
+      <span class="x-trend-link">Xで見る</span>
+    </a>
+  `).join('');
+}
+
 async function fetchData() {
   const url = `data.json?_=${Date.now()}`;
   const response = await fetch(url, {
@@ -144,7 +177,7 @@ async function fetchData() {
   }
 
   const data = await response.json();
-  if (!data.news || !Array.isArray(data.news.items) || !data.news.fetchedAt) {
+  if (!data.news || !Array.isArray(data.news.items) || !data.news.fetchedAt || !data.xTrends) {
     throw new Error('data.json has an invalid format');
   }
   return data;
@@ -165,10 +198,12 @@ async function load() {
   try {
     const data = await fetchData();
     renderNews(data.news.items);
+    renderXTrends(data.xTrends);
     showDataTimestamp(data.news.fetchedAt);
   } catch (error) {
     console.error(error);
     newsCards.innerHTML = errorCard('データの取得に失敗しました。しばらくしてから更新してください。');
+    xTrendCards.innerHTML = errorCard('Xトレンドデータを取得できませんでした。');
     heroLastUpdated.textContent = 'データ最終更新: 取得できませんでした';
     lastUpdated.textContent = 'データを取得できませんでした';
   } finally {
