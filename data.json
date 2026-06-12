@@ -2,97 +2,92 @@
   "news": {
     "items": [
       {
-        "title": "OpenAI GPT-5 Achieves Record Scores on Major AI Benchmarks",
-        "titleJa": "OpenAI GPT-5、主要AIベンチマークで過去最高スコアを達成",
-        "summaryJa": "GPT-5は言語理解・数学的推論・コード生成など主要ベンチマークで人間の専門家レベルを超えるスコアを記録。前モデルGPT-4oから大幅な性能向上を確認。",
+        "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+        "points": 404,
+        "comments": 373,
+        "author": "rarisma",
+        "createdAt": "2026-06-11T12:05:02Z",
+        "domain": "theverge.com",
+        "titleJa": "目に見えないクロード・フェイブルのガードレールについてアントロピックが謝罪",
+        "summaryJa": "「目に見えないクロード・フェイブルのガードレールについてアントロピックが謝罪」に関する記事です。詳細は出典をご確認ください。",
         "keyPoints": [
-          "言語理解・数学推論・コード生成の全分野でGPT-4oを大幅に上回るスコアを記録",
-          "マルチモーダル対応が強化され、画像・音声・動画の複合理解が可能に",
-          "APIは既存のGPT-4oエンドポイントと互換性を維持し移行コストを最小化"
+          "「目に見えないクロード・フェイブルのガードレールについてアントロピックが謝罪」に関する記事です。",
+          "詳細は出典をご確認ください。"
         ],
-        "category": "モデル進化",
-        "impact": "高",
-        "url": "https://news.ycombinator.com/item?id=39999001",
-        "points": 1847,
-        "comments": 423,
-        "author": "techreporter",
-        "createdAt": "2026-05-26T21:33:25.561Z",
-        "domain": "openai.com"
+        "category": "AIモデル",
+        "impact": "中"
       },
       {
-        "title": "Google DeepMind Releases AlphaCode 3, Outperforming Senior Engineers on Complex Tasks",
-        "titleJa": "Google DeepMind、AlphaCode 3を公開 ― 複雑なタスクでシニアエンジニアを凌駕",
-        "summaryJa": "AlphaCode 3は競技プログラミングや大規模コードリファクタリングなど複雑なタスクでシニアエンジニアを上回る性能を発揮。自然言語による仕様からの実装も可能に。",
+        "title": "Claude Fable is relentlessly proactive",
+        "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+        "points": 382,
+        "comments": 309,
+        "author": "lumpa",
+        "createdAt": "2026-06-12T01:06:51Z",
+        "domain": "simonwillison.net",
+        "titleJa": "クロード・フェイブルは容赦なく積極的である",
+        "summaryJa": "Claude Fable 5で2日間の経験を積んだ後、それを表現する最良の方法は容赦なく積極的に行動することだと思います。それはたくさんのトリックを知っていて、それは...",
         "keyPoints": [
-          "競技プログラミングの上位1%相当の問題を解決できる精度を達成",
-          "自然言語の仕様書から本番レベルのコードを自動生成する機能を搭載",
-          "GitHubとの連携により既存リポジトリのコンテキストを理解してコード補完が可能"
+          "Claude Fable 5で2日間の経験を積んだ後、それを表現する最良の方法は容赦なく積極的に行動することだと思います。",
+          "それはたくさんのトリックを知っていて、それは...。"
         ],
-        "category": "コード生成",
-        "impact": "高",
-        "url": "https://news.ycombinator.com/item?id=39999002",
-        "points": 1234,
-        "comments": 287,
-        "author": "airesearch",
-        "createdAt": "2026-05-26T18:33:25.561Z",
-        "domain": "deepmind.google"
+        "category": "AIモデル",
+        "impact": "中"
       },
       {
-        "title": "Anthropic's Claude 4 Demonstrates Strong Reasoning with Extended Thinking Mode",
-        "titleJa": "AnthropicのClaude 4、拡張思考モードで高度な推論能力を実証",
-        "summaryJa": "拡張思考モードを搭載したClaude 4は複雑な数学問題や論理パズルで顕著な改善を示し、段階的な思考プロセスを可視化することでユーザーの信頼性向上にも貢献。",
+        "title": "AI agent bankrupted their operator while trying to scan DN42",
+        "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+        "points": 361,
+        "comments": 110,
+        "author": "xiaoyu2006",
+        "createdAt": "2026-06-12T04:42:53Z",
+        "domain": "lantian.pub",
+        "titleJa": "AIエージェントは、DN 42をスキャンしようとしている間にオペレータを破産させました",
+        "summaryJa": "「AIエージェントは、DN 42をスキャンしようとしている間にオペレータを破産させました」に関する記事です。詳細は出典をご確認ください。",
         "keyPoints": [
-          "拡張思考モードにより複雑な数学・論理問題での正解率が前バージョン比30%向上",
-          "思考ステップを可視化することでハルシネーション（誤情報生成）を大幅に削減",
-          "長文コンテキスト（200K tokens）での一貫した推論精度を維持"
+          "「AIエージェントは、DN 42をスキャンしようとしている間にオペレータを破産させました」に関する記事です。",
+          "詳細は出典をご確認ください。"
         ],
-        "category": "推論強化",
-        "impact": "中",
-        "url": "https://news.ycombinator.com/item?id=39999003",
-        "points": 987,
-        "comments": 198,
-        "author": "mlnews",
-        "createdAt": "2026-05-26T15:33:25.561Z",
-        "domain": "anthropic.com"
+        "category": "AIニュース",
+        "impact": "中"
       },
       {
-        "title": "Meta Releases LLaMA 4 with Mixture-of-Experts Architecture",
-        "titleJa": "Meta、Mixture-of-Experts アーキテクチャを採用したLLaMA 4を公開",
-        "summaryJa": "LLaMA 4はMoEアーキテクチャにより推論コストを大幅に削減しつつ高い精度を維持。オープンウェイトモデルとして公開され、ローカル実行やファインチューニングが容易に。",
+        "title": "Claude Fable 5: mid-tier results on coding tasks",
+        "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+        "points": 303,
+        "comments": 143,
+        "author": "bugvader",
+        "createdAt": "2026-06-11T16:03:21Z",
+        "domain": "endorlabs.com",
+        "titleJa": "クロード寓話5 ：コーディングタスクのミッドティア結果",
+        "summaryJa": "エージェントセキュリティリーグの200の現実世界のコーディングタスクでクロード寓話5をベンチマークしました。",
         "keyPoints": [
-          "MoEにより同等精度のDenseモデル比で推論コストを約60%削減",
-          "128Kトークンのコンテキストウィンドウをサポート",
-          "オープンウェイトで商用利用可能なライセンスで公開"
+          "エージェントセキュリティリーグの200の現実世界のコーディングタスクでクロード寓話5をベンチマークしました。"
         ],
-        "category": "オープンモデル",
-        "impact": "高",
-        "url": "https://news.ycombinator.com/item?id=39999004",
-        "points": 876,
-        "comments": 312,
-        "author": "opensourcefan",
-        "createdAt": "2026-05-26T13:33:25.561Z",
-        "domain": "ai.meta.com"
+        "category": "AIモデル",
+        "impact": "中"
       },
       {
-        "title": "New Study Shows AI Coding Assistants Increase Developer Productivity by 55%",
-        "titleJa": "AIコーディングアシスタントが開発者の生産性を55%向上させると新研究が示す",
-        "summaryJa": "大規模な実験で、GitHub CopilotやCursorなどのAIコーディングツールを使用した開発者は使用しない開発者と比較して55%高い生産性を示した。特に定型コード作成での効果が顕著。",
+        "title": "Ask HN: How do you get into a flow state when using AI to code?",
+        "url": "https://news.ycombinator.com/item?id=48492118",
+        "points": 84,
+        "comments": 106,
+        "author": "kilroy123",
+        "createdAt": "2026-06-11T15:56:25Z",
+        "domain": "news.ycombinator.com",
+        "titleJa": "質問： AIを使用してコーディングするとき、どのようにフロー状態になりますか？",
+        "summaryJa": "エージェント的なコーディングの前は、フロー状態でどれだけ長く働けるかを常に誇りに思っていました。私は深く働くのが本当に上手でした。さて、クロードのような遅いエージェントでは、私はもはや深く働くことができません。集中力を維持するために、皆さんは何をしていますか？",
         "keyPoints": [
-          "1,000名以上の開発者を対象にした無作為化比較試験で実施",
-          "コードレビューや設計作業ではAI支援の効果は限定的と判明",
-          "経験の浅い開発者ほど生産性向上幅が大きい傾向"
+          "エージェント的なコーディングの前は、フロー状態でどれだけ長く働けるかを常に誇りに思っていました。",
+          "私は深く働くのが本当に上手でした。",
+          "さて、クロードのような遅いエージェントでは、私はもはや深く働くことができません。"
         ],
         "category": "開発ツール",
-        "impact": "中",
-        "url": "https://news.ycombinator.com/item?id=39999005",
-        "points": 743,
-        "comments": 267,
-        "author": "devresearch",
-        "createdAt": "2026-05-26T11:33:25.561Z",
-        "domain": "research.github.com"
+        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-05-26T23:33:25.866Z",
-    "mock": true
+    "fetchedAt": "2026-06-12T08:04:51.667Z",
+    "mock": false
   }
 }

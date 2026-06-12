@@ -1,10 +1,8 @@
-const newsCards   = document.getElementById('news-cards');
-const refreshBtn  = document.getElementById('refresh-btn');
-const lastUpdated     = document.getElementById('last-updated');
-const heroDate        = document.getElementById('hero-date');
+const newsCards = document.getElementById('news-cards');
+const refreshBtn = document.getElementById('refresh-btn');
+const lastUpdated = document.getElementById('last-updated');
+const heroDate = document.getElementById('hero-date');
 const heroLastUpdated = document.getElementById('hero-last-updated');
-
-// ── Skeletons ──────────────────────────────────────────────────────────────
 
 function skeletonNews() {
   return `
@@ -22,10 +20,8 @@ function showSkeletons() {
   newsCards.innerHTML = [1, 2, 3, 4, 5].map(skeletonNews).join('');
 }
 
-// ── Helpers ────────────────────────────────────────────────────────────────
-
 function relativeTime(isoString) {
-  const diff    = Date.now() - new Date(isoString).getTime();
+  const diff = Math.max(0, Date.now() - new Date(isoString).getTime());
   const minutes = Math.floor(diff / 60000);
   if (minutes < 60) return `${minutes}分前`;
   const hours = Math.floor(minutes / 60);
@@ -35,7 +31,7 @@ function relativeTime(isoString) {
 
 function formatNum(n) {
   if (n >= 10000) return `${(n / 10000).toFixed(1)}万`;
-  if (n >= 1000)  return `${(n / 1000).toFixed(1)}k`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
   return String(n);
 }
 
@@ -48,112 +44,136 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-function mockBadge() {
-  return `<div class="mock-badge">
-    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-    デモデータ（本番環境ではリアルタイム取得）
-  </div>`;
-}
-
 function errorCard(message) {
-  return `<div class="error-card"><span class="error-icon">⚠</span><span>${escapeHtml(message)}</span></div>`;
+  return `<div class="error-card"><span class="error-icon">!</span><span>${escapeHtml(message)}</span></div>`;
 }
 
-// ── Render: News ───────────────────────────────────────────────────────────
+function formatJstDate(instant = new Date()) {
+  return new Intl.DateTimeFormat('ja-JP', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    weekday: 'short',
+  }).format(instant);
+}
 
-const RANK_LABELS  = ['NO.1 バズ', 'NO.2', 'NO.3', 'NO.4', 'NO.5'];
+function formatJstDateTime(isoString, includeSeconds = false) {
+  const instant = new Date(isoString);
+  if (Number.isNaN(instant.getTime())) return '';
+
+  return new Intl.DateTimeFormat('ja-JP', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: includeSeconds ? '2-digit' : undefined,
+    hourCycle: 'h23',
+  }).format(instant);
+}
+
+const RANK_LABELS = ['NO.1 バズ', 'NO.2', 'NO.3', 'NO.4', 'NO.5'];
 const RANK_CLASSES = ['rank-1', 'rank-2', 'rank-3', 'rank-4', 'rank-5'];
 
 const LINK_ICON = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
 
-function renderNews(items, isMock) {
-  if (!items || items.length === 0) {
-    newsCards.innerHTML = errorCard('ニュースが見つかりませんでした');
+function renderNews(items) {
+  if (!Array.isArray(items) || items.length === 0) {
+    newsCards.innerHTML = errorCard('ニュースが見つかりませんでした。');
     return;
   }
 
-  newsCards.innerHTML = (isMock ? mockBadge() : '') + items.map((item, i) => {
-    const rankClass = RANK_CLASSES[i] ?? '';
-    const rankLabel = RANK_LABELS[i] ?? `NO.${i + 1}`;
-    const rank     = `<span class="rank-badge ${rankClass}">🔥 ${rankLabel}</span>`;
+  newsCards.innerHTML = items.map((item, index) => {
+    const rankClass = RANK_CLASSES[index] ?? '';
+    const rankLabel = RANK_LABELS[index] ?? `NO.${index + 1}`;
+    const rank = `<span class="rank-badge ${rankClass}">HOT ${rankLabel}</span>`;
     const category = item.category
-      ? `<span class="category-tag">${escapeHtml(item.category)}</span>` : '';
-    const impact   = item.impact ?? (item.points >= 1000 ? '高' : item.points >= 500 ? '中' : '低');
+      ? `<span class="category-tag">${escapeHtml(item.category)}</span>`
+      : '';
+    const impact = item.impact ?? (item.points >= 1000 ? '高' : item.points >= 500 ? '中' : '低');
     const impactClass = impact === '高' ? 'impact-high' : impact === '中' ? 'impact-mid' : 'impact-low';
-
     const keyPointsHtml = item.keyPoints?.length
       ? `<div class="key-points">
           <div class="key-points-label">KEY POINTS</div>
-          <ul>${item.keyPoints.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
+          <ul>${item.keyPoints.map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ul>
         </div>`
       : '';
-
-    const dateObj   = item.createdAt ? new Date(item.createdAt) : null;
-    const dateLabel = dateObj
-      ? `${dateObj.getMonth() + 1}月${dateObj.getDate()}日`
+    const articleDate = item.createdAt
+      ? new Intl.DateTimeFormat('ja-JP', {
+          timeZone: 'Asia/Tokyo',
+          month: 'numeric',
+          day: 'numeric',
+        }).format(new Date(item.createdAt))
       : '';
-    const timeLabel = item.createdAt ? relativeTime(item.createdAt) : '';
-    const dateDisplay = dateLabel && timeLabel
-      ? `${dateLabel} · ${timeLabel}`
-      : (dateLabel || timeLabel);
+    const dateDisplay = articleDate && item.createdAt
+      ? `${articleDate}・${relativeTime(item.createdAt)}`
+      : articleDate;
 
     return `
-    <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-      <div class="card-header">
-        <div class="card-header-left">${rank}${category}</div>
-        <span class="buzz-count">🔥 ${formatNum(item.points)} pt</span>
-      </div>
-      <h2 class="card-title">${escapeHtml(item.titleJa || item.title)}</h2>
-      ${item.summaryJa ? `<p class="card-summary">${escapeHtml(item.summaryJa)}</p>` : ''}
-      ${keyPointsHtml}
-      <div class="card-footer">
-        <span class="card-source">${LINK_ICON} 出典: ${escapeHtml(item.domain || 'Hacker News')}</span>
-        ${dateDisplay ? `<span class="card-date">🗓 ${escapeHtml(dateDisplay)}</span>` : ''}
-        <span class="impact-badge ${impactClass}">業界インパクト：${escapeHtml(impact)}</span>
-      </div>
-    </a>`;
+      <a class="news-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="card-header">
+          <div class="card-header-left">${rank}${category}</div>
+          <span class="buzz-count">HOT ${formatNum(Number(item.points) || 0)} pt</span>
+        </div>
+        <h2 class="card-title">${escapeHtml(item.titleJa || item.title)}</h2>
+        ${item.summaryJa ? `<p class="card-summary">${escapeHtml(item.summaryJa)}</p>` : ''}
+        ${keyPointsHtml}
+        <div class="card-footer">
+          <span class="card-source">${LINK_ICON} 出典: ${escapeHtml(item.domain || 'Hacker News')}</span>
+          ${dateDisplay ? `<span class="card-date">${escapeHtml(dateDisplay)}</span>` : ''}
+          <span class="impact-badge ${impactClass}">業界インパクト：${escapeHtml(impact)}</span>
+        </div>
+      </a>`;
   }).join('');
 }
 
-// ── Fetch ──────────────────────────────────────────────────────────────────
+async function fetchData() {
+  const url = `data.json?_=${Date.now()}`;
+  const response = await fetch(url, {
+    cache: 'no-store',
+    headers: {
+      'Cache-Control': 'no-cache',
+      Pragma: 'no-cache',
+    },
+  });
 
-async function fetchData(bustCache = false) {
-  const url = bustCache ? `data.json?_=${Date.now()}` : 'data.json';
-  const res = await fetch(url);
-  if (!res.ok) throw new Error('data.json not found');
-  return res.json();
-}
-
-// ── Load ───────────────────────────────────────────────────────────────────
-
-async function load(refresh = false) {
-  setLoading(true);
-  showSkeletons();
-
-  try {
-    const data = await fetchData(refresh);
-
-    if (data.news) {
-      renderNews(data.news.items, data.news.mock === true);
-    } else {
-      newsCards.innerHTML = errorCard('AIニュースの取得に失敗しました。');
-    }
-  } catch (err) {
-    newsCards.innerHTML = errorCard('データの取得に失敗しました。しばらくしてから更新してください。');
+  if (!response.ok) {
+    throw new Error(`data.json returned ${response.status}`);
   }
 
-  // ヘッダーに日付を表示
-  const now = new Date();
-  const dateStr = now.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short' });
-  heroDate.textContent = `${dateStr} — 最も話題になったAIトピックを厳選`;
+  const data = await response.json();
+  if (!data.news || !Array.isArray(data.news.items) || !data.news.fetchedAt) {
+    throw new Error('data.json has an invalid format');
+  }
+  return data;
+}
 
-  const pad = n => String(n).padStart(2, '0');
-  const jstStr = `${now.getFullYear()}/${pad(now.getMonth()+1)}/${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())} (JST)`;
-  heroLastUpdated.textContent = `最終更新: ${jstStr}`;
+function showDataTimestamp(fetchedAt) {
+  const detailed = formatJstDateTime(fetchedAt, true);
+  const compact = formatJstDateTime(fetchedAt);
+  heroLastUpdated.textContent = detailed ? `データ最終更新: ${detailed} (JST)` : '';
+  lastUpdated.textContent = compact ? `データ最終更新: ${compact} (JST)` : '更新日時を取得できませんでした';
+}
 
-  lastUpdated.textContent = `最終更新: ${now.toLocaleString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}`;
+async function load() {
+  setLoading(true);
+  showSkeletons();
+  heroDate.textContent = `${formatJstDate()} - 最も話題になったAIトピックを厳選`;
 
-  setLoading(false);
+  try {
+    const data = await fetchData();
+    renderNews(data.news.items);
+    showDataTimestamp(data.news.fetchedAt);
+  } catch (error) {
+    console.error(error);
+    newsCards.innerHTML = errorCard('データの取得に失敗しました。しばらくしてから更新してください。');
+    heroLastUpdated.textContent = 'データ最終更新: 取得できませんでした';
+    lastUpdated.textContent = 'データを取得できませんでした';
+  } finally {
+    setLoading(false);
+  }
 }
 
 function setLoading(isLoading) {
@@ -161,7 +181,5 @@ function setLoading(isLoading) {
   refreshBtn.classList.toggle('loading', isLoading);
 }
 
-// ── Events ─────────────────────────────────────────────────────────────────
-
-refreshBtn.addEventListener('click', () => load(true));
-document.addEventListener('DOMContentLoaded', () => load(false));
+refreshBtn.addEventListener('click', load);
+document.addEventListener('DOMContentLoaded', load);
