@@ -7,6 +7,20 @@ const USER_AGENT = 'AI-news updater/2.0 (+https://github.com/horiken7/AI-news)';
 const QUERY_TERMS = ['AI', 'LLM', 'OpenAI', 'Anthropic', 'Claude', 'GPT', 'machine learning'];
 const AI_KEYWORDS = /\b(ai|artificial intelligence|llm|machine learning|deep learning|openai|anthropic|gemini|gpt|claude|chatgpt|neural|diffusion|generative|midjourney|stable diffusion|hugging face|transformer|agentic|inference)\b/i;
 const JAPANESE_TEXT = /[\u3040-\u30ff\u3400-\u9fff]/;
+const TREND_LOCATIONS = [
+  { url: 'https://trends24.in/japan/', label: '日本', priority: 0 },
+  { url: 'https://trends24.in/united-states/', label: '米国', priority: 1 },
+  { url: 'https://trends24.in/united-kingdom/', label: '英国', priority: 2 },
+  { url: 'https://trends24.in/canada/', label: 'カナダ', priority: 3 },
+  { url: 'https://trends24.in/australia/', label: '豪州', priority: 4 },
+];
+const AI_TREND_TERMS = [
+  'ai', 'llm', 'openai', 'chatgpt', 'gpt', 'claude', 'anthropic', 'gemini',
+  'deepmind', 'copilot', 'midjourney', 'stable diffusion', 'sora', 'grok',
+  'perplexity', 'hugging face', 'machine learning', 'artificial intelligence',
+  'generative ai', '生成ai', '人工知能', 'チャットgpt', 'クロード',
+  'ジェミニ', 'ディープマインド', 'コパイロット',
+];
 
 async function fetchWithTimeout(url, options = {}, timeoutMs = 10000) {
   const controller = new AbortController();
@@ -169,6 +183,111 @@ async function loadTranslationCache() {
   return cache;
 }
 
+function decodeTrendText(text) {
+  return stripHtml(text).replace(/\s+/g, ' ').trim();
+}
+
+function isAiTrend(topic) {
+  const normalized = topic.toLowerCase();
+  if (/^ai-\d+$/i.test(normalized)) return false;
+
+  return AI_TREND_TERMS.some(term => {
+    if (/[\u3040-\u30ff\u3400-\u9fff]/.test(term)) return normalized.includes(term);
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(normalized);
+  });
+}
+
+function parseTrendTopics(html, location) {
+  const matches = [...html.matchAll(
+    /<a[^>]+href="https:\/\/twitter\.com\/search\?q=([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi
+  )];
+  const topics = new Map();
+
+  matches.forEach((match, index) => {
+    const topic = decodeTrendText(match[2]);
+    if (!topic || !isAiTrend(topic)) return;
+
+    const key = topic.toLocaleLowerCase('en-US');
+    const rank = (index % 50) + 1;
+    const existing = topics.get(key);
+    if (existing) {
+      existing.appearances += 1;
+      existing.bestRank = Math.min(existing.bestRank, rank);
+      return;
+    }
+
+    topics.set(key, {
+      topic,
+      locationLabel: location.label,
+      locationPriority: location.priority,
+      bestRank: rank,
+      appearances: 1,
+      url: `https://x.com/search?q=${encodeURIComponent(topic)}&src=typed_query&f=live`,
+    });
+  });
+
+  return [...topics.values()];
+}
+
+async function fetchXTrendCandidates() {
+  const settled = await Promise.allSettled(TREND_LOCATIONS.map(async location => {
+    const response = await fetchWithTimeout(location.url, {
+      headers: { Accept: 'text/html,application/xhtml+xml' },
+    }, 12000);
+    if (!response.ok) throw new Error(`${location.url} returned ${response.status}`);
+    return parseTrendTopics(await response.text(), location);
+  }));
+
+  const merged = new Map();
+  settled.forEach((result, locationIndex) => {
+    if (result.status === 'rejected') {
+      console.warn(`Trend location failed: ${TREND_LOCATIONS[locationIndex].label}: ${result.reason.message}`);
+      return;
+    }
+
+    for (const item of result.value) {
+      const key = item.topic.toLocaleLowerCase('en-US');
+      const existing = merged.get(key);
+      if (!existing || item.locationPriority < existing.locationPriority) {
+        merged.set(key, item);
+      } else {
+        existing.appearances = Math.max(existing.appearances, item.appearances);
+        existing.bestRank = Math.min(existing.bestRank, item.bestRank);
+      }
+    }
+  });
+
+  return [...merged.values()]
+    .sort((left, right) =>
+      left.locationPriority - right.locationPriority ||
+      right.appearances - left.appearances ||
+      left.bestRank - right.bestRank
+    )
+    .slice(0, 5)
+    .map(({ locationPriority, ...item }) => item);
+}
+
+async function buildXTrends(previousData) {
+  const currentItems = await fetchXTrendCandidates();
+  const previousItems = previousData?.xTrends?.items;
+
+  if (currentItems.length < 5 && Array.isArray(previousItems) && previousItems.length === 5) {
+    console.warn(`Only ${currentItems.length} AI trends found; keeping the previous five-item set`);
+    return {
+      ...previousData.xTrends,
+      retainedAt: new Date().toISOString(),
+    };
+  }
+
+  return {
+    items: currentItems,
+    fetchedAt: new Date().toISOString(),
+    source: 'Trends24',
+    partial: currentItems.length < 5,
+  };
+}
+
 function inferCategory(title) {
   const normalized = title.toLowerCase();
   if (/model|gpt|claude|gemini|llama|llm/.test(normalized)) return 'AIモデル';
@@ -261,6 +380,7 @@ function validateItems(items) {
 
 async function main() {
   const rawItems = await fetchNews();
+  const publishedData = await readPublishedCache();
   const cache = await loadTranslationCache();
   const localizedItems = [];
 
@@ -270,12 +390,14 @@ async function main() {
   }
 
   validateItems(localizedItems);
+  const xTrends = await buildXTrends(publishedData);
   const data = {
     news: {
       items: localizedItems,
       fetchedAt: new Date().toISOString(),
       mock: false,
     },
+    xTrends,
   };
 
   const temporaryPath = `${OUTPUT_PATH}.tmp`;
