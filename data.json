@@ -4,8 +4,8 @@
       {
         "title": "Claude Fable is relentlessly proactive",
         "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "points": 519,
-        "comments": 412,
+        "points": 671,
+        "comments": 549,
         "author": "lumpa",
         "createdAt": "2026-06-12T01:06:51Z",
         "domain": "simonwillison.net",
@@ -19,61 +19,10 @@
         "impact": "中"
       },
       {
-        "title": "Claude Fable 5: mid-tier results on coding tasks",
-        "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
-        "points": 341,
-        "comments": 175,
-        "author": "bugvader",
-        "createdAt": "2026-06-11T16:03:21Z",
-        "domain": "endorlabs.com",
-        "titleJa": "クロード寓話5 ：コーディングタスクのミッドティア結果",
-        "summaryJa": "エージェントセキュリティリーグの200の現実世界のコーディングタスクでクロード寓話5をベンチマークしました。",
-        "keyPoints": [
-          "エージェントセキュリティリーグの200の現実世界のコーディングタスクでクロード寓話5をベンチマークしました。"
-        ],
-        "category": "AIモデル",
-        "impact": "中"
-      },
-      {
-        "title": "Ask HN: How do you get into a flow state when using AI to code?",
-        "url": "https://news.ycombinator.com/item?id=48492118",
-        "points": 87,
-        "comments": 109,
-        "author": "kilroy123",
-        "createdAt": "2026-06-11T15:56:25Z",
-        "domain": "news.ycombinator.com",
-        "titleJa": "質問： AIを使用してコーディングするとき、どのようにフロー状態になりますか？",
-        "summaryJa": "エージェント的なコーディングの前は、フロー状態でどれだけ長く働けるかを常に誇りに思っていました。私は深く働くのが本当に上手でした。さて、クロードのような遅いエージェントでは、私はもはや深く働くことができません。集中力を維持するために、皆さんは何をしていますか？",
-        "keyPoints": [
-          "エージェント的なコーディングの前は、フロー状態でどれだけ長く働けるかを常に誇りに思っていました。",
-          "私は深く働くのが本当に上手でした。",
-          "さて、クロードのような遅いエージェントでは、私はもはや深く働くことができません。"
-        ],
-        "category": "開発ツール",
-        "impact": "低"
-      },
-      {
-        "title": "OpenAI to acquire Ona to expand Codex",
-        "url": "https://openai.com/index/openai-to-acquire-ona/",
-        "points": 43,
-        "comments": 5,
-        "author": "htrp",
-        "createdAt": "2026-06-11T15:36:49Z",
-        "domain": "openai.com",
-        "titleJa": "OpenAIがONAを買収してコーデックスを拡大",
-        "summaryJa": "「OpenAIがONAを買収してコーデックスを拡大」に関する記事です。詳細は出典をご確認ください。",
-        "keyPoints": [
-          "「OpenAIがONAを買収してコーデックスを拡大」に関する記事です。",
-          "詳細は出典をご確認ください。"
-        ],
-        "category": "開発ツール",
-        "impact": "低"
-      },
-      {
         "title": "Don't let the LLM speak, just probe it",
         "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
-        "points": 28,
-        "comments": 1,
+        "points": 37,
+        "comments": 2,
         "author": "gmays",
         "createdAt": "2026-06-12T00:24:48Z",
         "domain": "blog.j11y.io",
@@ -85,9 +34,59 @@
         ],
         "category": "AIモデル",
         "impact": "低"
+      },
+      {
+        "title": "Slightly reducing the sloppiness of AI generated front end",
+        "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+        "points": 35,
+        "comments": 14,
+        "author": "FergusArgyll",
+        "createdAt": "2026-06-12T14:48:38Z",
+        "domain": "envs.net",
+        "titleJa": "AI生成フロントエンドのずさんさをやや軽減",
+        "summaryJa": "「AI生成フロントエンドのずさんさをやや軽減」に関する記事です。詳細は出典をご確認ください。",
+        "keyPoints": [
+          "「AI生成フロントエンドのずさんさをやや軽減」に関する記事です。",
+          "詳細は出典をご確認ください。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
+        "title": "OpenAI Prepping for On-Prem Product?",
+        "url": "https://ledger.somantix.ai/posts/open-ai-lays-groundwork-for-on-prem-product/",
+        "points": 24,
+        "comments": 12,
+        "author": "bdroopy",
+        "createdAt": "2026-06-11T22:28:01Z",
+        "domain": "ledger.somantix.ai",
+        "titleJa": "OpenAIオンプレミス製品の準備をしていますか？",
+        "summaryJa": "OpenAIがオンプレミス製品の基盤を築く",
+        "keyPoints": [
+          "OpenAIがオンプレミス製品の基盤を築く。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
+        "title": "OpenAI's June 2026 Report on Malicious Uses of AI [pdf]",
+        "url": "https://cdn.openai.com/pdf/96b559fa-c165-4575-805d-e636909e2f78/June-2026-Threat-Report.pdf",
+        "points": 20,
+        "comments": 4,
+        "author": "jklmnopqrstuvw",
+        "createdAt": "2026-06-11T21:00:17Z",
+        "domain": "cdn.openai.com",
+        "titleJa": "AIの悪意のある使用に関するOpenAIの2026年6月のレポート[pdf]",
+        "summaryJa": "「AIの悪意のある使用に関するOpenAIの2026年6月のレポート[pdf]」に関する記事です。詳細は出典をご確認ください。",
+        "keyPoints": [
+          "「AIの悪意のある使用に関するOpenAIの2026年6月のレポート[pdf]」に関する記事です。",
+          "詳細は出典をご確認ください。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-12T12:16:21.102Z",
+    "fetchedAt": "2026-06-12T16:15:08.070Z",
     "mock": false
   },
   "xTrends": {
@@ -96,7 +95,7 @@
         "topic": "Oracle AI Trade",
         "locationLabel": "米国",
         "bestRank": 3,
-        "appearances": 17,
+        "appearances": 19,
         "url": "https://x.com/search?q=Oracle%20AI%20Trade&src=typed_query&f=live",
         "articleTitle": "Oracle's AI datacenter splurge gives investors the capex jitters",
         "articleTitleJa": "オラクルの AI データセンターの散財により投資家は設備投資に不安を感じる",
@@ -110,7 +109,7 @@
         "topic": "AI-powered",
         "locationLabel": "米国",
         "bestRank": 32,
-        "appearances": 6,
+        "appearances": 7,
         "url": "https://x.com/search?q=AI-powered&src=typed_query&f=live",
         "articleTitle": "Recovoly – AI-powered ink bleed removal for scanned documents",
         "articleTitleJa": "Recovoly – AI を活用したスキャンされた文書のインクにじみ除去",
@@ -121,9 +120,9 @@
         "translationVersion": 3
       }
     ],
-    "fetchedAt": "2026-06-12T12:16:21.101Z",
+    "fetchedAt": "2026-06-12T16:15:08.070Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-12T12:16:22.640Z"
+    "articleFetchedAt": "2026-06-12T16:15:10.171Z"
   }
 }
