@@ -42,6 +42,7 @@ jobs:
           const data = JSON.parse(fs.readFileSync('public/data.json', 'utf8'));
           const items = data.news?.items;
           const fetchedAt = Date.parse(data.news?.fetchedAt);
+          const xTrends = data.xTrends?.items;
           const japanese = /[\u3040-\u30ff\u3400-\u9fff]/;
 
           if (!Array.isArray(items) || items.length !== 5) {
@@ -58,7 +59,15 @@ jobs:
               throw new Error(`Invalid Japanese news item: ${item.title || 'unknown'}`);
             }
           }
-          console.log(`Validated ${items.length} items generated at ${data.news.fetchedAt}`);
+          if (!Array.isArray(xTrends) || xTrends.length > 5) {
+            throw new Error('X trends must contain no more than five items.');
+          }
+          for (const item of xTrends) {
+            if (!item.topic || !item.url?.startsWith('https://x.com/search?') || !item.locationLabel) {
+              throw new Error(`Invalid X trend item: ${item.topic || 'unknown'}`);
+            }
+          }
+          console.log(`Validated ${items.length} news items and ${xTrends.length} X trends.`);
           NODE
 
       - name: Deploy only validated data
