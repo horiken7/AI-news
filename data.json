@@ -4,8 +4,8 @@
       {
         "title": "Claude Fable is relentlessly proactive",
         "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "points": 701,
-        "comments": 598,
+        "points": 716,
+        "comments": 613,
         "author": "lumpa",
         "createdAt": "2026-06-12T01:06:51Z",
         "domain": "simonwillison.net",
@@ -19,27 +19,10 @@
         "impact": "中"
       },
       {
-        "title": "Slightly reducing the sloppiness of AI generated front end",
-        "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-        "points": 115,
-        "comments": 74,
-        "author": "FergusArgyll",
-        "createdAt": "2026-06-12T14:48:38Z",
-        "domain": "envs.net",
-        "titleJa": "AI生成フロントエンドのずさんさをやや軽減",
-        "summaryJa": "「AI生成フロントエンドのずさんさをやや軽減」に関する記事です。詳細は出典をご確認ください。",
-        "keyPoints": [
-          "「AI生成フロントエンドのずさんさをやや軽減」に関する記事です。",
-          "詳細は出典をご確認ください。"
-        ],
-        "category": "AIニュース",
-        "impact": "低"
-      },
-      {
         "title": "Show HN: Script to bulk delete Claude chats from the web UI",
         "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-        "points": 41,
-        "comments": 12,
+        "points": 48,
+        "comments": 17,
         "author": "ML0037",
         "createdAt": "2026-06-12T15:08:59Z",
         "domain": "github.com",
@@ -71,25 +54,41 @@
         "impact": "低"
       },
       {
-        "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
-        "url": "https://stackscope.dev/",
-        "points": 24,
-        "comments": 7,
-        "author": "datafreak_",
-        "createdAt": "2026-06-12T15:26:12Z",
-        "domain": "stackscope.dev",
-        "titleJa": "HN ： StackScopeを表示– 40,000台以上のインディーズローンチをクロールして、出荷されているものを確認しました",
-        "summaryJa": "こんにちは、私はStackScopeを構築しました。これは、新製品の発売を見て、それらが何を使って構築されたかを示すクローラー/カタログです。Product Hunt、Show HN、PeerPushからのローンチを監視し、それぞれの背後にある公開サイトをクロールします。目標は、ホスティング、フレームワーク、分析、DNS、セキュリティヘッダー、法的ページ、AIビルダーシグナル、その他の公開された手がかりなど、人々が実際に何を使用して立ち上げたかを示すことです。",
+        "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+        "url": "https://bitboard.work/",
+        "points": 28,
+        "comments": 11,
+        "author": "arcb",
+        "createdAt": "2026-06-12T16:58:03Z",
+        "domain": "bitboard.work",
+        "titleJa": "HNを起動： BitBoard （ YC P 25 ） –エージェント向けアナリティクスワークスペース",
+        "summaryJa": "私たちはBitBoard （ https://bitboard.work ）のConnorとAmbarです。BitBoardは、エージェント的な分析ワークスペースです。AIでデータを分析するためのインフラストラクチャと視覚化レイヤーを提供します。本日、エージェントと協力して作業できるダッシュボードをリリースします。コーディングエージェントまたはAIチャットをBitBoardに接続し、ライブレポートを作成できます。デモはこちら： https://www.youtube.com/watch?v=H",
         "keyPoints": [
-          "こんにちは、私はStackScopeを構築しました。",
-          "これは、新製品の発売を見て、それらが何を使って構築されたかを示すクローラー/カタログです。",
-          "Product Hunt、Show HN、PeerPushからのローンチを監視し、それぞれの背後にある公開サイトをクロールします。"
+          "私たちはBitBoard （ https://bitboard.work ）のConnorとAmbarです。",
+          "BitBoardは、エージェント的な分析ワークスペースです。",
+          "AIでデータを分析するためのインフラストラクチャと視覚化レイヤーを提供します。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
+        "title": "OpenAI Prepping for On-Prem Product?",
+        "url": "https://ledger.somantix.ai/posts/open-ai-lays-groundwork-for-on-prem-product/",
+        "points": 24,
+        "comments": 12,
+        "author": "bdroopy",
+        "createdAt": "2026-06-11T22:28:01Z",
+        "domain": "ledger.somantix.ai",
+        "titleJa": "OpenAIオンプレミス製品の準備をしていますか？",
+        "summaryJa": "OpenAIがオンプレミス製品の基盤を築く",
+        "keyPoints": [
+          "OpenAIがオンプレミス製品の基盤を築く。"
         ],
         "category": "AIニュース",
         "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-12T19:02:21.342Z",
+    "fetchedAt": "2026-06-12T21:28:52.511Z",
     "mock": false
   },
   "xTrends": {
@@ -97,8 +96,8 @@
       {
         "topic": "Oracle AI Trade",
         "locationLabel": "米国",
-        "bestRank": 3,
-        "appearances": 17,
+        "bestRank": 5,
+        "appearances": 13,
         "url": "https://x.com/search?q=Oracle%20AI%20Trade&src=typed_query&f=live",
         "articleTitle": "Oracle's AI datacenter splurge gives investors the capex jitters",
         "articleTitleJa": "オラクルの AI データセンターの散財により投資家は設備投資に不安を感じる",
@@ -112,7 +111,7 @@
         "topic": "AI-powered",
         "locationLabel": "米国",
         "bestRank": 32,
-        "appearances": 6,
+        "appearances": 4,
         "url": "https://x.com/search?q=AI-powered&src=typed_query&f=live",
         "articleTitle": "Recovoly – AI-powered ink bleed removal for scanned documents",
         "articleTitleJa": "Recovoly – AI を活用したスキャンされた文書のインクにじみ除去",
@@ -123,9 +122,9 @@
         "translationVersion": 3
       }
     ],
-    "fetchedAt": "2026-06-12T19:02:21.342Z",
+    "fetchedAt": "2026-06-12T21:28:52.511Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-12T19:02:23.027Z"
+    "articleFetchedAt": "2026-06-12T21:28:53.962Z"
   }
 }
