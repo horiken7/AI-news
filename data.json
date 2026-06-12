@@ -21,7 +21,7 @@
       {
         "title": "Claude Fable is relentlessly proactive",
         "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "points": 382,
+        "points": 384,
         "comments": 309,
         "author": "lumpa",
         "createdAt": "2026-06-12T01:06:51Z",
@@ -38,8 +38,8 @@
       {
         "title": "AI agent bankrupted their operator while trying to scan DN42",
         "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-        "points": 361,
-        "comments": 110,
+        "points": 369,
+        "comments": 115,
         "author": "xiaoyu2006",
         "createdAt": "2026-06-12T04:42:53Z",
         "domain": "lantian.pub",
@@ -56,7 +56,7 @@
         "title": "Claude Fable 5: mid-tier results on coding tasks",
         "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
         "points": 303,
-        "comments": 143,
+        "comments": 144,
         "author": "bugvader",
         "createdAt": "2026-06-11T16:03:21Z",
         "domain": "endorlabs.com",
@@ -87,7 +87,7 @@
         "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-12T08:04:51.667Z",
+    "fetchedAt": "2026-06-12T08:07:47.763Z",
     "mock": false
   }
 }
