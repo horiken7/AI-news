@@ -23,6 +23,12 @@ async function fetchWithTimeout(url, options = {}, timeoutMs = 12000) {
   }
 }
 
+async function fetchJson(url) {
+  const response = await fetchWithTimeout(url);
+  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+  return response.json();
+}
+
 function decodeHtml(text) {
   return String(text)
     .replace(/&amp;/gi, '&')
@@ -38,12 +44,6 @@ function stripHtml(text) {
   return decodeHtml(String(text).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
 }
 
-function extractXmlTag(xml, tagName) {
-  const pattern = new RegExp(`<${tagName}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tagName}>`, 'i');
-  const match = String(xml).match(pattern);
-  return match ? decodeHtml(match[1].replace(/^<!\[CDATA\[|\]\]>$/g, '').trim()) : '';
-}
-
 function extractDomain(url) {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
@@ -52,61 +52,72 @@ function extractDomain(url) {
   }
 }
 
-function parseBingNewsItems(xml) {
-  return [...String(xml).matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(match => {
-    const itemXml = match[1];
-    const bingUrl = extractXmlTag(itemXml, 'link');
-    const pubDate = extractXmlTag(itemXml, 'pubDate');
-    const publishedAt = Date.parse(pubDate);
-    let articleUrl = bingUrl;
+function extractMetaDescription(html) {
+  const tags = String(html).match(/<meta\b[^>]*>/gi) || [];
+  for (const tag of tags) {
+    if (!/(?:property|name)=["'](?:og:description|description|twitter:description)["']/i.test(tag)) continue;
+    const content = tag.match(/content=["']([^"']*)["']/i);
+    if (content?.[1]) return stripHtml(content[1]).slice(0, 450);
+  }
+  return '';
+}
 
-    try {
-      articleUrl = new URL(bingUrl).searchParams.get('url') || bingUrl;
-    } catch {
-      // Keep the RSS link when the original article URL cannot be extracted.
-    }
+async function fetchArticleDescription(url) {
+  const response = await fetchWithTimeout(url, {
+    headers: { Accept: 'text/html,application/xhtml+xml' },
+  }, 10000);
+  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
 
-    return {
-      title: stripHtml(extractXmlTag(itemXml, 'title')),
-      description: stripHtml(extractXmlTag(itemXml, 'description')),
-      url: articleUrl,
-      publishedAt: Number.isFinite(publishedAt) ? new Date(publishedAt).toISOString() : '',
-      source: extractDomain(articleUrl),
-    };
-  }).filter(item =>
-    item.title &&
-    item.description &&
-    /^https?:\/\//i.test(item.url) &&
-    Number.isFinite(Date.parse(item.publishedAt))
-  );
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.includes('text/html')) return '';
+  return extractMetaDescription(await response.text());
+}
+
+function buildSearchQueries(topic) {
+  const simplified = topic
+    .replace(/[-_]/g, ' ')
+    .replace(/\b(trade|trending|trend)\b/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return [...new Set([topic, simplified].filter(Boolean))];
 }
 
 async function searchRelatedNews(topic) {
-  for (const query of [`"${topic}"`, `${topic} AI`]) {
-    const params = new URLSearchParams({
-      q: query,
-      format: 'rss',
-      mkt: 'en-US',
-      setlang: 'en-US',
-      qft: 'interval="7"',
-    });
-    const response = await fetchWithTimeout(
-      `https://www.bing.com/news/search?${params}`,
-      { headers: { Accept: 'application/rss+xml,application/xml,text/xml' } }
-    );
-    if (!response.ok) throw new Error(`Bing News returned ${response.status}`);
+  const since = Math.floor(Date.now() / 1000) - 7 * 24 * 3600;
 
-    const items = parseBingNewsItems(await response.text());
-    if (items.length > 0) return items[0];
+  for (const query of buildSearchQueries(topic)) {
+    const params = new URLSearchParams({
+      query,
+      tags: 'story',
+      hitsPerPage: '20',
+      numericFilters: `created_at_i>${since}`,
+    });
+    const data = await fetchJson(`https://hn.algolia.com/api/v1/search?${params}`);
+
+    for (const hit of data.hits || []) {
+      if (!hit.title || !/^https?:\/\//i.test(hit.url || '')) continue;
+
+      let description = stripHtml(hit.story_text || '');
+      if (!description) {
+        try {
+          description = await fetchArticleDescription(hit.url);
+        } catch (error) {
+          console.warn(`Article description unavailable for ${hit.url}: ${error.message}`);
+        }
+      }
+      if (!description) continue;
+
+      return {
+        title: hit.title,
+        description,
+        url: hit.url,
+        publishedAt: hit.created_at,
+        source: extractDomain(hit.url),
+      };
+    }
   }
 
   throw new Error(`No recent related article found for trend: ${topic}`);
-}
-
-async function fetchJson(url) {
-  const response = await fetchWithTimeout(url);
-  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
-  return response.json();
 }
 
 async function translate(text) {
@@ -144,7 +155,7 @@ async function enrichTrend(item, previousItems) {
   const cached = previousItems.find(previous =>
     previous.topic === item.topic &&
     previous.articleUrl === article.url &&
-    previous.translationVersion === 2 &&
+    previous.translationVersion === 3 &&
     JAPANESE_TEXT.test(previous.articleTitleJa || '') &&
     JAPANESE_TEXT.test(previous.summaryJa || '')
   );
@@ -157,7 +168,7 @@ async function enrichTrend(item, previousItems) {
     articleSource: article.source,
     articlePublishedAt: article.publishedAt,
     summaryJa: cached?.summaryJa || await translate(article.description),
-    translationVersion: 2,
+    translationVersion: 3,
   };
 }
 
@@ -175,7 +186,7 @@ async function main() {
     ...data.xTrends,
     items: enrichedItems,
     articleFetchedAt: new Date().toISOString(),
-    source: 'Trends24 / Bing News RSS',
+    source: 'Trends24 / Hacker News Algolia',
   };
 
   const temporaryPath = `${DATA_PATH}.tmp`;
