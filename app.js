@@ -151,14 +151,24 @@ function renderXTrends(xTrends) {
     : '';
 
   xTrendCards.innerHTML = status + items.map((item, index) => `
-    <a class="x-trend-card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
-      <span class="x-trend-rank">${index + 1}</span>
-      <span class="x-trend-body">
-        <strong>${escapeHtml(item.topic)}</strong>
-        <span>${escapeHtml(item.locationLabel)}のXトレンド・最高${item.bestRank}位</span>
-      </span>
-      <span class="x-trend-link">Xで見る</span>
-    </a>
+    <article class="x-trend-card">
+      <div class="x-trend-header">
+        <span class="x-trend-rank">${index + 1}</span>
+        <span class="x-trend-body">
+          <strong>${escapeHtml(item.topic)}</strong>
+          <span>${escapeHtml(item.locationLabel)}のXトレンド・最高${item.bestRank}位</span>
+        </span>
+      </div>
+      <h3 class="x-article-title">${escapeHtml(item.articleTitleJa)}</h3>
+      <p class="x-article-summary">${escapeHtml(item.summaryJa)}</p>
+      <div class="x-trend-footer">
+        <span>${escapeHtml(item.articleSource)}・${escapeHtml(relativeTime(item.articlePublishedAt))}</span>
+        <span class="x-trend-actions">
+          <a href="${escapeHtml(item.articleUrl)}" target="_blank" rel="noopener noreferrer">記事を読む</a>
+          <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">Xで見る</a>
+        </span>
+      </div>
+    </article>
   `).join('');
 }
 
