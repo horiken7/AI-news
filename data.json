@@ -2,26 +2,57 @@
   "news": {
     "items": [
       {
-        "title": "Claude Fable is relentlessly proactive",
-        "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "points": 723,
-        "comments": 622,
-        "author": "lumpa",
-        "createdAt": "2026-06-12T01:06:51Z",
-        "domain": "simonwillison.net",
-        "titleJa": "クロード・フェイブルは容赦なく積極的である",
-        "summaryJa": "Claude Fable 5で2日間の経験を積んだ後、それを表現する最良の方法は容赦なく積極的に行動することだと思います。それはたくさんのトリックを知っていて、それは...",
+        "title": "Open source AI must win",
+        "url": "https://opensourceaimustwin.com/?share=v2",
+        "points": 342,
+        "comments": 86,
+        "author": "vednig",
+        "createdAt": "2026-06-13T02:14:24Z",
+        "domain": "opensourceaimustwin.com",
+        "titleJa": "オープンソースのAIが勝つ必要があります",
+        "summaryJa": "文明のインテリジェンスインフラストラクチャは、閉鎖された機関から借りるのではなく、自由に研究、構築、展開、運営することができなければなりません。",
         "keyPoints": [
-          "Claude Fable 5で2日間の経験を積んだ後、それを表現する最良の方法は容赦なく積極的に行動することだと思います。",
-          "それはたくさんのトリックを知っていて、それは...。"
+          "文明のインテリジェンスインフラストラクチャは、閉鎖された機関から借りるのではなく、自由に研究、構築、展開、運営することができなければなりません。"
+        ],
+        "category": "AIニュース",
+        "impact": "中"
+      },
+      {
+        "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
+        "url": "https://status.claude.com/incidents/s9w82lp9dcn9",
+        "points": 160,
+        "comments": 55,
+        "author": "jesse_dot_id",
+        "createdAt": "2026-06-13T00:58:06Z",
+        "domain": "status.claude.com",
+        "titleJa": "クロード神話5とクロード寓話5へのアクセスを停止しました",
+        "summaryJa": "Claudeのステータスページ- Claude Mythos 5とClaude Fable 5へのアクセスを一時停止しました。",
+        "keyPoints": [
+          "Claudeのステータスページ- Claude Mythos 5とClaude Fable 5へのアクセスを一時停止しました。"
         ],
         "category": "AIモデル",
         "impact": "中"
       },
       {
+        "title": "I Think They [Anthropic] Are Lying to You [video]",
+        "url": "https://www.youtube.com/watch?v=zfYsSFY4l18",
+        "points": 67,
+        "comments": 45,
+        "author": "salutis",
+        "createdAt": "2026-06-12T23:12:39Z",
+        "domain": "youtube.com",
+        "titleJa": "彼らは[ANTHROPIC]あなたに嘘をついていると思います[VIDEO]",
+        "summaryJa": "お気に入りの動画や音楽を楽しんだり、オリジナルコンテンツをアップロードしたり、YouTubeで友達や家族、世界中の人と共有したりできます。",
+        "keyPoints": [
+          "お気に入りの動画や音楽を楽しんだり、オリジナルコンテンツをアップロードしたり、YouTubeで友達や家族、世界中の人と共有したりできます。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
         "title": "Show HN: Script to bulk delete Claude chats from the web UI",
         "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-        "points": 50,
+        "points": 53,
         "comments": 18,
         "author": "ML0037",
         "createdAt": "2026-06-12T15:08:59Z",
@@ -37,27 +68,10 @@
         "impact": "低"
       },
       {
-        "title": "Don't let the LLM speak, just probe it",
-        "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
-        "points": 39,
-        "comments": 2,
-        "author": "gmays",
-        "createdAt": "2026-06-12T00:24:48Z",
-        "domain": "blog.j11y.io",
-        "titleJa": "LLMに発言させるのではなく、ただそれを探ってください",
-        "summaryJa": "「LLMに発言させるのではなく、ただそれを探ってください」に関する記事です。詳細は出典をご確認ください。",
-        "keyPoints": [
-          "「LLMに発言させるのではなく、ただそれを探ってください」に関する記事です。",
-          "詳細は出典をご確認ください。"
-        ],
-        "category": "AIモデル",
-        "impact": "低"
-      },
-      {
         "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
         "url": "https://bitboard.work/",
-        "points": 31,
-        "comments": 18,
+        "points": 37,
+        "comments": 19,
         "author": "arcb",
         "createdAt": "2026-06-12T16:58:03Z",
         "domain": "bitboard.work",
@@ -70,34 +84,32 @@
         ],
         "category": "AIニュース",
         "impact": "低"
-      },
-      {
-        "title": "Our workplace LLM mass delusion",
-        "url": "https://blog.avas.space/llm-circus/",
-        "points": 20,
-        "comments": 2,
-        "author": "birdculture",
-        "createdAt": "2026-06-12T00:20:40Z",
-        "domain": "blog.avas.space",
-        "titleJa": "私たちの職場LLMマス妄想",
-        "summaryJa": "技術を披露する社内セッションは、恥ずかしいものであり、間違った人々によって導かれており、そもそも起こるべきではありません。",
-        "keyPoints": [
-          "技術を披露する社内セッションは、恥ずかしいものであり、間違った人々によって導かれており、そもそも起こるべきではありません。"
-        ],
-        "category": "AIモデル",
-        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-12T23:14:10.351Z",
+    "fetchedAt": "2026-06-13T04:03:12.048Z",
     "mock": false
   },
   "xTrends": {
     "items": [
       {
+        "topic": "Anthropic",
+        "locationLabel": "日本",
+        "bestRank": 5,
+        "appearances": 3,
+        "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
+        "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+        "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
+        "articleUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+        "articleSource": "arstechnica.com",
+        "articlePublishedAt": "2026-06-06T04:38:36Z",
+        "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
+        "translationVersion": 3
+      },
+      {
         "topic": "Oracle AI Trade",
         "locationLabel": "米国",
         "bestRank": 13,
-        "appearances": 12,
+        "appearances": 7,
         "url": "https://x.com/search?q=Oracle%20AI%20Trade&src=typed_query&f=live",
         "articleTitle": "Oracle's AI datacenter splurge gives investors the capex jitters",
         "articleTitleJa": "オラクルのAIデータセンターの散財で投資家は設備投資に不安を感じている",
@@ -122,9 +134,9 @@
         "translationVersion": 3
       }
     ],
-    "fetchedAt": "2026-06-12T23:14:10.351Z",
+    "fetchedAt": "2026-06-13T04:03:12.048Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-12T23:14:14.108Z"
+    "articleFetchedAt": "2026-06-13T04:03:15.496Z"
   }
 }
