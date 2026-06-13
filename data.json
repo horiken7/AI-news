@@ -4,8 +4,8 @@
       {
         "title": "Open source AI must win",
         "url": "https://opensourceaimustwin.com/?share=v2",
-        "points": 710,
-        "comments": 227,
+        "points": 943,
+        "comments": 294,
         "author": "vednig",
         "createdAt": "2026-06-13T02:14:24Z",
         "domain": "opensourceaimustwin.com",
@@ -20,7 +20,7 @@
       {
         "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
         "url": "https://status.claude.com/incidents/s9w82lp9dcn9",
-        "points": 247,
+        "points": 250,
         "comments": 5,
         "author": "jesse_dot_id",
         "createdAt": "2026-06-13T00:58:06Z",
@@ -32,6 +32,24 @@
         ],
         "category": "AIモデル",
         "impact": "中"
+      },
+      {
+        "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
+        "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+        "points": 90,
+        "comments": 74,
+        "author": "vnglst",
+        "createdAt": "2026-06-13T05:44:46Z",
+        "domain": "koenvangilst.nl",
+        "titleJa": "Shepherd's Dog ：最も危険なAIモデルによるゲーム",
+        "summaryJa": "数日前、Anthropicは当初は世界にとって危険すぎたモデルをリリースしました。私は自分の個人的なベンチマークでテストしました。それは私が長年持っていたゲームのアイデアを一発で作成することができますか？",
+        "keyPoints": [
+          "数日前、Anthropicは当初は世界にとって危険すぎたモデルをリリースしました。",
+          "私は自分の個人的なベンチマークでテストしました。",
+          "それは私が長年持っていたゲームのアイデアを一発で作成することができますか。"
+        ],
+        "category": "AIモデル",
+        "impact": "低"
       },
       {
         "title": "Show HN: Script to bulk delete Claude chats from the web UI",
@@ -54,7 +72,7 @@
       {
         "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
         "url": "https://bitboard.work/",
-        "points": 41,
+        "points": 44,
         "comments": 21,
         "author": "arcb",
         "createdAt": "2026-06-12T16:58:03Z",
@@ -68,26 +86,9 @@
         ],
         "category": "AIニュース",
         "impact": "低"
-      },
-      {
-        "title": "Trump admin blocks foreign access to Anthropic's most powerful AI models",
-        "url": "https://www.axios.com/2026/06/12/anthropic-trump-mythos-fable-national-security",
-        "points": 25,
-        "comments": 7,
-        "author": "some-guy",
-        "createdAt": "2026-06-12T23:52:27Z",
-        "domain": "axios.com",
-        "titleJa": "トランプ管理者は、Anthropicの最も強力なAIモデルへの外国からのアクセスをブロックします",
-        "summaryJa": "「トランプ管理者は、Anthropicの最も強力なAIモデルへの外国からのアクセスをブロックします」に関する記事です。詳細は出典をご確認ください。",
-        "keyPoints": [
-          "「トランプ管理者は、Anthropicの最も強力なAIモデルへの外国からのアクセスをブロックします」に関する記事です。",
-          "詳細は出典をご確認ください。"
-        ],
-        "category": "AIモデル",
-        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-13T07:02:18.970Z",
+    "fetchedAt": "2026-06-13T10:25:18.654Z",
     "mock": false
   },
   "xTrends": {
@@ -96,7 +97,7 @@
         "topic": "Anthropic",
         "locationLabel": "日本",
         "bestRank": 5,
-        "appearances": 7,
+        "appearances": 12,
         "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
         "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
         "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
@@ -105,7 +106,7 @@
         "articlePublishedAt": "2026-06-06T04:38:36Z",
         "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
         "translationVersion": 3,
-        "retainedArticleAt": "2026-06-13T07:02:20.433Z"
+        "retainedArticleAt": "2026-06-13T10:25:22.302Z"
       },
       {
         "topic": "Oracle AI Trade",
@@ -119,7 +120,8 @@
         "articleSource": "theregister.com",
         "articlePublishedAt": "2026-06-11T19:08:28Z",
         "summaryJa": "第4四半期の売上高は21%増加したが、ウォール街は700億ドルの増強法案にもっと関心を持っている",
-        "translationVersion": 3
+        "translationVersion": 3,
+        "retainedTrendAt": "2026-06-13T10:25:22.723Z"
       },
       {
         "topic": "AI-powered",
@@ -133,12 +135,13 @@
         "articleSource": "recovoly.com",
         "articlePublishedAt": "2026-06-10T07:33:12Z",
         "summaryJa": "Recovoly は、損傷した、色あせた、破れた、低品質の文書を修復する、AI を活用した文書復元プラットフォームです。高速でインテリジェントな処理により、スキャンを強化し、テキストを復元し、欠陥を除去し、OCR の精度を向上させます。",
-        "translationVersion": 3
+        "translationVersion": 3,
+        "retainedTrendAt": "2026-06-13T10:25:22.723Z"
       }
     ],
-    "fetchedAt": "2026-06-13T07:02:18.970Z",
+    "fetchedAt": "2026-06-13T10:25:18.654Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-13T07:02:21.993Z"
+    "articleFetchedAt": "2026-06-13T10:25:22.723Z"
   }
 }
