@@ -4,8 +4,8 @@
       {
         "title": "Open source AI must win",
         "url": "https://opensourceaimustwin.com/?share=v2",
-        "points": 943,
-        "comments": 294,
+        "points": 1099,
+        "comments": 345,
         "author": "vednig",
         "createdAt": "2026-06-13T02:14:24Z",
         "domain": "opensourceaimustwin.com",
@@ -36,8 +36,8 @@
       {
         "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
         "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-        "points": 90,
-        "comments": 74,
+        "points": 103,
+        "comments": 92,
         "author": "vnglst",
         "createdAt": "2026-06-13T05:44:46Z",
         "domain": "koenvangilst.nl",
@@ -72,7 +72,7 @@
       {
         "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
         "url": "https://bitboard.work/",
-        "points": 44,
+        "points": 46,
         "comments": 21,
         "author": "arcb",
         "createdAt": "2026-06-12T16:58:03Z",
@@ -88,7 +88,7 @@
         "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-13T10:25:18.654Z",
+    "fetchedAt": "2026-06-13T12:22:27.291Z",
     "mock": false
   },
   "xTrends": {
@@ -97,7 +97,7 @@
         "topic": "Anthropic",
         "locationLabel": "日本",
         "bestRank": 5,
-        "appearances": 12,
+        "appearances": 14,
         "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
         "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
         "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
@@ -106,7 +106,7 @@
         "articlePublishedAt": "2026-06-06T04:38:36Z",
         "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
         "translationVersion": 3,
-        "retainedArticleAt": "2026-06-13T10:25:22.302Z"
+        "retainedArticleAt": "2026-06-13T12:22:28.778Z"
       },
       {
         "topic": "Oracle AI Trade",
@@ -121,7 +121,7 @@
         "articlePublishedAt": "2026-06-11T19:08:28Z",
         "summaryJa": "第4四半期の売上高は21%増加したが、ウォール街は700億ドルの増強法案にもっと関心を持っている",
         "translationVersion": 3,
-        "retainedTrendAt": "2026-06-13T10:25:22.723Z"
+        "retainedTrendAt": "2026-06-13T12:22:29.194Z"
       },
       {
         "topic": "AI-powered",
@@ -136,12 +136,12 @@
         "articlePublishedAt": "2026-06-10T07:33:12Z",
         "summaryJa": "Recovoly は、損傷した、色あせた、破れた、低品質の文書を修復する、AI を活用した文書復元プラットフォームです。高速でインテリジェントな処理により、スキャンを強化し、テキストを復元し、欠陥を除去し、OCR の精度を向上させます。",
         "translationVersion": 3,
-        "retainedTrendAt": "2026-06-13T10:25:22.723Z"
+        "retainedTrendAt": "2026-06-13T12:22:29.194Z"
       }
     ],
-    "fetchedAt": "2026-06-13T10:25:18.654Z",
+    "fetchedAt": "2026-06-13T12:22:27.291Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-13T10:25:22.723Z"
+    "articleFetchedAt": "2026-06-13T12:22:29.194Z"
   }
 }
