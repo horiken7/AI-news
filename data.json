@@ -2,22 +2,6 @@
   "news": {
     "items": [
       {
-        "title": "Open source AI must win",
-        "url": "https://opensourceaimustwin.com/?share=v2",
-        "points": 1099,
-        "comments": 345,
-        "author": "vednig",
-        "createdAt": "2026-06-13T02:14:24Z",
-        "domain": "opensourceaimustwin.com",
-        "titleJa": "オープンソースのAIが勝つ必要があります",
-        "summaryJa": "文明のインテリジェンスインフラストラクチャは、閉鎖された機関から借りるのではなく、自由に研究、構築、展開、運営することができなければなりません。",
-        "keyPoints": [
-          "文明のインテリジェンスインフラストラクチャは、閉鎖された機関から借りるのではなく、自由に研究、構築、展開、運営することができなければなりません。"
-        ],
-        "category": "AIニュース",
-        "impact": "中"
-      },
-      {
         "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
         "url": "https://status.claude.com/incidents/s9w82lp9dcn9",
         "points": 250,
@@ -36,8 +20,8 @@
       {
         "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
         "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
-        "points": 103,
-        "comments": 92,
+        "points": 127,
+        "comments": 103,
         "author": "vnglst",
         "createdAt": "2026-06-13T05:44:46Z",
         "domain": "koenvangilst.nl",
@@ -52,9 +36,44 @@
         "impact": "低"
       },
       {
+        "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+        "url": "https://github.com/tensorzero/tensorzero",
+        "points": 110,
+        "comments": 65,
+        "author": "hek2sch",
+        "createdAt": "2026-06-13T12:10:47Z",
+        "domain": "github.com",
+        "titleJa": "AI OSSツールのリポジトリは、$ 730万のシードを調達した後、一晩中アーカイブされます",
+        "summaryJa": "TensorZeroは、LLMゲートウェイ、観測可能性、評価、最適化、および実験を統合するオープンソースのLLMOpsプラットフォームです。- tensorzero/tensorzero",
+        "keyPoints": [
+          "TensorZeroは、LLMゲートウェイ、観測可能性、評価、最適化、および実験を統合するオープンソースのLLMOpsプラットフォームです。",
+          "- tensorzero/tensorzero。"
+        ],
+        "category": "AIニュース",
+        "impact": "中"
+      },
+      {
+        "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+        "url": "https://github.com/Paca-AI/paca",
+        "points": 73,
+        "comments": 26,
+        "author": "pikann22",
+        "createdAt": "2026-06-13T09:44:25Z",
+        "domain": "github.com",
+        "titleJa": "HNを表示： PACA –人間とAIのコラボレーションのための軽量JIRA代替品",
+        "summaryJa": "私は純粋な情熱からPACAを構築しました。これは、人間とAIエージェントが対等なチームメイトとして協力してスプリントを計画し、お互いにタスクを割り当てる、Goで書かれた無料で軽量なJIRAの代替案です。カスタムビュー、フィールド、WASMベースのプラグインアーキテクチャで完全にカスタマイズできます。私のチームは私たち自身の開発のために毎日それを使用するので、それは継続的に維持され、永遠に完全に無料になります",
+        "keyPoints": [
+          "私は純粋な情熱からPACAを構築しました。",
+          "これは、人間とAIエージェントが対等なチームメイトとして協力してスプリントを計画し、お互いにタスクを割り当てる、Goで書かれた無料で軽量なJIRAの代替案です。",
+          "カスタムビュー、フィールド、WASMベースのプラグインアーキテクチャで完全にカスタマイズできます。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
         "title": "Show HN: Script to bulk delete Claude chats from the web UI",
         "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-        "points": 54,
+        "points": 56,
         "comments": 18,
         "author": "ML0037",
         "createdAt": "2026-06-12T15:08:59Z",
@@ -68,27 +87,9 @@
         ],
         "category": "AIモデル",
         "impact": "低"
-      },
-      {
-        "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
-        "url": "https://bitboard.work/",
-        "points": 46,
-        "comments": 21,
-        "author": "arcb",
-        "createdAt": "2026-06-12T16:58:03Z",
-        "domain": "bitboard.work",
-        "titleJa": "HNを起動： BitBoard （ YC P 25 ） –エージェント向けアナリティクスワークスペース",
-        "summaryJa": "私たちはBitBoard （ https://bitboard.work ）のConnorとAmbarです。BitBoardは、エージェント的な分析ワークスペースです。AIでデータを分析するためのインフラストラクチャと視覚化レイヤーを提供します。本日、エージェントと協力して作業できるダッシュボードをリリースします。コーディングエージェントまたはAIチャットをBitBoardに接続し、ライブレポートを作成できます。デモはこちら： https://www.youtube.com/watch?v=H",
-        "keyPoints": [
-          "私たちはBitBoard （ https://bitboard.work ）のConnorとAmbarです。",
-          "BitBoardは、エージェント的な分析ワークスペースです。",
-          "AIでデータを分析するためのインフラストラクチャと視覚化レイヤーを提供します。"
-        ],
-        "category": "AIニュース",
-        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-13T12:22:27.291Z",
+    "fetchedAt": "2026-06-13T14:57:47.382Z",
     "mock": false
   },
   "xTrends": {
@@ -97,7 +98,7 @@
         "topic": "Anthropic",
         "locationLabel": "日本",
         "bestRank": 5,
-        "appearances": 14,
+        "appearances": 17,
         "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
         "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
         "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
@@ -106,7 +107,7 @@
         "articlePublishedAt": "2026-06-06T04:38:36Z",
         "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
         "translationVersion": 3,
-        "retainedArticleAt": "2026-06-13T12:22:28.778Z"
+        "retainedArticleAt": "2026-06-13T14:57:48.742Z"
       },
       {
         "topic": "Oracle AI Trade",
@@ -121,7 +122,7 @@
         "articlePublishedAt": "2026-06-11T19:08:28Z",
         "summaryJa": "第4四半期の売上高は21%増加したが、ウォール街は700億ドルの増強法案にもっと関心を持っている",
         "translationVersion": 3,
-        "retainedTrendAt": "2026-06-13T12:22:29.194Z"
+        "retainedTrendAt": "2026-06-13T14:57:49.228Z"
       },
       {
         "topic": "AI-powered",
@@ -136,12 +137,12 @@
         "articlePublishedAt": "2026-06-10T07:33:12Z",
         "summaryJa": "Recovoly は、損傷した、色あせた、破れた、低品質の文書を修復する、AI を活用した文書復元プラットフォームです。高速でインテリジェントな処理により、スキャンを強化し、テキストを復元し、欠陥を除去し、OCR の精度を向上させます。",
         "translationVersion": 3,
-        "retainedTrendAt": "2026-06-13T12:22:29.194Z"
+        "retainedTrendAt": "2026-06-13T14:57:49.228Z"
       }
     ],
-    "fetchedAt": "2026-06-13T12:22:27.291Z",
+    "fetchedAt": "2026-06-13T14:57:47.382Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-13T12:22:29.194Z"
+    "articleFetchedAt": "2026-06-13T14:57:49.228Z"
   }
 }
