@@ -4,8 +4,8 @@
       {
         "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
         "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
-        "points": 735,
-        "comments": 547,
+        "points": 753,
+        "comments": 559,
         "author": "ls612",
         "createdAt": "2026-06-13T16:57:49Z",
         "domain": "wsj.com",
@@ -21,8 +21,8 @@
       {
         "title": "Making Claude a Chemist",
         "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-        "points": 60,
-        "comments": 57,
+        "points": 71,
+        "comments": 72,
         "author": "gmays",
         "createdAt": "2026-06-14T02:55:36Z",
         "domain": "anthropic.com",
@@ -37,7 +37,7 @@
       {
         "title": "State Attorneys General Are Investigating OpenAI",
         "url": "https://www.nytimes.com/2026/06/13/technology/states-investigating-openai.html",
-        "points": 60,
+        "points": 63,
         "comments": 5,
         "author": "donohoe",
         "createdAt": "2026-06-13T23:52:19Z",
@@ -52,10 +52,27 @@
         "impact": "低"
       },
       {
+        "title": "No, everyone is not using AI for everything",
+        "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+        "points": 61,
+        "comments": 22,
+        "author": "yegg",
+        "createdAt": "2026-06-14T14:44:29Z",
+        "domain": "gabrielweinberg.com",
+        "titleJa": "いいえ、誰もがすべてにAIを使用しているわけではありません",
+        "summaryJa": "人々は肉を食べるようにAIを消費しています。それを受け入れている人もいれば、使用を制限している人もいれば、完全に避けている人もいます。",
+        "keyPoints": [
+          "人々は肉を食べるようにAIを消費しています。",
+          "それを受け入れている人もいれば、使用を制限している人もいれば、完全に避けている人もいます。"
+        ],
+        "category": "AIニュース",
+        "impact": "低"
+      },
+      {
         "title": "Show HN: I built 80 mini-games using Fable before it was shut down",
         "url": "https://minigames.world/en",
-        "points": 51,
-        "comments": 65,
+        "points": 53,
+        "comments": 72,
         "author": "legocoder",
         "createdAt": "2026-06-13T23:35:40Z",
         "domain": "minigames.world",
@@ -68,45 +85,13 @@
         ],
         "category": "AIニュース",
         "impact": "低"
-      },
-      {
-        "title": "The whirlwind 24 hours that led to export controls on Anthropic",
-        "url": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
-        "points": 21,
-        "comments": 5,
-        "author": "ls612",
-        "createdAt": "2026-06-14T01:37:22Z",
-        "domain": "politico.com",
-        "titleJa": "Anthropicの輸出管理につながった24時間の旋風",
-        "summaryJa": "「Anthropicの輸出管理につながった24時間の旋風」に関する記事です。詳細は出典をご確認ください。",
-        "keyPoints": [
-          "「Anthropicの輸出管理につながった24時間の旋風」に関する記事です。",
-          "詳細は出典をご確認ください。"
-        ],
-        "category": "AIニュース",
-        "impact": "低"
       }
     ],
-    "fetchedAt": "2026-06-14T13:54:14.453Z",
+    "fetchedAt": "2026-06-14T15:47:28.875Z",
     "mock": false
   },
   "xTrends": {
     "items": [
-      {
-        "topic": "Anthropic",
-        "locationLabel": "米国",
-        "bestRank": 11,
-        "appearances": 11,
-        "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
-        "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-        "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
-        "articleUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
-        "articleSource": "arstechnica.com",
-        "articlePublishedAt": "2026-06-06T04:38:36Z",
-        "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
-        "translationVersion": 3,
-        "retainedArticleAt": "2026-06-14T13:54:15.806Z"
-      },
       {
         "topic": "Oracle AI Trade",
         "locationLabel": "米国",
@@ -122,6 +107,21 @@
         "translationVersion": 3
       },
       {
+        "topic": "Anthropic",
+        "locationLabel": "カナダ",
+        "bestRank": 11,
+        "appearances": 8,
+        "url": "https://x.com/search?q=Anthropic&src=typed_query&f=live",
+        "articleTitle": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+        "articleTitleJa": "S&P 500、SpaceXを拒否、OpenAIとAnthropicの参入も阻止",
+        "articleUrl": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+        "articleSource": "arstechnica.com",
+        "articlePublishedAt": "2026-06-06T04:38:36Z",
+        "summaryJa": "スペースXは、消極的な投資家から数十億ドルを簡単に手に入れることはできないだろう。",
+        "translationVersion": 3,
+        "retainedArticleAt": "2026-06-14T15:47:31.326Z"
+      },
+      {
         "topic": "AI-powered",
         "locationLabel": "米国",
         "bestRank": 34,
@@ -134,12 +134,12 @@
         "articlePublishedAt": "2026-06-10T07:33:12Z",
         "summaryJa": "Recovoly は、損傷した、色あせた、破れた、低品質の文書を修復する、AI を活用した文書復元プラットフォームです。高速でインテリジェントな処理により、スキャンを強化し、テキストを復元し、欠陥を除去し、OCR の精度を向上させます。",
         "translationVersion": 3,
-        "retainedTrendAt": "2026-06-14T13:54:16.773Z"
+        "retainedTrendAt": "2026-06-14T15:47:31.327Z"
       }
     ],
-    "fetchedAt": "2026-06-14T13:54:14.453Z",
+    "fetchedAt": "2026-06-14T15:47:28.875Z",
     "source": "Trends24 / Hacker News Algolia",
     "partial": true,
-    "articleFetchedAt": "2026-06-14T13:54:16.773Z"
+    "articleFetchedAt": "2026-06-14T15:47:31.327Z"
   }
 }
