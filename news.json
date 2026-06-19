@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-20T06:01:00.779246+09:00",
-  "generatedLabel": "2026/06/20 06:01",
+  "generatedAt": "2026-06-20T07:44:01.511911+09:00",
+  "generatedLabel": "2026/06/20 07:44",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 52,
@@ -173,17 +173,6 @@
       "score": 34
     },
     {
-      "title": "AI需要の高まりでTSMCの生産能力が限界へ、Google・NVIDIA・AMD・テスラなどはSamsungを代替パートナーとして検討中",
-      "link": "https://gigazine.net/news/20260619-samsung-foundry-booming-tsmc-alternatives/",
-      "date": "2026-06-19T07:00:00+09:00",
-      "dateLabel": "06/19 07:00",
-      "desc": "AIブームのあおりを受けて半導体需要が世界的に急増する中で、世界最大の半導体ファウンドリであるTSMCの生産能力が限界に達しつつあります。そこでGoogleやNVIDIA、テスラといった大手企業が韓国のSamsungを代替パートナーとして検討していると報じられました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
       "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
       "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
       "date": "2026-06-16T00:46:43+09:00",
@@ -239,25 +228,14 @@
       "score": 26
     },
     {
-      "title": "工数「76％」削減 味の素グループが「経理AIエージェント」導入で先陣を切れたワケ",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/19/news033.html",
+      "title": "AI需要の高まりでTSMCの生産能力が限界へ、Google・NVIDIA・AMD・テスラなどはSamsungを代替パートナーとして検討中",
+      "link": "https://gigazine.net/news/20260619-samsung-foundry-booming-tsmc-alternatives/",
       "date": "2026-06-19T07:00:00+09:00",
       "dateLabel": "06/19 07:00",
-      "desc": "経理人材の不足が深刻化する一方で、経理パーソンが担う業務の幅は急速に広がっている。その解決策として期待されるのがAI活用だ。しかし、誤りが許されない経理業務では導入への慎重論も根強い。そんな中、味の素グループの財務・経理業務を担う味の素フィナンシャル・ソリューションズは、経費精算の承認業務をAIが自律的に実施する経理AIエージェントの運用を開始した。",
+      "desc": "AIブームのあおりを受けて半導体需要が世界的に急増する中で、世界最大の半導体ファウンドリであるTSMCの生産能力が限界に達しつつあります。そこでGoogleやNVIDIA、テスラといった大手企業が韓国のSamsungを代替パートナーとして検討していると報じられました。 続きを読む...",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
-      "title": "「待ちの営業」はもう限界 ホンダがAIエージェントで挑む、商機を逃さない「濃い商談」の創出",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/19/news064.html",
-      "date": "2026-06-19T07:00:00+09:00",
-      "dateLabel": "06/19 07:00",
-      "desc": "顧客の購買行動が変化する中、ホンダが新車販売にAIエージェントを導入した。“濃い商談”を支援し、すでに成約も生まれているという。販売現場の変化を追う。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
       "score": 26
     },
     {
@@ -281,6 +259,28 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 26
+    },
+    {
+      "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
+      "link": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
+      "date": "2026-06-11T00:29:34+09:00",
+      "dateLabel": "06/11 00:29",
+      "desc": "Appleは日本時間6月9日未明に開催した開発者向けの年次イベント「WWDC26」で、macOSに統合された形でLinuxコンテナを起動し、利用できる新機能「Container machine」バージョン1.0のリリースを発表しました。 C...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AI全般",
+      "score": 24
+    },
+    {
+      "title": "Ubuntu、サンドボックス化された開発環境をコマンド一発で構築。新機能「Workshop」リリース",
+      "link": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+      "date": "2026-06-09T00:43:33+09:00",
+      "dateLabel": "06/09 00:43",
+      "desc": "Ubuntuの開発元であるCanonicalは、AIエージェントなどに適したサンドボックス化された開発環境をコマンド一発で構築できる新機能「Workshop」をリリースしました。 Today we announced Workshop – ...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 24
     }
   ]
 }
