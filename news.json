@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-19T20:13:56.391360+09:00",
-  "generatedLabel": "2026/06/19 20:13",
+  "generatedAt": "2026-06-19T23:43:02.057490+09:00",
+  "generatedLabel": "2026/06/19 23:43",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 52,
@@ -127,6 +127,17 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 42
+    },
+    {
+      "title": "アメリカのエネルギー当局がデータセンターへの電力供給を加速するよう電力会社に指示",
+      "link": "https://gigazine.net/news/20260619-us-ferc-energy-order/",
+      "date": "2026-06-19T21:00:00+09:00",
+      "dateLabel": "06/19 21:00",
+      "desc": "アメリカの連邦エネルギー規制委員会が送電網運営者に対し、データセンターなどの非常に大規模なエネルギー消費施設を迅速に送電網へ接続するための新たなプロトコルを検討するよう命じました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 34
     },
     {
       "title": "AIに「分からないことを分からないと認める力」は身につくのか？OpenAIが有益な性質を強化学習で定着させる研究結果を公開",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
-      "score": 26
-    },
-    {
-      "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
-      "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
-      "date": "2026-06-17T03:05:15+09:00",
-      "dateLabel": "06/17 03:05",
-      "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
-      "img": "",
-      "src": "Publickey",
-      "cat": "AIエージェント/業務",
       "score": 26
     }
   ]
