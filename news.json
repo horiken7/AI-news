@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-19T15:47:09.670695+09:00",
-  "generatedLabel": "2026/06/19 15:47",
+  "generatedAt": "2026-06-19T20:13:56.391360+09:00",
+  "generatedLabel": "2026/06/19 20:13",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 56,
+  "candidates": 52,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,12 +13,12 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 16
+      "items": 17
     },
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 0
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 15
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -74,17 +74,6 @@
       "score": 66
     },
     {
-      "title": "ChatGPT無料版に広告表示 回答への影響はないと説明",
-      "link": "https://ascii.jp/elem/000/004/412/4412004/?rss",
-      "date": "2026-06-19T14:45:00+09:00",
-      "dateLabel": "06/19 14:45",
-      "desc": "OpenAI Japan合同会社は6月19日、日本においてChatGPTでの広告パイロットを開始したと発表した。対象は無料およびGoプランを利用する成人ユーザー。",
-      "img": "https://ascii.jp/img/2026/06/19/4485905/s/08024a4b3b76c1cd.png",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 50
-    },
-    {
       "title": "Claude CodeなどのAIエージェントでロボットを自律的に改善する仕組み「ENPIRE」がNVIDIAによって開発される",
       "link": "https://gigazine.net/news/20260619-nvidia-enpire-agentic-robot/",
       "date": "2026-06-19T12:24:00+09:00",
@@ -105,6 +94,17 @@
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 50
+    },
+    {
+      "title": "アメリカのAI企業が独自開発モデル「Laguna M.1」をオープンモデルとして公開、高性能だが中国製オープンモデルには劣る",
+      "link": "https://gigazine.net/news/20260619-laguna-m1-ai-open/",
+      "date": "2026-06-19T19:00:00+09:00",
+      "dateLabel": "06/19 19:00",
+      "desc": "アメリカのAI企業であるPoolsideが独自開発モデル「Laguna M.1」をオープンモデルとして公開しました。Laguna M.1は2026年4月にリリースされてAPI経由で展開されていたモデルで、オープンモデル化によって誰でもダウンロードできるようになりました。また、Macでローカル実行可能な量子化モデルも登場しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AI全般",
+      "score": 42
     },
     {
       "title": "画面操作を“録画”→AIが作業代行 Codexに新機能「Record & Replay」",
@@ -129,14 +129,14 @@
       "score": 42
     },
     {
-      "title": "【7月15日無料ウェビナー】「属人営業」からの脱却。AI×仕組み化で、再現性ある成果を生み出す営業組織の構築ロードマップを初公開！",
-      "link": "https://ascii.jp/elem/000/004/412/4412017/?rss",
-      "date": "2026-06-19T13:00:00+09:00",
-      "dateLabel": "06/19 13:00",
-      "desc": "【7月15日無料ウェビナー】「属人営業」からの脱却。AI×仕組み化で、再現性ある成果を生み出す営業組織の構築ロードマップを初公開！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
+      "title": "AIに「分からないことを分からないと認める力」は身につくのか？OpenAIが有益な性質を強化学習で定着させる研究結果を公開",
+      "link": "https://gigazine.net/news/20260619-openai-beneficial-rl/",
+      "date": "2026-06-19T20:00:00+09:00",
+      "dateLabel": "06/19 20:00",
+      "desc": "OpenAIは2026年6月18日、AIに正直さや不確実性を認める謙虚さ、訂正を受け入れる姿勢、公平性などの有益な性質を学習させると訓練に使っていない分野でも望ましい振る舞いが広がり、悪意ある指示にも崩されにくくなるという研究結果を公開しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
       "score": 34
     },
     {
@@ -184,28 +184,6 @@
       "score": 34
     },
     {
-      "title": "Claude DesignとClaude Codeの連携が強化されてコーディングからデザインまでAIをバリバリ活用可能に",
-      "link": "https://gigazine.net/news/20260618-claude-design-claude-code/",
-      "date": "2026-06-18T15:05:00+09:00",
-      "dateLabel": "06/18 15:05",
-      "desc": "AnthropicがClaude Designの機能強化を2026年6月17日に発表しました。Claude Designはデザインシステムに沿った制作、キャンバス上での直接編集、Claude Codeとの同期、外部ツールとの連携に対応するようになり、デザインからコーディングまでの流れをより一体的に扱えるようになりました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "OpenAIは年間数兆円規模の損失を出していることが流出した財務文書で明らかに",
-      "link": "https://gigazine.net/news/20260618-openai-financial-docs/",
-      "date": "2026-06-18T15:00:00+09:00",
-      "dateLabel": "06/18 15:00",
-      "desc": "ChatGPTを開発するOpenAIは2026年6月に新規株式公開(IPO)に向けた登録届出書の草案を証券取引委員会に提出したことを明かしています。そんな中、新たに流出した財務書類から、OpenAIは急速に収益を伸ばしている一方でそれ以上に巨額の支出をしており、数兆円規模の損失を出していることが判明しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
       "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
       "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
       "date": "2026-06-16T00:46:43+09:00",
@@ -217,6 +195,28 @@
       "score": 28
     },
     {
+      "title": "理研、AI for Science向けスパコンの名前を「理究」（りきゅう）に決定 由来は？",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000110/",
+      "date": "2026-06-19T17:00:51+09:00",
+      "dateLabel": "06/19 17:00",
+      "desc": "理化学研究所は、AIを活用した科学研究「AI for Science」向けのスーパーコンピュータの名前を「理究」（りきゅう）に決定したと発表した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "GMO傘下、Unitreeの国内正規代理店に 人型ロボの導入から保守まで一気通貫で支援",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000109/",
+      "date": "2026-06-19T16:16:24+09:00",
+      "dateLabel": "06/19 16:16",
+      "desc": "GMOインターネットグループ傘下で、ロボティクス事業などを手掛けるGMO AI＆ロボティクス商事は、ロボット開発企業の中国Unitree Roboticsと日本国内正規代理店契約を締結したと発表した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI実装",
+      "score": 26
+    },
+    {
       "title": "Appleがワイヤレスイヤホン経由で会話を盗聴される可能性がある深刻な脆弱性を修正",
       "link": "https://gigazine.net/news/20260619-apple-patches-eavesdropping-vulnerability-beats-studio-buds/",
       "date": "2026-06-19T14:21:00+09:00",
@@ -224,28 +224,6 @@
       "desc": "Appleは独自のワイヤレスイヤホンとしてAirPodsを販売しているほか、2014年に買収したBeatsブランドのイヤホンやヘッドホンも販売しています。そんなBeatsブランドのワイヤレスイヤホンであるBeats Studio Budsに、会話を盗聴することが可能になる脆弱(ぜいじゃく)性が見つかっていたのですが、ソフトウェアアップデートでついにこれが修正",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "チャットマーケツール「エルサイト」がMCP接続でAI連携を実現",
-      "link": "https://ascii.jp/elem/000/004/412/4412015/?rss",
-      "date": "2026-06-19T13:10:00+09:00",
-      "dateLabel": "06/19 13:10",
-      "desc": "チャットマーケツール「エルサイト」がMCP接続でAI連携を実現",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "Gaia Visionが「JAXAパートナースタートアップ」として登録されました",
-      "link": "https://ascii.jp/elem/000/004/412/4412019/?rss",
-      "date": "2026-06-19T13:00:00+09:00",
-      "dateLabel": "06/19 13:00",
-      "desc": "Gaia Visionが「JAXAパートナースタートアップ」として登録されました",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
@@ -279,6 +257,28 @@
       "desc": "顧客の購買行動が変化する中、ホンダが新車販売にAIエージェントを導入した。“濃い商談”を支援し、すでに成約も生まれているという。販売現場の変化を追う。",
       "img": "",
       "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 26
+    },
+    {
+      "title": "「AIを使う学生」vs.「使わない学生」、エッセイが創造的なのはどっち？ 米大学が2025年に実証実験",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/18/news043.html",
+      "date": "2026-06-18T07:30:00+09:00",
+      "dateLabel": "06/18 07:30",
+      "desc": "米ジョージタウン大学に所属する研究者らが国際学術誌Computers in Human Behavior: Artificial Humansに発表した論文「Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 26
+    },
+    {
+      "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+      "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+      "date": "2026-06-17T03:05:15+09:00",
+      "dateLabel": "06/17 03:05",
+      "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+      "img": "",
+      "src": "Publickey",
       "cat": "AIエージェント/業務",
       "score": 26
     }
