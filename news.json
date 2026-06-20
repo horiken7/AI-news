@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-20T18:21:15.928844+09:00",
-  "generatedLabel": "2026/06/20 18:21",
+  "generatedAt": "2026-06-20T19:11:17.326437+09:00",
+  "generatedLabel": "2026/06/20 19:11",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 54,
+  "candidates": 53,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 12
+      "items": 11
     },
     {
       "source": "CNET Japan",
@@ -72,17 +72,6 @@
       "src": "GIGAZINE",
       "cat": "半導体/GPU",
       "score": 58
-    },
-    {
-      "title": "アメリカのAI企業が独自開発モデル「Laguna M.1」をオープンモデルとして公開、高性能だが中国製オープンモデルには劣る",
-      "link": "https://gigazine.net/news/20260619-laguna-m1-ai-open/",
-      "date": "2026-06-19T19:00:00+09:00",
-      "dateLabel": "06/19 19:00",
-      "desc": "アメリカのAI企業であるPoolsideが独自開発モデル「Laguna M.1」をオープンモデルとして公開しました。Laguna M.1は2026年4月にリリースされてAPI経由で展開されていたモデルで、オープンモデル化によって誰でもダウンロードできるようになりました。また、Macでローカル実行可能な量子化モデルも登場しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI全般",
-      "score": 42
     },
     {
       "title": "Claude CodeなどのAIエージェントでロボットを自律的に改善する仕組み「ENPIRE」がNVIDIAによって開発される",
@@ -159,6 +148,17 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "アメリカのAI企業が独自開発モデル「Laguna M.1」をオープンモデルとして公開、高性能だが中国製オープンモデルには劣る",
+      "link": "https://gigazine.net/news/20260619-laguna-m1-ai-open/",
+      "date": "2026-06-19T19:00:00+09:00",
+      "dateLabel": "06/19 19:00",
+      "desc": "アメリカのAI企業であるPoolsideが独自開発モデル「Laguna M.1」をオープンモデルとして公開しました。Laguna M.1は2026年4月にリリースされてAPI経由で展開されていたモデルで、オープンモデル化によって誰でもダウンロードできるようになりました。また、Macでローカル実行可能な量子化モデルも登場しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AI全般",
       "score": 34
     },
     {
