@@ -31,7 +31,7 @@ export default {
     const url = new URL(request.url);
     const forceFresh = url.searchParams.get('fresh') === '1';
     const cache = caches.default;
-    const cacheKey = new Request(url.origin + '/ai-news-cache-v2-with-page-images');
+    const cacheKey = new Request(url.origin + '/ai-news-cache-v3-safe-parser-page-images');
 
     if (!forceFresh) {
       const cached = await cache.match(cacheKey);
@@ -105,7 +105,7 @@ async function buildNews() {
     generatedLabel: new Intl.DateTimeFormat('ja-JP', {
       timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit'
     }).format(new Date()),
-    mode: 'cloudflare-worker-live-rss-page-images',
+    mode: 'cloudflare-worker-live-rss-safe-parser-page-images',
     feedOk,
     feedNg,
     candidates: articles.length,
@@ -167,7 +167,9 @@ function parseFeed(src, xml) {
 }
 
 async function enrichArticleImages(list) {
-  const settled = await Promise.allSettled(list.map(async article => {
+  const target = list.slice(0, 8);
+  const rest = list.slice(8);
+  const settled = await Promise.allSettled(target.map(async article => {
     if (article.img) return article;
     const img = await imageFromPage(article.link);
     if (!img) return article;
@@ -178,12 +180,12 @@ async function enrichArticleImages(list) {
       score: (article.score || 0) + 8
     };
   }));
-  return settled.map((r, i) => r.status === 'fulfilled' ? r.value : list[i]);
+  return settled.map((r, i) => r.status === 'fulfilled' ? r.value : target[i]).concat(rest);
 }
 
 async function imageFromPage(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort('timeout'), 7000);
+  const timer = setTimeout(() => controller.abort('timeout'), 5000);
   try {
     const res = await fetch(url, {
       headers: { 'User-Agent': 'Mozilla/5.0 AI-News-KEN/1.0' },
@@ -225,13 +227,12 @@ function imageFromHtml(html, base) {
 }
 
 function collectBlocks(xml, tag) {
-  const re = new RegExp(`<${tag}(?:\s[^>]*)?>[\s\S]*?<\/${tag}>`, 'gi');
+  const re = new RegExp('<' + tag + '[^>]*>[^]*?</' + tag + '>', 'gi');
   return xml.match(re) || [];
 }
 
 function tagText(block, tag) {
-  const safe = tag.replace(':', '\\:');
-  const re = new RegExp(`<${safe}(?:\s[^>]*)?>([\s\S]*?)<\/${safe}>`, 'i');
+  const re = new RegExp('<' + tag + '[^>]*>([^]*?)</' + tag + '>', 'i');
   const m = block.match(re);
   return m ? m[1] : '';
 }
