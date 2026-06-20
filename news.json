@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-20T19:55:18.366489+09:00",
-  "generatedLabel": "2026/06/20 19:55",
+  "generatedAt": "2026-06-20T20:03:02.094200+09:00",
+  "generatedLabel": "2026/06/20 20:03",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 53,
+  "candidates": 52,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 11
+      "items": 10
     },
     {
       "source": "CNET Japan",
@@ -140,17 +140,6 @@
       "score": 34
     },
     {
-      "title": "AIに「分からないことを分からないと認める力」は身につくのか？OpenAIが有益な性質を強化学習で定着させる研究結果を公開",
-      "link": "https://gigazine.net/news/20260619-openai-beneficial-rl/",
-      "date": "2026-06-19T20:00:00+09:00",
-      "dateLabel": "06/19 20:00",
-      "desc": "OpenAIは2026年6月18日、AIに正直さや不確実性を認める謙虚さ、訂正を受け入れる姿勢、公平性などの有益な性質を学習させると訓練に使っていない分野でも望ましい振る舞いが広がり、悪意ある指示にも崩されにくくなるという研究結果を公開しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
       "title": "アメリカのAI企業が独自開発モデル「Laguna M.1」をオープンモデルとして公開、高性能だが中国製オープンモデルには劣る",
       "link": "https://gigazine.net/news/20260619-laguna-m1-ai-open/",
       "date": "2026-06-19T19:00:00+09:00",
@@ -217,14 +206,14 @@
       "score": 26
     },
     {
-      "title": "AmazonがNVIDIA対抗AIチップ「Trainium」の外販に向け交渉開始、AWS専用から他社データセンターへ",
-      "link": "https://gigazine.net/news/20260619-amazon-trainium/",
-      "date": "2026-06-19T11:22:00+09:00",
-      "dateLabel": "06/19 11:22",
-      "desc": "Amazonが自社開発のAIチップ「AWS Trainium」を他社のデータセンター向けに販売するため、顧客候補との協議を始めたことが分かりました。 続きを読む...",
+      "title": "AIに「分からないことを分からないと認める力」は身につくのか？OpenAIが有益な性質を強化学習で定着させる研究結果を公開",
+      "link": "https://gigazine.net/news/20260619-openai-beneficial-rl/",
+      "date": "2026-06-19T20:00:00+09:00",
+      "dateLabel": "06/19 20:00",
+      "desc": "OpenAIは2026年6月18日、AIに正直さや不確実性を認める謙虚さ、訂正を受け入れる姿勢、公平性などの有益な性質を学習させると訓練に使っていない分野でも望ましい振る舞いが広がり、悪意ある指示にも崩されにくくなるという研究結果を公開しました。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "半導体/GPU",
+      "cat": "LLM/モデル",
       "score": 26
     },
     {
@@ -281,6 +270,17 @@
       "src": "Publickey",
       "cat": "AIエージェント/業務",
       "score": 24
+    },
+    {
+      "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+      "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+      "date": "2026-06-17T03:05:15+09:00",
+      "dateLabel": "06/17 03:05",
+      "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 20
     }
   ]
 }
