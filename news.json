@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-20T17:40:27.946077+09:00",
-  "generatedLabel": "2026/06/20 17:40",
+  "generatedAt": "2026-06-20T18:06:31.519833+09:00",
+  "generatedLabel": "2026/06/20 18:06",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 55,
+  "candidates": 54,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 13
+      "items": 12
     },
     {
       "source": "CNET Japan",
@@ -239,17 +239,6 @@
       "score": 26
     },
     {
-      "title": "AI需要の高まりでTSMCの生産能力が限界へ、Google・NVIDIA・AMD・テスラなどはSamsungを代替パートナーとして検討中",
-      "link": "https://gigazine.net/news/20260619-samsung-foundry-booming-tsmc-alternatives/",
-      "date": "2026-06-19T07:00:00+09:00",
-      "dateLabel": "06/19 07:00",
-      "desc": "AIブームのあおりを受けて半導体需要が世界的に急増する中で、世界最大の半導体ファウンドリであるTSMCの生産能力が限界に達しつつあります。そこでGoogleやNVIDIA、テスラといった大手企業が韓国のSamsungを代替パートナーとして検討していると報じられました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 26
-    },
-    {
       "title": "話題の「Claude Mythos」登場で変わるセキュリティ AIエージェント時代の防衛策",
       "link": "https://kn.itmedia.co.jp/kn/articles/2606/19/news009.html",
       "date": "2026-06-19T06:00:00+09:00",
@@ -280,6 +269,17 @@
       "img": "",
       "src": "Publickey",
       "cat": "AI全般",
+      "score": 24
+    },
+    {
+      "title": "Ubuntu、サンドボックス化された開発環境をコマンド一発で構築。新機能「Workshop」リリース",
+      "link": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+      "date": "2026-06-09T00:43:33+09:00",
+      "dateLabel": "06/09 00:43",
+      "desc": "Ubuntuの開発元であるCanonicalは、AIエージェントなどに適したサンドボックス化された開発環境をコマンド一発で構築できる新機能「Workshop」をリリースしました。 Today we announced Workshop – ...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
       "score": 24
     }
   ]
