@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T09:04:25.406545+09:00",
-  "generatedLabel": "2026/06/21 09:04",
+  "generatedAt": "2026-06-21T14:52:30.444314+09:00",
+  "generatedLabel": "2026/06/21 14:52",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 51,
+  "candidates": 52,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 10
+      "items": 11
     },
     {
       "source": "CNET Japan",
@@ -74,6 +74,17 @@
       "score": 58
     },
     {
+      "title": "基幹システム入力自動化AI「Data Agent（データエージェント）」のサービスサイトをリニューアル公開",
+      "link": "https://ascii.jp/elem/000/004/412/4412226/?rss",
+      "date": "2026-06-21T10:00:00+09:00",
+      "dateLabel": "06/21 10:00",
+      "desc": "基幹システム入力自動化AI「Data Agent（データエージェント）」のサービスサイトをリニューアル公開",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 50
+    },
+    {
       "title": "Claude CodeなどのAIエージェントでロボットを自律的に改善する仕組み「ENPIRE」がNVIDIAによって開発される",
       "link": "https://gigazine.net/news/20260619-nvidia-enpire-agentic-robot/",
       "date": "2026-06-19T12:24:00+09:00",
@@ -85,36 +96,14 @@
       "score": 42
     },
     {
-      "title": "ChatGPTが将来のタスクをあらかじめ依頼できる新機能「Scheduled tasks」を発表、一方で毎日ユーザー向けの情報をまとめてくれる「Pulse」は終了",
-      "link": "https://gigazine.net/news/20260619-chatgpt-scheduled-tasks/",
-      "date": "2026-06-19T12:05:00+09:00",
-      "dateLabel": "06/19 12:05",
-      "desc": "OpenAIは2026年6月18日に、予約したタスクを自動実行できる「Scheduled tasks」をChatGPTの新機能として発表しました。それに伴い、ユーザーの興味や過去のチャットの要約などを毎日提供する機能「Pulse」が同月中に終了することも発表されています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "AI診断サービス「クラウド診断Projimo」提供開始。￥98,000から、高額発注前の現状診断を最短1週間で",
-      "link": "https://ascii.jp/elem/000/004/412/4412191/?rss",
-      "date": "2026-06-20T12:53:55+09:00",
-      "dateLabel": "06/20 12:53",
-      "desc": "AI診断サービス「クラウド診断Projimo」提供開始。￥98,000から、高額発注前の現状診断を最短1週間で",
+      "title": "【7月18日(土)10:30～無料ウェビナー開催】「再生数は伸びるのに売れない」企業急増――AI時代に求められる“バズ依存から脱却するSNS運用設計”を30分で公開！",
+      "link": "https://ascii.jp/elem/000/004/412/4412229/?rss",
+      "date": "2026-06-21T10:10:00+09:00",
+      "dateLabel": "06/21 10:10",
+      "desc": "【7月18日(土)10:30～無料ウェビナー開催】「再生数は伸びるのに売れない」企業急増――AI時代に求められる“バズ依存から脱却するSNS運用設計”を30分で公開！",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "Amazonが完成間近だったサム・アルトマンの伝記映画『Artificial』の配給から撤退",
-      "link": "https://gigazine.net/news/20260620-amazon-dropped-sam-altman-movie-artificial/",
-      "date": "2026-06-20T12:06:00+09:00",
-      "dateLabel": "06/20 12:06",
-      "desc": "Amazon MGMスタジオが、OpenAIの創業者であるサム・アルトマン氏のことを描いた、ルカ・グァダニーノ監督による伝記映画『Artificial』の配給から手を引いたことがわかりました。Amazonは2026年2月にOpenAIと戦略的パートナーシップを結び、OpenAIに500億ドル(約8兆円)を投資しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
+      "cat": "AI実装",
       "score": 34
     },
     {
@@ -162,25 +151,36 @@
       "score": 28
     },
     {
-      "title": "【快挙】「着せ恋」痛車が富士24時間を制す！ 雨中の“タイヤ無交換”ギャンブルが劇的すぎた",
-      "link": "https://ascii.jp/elem/000/004/412/4412170/?rss",
-      "date": "2026-06-20T15:00:00+09:00",
-      "dateLabel": "06/20 15:00",
-      "desc": "富士24時間レースで「その着せ替え人形は恋をする」コラボのTKRIチームが総合優勝し、2連覇を達成しました。勝負の鍵は19時間経過時の雨。ライバルがレインタイヤに換える中、アマチュアのDAISUKE選手がスリックタイヤのまま濡れた路面を耐え抜き、プロへ繋いだ決死の作戦が勝利を呼び込みました。",
-      "img": "https://ascii.jp/img/2026/06/19/4486191/s/25744dfe8160b7db.jpg",
+      "title": "仙台から挑戦の火を灯す！高校生・大学生対象の実践型起業支援「AKINAIプログラム」始動＆募集説明会開催のお知らせ",
+      "link": "https://ascii.jp/elem/000/004/412/4412236/?rss",
+      "date": "2026-06-21T12:00:00+09:00",
+      "dateLabel": "06/21 12:00",
+      "desc": "仙台から挑戦の火を灯す！高校生・大学生対象の実践型起業支援「AKINAIプログラム」始動＆募集説明会開催のお知らせ",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
     {
-      "title": "「Rokid スマートAIグラス」はスマホ時代の電力インフラを味方につけたAIグラス",
-      "link": "https://ascii.jp/elem/000/004/412/4412181/?rss",
-      "date": "2026-06-20T12:00:00+09:00",
-      "dateLabel": "06/20 12:00",
-      "desc": "話題のAIグラス「Rokid スマートAIグラス」を衝動買い。新ジャンルのデジタルガジェットの初期は常にバッテリー駆動時間が課題になるが、Rokidは多様なオプションを用意することで解決するという実に現代的な存在だ。",
-      "img": "https://ascii.jp/img/2026/06/20/4486391/s/3dabb43a2b654e9e.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
+      "title": "何千万もの楽曲がAIのトレーニングに利用可能なデータセットとして配布されておりAI生成楽曲の肥やしになっているとの指摘",
+      "link": "https://gigazine.net/news/20260621-songs-mashed-into-ai-generated-music/",
+      "date": "2026-06-21T10:30:00+09:00",
+      "dateLabel": "06/21 10:30",
+      "desc": "何千万もの楽曲が収録されたデータセットがAIトレーニングに利用されていると、The Atlanticが報じています。中には著作権で保護されている楽曲や、AIのトレーニングに利用するにはライセンス契約が必要な楽曲も存在すると指摘されました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "規制/安全",
+      "score": 26
+    },
+    {
+      "title": "Amazonが完成間近だったサム・アルトマンの伝記映画『Artificial』の配給から撤退",
+      "link": "https://gigazine.net/news/20260620-amazon-dropped-sam-altman-movie-artificial/",
+      "date": "2026-06-20T12:06:00+09:00",
+      "dateLabel": "06/20 12:06",
+      "desc": "Amazon MGMスタジオが、OpenAIの創業者であるサム・アルトマン氏のことを描いた、ルカ・グァダニーノ監督による伝記映画『Artificial』の配給から手を引いたことがわかりました。Amazonは2026年2月にOpenAIと戦略的パートナーシップを結び、OpenAIに500億ドル(約8兆円)を投資しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
       "score": 26
     },
     {
