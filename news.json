@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T18:35:21.760852+09:00",
-  "generatedLabel": "2026/06/21 18:35",
+  "generatedAt": "2026-06-21T21:05:11.767785+09:00",
+  "generatedLabel": "2026/06/21 21:05",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 53,
+  "candidates": 51,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 12
+      "items": 10
     },
     {
       "source": "CNET Japan",
@@ -85,25 +85,14 @@
       "score": 42
     },
     {
-      "title": "Claude CodeなどのAIエージェントでロボットを自律的に改善する仕組み「ENPIRE」がNVIDIAによって開発される",
-      "link": "https://gigazine.net/news/20260619-nvidia-enpire-agentic-robot/",
-      "date": "2026-06-19T12:24:00+09:00",
-      "dateLabel": "06/19 12:24",
-      "desc": "NVIDIAがAIエージェントの自律能力をロボットに導入するハーネスフレームワーク「ENPIRE」を発表しました。ENPIREはカーネギーメロン大学やカリフォルニア大学バークレー校の研究者と共同開発されたフレームワークで、Claude CodeやCodexなどのAIエージェントを用いてロボットのタスク遂行能力を強化することができます。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
-      "title": "【7月18日(土)10:30～無料ウェビナー開催】「再生数は伸びるのに売れない」企業急増――AI時代に求められる“バズ依存から脱却するSNS運用設計”を30分で公開！",
-      "link": "https://ascii.jp/elem/000/004/412/4412229/?rss",
-      "date": "2026-06-21T10:10:00+09:00",
-      "dateLabel": "06/21 10:10",
-      "desc": "【7月18日(土)10:30～無料ウェビナー開催】「再生数は伸びるのに売れない」企業急増――AI時代に求められる“バズ依存から脱却するSNS運用設計”を30分で公開！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "title": "RTX 5070＋32GBメモリ搭載機が26万円台？ MSI「Katana 15 HX」が13％オフ",
+      "link": "https://ascii.jp/elem/000/004/411/4411960/?rss",
+      "date": "2026-06-21T20:40:00+09:00",
+      "dateLabel": "06/21 20:40",
+      "desc": "MSIのゲーミングノートPC「Katana 15 HX（Katana-15-HX-B14WGK-1063JP）」がAmazonタイムセール対象。参考価格309,800円のところ、13％オフの269,800円で販売中。GeForce RTX 5070 Laptop GPUや32GBメモリ、1TB SSDを搭載。さらに、WQHD・165Hz対応の15.6型ディス",
+      "img": "https://ascii.jp/img/2026/06/19/4485839/s/b78ead7d17449ff6.jpg",
       "src": "ASCII.jp",
-      "cat": "AI実装",
+      "cat": "半導体/GPU",
       "score": 34
     },
     {
@@ -277,6 +266,17 @@
       "date": "2026-06-17T03:05:15+09:00",
       "dateLabel": "06/17 03:05",
       "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 20
+    },
+    {
+      "title": "2027年までにAIエージェントでコーディングを行うチームの65％が、IDEが必要不可欠だとは考えなくなる。ガートナーの予想",
+      "link": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+      "date": "2026-06-15T00:23:43+09:00",
+      "dateLabel": "06/15 00:23",
+      "desc": "調査会社のガートナーは、エンタープライズ市場におけるAIコーディングエージェント市場が、拡大と競争再編の新たな段階に突入したとし、それに関する予想を発表しました。 AIによる支援を用いたコーディング作業は、当初はVisual Studio ...",
       "img": "",
       "src": "Publickey",
       "cat": "AIエージェント/業務",
