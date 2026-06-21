@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T07:58:04.630220+09:00",
-  "generatedLabel": "2026/06/21 07:58",
+  "generatedAt": "2026-06-21T09:04:25.406545+09:00",
+  "generatedLabel": "2026/06/21 09:04",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 52,
+  "candidates": 51,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 3
     },
     {
       "source": "PC Watch",
@@ -115,17 +115,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "地域の魅力を、AIで映像に。コンテスト受賞クリエイターが地域PR動画制作の舞台裏を公開",
-      "link": "https://ascii.jp/elem/000/004/412/4412186/?rss",
-      "date": "2026-06-20T08:50:00+09:00",
-      "dateLabel": "06/20 08:50",
-      "desc": "地域の魅力を、AIで映像に。コンテスト受賞クリエイターが地域PR動画制作の舞台裏を公開",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -277,6 +266,17 @@
       "date": "2026-06-17T03:05:15+09:00",
       "dateLabel": "06/17 03:05",
       "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 20
+    },
+    {
+      "title": "2027年までにAIエージェントでコーディングを行うチームの65％が、IDEが必要不可欠だとは考えなくなる。ガートナーの予想",
+      "link": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+      "date": "2026-06-15T00:23:43+09:00",
+      "dateLabel": "06/15 00:23",
+      "desc": "調査会社のガートナーは、エンタープライズ市場におけるAIコーディングエージェント市場が、拡大と競争再編の新たな段階に突入したとし、それに関する予想を発表しました。 AIによる支援を用いたコーディング作業は、当初はVisual Studio ...",
       "img": "",
       "src": "Publickey",
       "cat": "AIエージェント/業務",
