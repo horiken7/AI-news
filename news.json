@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T04:14:56.388224+09:00",
-  "generatedLabel": "2026/06/22 04:14",
+  "generatedAt": "2026-06-22T06:04:56.422097+09:00",
+  "generatedLabel": "2026/06/22 06:04",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 52,
@@ -250,17 +250,6 @@
       "score": 26
     },
     {
-      "title": "話題の「Claude Mythos」登場で変わるセキュリティ AIエージェント時代の防衛策",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2606/19/news009.html",
-      "date": "2026-06-19T06:00:00+09:00",
-      "dateLabel": "06/19 06:00",
-      "desc": "AIによる攻撃が、月単位から時間単位で現実化する可能性が高まっている。最新AIモデルの登場で脆弱性発見の能力が広がる一方、企業ではAI利用のルールや管理体制が追い付いていない。AIエージェント時代に求められる新たな防衛策とは何か。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
       "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
       "link": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
       "date": "2026-06-11T00:29:34+09:00",
@@ -281,6 +270,17 @@
       "src": "Publickey",
       "cat": "AIエージェント/業務",
       "score": 24
+    },
+    {
+      "title": "話題の「Claude Mythos」登場で変わるセキュリティ AIエージェント時代の防衛策",
+      "link": "https://kn.itmedia.co.jp/kn/articles/2606/19/news009.html",
+      "date": "2026-06-19T06:00:00+09:00",
+      "dateLabel": "06/19 06:00",
+      "desc": "AIによる攻撃が、月単位から時間単位で現実化する可能性が高まっている。最新AIモデルの登場で脆弱性発見の能力が広がる一方、企業ではAI利用のルールや管理体制が追い付いていない。AIエージェント時代に求められる新たな防衛策とは何か。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 20
     }
   ]
 }
