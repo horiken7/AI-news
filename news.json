@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-21T14:52:30.444314+09:00",
-  "generatedLabel": "2026/06/21 14:52",
+  "generatedAt": "2026-06-21T18:35:21.760852+09:00",
+  "generatedLabel": "2026/06/21 18:35",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 52,
+  "candidates": 53,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 11
+      "items": 12
     },
     {
       "source": "CNET Japan",
@@ -74,15 +74,15 @@
       "score": 58
     },
     {
-      "title": "基幹システム入力自動化AI「Data Agent（データエージェント）」のサービスサイトをリニューアル公開",
-      "link": "https://ascii.jp/elem/000/004/412/4412226/?rss",
-      "date": "2026-06-21T10:00:00+09:00",
-      "dateLabel": "06/21 10:00",
-      "desc": "基幹システム入力自動化AI「Data Agent（データエージェント）」のサービスサイトをリニューアル公開",
+      "title": "コンクルーAI、「工程表AIエージェント」を提供開始――案件情報や過去の工程表などを参照して、AIが工程表を自動生成",
+      "link": "https://ascii.jp/elem/000/004/412/4412246/?rss",
+      "date": "2026-06-21T16:41:39+09:00",
+      "dateLabel": "06/21 16:41",
+      "desc": "コンクルーAI、「工程表AIエージェント」を提供開始――案件情報や過去の工程表などを参照して、AIが工程表を自動生成",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AIエージェント/業務",
-      "score": 50
+      "score": 42
     },
     {
       "title": "Claude CodeなどのAIエージェントでロボットを自律的に改善する仕組み「ENPIRE」がNVIDIAによって開発される",
@@ -149,6 +149,17 @@
       "src": "Publickey",
       "cat": "AIエージェント/業務",
       "score": 28
+    },
+    {
+      "title": "無料でWordPressの管理画面をデスクトップOSっぽくできるプラグイン「Desktop Mode」、AIとの連携も可能",
+      "link": "https://gigazine.net/news/20260621-desktop-mode/",
+      "date": "2026-06-21T18:00:00+09:00",
+      "dateLabel": "06/21 18:00",
+      "desc": "WordPressの管理画面で複数の作業を行う場合、投稿編集・メディア確認・設定変更などを行き来する場面が増えます。管理画面をデスクトップOS風に変え、AIとの連携機能もある無料プラグイン「Desktop Mode」が公開されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "仙台から挑戦の火を灯す！高校生・大学生対象の実践型起業支援「AKINAIプログラム」始動＆募集説明会開催のお知らせ",
@@ -266,17 +277,6 @@
       "date": "2026-06-17T03:05:15+09:00",
       "dateLabel": "06/17 03:05",
       "desc": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
-      "img": "",
-      "src": "Publickey",
-      "cat": "AIエージェント/業務",
-      "score": 20
-    },
-    {
-      "title": "2027年までにAIエージェントでコーディングを行うチームの65％が、IDEが必要不可欠だとは考えなくなる。ガートナーの予想",
-      "link": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
-      "date": "2026-06-15T00:23:43+09:00",
-      "dateLabel": "06/15 00:23",
-      "desc": "調査会社のガートナーは、エンタープライズ市場におけるAIコーディングエージェント市場が、拡大と競争再編の新たな段階に突入したとし、それに関する予想を発表しました。 AIによる支援を用いたコーディング作業は、当初はVisual Studio ...",
       "img": "",
       "src": "Publickey",
       "cat": "AIエージェント/業務",
