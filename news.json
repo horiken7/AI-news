@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T05:34:18.864789+09:00",
-  "generatedLabel": "2026/06/23 05:34",
+  "generatedAt": "2026-06-23T07:42:04.509629+09:00",
+  "generatedLabel": "2026/06/23 07:42",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 59,
+  "candidates": 62,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,12 +13,12 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 20
+      "items": 19
     },
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 9
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 13
+      "items": 12
     },
     {
       "source": "CNET Japan",
@@ -107,6 +107,28 @@
       "score": 50
     },
     {
+      "title": "大規模システム開発やDXプロジェクトのPM/PMO業務を支援、AIプロダクト「PMO AI」β版提供開始",
+      "link": "https://ascii.jp/elem/000/004/412/4412573/?rss",
+      "date": "2026-06-23T07:00:00+09:00",
+      "dateLabel": "06/23 07:00",
+      "desc": "イグニション・ポイント株式会社は6月16日に、大規模システム開発・DXプロジェクトにおけるPM/PMO業務を支援するAIプロダクト「PMO AI」β版の提供開始を発表した。間接業務を効率化し、プロジェクトの成功率向上を支援するという。",
+      "img": "https://ascii.jp/img/2026/06/22/4487510/s/7d12e716d6382d23.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
+    },
+    {
+      "title": "研究計画調書の作成・確認業務をAIが支援、大学・研究機関向けサービス「ToraPlan」リリース",
+      "link": "https://ascii.jp/elem/000/004/412/4412572/?rss",
+      "date": "2026-06-23T07:00:00+09:00",
+      "dateLabel": "06/23 07:00",
+      "desc": "株式会社ToraPlanは6月17日に、科研費応募書類である研究計画調書の作成をAIで支援する、大学・研究機関向けサービス「ToraPlan（トラプラン）」の正式リリースを発表した。研究者によるインプットと参考文献をもとに、AIが文案を作成するほか、作成した文案を研究計画調書のテンプレートファイルへ転記する作業を支援するという。",
+      "img": "https://ascii.jp/img/2026/06/22/4487497/s/efaeafee801f34aa.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
+    },
+    {
       "title": "Claude Codeに指示を出す「7つの方法」と使い分け 公式が解説",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
       "date": "2026-06-22T19:47:34+09:00",
@@ -127,6 +149,39 @@
       "src": "GIGAZINE",
       "cat": "生成AI/マルチモーダル",
       "score": 42
+    },
+    {
+      "title": "「EUでは使えない」アップルがSiri AIで異例の明言をしたワケ",
+      "link": "https://ascii.jp/elem/000/004/412/4412390/?rss",
+      "date": "2026-06-23T07:00:00+09:00",
+      "dateLabel": "06/23 07:00",
+      "desc": "AppleのSiri AIはEUと中国で提供されない。DMAなど各国の規制が背景にあり、AIサービスの世界展開には当局との対話と理解が不可欠になっている。",
+      "img": "https://ascii.jp/img/2026/06/22/4486921/s/c4dd71dace7111ac.jpg",
+      "src": "ASCII.jp",
+      "cat": "規制/安全",
+      "score": 34
+    },
+    {
+      "title": "ダイハツがAI品質検査システムを共同開発、アルミ加工穴内部の目視検査を自動化",
+      "link": "https://monoist.itmedia.co.jp/mn/articles/2606/23/news046.html",
+      "date": "2026-06-23T06:15:00+09:00",
+      "dateLabel": "06/23 06:15",
+      "desc": "ダイハツ工業は、滋賀（竜王）工場 第1地区にAIを用いた自動車部品の品質検査システムを導入したと発表した。製造業向けAIソリューションを提供するスタートアップのVRAIN Solutionと共同開発したもので、現場主導のDX推進の取り組みに位置付けられる。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "地球を人工的に冷やす 「太陽地球工学」研究、 いまどこまで進んだか",
+      "link": "https://ascii.jp/elem/000/004/412/4412583/?rss",
+      "date": "2026-06-23T06:06:39+09:00",
+      "dateLabel": "06/23 06:06",
+      "desc": "火山の噴火を模し、成層圏に微粒子をまいて太陽光を跳ね返す——地球を冷やす「太陽地球工学」の研究が、コンピューター・シミュレーションの段階を超え、実際にどう実行するかを問う工学の段階に入りつつある。高高度機の設計や、まく物質の選定が具体的に動き出した。だが安全性もコストも未知数で、そもそも地球規模の介入が許されるのかをめぐり、賛否は鋭く割れている。",
+      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
+      "src": "ASCII.jp",
+      "cat": "規制/安全",
+      "score": 34
     },
     {
       "title": "GitHub、AIによる雑なプルリクエストを抑制へ。ユーザー当たりのプルリクエスト数の上限を設定できる新機能導入",
@@ -170,17 +225,6 @@
       "img": "https://ascii.jp/img/2026/06/22/4486914/s/cc5f60d29ebd748b.jpg",
       "src": "ASCII.jp",
       "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "PS5／XSX|Sパッケージ版『Halo: Campaign Evolved』が予約特典付で予約受付中！",
-      "link": "https://ascii.jp/elem/000/004/412/4412536/?rss",
-      "date": "2026-06-22T17:40:00+09:00",
-      "dateLabel": "06/22 17:40",
-      "desc": "Xboxは、2026年7月29日にPlayStation 5／Xbox Series X|Sで発売予定のパッケージ版『Halo: Campaign Evolved』にて、全国の取扱店にて予約特典付で予約受付中だと6月22日に発表。パッケージ版の価格は7920円となる。",
-      "img": "https://ascii.jp/img/2026/06/22/4487399/s/befc486f06dba933.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -237,50 +281,6 @@
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 34
-    },
-    {
-      "title": "Sakana AI、一部「ミュトス越えの性能」うたうAIを提供 複数モデルの“集合知”を活用",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000111/",
-      "date": "2026-06-22T10:48:32+09:00",
-      "dateLabel": "06/22 10:48",
-      "desc": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAIシステム「Sakana Fugu」の提供を始めると発表した。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "ループエンジニアリングとは？ チャットとAIコーディングの往復から卒業する新しい開発スタイル",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news017.html",
-      "date": "2026-06-23T05:00:00+09:00",
-      "dateLabel": "06/23 05:00",
-      "desc": "AI開発で人間がプロンプトを書く時代は終わるのか。ループを回してAIエージェントを動かし続ける新概念「ループエンジニアリング」の基本を、提唱者の記事に沿って解説。チャットAIとAIコーディングの往復から卒業したい筆者の考えも示す。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
-      "title": "生成AIの利用規程の作り方！必須項目と条文雛形つきで解説",
-      "link": "https://ainow.ai/2026/06/22/278195/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2581%25ae%25e5%2588%25a9%25e7%2594%25a8%25e8%25a6%258f%25e7%25a8%258b%25e3%2581%25ae%25e4%25bd%259c%25e3%2582%258a%25e6%2596%25b9%25ef%25bc%2581%25e5%25bf%2585%25e9%25a0%2588%25e9%25a0%2585%25e7%259b%25ae%25e3%2581%25a8%25e6%259d%25a1%25e6%2596%2587%25e9%259b%259b%25e5%25bd%25a2%25e3%2581%25a4",
-      "date": "2026-06-22T19:59:29+09:00",
-      "dateLabel": "06/22 19:59",
-      "desc": "現場で生成AIの利用が先行するなか、機密情報の入力や著作権侵害を防ぐには、拘束力のある利用規程の整備が欠かせません。生成AI利用規程とは、社内での生成AIの使い方を定めた正式なルール文書のことです。 推奨指針であるガイド... The post 生成AIの利用規程の作り方！必須項目と条文雛形つきで解説 first appeared on AI専門ニュースメデ",
-      "img": "",
-      "src": "AINOW",
-      "cat": "規制/安全",
-      "score": 26
-    },
-    {
-      "title": "すとぷり10周年記念！すとぷり×HEP FIVE SPECIAL CAMPAIGNに、空間音響技術『Re:Sense(R)』利用の観覧車内オリジナル音声体験が登場！",
-      "link": "https://ascii.jp/elem/000/004/412/4412543/?rss",
-      "date": "2026-06-22T17:40:00+09:00",
-      "dateLabel": "06/22 17:40",
-      "desc": "すとぷり10周年記念！すとぷり×HEP FIVE SPECIAL CAMPAIGNに、空間音響技術『Re:Sense(R)』利用の観覧車内オリジナル音声体験が登場！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
     }
   ]
 }
