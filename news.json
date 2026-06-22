@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T09:15:32.995890+09:00",
-  "generatedLabel": "2026/06/22 09:15",
+  "generatedAt": "2026-06-22T15:22:07.071751+09:00",
+  "generatedLabel": "2026/06/22 15:22",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 58,
+  "candidates": 59,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,12 +13,12 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 18
+      "items": 19
     },
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 9
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 9
+      "items": 13
     },
     {
       "source": "CNET Japan",
@@ -58,10 +58,32 @@
     {
       "source": "AI-SCHOLAR",
       "ok": false,
-      "error": "not well-formed (invalid token): line 2, column 387"
+      "error": "HTTP Error 502: Bad Gateway"
     }
   ],
   "articles": [
+    {
+      "title": "Sakana AIがClaude Fable超えをアピールするマルチエージェントシステム「Sakana Fugu」を発表",
+      "link": "https://gigazine.net/news/20260622-sakana-fugu-multi-agent-system-ai/",
+      "date": "2026-06-22T13:43:00+09:00",
+      "dateLabel": "06/22 13:43",
+      "desc": "東京に拠点を置くAI企業のSakana AIがマルチエージェントシステム「Sakana Fugu」を2026年6月22日に発表しました。Sakana Fuguは複数のAIモデルを1つのモデルのように扱えるシステムで、Claude Fable 5を超える性能を達成したことがアピールされています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 50
+    },
+    {
+      "title": "AMD製ローカルAI実行アプリ「Lemonade」にMCPゲートウェイ機能が追加される、MCP対応アプリからLemonadeで実行中のLLMや画像生成AIを呼び出せるように",
+      "link": "https://gigazine.net/news/20260622-lemonade-local-ai-mcp/",
+      "date": "2026-06-22T11:08:00+09:00",
+      "dateLabel": "06/22 11:08",
+      "desc": "AMDが開発しているローカルAI実行開発環境の「Lemonade」のバージョン10.8.0が2026年6月18日にリリースされ、MCPゲートウェイ機能が追加されました。これにより、Claude CodeやGitHub CopilotといったMCP対応アプリでMCPサーバーを介してLemonadeで実行中のAIモデルを呼び出せるようになりました。 続きを読む.",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 50
+    },
     {
       "title": "Anthropicへの500万ドル間接出資を解消、広告事業のイオレ 軸足移すAIデータセンター事業に資金投入",
       "link": "https://www.itmedia.co.jp/news/articles/2606/19/news138.html",
@@ -74,70 +96,103 @@
       "score": 50
     },
     {
-      "title": "JoyPix.ai、AIリップシンク動画生成モデル「Motion-2.5」「Motion-2.5-Dialog」提供開始 単人動画と2人対話動画に対応",
-      "link": "https://ascii.jp/elem/000/004/412/4412176/?rss",
-      "date": "2026-06-22T07:00:00+09:00",
-      "dateLabel": "06/22 07:00",
-      "desc": "合同会社JoyPixは6月15日に、AIアバターやAIリップシンク、AI画像／動画生成を提供するオンラインクリエイティブツール「JoyPix.ai」において、主力機能であるAIリップシンク生成モデルをアップデートし、新バージョン「Motion-2.5」および「Motion-2.5-Dialog」の提供開始を発表した。単人動画と2人対話動画に対応し、API経由",
-      "img": "https://ascii.jp/img/2026/06/19/4486234/s/84377e7f12cb62b3.png",
-      "src": "ASCII.jp",
+      "title": "文学賞受賞者のAI使用疑惑を受けて受賞作品を掲載していた文芸誌が「編集権のない出版提携から撤退する」と発表",
+      "link": "https://gigazine.net/news/20260622-prize-ai-story/",
+      "date": "2026-06-22T13:10:00+09:00",
+      "dateLabel": "06/22 13:10",
+      "desc": "国際的な文学賞である「コモンウェルス短編小説賞」の2026年度受賞者発表において、受賞した5作品中3作品が「生成AIで書かれた可能性が高い」と指摘される事態が発生しました。騒動を受け、コモンウェルス短編小説賞の受賞作をオンラインで公開している文芸誌のグランタは「今後編集権がない状態で作品を掲載しない」と発表し、10年以上続いたコモンウェルス短編小説賞受賞作の",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "生成AI/マルチモーダル",
-      "score": 50
+      "score": 42
     },
     {
-      "title": "「トランスフォーマーのボトルネックを根本解決」 大胆主張は本物か",
-      "link": "https://ascii.jp/elem/000/004/412/4412265/?rss",
-      "date": "2026-06-22T06:37:03+09:00",
-      "dateLabel": "06/22 06:37",
-      "desc": "米AIスタートアップ、サブクアドラティックは、約10年にわたりLLMの進化を阻んできたボトルネックを解決したと主張する。新モデル「SubQ」はトランスフォーマーの中核を捨て、最高水準のモデル並みの性能を保ちつつ高速・低コストになったという。第三者の検証は主張の一部を裏づけたが、まだ広く試せず確証には至っていない。",
-      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 50
-    },
-    {
-      "title": "属人化した業務をAIが“仕組み化” Backlogと連携する新「ワークフロー自動化ツール」",
-      "link": "https://ascii.jp/elem/000/004/412/4412206/?rss",
-      "date": "2026-06-22T07:30:00+09:00",
-      "dateLabel": "06/22 07:30",
-      "desc": "ヌーラボは、AIを活用したワークフロー自動化ツール「Nulab Flowbase」を提供開始した。まずは、タスク・プロジェクト管理ツール「Backlog」の上位プラン向けに無償提供し、機能を拡充した上で2027年に一般提供を開始する予定だ。",
-      "img": "https://ascii.jp/img/2026/06/20/4486552/s/e5a1cf0af1abd862.jpg",
-      "src": "ASCII.jp",
+      "title": "AIエージェントだけでCloudflareへの一時的なデプロイを可能にして人間による作業を減らせる機能「Temporary Cloudflare Accounts for Agents」が登場",
+      "link": "https://gigazine.net/news/20260622-cloudflare-temporary-accounts/",
+      "date": "2026-06-22T15:10:00+09:00",
+      "dateLabel": "06/22 15:10",
+      "desc": "Cloudflareは2026年6月19日、AIエージェントがCloudflareのアカウント作成やログインを行わずにアプリをデプロイできる「Temporary Cloudflare Accounts for Agents」を発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 42
+      "score": 34
     },
     {
-      "title": "ローカルAIで“しゃべる推理ゲーム”を作ったら、思ったよりちゃんとゲームになってきた",
-      "link": "https://ascii.jp/elem/000/004/412/4412261/?rss",
-      "date": "2026-06-22T07:00:00+09:00",
-      "dateLabel": "06/22 07:00",
-      "desc": "ローカルPC環境で動作するオープンなLLMモデルへの注目が集まってきています。どれぐらいの性能があるのか、筆者の2本のアプリ開発を通じて探ってみました。",
-      "img": "https://ascii.jp/img/2026/06/22/4486811/s/77e1a076c44d8ac5.png",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "AIのアイデアを実現性のある形に落とし込み製品開発を支援、「AIプロダクトデザインサービス」提供開始",
-      "link": "https://ascii.jp/elem/000/004/412/4412175/?rss",
-      "date": "2026-06-22T07:00:00+09:00",
-      "dateLabel": "06/22 07:00",
-      "desc": "株式会社クロスデザインは6月11日に、生成AIによるアイデア創出とプロダクトデザイン・筐体設計・試作開発の知見を組み合わせたサービス「AIプロダクトデザインサービス」の提供開始を発表した。AIが生み出したデザインイメージを製品化に向けた実現性のある形に落とし込む製品開発支援サービスだという。",
-      "img": "https://ascii.jp/img/2026/06/19/4486225/s/5988b65a3cf929fa.png",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
-      "score": 42
-    },
-    {
-      "title": "コンクルーAI、「工程表AIエージェント」を提供開始――案件情報や過去の工程表などを参照して、AIが工程表を自動生成",
-      "link": "https://ascii.jp/elem/000/004/412/4412246/?rss",
-      "date": "2026-06-21T16:41:39+09:00",
-      "dateLabel": "06/21 16:41",
-      "desc": "コンクルーAI、「工程表AIエージェント」を提供開始――案件情報や過去の工程表などを参照して、AIが工程表を自動生成",
+      "title": "【残4日・定員20名】「LLMO対策、何をすればいいかわからない」が解決する広報PRセミナー",
+      "link": "https://ascii.jp/elem/000/004/412/4412480/?rss",
+      "date": "2026-06-22T13:45:57+09:00",
+      "dateLabel": "06/22 13:45",
+      "desc": "【残4日・定員20名】「LLMO対策、何をすればいいかわからない」が解決する広報PRセミナー",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
-      "score": 42
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "生成AI時代のブランド可視性を計測・改善するGEOツール「Optyino.ai」を提供開始",
+      "link": "https://ascii.jp/elem/000/004/412/4412394/?rss",
+      "date": "2026-06-22T13:27:23+09:00",
+      "dateLabel": "06/22 13:27",
+      "desc": "生成AI時代のブランド可視性を計測・改善するGEOツール「Optyino.ai」を提供開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 34
+    },
+    {
+      "title": "国産フルスクラッチAI「PLaMo 3.0 Prime」提供開始、“高コスパ”うたう 無料のAPIプランも PFN",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000113/",
+      "date": "2026-06-22T13:18:48+09:00",
+      "dateLabel": "06/22 13:18",
+      "desc": "Preferred Networksは、AIモデル「PLaMo 3.0 Prime」の提供を始めると発表した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "Anthropicが2026年7月8日から一部サービスにおける本人確認の実施を明言、使用するシステムはDiscordで却下された「Persona Identities」",
+      "link": "https://gigazine.net/news/20260622-anthropic-claude-identity-verification/",
+      "date": "2026-06-22T12:40:00+09:00",
+      "dateLabel": "06/22 12:40",
+      "desc": "Claudeの開発で知られるAI企業のAnthropicは2026年7月8日にプライバシーポリシーの更新を予定しています。新たなプライバシーポリシーには本人確認に関する項目が追加されており、一定の場合において本人確認が必要となることが明記されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "規制/安全",
+      "score": 34
+    },
+    {
+      "title": "「ChatGPTにうちの会社が出てこない」──採用担当を悩ます“AI就活時代”の容赦なき実態",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/18/news020.html",
+      "date": "2026-06-22T12:00:00+09:00",
+      "dateLabel": "06/22 12:00",
+      "desc": "採用やHRの界隈で、じわじわと語られ始めている問題意識がある。就活生、それも優秀な層ほど、キャリア相談をLLMにするようになった。その結果、Web上での露出が乏しくLLMO対策をしていない企業は、学生から“見つけてもらえなく”なってきている――というものだ。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "「タンパク質構造予測」でノーベル賞を受賞したジョン・ジャンパー氏が約9年間勤めたGoogle DeepMindを離れAnthropicに入社すると発表",
+      "link": "https://gigazine.net/news/20260622-john-jumper-leave-google-deepmind-for-anthropic/",
+      "date": "2026-06-22T11:49:00+09:00",
+      "dateLabel": "06/22 11:49",
+      "desc": "タンパク質の立体構造を予測するAI「AlphaFold」の共同開発者として知られるジョン・ジャンパー氏が2026年6月19日、約9年間在籍したGoogle DeepMindを退職し、休息期間を経てAnthropicに加わるとX(旧Twitter)で発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "Sakana AI、一部「ミュトス越えの性能」うたうAIを提供 複数モデルの“集合知”を活用",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000111/",
+      "date": "2026-06-22T10:48:32+09:00",
+      "dateLabel": "06/22 10:48",
+      "desc": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAIシステム「Sakana Fugu」の提供を始めると発表した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 34
     },
     {
       "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
@@ -173,28 +228,6 @@
       "score": 34
     },
     {
-      "title": "RTX 5070＋32GBメモリ搭載機が26万円台？ MSI「Katana 15 HX」が13％オフ",
-      "link": "https://ascii.jp/elem/000/004/411/4411960/?rss",
-      "date": "2026-06-21T20:40:00+09:00",
-      "dateLabel": "06/21 20:40",
-      "desc": "MSIのゲーミングノートPC「Katana 15 HX（Katana-15-HX-B14WGK-1063JP）」がAmazonタイムセール対象。参考価格309,800円のところ、13％オフの269,800円で販売中。GeForce RTX 5070 Laptop GPUや32GBメモリ、1TB SSDを搭載。さらに、WQHD・165Hz対応の15.6型ディス",
-      "img": "https://ascii.jp/img/2026/06/19/4485839/s/b78ead7d17449ff6.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "アメリカのAI企業が独自開発モデル「Laguna M.1」をオープンモデルとして公開、高性能だが中国製オープンモデルには劣る",
-      "link": "https://gigazine.net/news/20260619-laguna-m1-ai-open/",
-      "date": "2026-06-19T19:00:00+09:00",
-      "dateLabel": "06/19 19:00",
-      "desc": "アメリカのAI企業であるPoolsideが独自開発モデル「Laguna M.1」をオープンモデルとして公開しました。Laguna M.1は2026年4月にリリースされてAPI経由で展開されていたモデルで、オープンモデル化によって誰でもダウンロードできるようになりました。また、Macでローカル実行可能な量子化モデルも登場しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
       "title": "画面操作を“録画”→AIが作業代行 Codexに新機能「Record & Replay」",
       "link": "https://www.itmedia.co.jp/news/articles/2606/19/news102.html",
       "date": "2026-06-19T14:15:00+09:00",
@@ -203,18 +236,7 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "ChatGPTで広告テスト、日本でも開始 非表示にする方法は？",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000108/",
-      "date": "2026-06-19T11:26:50+09:00",
-      "dateLabel": "06/19 11:26",
-      "desc": "米OpenAIの日本法人は、ChatGPTでの広告表示テストを日本でも始めたと発表した。広告を非表示にする方法は？",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 34
+      "score": 28
     },
     {
       "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
@@ -228,57 +250,35 @@
       "score": 28
     },
     {
-      "title": "シャドーAI対策「7割が未着手」 「AIは全て禁止」は限界 IT部門が採るべき一手とは？ Gartner提言",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news036.html",
-      "date": "2026-06-22T08:00:00+09:00",
-      "dateLabel": "06/22 08:00",
-      "desc": "生成AIの爆発的な普及に伴い、企業のITガバナンスは新たな局面に直面している。情報システム部門が抱えてきた旧来のシャドーSaaSといった問題に、個人契約のAIツールやローカルLLMなど幾つものリスクが積み重なった「難局」を迎えているためだ。限られたリソースで推進と統制をどう両立すべきなのか。こうした中、Gartnerは「分業モデル」への移行を提言している。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "規制/安全",
-      "score": 26
-    },
-    {
-      "title": "“ひとり情シス”状態はビジネスリスク／シャドーAIを管理できている企業は3割未満／AIアプリは「平均42秒」で攻撃が成功、ほか",
-      "link": "https://ascii.jp/elem/000/004/412/4412253/?rss",
-      "date": "2026-06-22T08:00:00+09:00",
-      "dateLabel": "06/22 08:00",
-      "desc": "今回（2026年6月13日～6月19日）は、国内企業におけるシャドーAI管理の現状、ひとり情シス自身が感じる“ひとり情シスのビジネスリスク”、AIアプリに対するサイバー攻撃の実態、中堅・中小企業層にも拡大する国内EDR市場、日本企業における内製化の課題についてのデータを紹介します。",
-      "img": "https://ascii.jp/img/2026/06/22/4486737/s/9eea93543bbeab71.jpg",
+      "title": "【220万インプのバズから急展開】みえるクラウド(R)ログ×マネーフォワードが緊急共催！エヴァンジェリスト宮川大介氏が語る「AIマネジメントの未来」セミナーを7月10日に開催決定",
+      "link": "https://ascii.jp/elem/000/004/412/4412457/?rss",
+      "date": "2026-06-22T14:26:14+09:00",
+      "dateLabel": "06/22 14:26",
+      "desc": "【220万インプのバズから急展開】みえるクラウド(R)ログ×マネーフォワードが緊急共催！エヴァンジェリスト宮川大介氏が語る「AIマネジメントの未来」セミナーを7月10日に開催決定",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
     {
-      "title": "情シスが「日本1位のAIスパコン」作るまで 猶予は4カ月、ソフトバンク“社長プロジェクト”の舞台裏",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/22/news029.html",
-      "date": "2026-06-22T07:00:00+09:00",
-      "dateLabel": "06/22 07:00",
-      "desc": "ソフトバンクのスパコンが、AI計算性能で国内1位を獲得した。実は、これを開発したのは「情シス」のメンバーだった。“社長プロジェクト”に挑んだメンバーの奮闘を追う。",
+      "title": "AIの教育への悪影響を避けるため小学生によるAI使用を禁止するとノルウェーが発表、紙の教科書重視の方針も",
+      "link": "https://gigazine.net/news/20260622-norway-ban-ai-elementary-school/",
+      "date": "2026-06-22T14:15:00+09:00",
+      "dateLabel": "06/22 14:15",
+      "desc": "生成AIはさまざまな産業分野や日常生活で役に立つ可能性を秘めていますが、AIに依存しすぎることで人間のスキルや学力が低下することも懸念されています。ノルウェーのヨーナス＝ガール・ストーレ首相は2026年6月19日の記者会見で、教育への悪影響を避けるために小学校でのAI使用を原則禁止する方針を発表しました。 続きを読む...",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
+      "src": "GIGAZINE",
+      "cat": "生成AI/マルチモーダル",
       "score": 26
     },
     {
-      "title": "自作PCトーク『ジサトラKTU』生放送～濃すぎて伝えきれなかったCOMPUTEX TAIPEI 2026蔵出しレポート～",
-      "link": "https://ascii.jp/elem/000/004/411/4411856/?rss",
-      "date": "2026-06-22T07:00:00+09:00",
-      "dateLabel": "06/22 07:00",
-      "desc": "濃すぎて伝えきれなかったCOMPUTEX TAIPEI 2026蔵出しレポート。木曜20:00から放送スタート！",
-      "img": "https://ascii.jp/img/2025/09/19/4324489/s/4111cde7c86cf0b4.jpg",
+      "title": "【楽天お買い物マラソン】ドリフトしない＆遅延しない！8K精度プロコン「BIGBIG WON Rainbow 3」が期間限定特別価格で登場！Switch・PC・FPS・格闘ゲーム・eスポーツ対応",
+      "link": "https://ascii.jp/elem/000/004/412/4412468/?rss",
+      "date": "2026-06-22T14:00:00+09:00",
+      "dateLabel": "06/22 14:00",
+      "desc": "【楽天お買い物マラソン】ドリフトしない＆遅延しない！8K精度プロコン「BIGBIG WON Rainbow 3」が期間限定特別価格で登場！Switch・PC・FPS・格闘ゲーム・eスポーツ対応",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "インテル「シリーズ3」はフィジカルAIでも力を発揮、“ヤマネコ”の実力は？",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2606/22/news051.html",
-      "date": "2026-06-22T06:15:00+09:00",
-      "dateLabel": "06/22 06:15",
-      "desc": "インテルがメインストリームPC向け製品「インテル Core シリーズ3 プロセッサー」と、ハンドヘルドゲーミングPC向け製品「インテル Arc G3 プロセッサー」について説明。また、「COMPUTEX TAIPEI 2026」に併せて発表したエッジAI／フィジカルAI向けソリューションも紹介した。",
-      "img": "",
-      "src": "ITmedia AI+",
       "cat": "AI全般",
       "score": 26
     }
