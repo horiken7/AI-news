@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T08:00:18.700222+09:00",
-  "generatedLabel": "2026/06/22 08:00",
+  "generatedAt": "2026-06-22T09:15:32.995890+09:00",
+  "generatedLabel": "2026/06/22 09:15",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 58,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,12 +13,12 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 17
+      "items": 18
     },
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 9
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 10
+      "items": 9
     },
     {
       "source": "CNET Japan",
@@ -63,15 +63,15 @@
   ],
   "articles": [
     {
-      "title": "32GBのVRAMを搭載して他のグラボより激安の「Intel Arc Pro B70」はローカルAIを実際に動かすとどれぐらいの性能とトークンのコスパを発揮するのか？",
-      "link": "https://gigazine.net/news/20260619-intel-arc-pro-b70-local-ai/",
-      "date": "2026-06-19T15:34:00+09:00",
-      "dateLabel": "06/19 15:34",
-      "desc": "32GBのGDDR6メモリを搭載するワークステーション向けGPU「Intel Arc Pro B70」について、ワークステーションメーカーの Puget SystemsがローカルLLM推論と画像生成での実測ベンチマークを公開しました。 続きを読む...",
+      "title": "Anthropicへの500万ドル間接出資を解消、広告事業のイオレ 軸足移すAIデータセンター事業に資金投入",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/19/news138.html",
+      "date": "2026-06-22T08:00:00+09:00",
+      "dateLabel": "06/22 08:00",
+      "desc": "イオレは6月19日、3月に決めた米Anthropicへの間接出資を解消し、出資金500万ドル（約7億9355万円）全額の返還を受けると発表した。返還資金は自社で開発を進めるAIDCへの投資に充てる。",
       "img": "",
-      "src": "GIGAZINE",
+      "src": "ITmedia AI+",
       "cat": "半導体/GPU",
-      "score": 58
+      "score": 50
     },
     {
       "title": "JoyPix.ai、AIリップシンク動画生成モデル「Motion-2.5」「Motion-2.5-Dialog」提供開始 単人動画と2人対話動画に対応",
@@ -228,6 +228,28 @@
       "score": 28
     },
     {
+      "title": "シャドーAI対策「7割が未着手」 「AIは全て禁止」は限界 IT部門が採るべき一手とは？ Gartner提言",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news036.html",
+      "date": "2026-06-22T08:00:00+09:00",
+      "dateLabel": "06/22 08:00",
+      "desc": "生成AIの爆発的な普及に伴い、企業のITガバナンスは新たな局面に直面している。情報システム部門が抱えてきた旧来のシャドーSaaSといった問題に、個人契約のAIツールやローカルLLMなど幾つものリスクが積み重なった「難局」を迎えているためだ。限られたリソースで推進と統制をどう両立すべきなのか。こうした中、Gartnerは「分業モデル」への移行を提言している。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "規制/安全",
+      "score": 26
+    },
+    {
+      "title": "“ひとり情シス”状態はビジネスリスク／シャドーAIを管理できている企業は3割未満／AIアプリは「平均42秒」で攻撃が成功、ほか",
+      "link": "https://ascii.jp/elem/000/004/412/4412253/?rss",
+      "date": "2026-06-22T08:00:00+09:00",
+      "dateLabel": "06/22 08:00",
+      "desc": "今回（2026年6月13日～6月19日）は、国内企業におけるシャドーAI管理の現状、ひとり情シス自身が感じる“ひとり情シスのビジネスリスク”、AIアプリに対するサイバー攻撃の実態、中堅・中小企業層にも拡大する国内EDR市場、日本企業における内製化の課題についてのデータを紹介します。",
+      "img": "https://ascii.jp/img/2026/06/22/4486737/s/9eea93543bbeab71.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
       "title": "情シスが「日本1位のAIスパコン」作るまで 猶予は4カ月、ソフトバンク“社長プロジェクト”の舞台裏",
       "link": "https://www.itmedia.co.jp/business/articles/2606/22/news029.html",
       "date": "2026-06-22T07:00:00+09:00",
@@ -257,28 +279,6 @@
       "desc": "インテルがメインストリームPC向け製品「インテル Core シリーズ3 プロセッサー」と、ハンドヘルドゲーミングPC向け製品「インテル Arc G3 プロセッサー」について説明。また、「COMPUTEX TAIPEI 2026」に併せて発表したエッジAI／フィジカルAI向けソリューションも紹介した。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "千葉県印西市はなぜ「データセンターの聖地」になったのか Google、Microsoftを呼び込んだ半世紀前の“読み違い”",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/22/news018.html",
-      "date": "2026-06-22T06:00:00+09:00",
-      "dateLabel": "06/22 06:00",
-      "desc": "東京都心から北東へおよそ40キロメートルにある千葉県印西市。かつて「千葉ニュータウン」として開発されたこの郊外の街が、いま世界の巨大IT企業にとって“聖地”になっている。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 26
-    },
-    {
-      "title": "無料でWordPressの管理画面をデスクトップOSっぽくできるプラグイン「Desktop Mode」、AIとの連携も可能",
-      "link": "https://gigazine.net/news/20260621-desktop-mode/",
-      "date": "2026-06-21T18:00:00+09:00",
-      "dateLabel": "06/21 18:00",
-      "desc": "WordPressの管理画面で複数の作業を行う場合、投稿編集・メディア確認・設定変更などを行き来する場面が増えます。管理画面をデスクトップOS風に変え、AIとの連携機能もある無料プラグイン「Desktop Mode」が公開されています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "AI全般",
       "score": 26
     }
