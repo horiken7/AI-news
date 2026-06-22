@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-22T21:43:40.288459+09:00",
-  "generatedLabel": "2026/06/22 21:43",
+  "generatedAt": "2026-06-23T02:26:14.412081+09:00",
+  "generatedLabel": "2026/06/23 02:26",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 62,
+  "candidates": 59,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 4
     },
     {
       "source": "PC Watch",
@@ -129,6 +129,17 @@
       "score": 42
     },
     {
+      "title": "GitHub、AIによる雑なプルリクエストを抑制へ。ユーザー当たりのプルリクエスト数の上限を設定できる新機能導入",
+      "link": "https://www.publickey1.jp/blog/26/githubai_1.html",
+      "date": "2026-06-23T00:14:38+09:00",
+      "dateLabel": "06/23 00:14",
+      "desc": "GitHubは、ユーザーに対してプルリクエスト数の上限を設定できる新機能の導入を発表しました。 Pull requests are easier to open than ever, but every review still takes...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
       "title": "AIを高速実行するためのx86拡張命令「ACE」の仕様が発表される",
       "link": "https://gigazine.net/news/20260622-ace-x86-ai-computation-extensions/",
       "date": "2026-06-22T18:43:00+09:00",
@@ -168,39 +179,6 @@
       "dateLabel": "06/22 17:40",
       "desc": "Xboxは、2026年7月29日にPlayStation 5／Xbox Series X|Sで発売予定のパッケージ版『Halo: Campaign Evolved』にて、全国の取扱店にて予約特典付で予約受付中だと6月22日に発表。パッケージ版の価格は7920円となる。",
       "img": "https://ascii.jp/img/2026/06/22/4487399/s/befc486f06dba933.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "エルメがChatGPTの「アプリ」に登録！LINE運用分析が手軽に",
-      "link": "https://ascii.jp/elem/000/004/412/4412554/?rss",
-      "date": "2026-06-22T17:10:00+09:00",
-      "dateLabel": "06/22 17:10",
-      "desc": "エルメがChatGPTの「アプリ」に登録！LINE運用分析が手軽に",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "日馬共同声明の「AI・半導体連携」を具現化。TAIとマレーシアOppstar、低消費電力AIチップの共同開発へ",
-      "link": "https://ascii.jp/elem/000/004/412/4412546/?rss",
-      "date": "2026-06-22T17:10:00+09:00",
-      "dateLabel": "06/22 17:10",
-      "desc": "日馬共同声明の「AI・半導体連携」を具現化。TAIとマレーシアOppstar、低消費電力AIチップの共同開発へ",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "AI搭載スライド自動生成サービス「イルシル」、ワークスペース内の「ユーザー検索機能」をリリース",
-      "link": "https://ascii.jp/elem/000/004/412/4412545/?rss",
-      "date": "2026-06-22T17:10:00+09:00",
-      "dateLabel": "06/22 17:10",
-      "desc": "AI搭載スライド自動生成サービス「イルシル」、ワークスペース内の「ユーザー検索機能」をリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 34
@@ -272,15 +250,37 @@
       "score": 34
     },
     {
-      "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
-      "link": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
-      "date": "2026-06-22T00:26:18+09:00",
-      "dateLabel": "06/22 00:26",
-      "desc": "Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱...",
+      "title": "生成AIの利用規程の作り方！必須項目と条文雛形つきで解説",
+      "link": "https://ainow.ai/2026/06/22/278195/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%2594%259f%25e6%2588%2590ai%25e3%2581%25ae%25e5%2588%25a9%25e7%2594%25a8%25e8%25a6%258f%25e7%25a8%258b%25e3%2581%25ae%25e4%25bd%259c%25e3%2582%258a%25e6%2596%25b9%25ef%25bc%2581%25e5%25bf%2585%25e9%25a0%2588%25e9%25a0%2585%25e7%259b%25ae%25e3%2581%25a8%25e6%259d%25a1%25e6%2596%2587%25e9%259b%259b%25e5%25bd%25a2%25e3%2581%25a4",
+      "date": "2026-06-22T19:59:29+09:00",
+      "dateLabel": "06/22 19:59",
+      "desc": "現場で生成AIの利用が先行するなか、機密情報の入力や著作権侵害を防ぐには、拘束力のある利用規程の整備が欠かせません。生成AI利用規程とは、社内での生成AIの使い方を定めた正式なルール文書のことです。 推奨指針であるガイド... The post 生成AIの利用規程の作り方！必須項目と条文雛形つきで解説 first appeared on AI専門ニュースメデ",
       "img": "",
-      "src": "Publickey",
+      "src": "AINOW",
+      "cat": "規制/安全",
+      "score": 26
+    },
+    {
+      "title": "すとぷり10周年記念！すとぷり×HEP FIVE SPECIAL CAMPAIGNに、空間音響技術『Re:Sense(R)』利用の観覧車内オリジナル音声体験が登場！",
+      "link": "https://ascii.jp/elem/000/004/412/4412543/?rss",
+      "date": "2026-06-22T17:40:00+09:00",
+      "dateLabel": "06/22 17:40",
+      "desc": "すとぷり10周年記念！すとぷり×HEP FIVE SPECIAL CAMPAIGNに、空間音響技術『Re:Sense(R)』利用の観覧車内オリジナル音声体験が登場！",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
       "cat": "AI全般",
-      "score": 34
+      "score": 26
+    },
+    {
+      "title": "ダイハツ、自動車部品のキズ検査をAIで自動化 “人の目と感性”を代替",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000115/",
+      "date": "2026-06-22T17:27:32+09:00",
+      "dateLabel": "06/22 17:27",
+      "desc": "アルミ加工ラインで生産されているトランスミッション用の部品について、AIで加工穴内部のキズなどを検査。人の目と感性に頼っていた検査工程を自動化した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 26
     }
   ]
 }
