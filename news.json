@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T20:52:30.144596+09:00",
-  "generatedLabel": "2026/06/23 20:52",
+  "generatedAt": "2026-06-23T23:27:15.701696+09:00",
+  "generatedLabel": "2026/06/23 23:27",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 60,
+  "candidates": 58,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 6
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -43,7 +43,7 @@
     {
       "source": "Publickey",
       "ok": true,
-      "items": 12
+      "items": 11
     },
     {
       "source": "AINOW",
