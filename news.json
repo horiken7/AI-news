@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T07:42:04.509629+09:00",
-  "generatedLabel": "2026/06/23 07:42",
+  "generatedAt": "2026-06-23T09:03:16.321388+09:00",
+  "generatedLabel": "2026/06/23 09:03",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 62,
+  "candidates": 61,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 9
+      "items": 8
     },
     {
       "source": "PC Watch",
@@ -96,17 +96,6 @@
       "score": 50
     },
     {
-      "title": "Anthropicへの500万ドル間接出資を解消、広告事業のイオレ 軸足移すAIデータセンター事業に資金投入",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/19/news138.html",
-      "date": "2026-06-22T08:00:00+09:00",
-      "dateLabel": "06/22 08:00",
-      "desc": "イオレは6月19日、3月に決めた米Anthropicへの間接出資を解消し、出資金500万ドル（約7億9355万円）全額の返還を受けると発表した。返還資金は自社で開発を進めるAIDCへの投資に充てる。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 50
-    },
-    {
       "title": "大規模システム開発やDXプロジェクトのPM/PMO業務を支援、AIプロダクト「PMO AI」β版提供開始",
       "link": "https://ascii.jp/elem/000/004/412/4412573/?rss",
       "date": "2026-06-23T07:00:00+09:00",
@@ -149,6 +138,28 @@
       "src": "GIGAZINE",
       "cat": "生成AI/マルチモーダル",
       "score": 42
+    },
+    {
+      "title": "Anthropicへの500万ドル間接出資を解消、広告事業のイオレ 軸足移すAIデータセンター事業に資金投入",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/19/news138.html",
+      "date": "2026-06-22T08:00:00+09:00",
+      "dateLabel": "06/22 08:00",
+      "desc": "イオレは6月19日、3月に決めた米Anthropicへの間接出資を解消し、出資金500万ドル（約7億9355万円）全額の返還を受けると発表した。返還資金は自社で開発を進めるAIDCへの投資に充てる。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
+      "title": "Copilotの“元”は取れるのか問題、ついに決着？ 住友商事、京都市が掴んだ「AI活用の勝ち筋」",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/23/news034.html",
+      "date": "2026-06-23T08:00:00+09:00",
+      "dateLabel": "06/23 08:00",
+      "desc": "生成AIの導入効果が問われる時期に入っている。Microsoftが試算した削減見込み額を独自検証した住友商事が出した結論とは。住友商事と京都市の生成AI活用例を紹介し、生成AI投資の勝ち筋に迫る。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
     },
     {
       "title": "「EUでは使えない」アップルがSiri AIで異例の明言をしたワケ",
@@ -268,17 +279,6 @@
       "desc": "採用やHRの界隈で、じわじわと語られ始めている問題意識がある。就活生、それも優秀な層ほど、キャリア相談をLLMにするようになった。その結果、Web上での露出が乏しくLLMO対策をしていない企業は、学生から“見つけてもらえなく”なってきている――というものだ。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "「タンパク質構造予測」でノーベル賞を受賞したジョン・ジャンパー氏が約9年間勤めたGoogle DeepMindを離れAnthropicに入社すると発表",
-      "link": "https://gigazine.net/news/20260622-john-jumper-leave-google-deepmind-for-anthropic/",
-      "date": "2026-06-22T11:49:00+09:00",
-      "dateLabel": "06/22 11:49",
-      "desc": "タンパク質の立体構造を予測するAI「AlphaFold」の共同開発者として知られるジョン・ジャンパー氏が2026年6月19日、約9年間在籍したGoogle DeepMindを退職し、休息期間を経てAnthropicに加わるとX(旧Twitter)で発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 34
     }
