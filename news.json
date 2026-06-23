@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T04:49:45.778317+09:00",
-  "generatedLabel": "2026/06/24 04:49",
+  "generatedAt": "2026-06-24T06:24:12.786313+09:00",
+  "generatedLabel": "2026/06/24 06:24",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 57,
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 14
+      "items": 13
     },
     {
       "source": "CNET Japan",
@@ -62,17 +62,6 @@
     }
   ],
   "articles": [
-    {
-      "title": "アメリカ政府がAnthropicの「Claude Mythos」の規制命令を下すもAnthropicが選定した「Project Glasswing」のメンバーにはプレビュー版が提供されたままであるという報道",
-      "link": "https://gigazine.net/news/20260622-mythos-still-access/",
-      "date": "2026-06-22T20:30:00+09:00",
-      "dateLabel": "06/22 20:30",
-      "desc": "Anthropicは高度なサイバー攻撃が可能なほどの高性能AIモデル「Claude Mythos Preview」のアップデート版となる「Claude Mythos 5」と「Claude Fable 5」を2026年6月9日にリリースしましたが、アメリカ政府の国家安全保障当局から指示があり、日本時間の2026年6月13日に両モデルの提供停止を発表しました。し",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 58
-    },
     {
       "title": "OpenAIがClaude Mythos 5超えのセキュリティー特化AI「GPT-5.5-Cyber」のアップデートを発表＆セキュリティー特化Codexプラグイン「Codex Security」もアップデート",
       "link": "https://gigazine.net/news/20260623-openai-gpt-cyber-codex-security-daybreak/",
@@ -228,17 +217,6 @@
       "score": 34
     },
     {
-      "title": "ダイハツがAI品質検査システムを共同開発、アルミ加工穴内部の目視検査を自動化",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2606/23/news046.html",
-      "date": "2026-06-23T06:15:00+09:00",
-      "dateLabel": "06/23 06:15",
-      "desc": "ダイハツ工業は、滋賀（竜王）工場 第1地区にAIを用いた自動車部品の品質検査システムを導入したと発表した。製造業向けAIソリューションを提供するスタートアップのVRAIN Solutionと共同開発したもので、現場主導のDX推進の取り組みに位置付けられる。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
       "title": "Claude Codeに指示を出す「7つの方法」と使い分け 公式が解説",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
       "date": "2026-06-22T19:47:34+09:00",
@@ -248,6 +226,17 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 34
+    },
+    {
+      "title": "AIとデータで「捨てる」を「価値」に変える次世代サーキュラーエコノミー 静岡大学発「S-Bridges」",
+      "link": "https://ascii.jp/elem/000/004/382/4382674/?rss",
+      "date": "2026-06-24T06:00:00+09:00",
+      "dateLabel": "06/24 06:00",
+      "desc": "静岡大学発のスタートアップ「S-Bridges」では、「Bio Material Transformation」という経済システムの構築に取り組んでいる。従来は廃棄される部位などに新しい価値を見いだし、活用の道を探る――というシステムになっており、「ネイチャーポジティブ」達成の鍵になるのではと注目を集めている。",
+      "img": "https://ascii.jp/img/2026/03/19/4437951/s/7f3f21641fe2a831.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
@@ -279,6 +268,17 @@
       "desc": "業務でAIを使っている人の37.8％が勤務先に禁止されても利用を継続する意向を示した――Webセキュリティサービスなどを手掛けるサイバーセキュリティクラウドは、このような調査結果を発表した。",
       "img": "",
       "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "政府や企業に壊滅的なサイバー攻撃をもたらすAIモデルが「数カ月以内」に登場する恐れ、ファイブ・アイズが異例の共同警告",
+      "link": "https://gigazine.net/news/20260623-ai-shift-cyber-risk/",
+      "date": "2026-06-23T14:45:00+09:00",
+      "dateLabel": "06/23 14:45",
+      "desc": "アメリカ、イギリス、カナダ、オーストラリア、ニュージーランドによる情報共有枠組み「ファイブ・アイズ」のサイバーセキュリティ機関が、AIによってサイバーリスクが急速に変化しているとして、政府や企業の首脳に「今すぐ行動を起こすべき」と促す共同声明を公開しました。声明では、最先端AIモデルが攻撃と防御の両方の能力を大きく変える時期は「年単位ではなく数カ月以内」と表",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "AI全般",
       "score": 26
     }
