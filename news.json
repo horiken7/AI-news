@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T17:24:05.962261+09:00",
-  "generatedLabel": "2026/06/23 17:24",
+  "generatedAt": "2026-06-23T20:52:30.144596+09:00",
+  "generatedLabel": "2026/06/23 20:52",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 61,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 6
     },
     {
       "source": "PC Watch",
@@ -71,7 +71,7 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "規制/安全",
-      "score": 66
+      "score": 58
     },
     {
       "title": "OpenAIがClaude Mythos 5超えのセキュリティー特化AI「GPT-5.5-Cyber」のアップデートを発表＆セキュリティー特化Codexプラグイン「Codex Security」もアップデート",
@@ -83,6 +83,28 @@
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 50
+    },
+    {
+      "title": "OpenRouterで中華モデル「GLM-5.2」のAPI利用者が急増、AIユーザーたちは何に使っているのか？",
+      "link": "https://gigazine.net/news/20260623-glm-5-2-openrouter/",
+      "date": "2026-06-23T18:02:00+09:00",
+      "dateLabel": "06/23 18:02",
+      "desc": "「GLM-5.2」は中国企業のZ.aiが日本時間の2026年6月17日に公開したAIモデルで、複数のテストでClaude Opus 4.7を上回り、一部のテストではClaude Fable 5を超える性能を示しています。そんなGLM-5.2についてAPIサービスを展開するOpenRouterが初週の動向を報告しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "VPG トラフィックフィルタリング提供開始、SORACOM Flux が複数画像送信に対応、他 ほぼ週刊ソラコム 05/30-06/19",
+      "link": "https://ascii.jp/elem/000/004/412/4412929/?rss",
+      "date": "2026-06-23T18:00:00+09:00",
+      "dateLabel": "06/23 18:00",
+      "desc": "VPG トラフィックフィルタリング提供開始、SORACOM Flux が複数画像送信に対応、他 ほぼ週刊ソラコム 05/30-06/19",
+      "img": "https://ascii.jp/img/2026/06/23/4488078/s/d2be33b668279885.png",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 42
     },
     {
       "title": "複数の写真から3Dシーンを生成するAIモデル「ArtiFixer」をNVIDIAが発表、写真にない部分も生成処理で補完可能",
@@ -129,36 +151,36 @@
       "score": 42
     },
     {
-      "title": "Claude Codeに指示を出す「7つの方法」と使い分け 公式が解説",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
-      "date": "2026-06-22T19:47:34+09:00",
-      "dateLabel": "06/22 19:47",
-      "desc": "米Anthropicは、AIコーディング支援ツール「Claude Code」に指示を出す7つの方法を解説する公式ブログを公開した。各方法の概要や使い分け方などを紹介している。",
+      "title": "フィジカルAIとロボット工学向けの包括的安全システム「NVIDIA Halos for Robotics」発表",
+      "link": "https://gigazine.net/news/20260623-nvidia-halos-for-robotics/",
+      "date": "2026-06-23T18:10:00+09:00",
+      "dateLabel": "06/23 18:10",
+      "desc": "NVIDIAが、フィジカルAIとロボット工学に向けた業界初のフルスタック型包括的安全システム「NVIDIA Halos for Robotics」を発表しました。次世代の自律型ロボットは動的環境で人間と共存しながら運用することになるため、システムのスケールアップには「NVIDIA Halos for Robotics」のようなフルスタック型の安全アーキテクチ",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "ゲーム用PCで後悔したくない人へ！ STORM売れ筋1位モデルはCPUもGPUもメモリーも“わかってる構成”",
-      "link": "https://ascii.jp/elem/000/004/412/4412815/?rss",
-      "date": "2026-06-23T17:00:00+09:00",
-      "dateLabel": "06/23 17:00",
-      "desc": "STORMの売れ筋1位モデルは、Ryzen 7 7800X3DとRTX 5070、32GBメモリーを備えた実力派。高額なゲーミングPC選びで失敗したくない人にうれしい、安心感ある構成だ。",
-      "img": "https://ascii.jp/img/2026/06/23/4487920/s/984e706c92eacdf3.png",
-      "src": "ASCII.jp",
+      "src": "GIGAZINE",
       "cat": "半導体/GPU",
       "score": 34
     },
     {
-      "title": "【国内初※】サブスクライン「AIエージェント」にSakana AI の「Fugu」を追加 ― “速く答える”と“深く考える”を、用途で使い分け",
-      "link": "https://ascii.jp/elem/000/004/412/4412918/?rss",
-      "date": "2026-06-23T15:34:07+09:00",
-      "dateLabel": "06/23 15:34",
-      "desc": "【国内初※】サブスクライン「AIエージェント」にSakana AI の「Fugu」を追加 ― “速く答える”と“深く考える”を、用途で使い分け",
+      "title": "【SORACOM Discovery 2026】展示ブース紹介 第1弾：プラチナ・ゴールドスポンサー編",
+      "link": "https://ascii.jp/elem/000/004/412/4412928/?rss",
+      "date": "2026-06-23T18:00:00+09:00",
+      "dateLabel": "06/23 18:00",
+      "desc": "【SORACOM Discovery 2026】展示ブース紹介 第1弾：プラチナ・ゴールドスポンサー編",
+      "img": "https://ascii.jp/img/2026/06/23/4488077/s/3efe909eadb8a180.png",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 34
+    },
+    {
+      "title": "「プロジェクト・ウィスパー for AI byGMO」始動、パートナー8,300人に「声でAIを使う」環境を提供開始",
+      "link": "https://ascii.jp/elem/000/004/412/4412947/?rss",
+      "date": "2026-06-23T17:05:00+09:00",
+      "dateLabel": "06/23 17:05",
+      "desc": "「プロジェクト・ウィスパー for AI byGMO」始動、パートナー8,300人に「声でAIを使う」環境を提供開始",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
+      "cat": "AI全般",
       "score": 34
     },
     {
@@ -239,47 +261,25 @@
       "score": 34
     },
     {
-      "title": "AIを高速実行するためのx86拡張命令「ACE」の仕様が発表される",
-      "link": "https://gigazine.net/news/20260622-ace-x86-ai-computation-extensions/",
-      "date": "2026-06-22T18:43:00+09:00",
-      "dateLabel": "06/22 18:43",
-      "desc": "IntelとAMDが主導するx86アーキテクチャの推進団体「x86 Ecosystem Advisory Group」がAI処理のためのx86拡張命令「AI Compute Extensions(ACE)」の仕様を2026年6月15日に公開しました。 続きを読む...",
+      "title": "Claude Codeに指示を出す「7つの方法」と使い分け 公式が解説",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
+      "date": "2026-06-22T19:47:34+09:00",
+      "dateLabel": "06/22 19:47",
+      "desc": "米Anthropicは、AIコーディング支援ツール「Claude Code」に指示を出す7つの方法を解説する公式ブログを公開した。各方法の概要や使い分け方などを紹介している。",
       "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI全般",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
       "score": 34
     },
     {
-      "title": "人材紹介業界向け「インサイドセールス×AI」実践セミナー、6月25日にオンライン開催。AI導入で案件枯渇を防ぐ営業戦略を解説",
-      "link": "https://ascii.jp/elem/000/004/412/4412906/?rss",
-      "date": "2026-06-23T16:23:37+09:00",
-      "dateLabel": "06/23 16:23",
-      "desc": "人材紹介業界向け「インサイドセールス×AI」実践セミナー、6月25日にオンライン開催。AI導入で案件枯渇を防ぐ営業戦略を解説",
+      "title": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
+      "link": "https://ascii.jp/elem/000/004/412/4412973/?rss",
+      "date": "2026-06-23T18:17:36+09:00",
+      "dateLabel": "06/23 18:17",
+      "desc": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "【音声でDX!】音声認識AI「モコボイス」が「バックオフィスDXPO 札幌'26」「営業・マーケDXPO 札幌'26」に出展！",
-      "link": "https://ascii.jp/elem/000/004/412/4412908/?rss",
-      "date": "2026-06-23T16:20:00+09:00",
-      "dateLabel": "06/23 16:20",
-      "desc": "【音声でDX!】音声認識AI「モコボイス」が「バックオフィスDXPO 札幌'26」「営業・マーケDXPO 札幌'26」に出展！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "プロメシアン、金属3Dプリント・ロボット活用の実証工場を開設へ。藤沢・湘南エリアを中心に理工系学生インターンの募集を開始",
-      "link": "https://ascii.jp/elem/000/004/412/4412909/?rss",
-      "date": "2026-06-23T16:11:38+09:00",
-      "dateLabel": "06/23 16:11",
-      "desc": "プロメシアン、金属3Dプリント・ロボット活用の実証工場を開設へ。藤沢・湘南エリアを中心に理工系学生インターンの募集を開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI実装",
       "score": 26
     }
   ]
