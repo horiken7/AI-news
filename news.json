@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T07:59:17.624978+09:00",
-  "generatedLabel": "2026/06/24 07:59",
+  "generatedAt": "2026-06-24T08:58:36.400198+09:00",
+  "generatedLabel": "2026/06/24 08:58",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 58,
@@ -250,17 +250,6 @@
       "score": 34
     },
     {
-      "title": "Copilotの“元”は取れるのか問題、ついに決着？ 住友商事、京都市が掴んだ「AI活用の勝ち筋」",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/23/news034.html",
-      "date": "2026-06-23T08:00:00+09:00",
-      "dateLabel": "06/23 08:00",
-      "desc": "生成AIの導入効果が問われる時期に入っている。Microsoftが試算した削減見込み額を独自検証した住友商事が出した結論とは。住友商事と京都市の生成AI活用例を紹介し、生成AI投資の勝ち筋に迫る。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
       "title": "「賞金1000万円」コンテストに「AI番付」 サイバーエージェントが明かす、AIを使い倒させる仕組み作り",
       "link": "https://www.itmedia.co.jp/business/articles/2606/24/news027.html",
       "date": "2026-06-24T07:00:00+09:00",
@@ -278,6 +267,17 @@
       "dateLabel": "06/24 06:00",
       "desc": "静岡大学発のスタートアップ「S-Bridges」では、「Bio Material Transformation」という経済システムの構築に取り組んでいる。従来は廃棄される部位などに新しい価値を見いだし、活用の道を探る――というシステムになっており、「ネイチャーポジティブ」達成の鍵になるのではと注目を集めている。",
       "img": "https://ascii.jp/img/2026/03/19/4437951/s/7f3f21641fe2a831.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
+      "link": "https://ascii.jp/elem/000/004/412/4412973/?rss",
+      "date": "2026-06-23T18:17:36+09:00",
+      "dateLabel": "06/23 18:17",
+      "desc": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
