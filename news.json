@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-23T13:54:14.093110+09:00",
-  "generatedLabel": "2026/06/23 13:54",
+  "generatedAt": "2026-06-23T17:24:05.962261+09:00",
+  "generatedLabel": "2026/06/23 17:24",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 63,
+  "candidates": 61,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 7
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 15
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -85,6 +85,17 @@
       "score": 50
     },
     {
+      "title": "複数の写真から3Dシーンを生成するAIモデル「ArtiFixer」をNVIDIAが発表、写真にない部分も生成処理で補完可能",
+      "link": "https://gigazine.net/news/20260623-nvidia-artifixer-3d-representation/",
+      "date": "2026-06-23T16:04:00+09:00",
+      "dateLabel": "06/23 16:04",
+      "desc": "NVIDIAが複数の写真から3Dシーンを生成できるAIモデル「ArtiFixer」を開発しました。ArtiFixerは動画生成AIのWan 2.1をベースに開発されており、参考画像に含まれていない部分を生成処理で補って高品質な3Dシーンを作り出すことができます。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
       "title": "AI導入を阻む「現状維持志向」は打破できるか OpenAI・Anthropicの「業務現場支援」が与える影響",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news069.html",
       "date": "2026-06-23T13:00:00+09:00",
@@ -129,15 +140,37 @@
       "score": 42
     },
     {
-      "title": "Sakana AIがClaude Fable超えをアピールするマルチエージェントシステム「Sakana Fugu」を発表",
-      "link": "https://gigazine.net/news/20260622-sakana-fugu-multi-agent-system-ai/",
-      "date": "2026-06-22T13:43:00+09:00",
-      "dateLabel": "06/22 13:43",
-      "desc": "東京に拠点を置くAI企業のSakana AIがマルチエージェントシステム「Sakana Fugu」を2026年6月22日に発表しました。Sakana Fuguは複数のAIモデルを1つのモデルのように扱えるシステムで、Claude Fable 5を超える性能を達成したことがアピールされています。 続きを読む...",
+      "title": "ゲーム用PCで後悔したくない人へ！ STORM売れ筋1位モデルはCPUもGPUもメモリーも“わかってる構成”",
+      "link": "https://ascii.jp/elem/000/004/412/4412815/?rss",
+      "date": "2026-06-23T17:00:00+09:00",
+      "dateLabel": "06/23 17:00",
+      "desc": "STORMの売れ筋1位モデルは、Ryzen 7 7800X3DとRTX 5070、32GBメモリーを備えた実力派。高額なゲーミングPC選びで失敗したくない人にうれしい、安心感ある構成だ。",
+      "img": "https://ascii.jp/img/2026/06/23/4487920/s/984e706c92eacdf3.png",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "【国内初※】サブスクライン「AIエージェント」にSakana AI の「Fugu」を追加 ― “速く答える”と“深く考える”を、用途で使い分け",
+      "link": "https://ascii.jp/elem/000/004/412/4412918/?rss",
+      "date": "2026-06-23T15:34:07+09:00",
+      "dateLabel": "06/23 15:34",
+      "desc": "【国内初※】サブスクライン「AIエージェント」にSakana AI の「Fugu」を追加 ― “速く答える”と“深く考える”を、用途で使い分け",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "Google AI Studioにクレカ等の支払い方法登録不要でアプリ公開を始められる「Starter Tier」が登場",
+      "link": "https://gigazine.net/news/20260623-starter-tier-google-ai-studio/",
+      "date": "2026-06-23T14:25:00+09:00",
+      "dateLabel": "06/23 14:25",
+      "desc": "GoogleのAI開発プラットフォーム「Google AI Studio」では、AIを使って文章やプレゼンテーションの作成、アプリ開発などを行うことができます。そんなGoogle AI Studioで作成したアプリを、Googleアカウントさえあればクレジットカードなどの支払い方法や請求アカウントの登録なしで公開できる新機能「Starter Tier」の詳細",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
+      "cat": "AI全般",
+      "score": 34
     },
     {
       "title": "NRIセキュア、未公表の脆弱性を「Mythosと同等のレベルで」検出する診断サービス提供",
@@ -159,28 +192,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AI実装",
-      "score": 34
-    },
-    {
-      "title": "【決定版】“神コスパ”スマホのおすすめベスト5【2026年6月版】",
-      "link": "https://ascii.jp/elem/000/004/412/4412602/?rss",
-      "date": "2026-06-23T12:00:00+09:00",
-      "dateLabel": "06/23 12:00",
-      "desc": "本記事のテーマはストレートに“神コスパ”なスマホ。半導体価格高騰の影響はPCだけでなく、スマホにも到来。今年後半以降は製品価格の大幅上昇はほぼ確定的です。そんな状況でも、これは「明らかにお買い得！」と感じるスマホを5製品ピックアップしました！",
-      "img": "https://ascii.jp/img/2026/06/23/4487700/s/a8dceaa15d65c215.png",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "LOYCUS、AIによる顧客コミュニケーション最適化を加速する「AIレコメンド配信機能」を提供開始",
-      "link": "https://ascii.jp/elem/000/004/412/4412730/?rss",
-      "date": "2026-06-23T11:00:00+09:00",
-      "dateLabel": "06/23 11:00",
-      "desc": "LOYCUS、AIによる顧客コミュニケーション最適化を加速する「AIレコメンド配信機能」を提供開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -239,47 +250,36 @@
       "score": 34
     },
     {
-      "title": "AIエージェントだけでCloudflareへの一時的なデプロイを可能にして人間による作業を減らせる機能「Temporary Cloudflare Accounts for Agents」が登場",
-      "link": "https://gigazine.net/news/20260622-cloudflare-temporary-accounts/",
-      "date": "2026-06-22T15:10:00+09:00",
-      "dateLabel": "06/22 15:10",
-      "desc": "Cloudflareは2026年6月19日、AIエージェントがCloudflareのアカウント作成やログインを行わずにアプリをデプロイできる「Temporary Cloudflare Accounts for Agents」を発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "文学賞受賞者のAI使用疑惑を受けて受賞作品を掲載していた文芸誌が「編集権のない出版提携から撤退する」と発表",
-      "link": "https://gigazine.net/news/20260622-prize-ai-story/",
-      "date": "2026-06-22T13:10:00+09:00",
-      "dateLabel": "06/22 13:10",
-      "desc": "国際的な文学賞である「コモンウェルス短編小説賞」の2026年度受賞者発表において、受賞した5作品中3作品が「生成AIで書かれた可能性が高い」と指摘される事態が発生しました。騒動を受け、コモンウェルス短編小説賞の受賞作をオンラインで公開している文芸誌のグランタは「今後編集権がない状態で作品を掲載しない」と発表し、10年以上続いたコモンウェルス短編小説賞受賞作の",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "生成AI/マルチモーダル",
-      "score": 34
-    },
-    {
-      "title": "トヨタ系金融会社はなぜ「AIエージェントだけ」でも「RPAだけ」でもなく“併用”にしたのか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news055.html",
-      "date": "2026-06-23T13:00:00+09:00",
-      "dateLabel": "06/23 13:00",
-      "desc": "トヨタファイナンスは、顧客からの問い合わせ対応にAIエージェントを導入した。AIエージェントだけに任せるのではなく、既存のRPAロボットと役割を分担する仕組みだ。なぜ両者の併用を選んだのか。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
+      "title": "人材紹介業界向け「インサイドセールス×AI」実践セミナー、6月25日にオンライン開催。AI導入で案件枯渇を防ぐ営業戦略を解説",
+      "link": "https://ascii.jp/elem/000/004/412/4412906/?rss",
+      "date": "2026-06-23T16:23:37+09:00",
+      "dateLabel": "06/23 16:23",
+      "desc": "人材紹介業界向け「インサイドセールス×AI」実践セミナー、6月25日にオンライン開催。AI導入で案件枯渇を防ぐ営業戦略を解説",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
       "score": 26
     },
     {
-      "title": "特価で22万円台！ AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF2-L1」がお買い得",
-      "link": "https://ascii.jp/elem/000/004/412/4412295/?rss",
-      "date": "2026-06-23T13:00:00+09:00",
-      "dateLabel": "06/23 13:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
+      "title": "【音声でDX!】音声認識AI「モコボイス」が「バックオフィスDXPO 札幌'26」「営業・マーケDXPO 札幌'26」に出展！",
+      "link": "https://ascii.jp/elem/000/004/412/4412908/?rss",
+      "date": "2026-06-23T16:20:00+09:00",
+      "dateLabel": "06/23 16:20",
+      "desc": "【音声でDX!】音声認識AI「モコボイス」が「バックオフィスDXPO 札幌'26」「営業・マーケDXPO 札幌'26」に出展！",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "プロメシアン、金属3Dプリント・ロボット活用の実証工場を開設へ。藤沢・湘南エリアを中心に理工系学生インターンの募集を開始",
+      "link": "https://ascii.jp/elem/000/004/412/4412909/?rss",
+      "date": "2026-06-23T16:11:38+09:00",
+      "dateLabel": "06/23 16:11",
+      "desc": "プロメシアン、金属3Dプリント・ロボット活用の実証工場を開設へ。藤沢・湘南エリアを中心に理工系学生インターンの募集を開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI実装",
       "score": 26
     }
   ]
