@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T06:24:12.786313+09:00",
-  "generatedLabel": "2026/06/24 06:24",
+  "generatedAt": "2026-06-24T07:59:17.624978+09:00",
+  "generatedLabel": "2026/06/24 07:59",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 58,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 5
+      "items": 6
     },
     {
       "source": "PC Watch",
@@ -140,6 +140,50 @@
       "score": 42
     },
     {
+      "title": "「最初は壊れ過ぎてビビった」──1220億円投じたソフトバンク「AIスパコン」、それでもNVIDIAのGPUを選ぶワケ",
+      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news059.html",
+      "date": "2026-06-24T07:00:00+09:00",
+      "dateLabel": "06/24 07:00",
+      "desc": "AIブームの波に乗って時価総額世界1位に躍り出たNVIDIA。一体なぜ、AIインフラにNVIDIA製GPUが採用されるのか。その理由をAIスパコン開発者に聞いた。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "Geminiで「AIを使いたい現場」と「ダメと言う会社」のギャップを埋める方法",
+      "link": "https://kn.itmedia.co.jp/kn/articles/2606/26/news003.html",
+      "date": "2026-06-24T07:00:00+09:00",
+      "dateLabel": "06/24 07:00",
+      "desc": "生成AIやAIエージェントの取り組みが活発化している。ただ、その取り組みが検証止まりになるケースも多い。グーグル・クラウド・ジャパンの北瀬公彦氏は、そうした「AI活用のカベ」を乗り越えるために「スピードと守りを両立が重要」と語った。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "定点カメラの映像をAIが解析し賑わいを可視化、AI人流解析ソフトウェア「NIGIWAI」正式提供開始",
+      "link": "https://ascii.jp/elem/000/004/412/4412582/?rss",
+      "date": "2026-06-24T07:00:00+09:00",
+      "dateLabel": "06/24 07:00",
+      "desc": "Tokyo Artisan Intelligence株式会社は6月19日に、AI人流解析技術を用いてまちづくりを支援するソリューション「NIGIWAI（ニギワイ）」の正式提供を開始した。同ソリューションは、北九州市のスタートアップ支援のもと、2026年2月から3月にかけて同市で行った実証実験の成果をベースに開発したという。",
+      "img": "https://ascii.jp/img/2026/06/23/4487637/s/281f2e1b66a22dd4.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "急増するAIの電力需要、AIの「賢い節電」でしのげるか",
+      "link": "https://ascii.jp/elem/000/004/412/4412981/?rss",
+      "date": "2026-06-24T06:58:19+09:00",
+      "dateLabel": "06/24 06:58",
+      "desc": "AIの普及で電力需要が急増する一方、新たな発電所は認可から稼働まで8年かかることもある。そこで注目されるのが「柔軟性」だ。データセンターが年に20数時間だけ消費を抑えれば、米国の送電網は5%多く供給できるとの試算もある。",
+      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
       "title": "フィジカルAIとロボット工学向けの包括的安全システム「NVIDIA Halos for Robotics」発表",
       "link": "https://gigazine.net/news/20260623-nvidia-halos-for-robotics/",
       "date": "2026-06-23T18:10:00+09:00",
@@ -217,15 +261,15 @@
       "score": 34
     },
     {
-      "title": "Claude Codeに指示を出す「7つの方法」と使い分け 公式が解説",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
-      "date": "2026-06-22T19:47:34+09:00",
-      "dateLabel": "06/22 19:47",
-      "desc": "米Anthropicは、AIコーディング支援ツール「Claude Code」に指示を出す7つの方法を解説する公式ブログを公開した。各方法の概要や使い分け方などを紹介している。",
+      "title": "「賞金1000万円」コンテストに「AI番付」 サイバーエージェントが明かす、AIを使い倒させる仕組み作り",
+      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news027.html",
+      "date": "2026-06-24T07:00:00+09:00",
+      "dateLabel": "06/24 07:00",
+      "desc": "AI活用を一部の意欲的な社員にとどめず、組織全体の競争力へとつなげるには何が必要なのか。全社的にAI活用を進めているサイバーエージェント AIオペレーション室長の上野千紘氏と、フリー 常務執行役員の前村菜緒氏が語った。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 34
+      "cat": "AIエージェント/業務",
+      "score": 26
     },
     {
       "title": "AIとデータで「捨てる」を「価値」に変える次世代サーキュラーエコノミー 静岡大学発「S-Bridges」",
@@ -235,50 +279,6 @@
       "desc": "静岡大学発のスタートアップ「S-Bridges」では、「Bio Material Transformation」という経済システムの構築に取り組んでいる。従来は廃棄される部位などに新しい価値を見いだし、活用の道を探る――というシステムになっており、「ネイチャーポジティブ」達成の鍵になるのではと注目を集めている。",
       "img": "https://ascii.jp/img/2026/03/19/4437951/s/7f3f21641fe2a831.png",
       "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
-      "link": "https://ascii.jp/elem/000/004/412/4412973/?rss",
-      "date": "2026-06-23T18:17:36+09:00",
-      "dateLabel": "06/23 18:17",
-      "desc": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "LobbyAI、VC「ON&BOARD」とIVSサイドイベントを開催決定！官民連携、自治体連携、ロビー活動の可能性を国会議員経験者らと京都で議論・交流",
-      "link": "https://ascii.jp/elem/000/004/412/4412936/?rss",
-      "date": "2026-06-23T17:39:23+09:00",
-      "dateLabel": "06/23 17:39",
-      "desc": "LobbyAI、VC「ON&BOARD」とIVSサイドイベントを開催決定！官民連携、自治体連携、ロビー活動の可能性を国会議員経験者らと京都で議論・交流",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "業務でAIを使う人の約38％「禁止されても利用継続」 セキュリティ企業が調査",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000119/",
-      "date": "2026-06-23T17:18:44+09:00",
-      "dateLabel": "06/23 17:18",
-      "desc": "業務でAIを使っている人の37.8％が勤務先に禁止されても利用を継続する意向を示した――Webセキュリティサービスなどを手掛けるサイバーセキュリティクラウドは、このような調査結果を発表した。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "政府や企業に壊滅的なサイバー攻撃をもたらすAIモデルが「数カ月以内」に登場する恐れ、ファイブ・アイズが異例の共同警告",
-      "link": "https://gigazine.net/news/20260623-ai-shift-cyber-risk/",
-      "date": "2026-06-23T14:45:00+09:00",
-      "dateLabel": "06/23 14:45",
-      "desc": "アメリカ、イギリス、カナダ、オーストラリア、ニュージーランドによる情報共有枠組み「ファイブ・アイズ」のサイバーセキュリティ機関が、AIによってサイバーリスクが急速に変化しているとして、政府や企業の首脳に「今すぐ行動を起こすべき」と促す共同声明を公開しました。声明では、最先端AIモデルが攻撃と防御の両方の能力を大きく変える時期は「年単位ではなく数カ月以内」と表",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "AI全般",
       "score": 26
     }
