@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T22:11:35.857987+09:00",
-  "generatedLabel": "2026/06/24 22:11",
+  "generatedAt": "2026-06-25T01:08:52.391261+09:00",
+  "generatedLabel": "2026/06/25 01:08",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 56,
+  "candidates": 53,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 2
+      "items": 0
     },
     {
       "source": "PC Watch",
@@ -43,7 +43,7 @@
     {
       "source": "Publickey",
       "ok": true,
-      "items": 11
+      "items": 10
     },
     {
       "source": "AINOW",
@@ -126,17 +126,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "【キーボード】レトロだけど中身はいまどき、まるで「70年代のアメ車の皮を被った自動運転車みたい」",
-      "link": "https://ascii.jp/elem/000/004/412/4412006/?rss",
-      "date": "2026-06-24T18:00:00+09:00",
-      "dateLabel": "06/24 18:00",
-      "desc": "見た目に惚れて、使ってみたら二度惚れる。1970年代のタイプライターのような外観に、最新性能を詰め込んだLofreeのメカニカルキーボード「1970s」が推し！",
-      "img": "https://ascii.jp/img/2026/06/19/4485917/s/af9d4c2c998935b5.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI実装",
       "score": 34
     },
     {
@@ -228,17 +217,6 @@
       "score": 26
     },
     {
-      "title": "みんなと同じじゃない。それがいい、Snapdragon 8+ Gen 1搭載のNothing Phone(2)が8万円台",
-      "link": "https://ascii.jp/elem/000/004/412/4412991/?rss",
-      "date": "2026-06-24T18:00:00+09:00",
-      "dateLabel": "06/24 18:00",
-      "desc": "Nothingのスマートフォン「Nothing Phone（2）」がAmazonで割引対象。参考価格99,800円のところ、11％オフの88,900円で販売中。Glyph Interfaceを採用した独自デザインが特徴のスマートフォン。Snapdragon 8+ Gen 1と12GBメモリ、256GBストレージを搭載するほか、6.7型LTPO対応OLEDディ",
-      "img": "https://ascii.jp/img/2026/06/24/4488356/s/b90405d9d35bdd15.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
       "title": "民生VRグローブにロボット業界が注目 日本発ベンチャーがB2B加速",
       "link": "https://eetimes.itmedia.co.jp/ee/articles/2606/24/news095.html",
       "date": "2026-06-24T16:25:00+09:00",
@@ -280,6 +258,28 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "主婦がAIアニメでYouTube登録者100万人を突破――1億ユーザーのAI動画生成サービス「PixVerse」の実態",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000116/",
+      "date": "2026-06-24T12:00:00+09:00",
+      "dateLabel": "06/24 12:00",
+      "desc": "1億人超のユーザーを持つAI動画生成プラットフォーム「PixVerse」とは何か。運営企業の担当者が活用事例などを語った。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "生成AI/マルチモーダル",
+      "score": 26
+    },
+    {
+      "title": "日本語対応のOCRモデル「Mistral OCR 4」が登場、PDFや表だらけの文書をAIが「使えるデータ」に変換",
+      "link": "https://gigazine.net/news/20260624-mistral-ocr-4/",
+      "date": "2026-06-24T11:47:00+09:00",
+      "dateLabel": "06/24 11:47",
+      "desc": "Mistral AIが文書読み取りモデル「Mistral OCR 4」をリリースしました。PDFやOffice文書などから文字を取り出すだけでなく、表や数式や署名といった文書内の要素を見分け、どこに何が書かれているのかまで構造化して出力可能なモデルとなっています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
       "score": 26
     }
   ]
