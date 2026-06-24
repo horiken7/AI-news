@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T19:40:37.883318+09:00",
-  "generatedLabel": "2026/06/24 19:40",
+  "generatedAt": "2026-06-24T22:11:35.857987+09:00",
+  "generatedLabel": "2026/06/24 22:11",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 56,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 14
+      "items": 13
     },
     {
       "source": "CNET Japan",
@@ -74,6 +74,17 @@
       "score": 58
     },
     {
+      "title": "「Transformerの最大475倍」 富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/",
+      "date": "2026-06-24T19:54:58+09:00",
+      "dateLabel": "06/24 19:54",
+      "desc": "富士通が、大規模言語モデル（LLM）を少ないGPUで動かせる新アーキテクチャ「PHOTON」（フォトン）を開発した。GPU当たりの処理性能（スループット）が、現在のLLMで主流のアーキテクチャ「Transformer」の最大475倍に達するという。LLMの運用に必要なGPUを抑え、大幅なコスト削減につなげられるとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
       "title": "ClaudeをSlackチャンネルに召喚、“チームの一員”として直接指示 新機能「Claude Tag」登場",
       "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
       "date": "2026-06-24T15:27:00+09:00",
@@ -105,6 +116,17 @@
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
       "score": 42
+    },
+    {
+      "title": "VRAM32GBで激安なIntelグラボ「Intel Arc Pro B70 Creator 32GB」を買ったので開封の儀、外観や搭載ポートはこんな感じ",
+      "link": "https://gigazine.net/news/20260624-asrock-intel-arc-pro-b70-creator-32gb-appearance/",
+      "date": "2026-06-24T20:00:00+09:00",
+      "dateLabel": "06/24 20:00",
+      "desc": "Intel製GPU「Intel Arc Pro B70」を搭載したASRock製グラフィックボード「Intel Arc Pro B70 Creator 32GB」が2026年6月19日に登場しました。Intel Arc Pro B70 Creator 32GBは名前の通りVRAMを32GB搭載したグラフィックボードで、VRAM容量32GBのNVIDIA製GP",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 34
     },
     {
       "title": "【キーボード】レトロだけど中身はいまどき、まるで「70年代のアメ車の皮を被った自動運転車みたい」",
@@ -192,28 +214,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "OpenRouterで中華モデル「GLM-5.2」のAPI利用者が急増、AIユーザーたちは何に使っているのか？",
-      "link": "https://gigazine.net/news/20260623-glm-5-2-openrouter/",
-      "date": "2026-06-23T18:02:00+09:00",
-      "dateLabel": "06/23 18:02",
-      "desc": "「GLM-5.2」は中国企業のZ.aiが日本時間の2026年6月17日に公開したAIモデルで、複数のテストでClaude Opus 4.7を上回り、一部のテストではClaude Fable 5を超える性能を示しています。そんなGLM-5.2についてAPIサービスを展開するOpenRouterが初週の動向を報告しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "AI導入を阻む「現状維持志向」は打破できるか OpenAI・Anthropicの「業務現場支援」が与える影響",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news069.html",
-      "date": "2026-06-23T13:00:00+09:00",
-      "dateLabel": "06/23 13:00",
-      "desc": "ノークリサーチは、OpenAIの「Deploy Co」やAnthropicの新会社設立が日本のSIerビジネスに与える影響を分析したレポートを発表した。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
       "score": 34
     },
     {
