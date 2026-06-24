@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T08:58:36.400198+09:00",
-  "generatedLabel": "2026/06/24 08:58",
+  "generatedAt": "2026-06-24T12:31:34.445994+09:00",
+  "generatedLabel": "2026/06/24 12:31",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 58,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,7 +13,7 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 18
+      "items": 19
     },
     {
       "source": "ASCII.jp",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 13
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -63,15 +63,26 @@
   ],
   "articles": [
     {
-      "title": "OpenAIがClaude Mythos 5超えのセキュリティー特化AI「GPT-5.5-Cyber」のアップデートを発表＆セキュリティー特化Codexプラグイン「Codex Security」もアップデート",
-      "link": "https://gigazine.net/news/20260623-openai-gpt-cyber-codex-security-daybreak/",
-      "date": "2026-06-23T11:34:00+09:00",
-      "dateLabel": "06/23 11:34",
-      "desc": "OpenAIがセキュリティー研究者向けAIモデル「GPT-5.5-Cyber」のアップデートを2026年6月22日に発表しました。アップデート版のGPT-5.5-CyberはベンチマークテストでClaude Mythos 5を超えるスコアを記録しています。また、Codexにセキュリティー対策機能を追加するプラグイン「Codex Security」のアップデー",
+      "title": "Anthropic、Slackで「＠Claude」を呼べる「Claude Tag」提供──チームの一員として非同期でタスク遂行",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000120/",
+      "date": "2026-06-24T08:55:42+09:00",
+      "dateLabel": "06/24 08:55",
+      "desc": "Anthropicは、チーム向け新機能「Claude Tag」を発表し、「Slack」での提供を開始した。チャンネル内で「@Claude」とメンションすることで、各種ツールやコードベースと連携し、非同期かつ自律的にタスクを遂行する。基盤モデルには「Opus 4.8」が採用され、厳格な権限管理のもとで組織的な自動化が可能である。",
       "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 50
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 58
+    },
+    {
+      "title": "マウスコンピューター、2026年後半投入の製品を一気に公開、価格を抑えたミニPCや高性能AI PCなどに注目！",
+      "link": "https://ascii.jp/elem/000/004/412/4412986/?rss",
+      "date": "2026-06-24T11:00:00+09:00",
+      "dateLabel": "06/24 11:00",
+      "desc": "パソコン市場が大きく変化する中、マウスコンピューターも大きな変革の岐路に立っている。「ものづくり」に立ち返り、国内生産・国内サポートができる日本のメーカーというブランド価値を最大化する同社の戦略とは？",
+      "img": "https://ascii.jp/img/2026/06/24/4488288/s/7a7a1f658e9504fe.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
     },
     {
       "title": "OpenRouterで中華モデル「GLM-5.2」のAPI利用者が急増、AIユーザーたちは何に使っているのか？",
@@ -82,17 +93,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "VPG トラフィックフィルタリング提供開始、SORACOM Flux が複数画像送信に対応、他 ほぼ週刊ソラコム 05/30-06/19",
-      "link": "https://ascii.jp/elem/000/004/412/4412929/?rss",
-      "date": "2026-06-23T18:00:00+09:00",
-      "dateLabel": "06/23 18:00",
-      "desc": "VPG トラフィックフィルタリング提供開始、SORACOM Flux が複数画像送信に対応、他 ほぼ週刊ソラコム 05/30-06/19",
-      "img": "https://ascii.jp/img/2026/06/23/4488078/s/d2be33b668279885.png",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
       "score": 42
     },
     {
@@ -118,26 +118,70 @@
       "score": 42
     },
     {
-      "title": "Claude Opus級のGLM-5.2をローカルで動かすガイドが公開される、最小構成の目安はメモリ223GB",
-      "link": "https://gigazine.net/news/20260623-glm-local-unsloth/",
-      "date": "2026-06-23T11:46:00+09:00",
-      "dateLabel": "06/23 11:46",
-      "desc": "高性能AIモデル「GLM-5.2」をローカル環境で実行するためのガイドをAIモデルの量子化やローカル実行環境を手がけるUnslothが公開しました。 続きを読む...",
+      "title": "NVIDIAが「お風呂よりも高温の冷却液」で冷やす完全液冷システムを発表、電力消費量と水使用量を最大100％削減できるとアピール",
+      "link": "https://gigazine.net/news/20260624-nvidia-45-degree-liquid-cooling/",
+      "date": "2026-06-24T12:15:00+09:00",
+      "dateLabel": "06/24 12:15",
+      "desc": "NVIDIAが45℃の冷却液を循環させるAIサーバー向けの完全液体冷却方式を発表しました。Rubin世代のAIインフラではチップやネットワーク機器を含む全ての主要部品を閉ループ式の液体で冷却し、ファンを使わない設計を採用するとしています。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 42
+      "cat": "半導体/GPU",
+      "score": 34
     },
     {
-      "title": "Googleが映画製作会社のA24に約120億円を投資、Google DeepMindとA24が「映画制作用のAIツール」を共同開発へ",
-      "link": "https://gigazine.net/news/20260623-google-deepmind-a24/",
-      "date": "2026-06-23T11:10:00+09:00",
-      "dateLabel": "06/23 11:10",
-      "desc": "Google DeepMindは2026年6月22日、『ミッドサマー』『エブリシング・エブリウェア・オール・アット・ワンス』『Backrooms』などで知られる映画製作会社・A24との研究提携を発表しました。Wall Street Journalによれば、GoogleはA24に約7500万ドル(約121億円)を投資しているとのことです。 続きを読む...",
+      "title": "「Apps in ChatGPT」にメルカリ登場 自社MCP基盤を活用、会話で商品検索など",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000123/",
+      "date": "2026-06-24T11:59:13+09:00",
+      "dateLabel": "06/24 11:59",
+      "desc": "1月に公開したAI接続基盤「Mercari MCP」（Model Context Protocol）を活用。ChatGPTでの会話を通じて商品を検索したり、出品時の説明文の下書きを作成したりできる。",
       "img": "",
-      "src": "GIGAZINE",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "AmazonはNVIDIAに挑戦状を突きつけるのか",
+      "link": "https://eetimes.itmedia.co.jp/ee/articles/2606/24/news039.html",
+      "date": "2026-06-24T11:00:00+09:00",
+      "dateLabel": "06/24 11:00",
+      "desc": "世界最大のハイパースケーラーであるAWSは、AIアクセラレーターを大規模に販売することで、半導体市場の好機を捉えようとしているのだろうか。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "Wealthy Design、中小企業向け「Webサイト制作・公開運用環境構築」を開始。制作からAWS公開、AIを活用した更新環境まで一貫支援",
+      "link": "https://ascii.jp/elem/000/004/413/4413036/?rss",
+      "date": "2026-06-24T10:30:00+09:00",
+      "dateLabel": "06/24 10:30",
+      "desc": "Wealthy Design、中小企業向け「Webサイト制作・公開運用環境構築」を開始。制作からAWS公開、AIを活用した更新環境まで一貫支援",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
       "cat": "AI全般",
-      "score": 42
+      "score": 34
+    },
+    {
+      "title": "日程調整URLを「送りづらい」と感じる方へ--テキスト型日程調整AI「即レスくん」提供開始",
+      "link": "https://ascii.jp/elem/000/004/413/4413040/?rss",
+      "date": "2026-06-24T10:10:00+09:00",
+      "dateLabel": "06/24 10:10",
+      "desc": "日程調整URLを「送りづらい」と感じる方へ--テキスト型日程調整AI「即レスくん」提供開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "映像解析AIのアジラ、独自VLM「AsillaVision」を国内大型施設で本格展開へ",
+      "link": "https://ascii.jp/elem/000/004/413/4413091/?rss",
+      "date": "2026-06-24T10:00:00+09:00",
+      "dateLabel": "06/24 10:00",
+      "desc": "映像解析AIのアジラ、独自VLM「AsillaVision」を国内大型施設で本格展開へ",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
     },
     {
       "title": "「最初は壊れ過ぎてビビった」──1220億円投じたソフトバンク「AIスパコン」、それでもNVIDIAのGPUを選ぶワケ",
@@ -162,28 +206,6 @@
       "score": 34
     },
     {
-      "title": "定点カメラの映像をAIが解析し賑わいを可視化、AI人流解析ソフトウェア「NIGIWAI」正式提供開始",
-      "link": "https://ascii.jp/elem/000/004/412/4412582/?rss",
-      "date": "2026-06-24T07:00:00+09:00",
-      "dateLabel": "06/24 07:00",
-      "desc": "Tokyo Artisan Intelligence株式会社は6月19日に、AI人流解析技術を用いてまちづくりを支援するソリューション「NIGIWAI（ニギワイ）」の正式提供を開始した。同ソリューションは、北九州市のスタートアップ支援のもと、2026年2月から3月にかけて同市で行った実証実験の成果をベースに開発したという。",
-      "img": "https://ascii.jp/img/2026/06/23/4487637/s/281f2e1b66a22dd4.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "急増するAIの電力需要、AIの「賢い節電」でしのげるか",
-      "link": "https://ascii.jp/elem/000/004/412/4412981/?rss",
-      "date": "2026-06-24T06:58:19+09:00",
-      "dateLabel": "06/24 06:58",
-      "desc": "AIの普及で電力需要が急増する一方、新たな発電所は認可から稼働まで8年かかることもある。そこで注目されるのが「柔軟性」だ。データセンターが年に20数時間だけ消費を抑えれば、米国の送電網は5%多く供給できるとの試算もある。",
-      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
       "title": "フィジカルAIとロボット工学向けの包括的安全システム「NVIDIA Halos for Robotics」発表",
       "link": "https://gigazine.net/news/20260623-nvidia-halos-for-robotics/",
       "date": "2026-06-23T18:10:00+09:00",
@@ -192,17 +214,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "【SORACOM Discovery 2026】展示ブース紹介 第1弾：プラチナ・ゴールドスポンサー編",
-      "link": "https://ascii.jp/elem/000/004/412/4412928/?rss",
-      "date": "2026-06-23T18:00:00+09:00",
-      "dateLabel": "06/23 18:00",
-      "desc": "【SORACOM Discovery 2026】展示ブース紹介 第1弾：プラチナ・ゴールドスポンサー編",
-      "img": "https://ascii.jp/img/2026/06/23/4488077/s/3efe909eadb8a180.png",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
       "score": 34
     },
     {
@@ -239,47 +250,36 @@
       "score": 34
     },
     {
-      "title": "Anthropicが日本でClaudeコミュニティアンバサダーの募集を開始、Claudeの利用を拡散するために無料APIクレジットを利用可能",
-      "link": "https://gigazine.net/news/20260623-claude-community-ambassadors/",
-      "date": "2026-06-23T10:41:00+09:00",
-      "dateLabel": "06/23 10:41",
-      "desc": "AI企業のAnthropicが日本におけるClaudeコミュニティアンバサダーの募集を開始しました。 続きを読む...",
+      "title": "Claude Opus級のGLM-5.2をローカルで動かすガイドが公開される、最小構成の目安はメモリ223GB",
+      "link": "https://gigazine.net/news/20260623-glm-local-unsloth/",
+      "date": "2026-06-23T11:46:00+09:00",
+      "dateLabel": "06/23 11:46",
+      "desc": "高性能AIモデル「GLM-5.2」をローカル環境で実行するためのガイドをAIモデルの量子化やローカル実行環境を手がけるUnslothが公開しました。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 34
     },
     {
-      "title": "「賞金1000万円」コンテストに「AI番付」 サイバーエージェントが明かす、AIを使い倒させる仕組み作り",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news027.html",
-      "date": "2026-06-24T07:00:00+09:00",
-      "dateLabel": "06/24 07:00",
-      "desc": "AI活用を一部の意欲的な社員にとどめず、組織全体の競争力へとつなげるには何が必要なのか。全社的にAI活用を進めているサイバーエージェント AIオペレーション室長の上野千紘氏と、フリー 常務執行役員の前村菜緒氏が語った。",
+      "title": "主婦がAIアニメでYouTube登録者100万人を突破――1億ユーザーのAI動画生成サービス「PixVerse」の実態",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000116/",
+      "date": "2026-06-24T12:00:00+09:00",
+      "dateLabel": "06/24 12:00",
+      "desc": "1億人超のユーザーを持つAI動画生成プラットフォーム「PixVerse」とは何か。運営企業の担当者が活用事例などを語った。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
+      "cat": "生成AI/マルチモーダル",
       "score": 26
     },
     {
-      "title": "AIとデータで「捨てる」を「価値」に変える次世代サーキュラーエコノミー 静岡大学発「S-Bridges」",
-      "link": "https://ascii.jp/elem/000/004/382/4382674/?rss",
-      "date": "2026-06-24T06:00:00+09:00",
-      "dateLabel": "06/24 06:00",
-      "desc": "静岡大学発のスタートアップ「S-Bridges」では、「Bio Material Transformation」という経済システムの構築に取り組んでいる。従来は廃棄される部位などに新しい価値を見いだし、活用の道を探る――というシステムになっており、「ネイチャーポジティブ」達成の鍵になるのではと注目を集めている。",
-      "img": "https://ascii.jp/img/2026/03/19/4437951/s/7f3f21641fe2a831.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
-      "link": "https://ascii.jp/elem/000/004/412/4412973/?rss",
-      "date": "2026-06-23T18:17:36+09:00",
-      "dateLabel": "06/23 18:17",
-      "desc": "宮台真司氏と株式会社Lyapunovの共同社会運動「SISYPHUS」始動 -- AI時代に人間を問い直す",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
+      "title": "日本語対応のOCRモデル「Mistral OCR 4」が登場、PDFや表だらけの文書をAIが「使えるデータ」に変換",
+      "link": "https://gigazine.net/news/20260624-mistral-ocr-4/",
+      "date": "2026-06-24T11:47:00+09:00",
+      "dateLabel": "06/24 11:47",
+      "desc": "Mistral AIが文書読み取りモデル「Mistral OCR 4」をリリースしました。PDFやOffice文書などから文字を取り出すだけでなく、表や数式や署名といった文書内の要素を見分け、どこに何が書かれているのかまで構造化して出力可能なモデルとなっています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
       "score": 26
     }
   ]
