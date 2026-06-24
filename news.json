@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T12:31:34.445994+09:00",
-  "generatedLabel": "2026/06/24 12:31",
+  "generatedAt": "2026-06-24T16:32:27.888307+09:00",
+  "generatedLabel": "2026/06/24 16:32",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 60,
+  "candidates": 63,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,7 +13,7 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 19
+      "items": 20
     },
     {
       "source": "ASCII.jp",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 14
+      "items": 16
     },
     {
       "source": "CNET Japan",
@@ -74,14 +74,47 @@
       "score": 58
     },
     {
-      "title": "マウスコンピューター、2026年後半投入の製品を一気に公開、価格を抑えたミニPCや高性能AI PCなどに注目！",
-      "link": "https://ascii.jp/elem/000/004/412/4412986/?rss",
-      "date": "2026-06-24T11:00:00+09:00",
-      "dateLabel": "06/24 11:00",
-      "desc": "パソコン市場が大きく変化する中、マウスコンピューターも大きな変革の岐路に立っている。「ものづくり」に立ち返り、国内生産・国内サポートができる日本のメーカーというブランド価値を最大化する同社の戦略とは？",
-      "img": "https://ascii.jp/img/2026/06/24/4488288/s/7a7a1f658e9504fe.jpg",
+      "title": "メタ、299ドルからのAIスマートグラス 日本発売は未定",
+      "link": "https://ascii.jp/elem/000/004/413/4413240/?rss",
+      "date": "2026-06-24T16:00:00+09:00",
+      "dateLabel": "06/24 16:00",
+      "desc": "メタは現地時間6月23日、EssilorLuxotticaとの提携により、新ライン「Meta Glasses」を発表した。価格は299ドルから。",
+      "img": "https://ascii.jp/img/2026/06/24/4488649/s/bd817a6a4e47f7a4.png",
       "src": "ASCII.jp",
       "cat": "AI全般",
+      "score": 42
+    },
+    {
+      "title": "ClaudeをSlackチャンネルに召喚、“チームの一員”として直接指示 新機能「Claude Tag」登場",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
+      "date": "2026-06-24T15:27:00+09:00",
+      "dateLabel": "06/24 15:27",
+      "desc": "Anthropicは、「Slack」上で「Claude」を利用できる新機能「Claude Tag」のベータ版提供を23日から開始した。指定したチャンネルにClaudeを招待し、メンションをつけてタスクを依頼すると、Claudeが関連情報をもとにタスク計画を自動構築する。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "動画生成AI「Seedance 2.5」をByteDanceが発表、最大50個の参照素材から最大30秒の動画を生成可能",
+      "link": "https://gigazine.net/news/20260624-bytedance-seedance-2-5/",
+      "date": "2026-06-24T12:45:00+09:00",
+      "dateLabel": "06/24 12:45",
+      "desc": "ByteDanceは同社のクラウド事業である火山引擎(Volcano Engine)が主催する「FORCE原動力大会」で、動画生成AI「Seedance 2.5」を発表しました。Seedance 2.5は画像、動画、音声などを含む最大50個のマルチモーダル参照素材を入力でき、1回の生成で最長30秒の動画を出力できる点が特徴です。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "生成AI/マルチモーダル",
+      "score": 42
+    },
+    {
+      "title": "SlackにClaudeを参加させてAIエージェントにタスクを依頼できる「Claude Tag」が登場、Anthropic製品チームのコードの65％はClaude Tagで作成",
+      "link": "https://gigazine.net/news/20260624-claude-tag-slack/",
+      "date": "2026-06-24T12:40:00+09:00",
+      "dateLabel": "06/24 12:40",
+      "desc": "ClaudeをSlackのチャットに参加させられる機能「Claude Tag」が登場しました。Claude Tagを用いると「@Claude」でClaudeに話しかけてタスクを依頼したり関連情報を確認したりできます。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
       "score": 42
     },
     {
@@ -96,26 +129,48 @@
       "score": 42
     },
     {
-      "title": "複数の写真から3Dシーンを生成するAIモデル「ArtiFixer」をNVIDIAが発表、写真にない部分も生成処理で補完可能",
-      "link": "https://gigazine.net/news/20260623-nvidia-artifixer-3d-representation/",
-      "date": "2026-06-23T16:04:00+09:00",
-      "dateLabel": "06/23 16:04",
-      "desc": "NVIDIAが複数の写真から3Dシーンを生成できるAIモデル「ArtiFixer」を開発しました。ArtiFixerは動画生成AIのWan 2.1をベースに開発されており、参考画像に含まれていない部分を生成処理で補って高品質な3Dシーンを作り出すことができます。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
+      "title": "総務省「海外AIデータセンターへのオール光ネットワーク技術の展開に向けた調査研究の請負」受託のおしらせ",
+      "link": "https://ascii.jp/elem/000/004/413/4413268/?rss",
+      "date": "2026-06-24T15:00:00+09:00",
+      "dateLabel": "06/24 15:00",
+      "desc": "総務省「海外AIデータセンターへのオール光ネットワーク技術の展開に向けた調査研究の請負」受託のおしらせ",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
       "cat": "半導体/GPU",
-      "score": 42
+      "score": 34
     },
     {
-      "title": "AI導入を阻む「現状維持志向」は打破できるか OpenAI・Anthropicの「業務現場支援」が与える影響",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news069.html",
-      "date": "2026-06-23T13:00:00+09:00",
-      "dateLabel": "06/23 13:00",
-      "desc": "ノークリサーチは、OpenAIの「Deploy Co」やAnthropicの新会社設立が日本のSIerビジネスに与える影響を分析したレポートを発表した。",
+      "title": "JAXA宇宙戦略基金（第二期）「軌道上データセンター構築技術」に参画",
+      "link": "https://ascii.jp/elem/000/004/413/4413267/?rss",
+      "date": "2026-06-24T15:00:00+09:00",
+      "dateLabel": "06/24 15:00",
+      "desc": "JAXA宇宙戦略基金（第二期）「軌道上データセンター構築技術」に参画",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "SpaceBlast、日本発「宇宙版AIクラウド」実現へ ──「軌道上データセンター構築技術」開発を本格始動",
+      "link": "https://ascii.jp/elem/000/004/413/4413248/?rss",
+      "date": "2026-06-24T15:00:00+09:00",
+      "dateLabel": "06/24 15:00",
+      "desc": "SpaceBlast、日本発「宇宙版AIクラウド」実現へ ──「軌道上データセンター構築技術」開発を本格始動",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "AIにコンテンツのスクレイピングを許可するかどうかをクリエイターが簡単に制御できる機能をCloudflareが提供開始",
+      "link": "https://gigazine.net/news/20260624-cloudflare-beehiiv-ai-crawl-control/",
+      "date": "2026-06-24T15:00:00+09:00",
+      "dateLabel": "06/24 15:00",
+      "desc": "AIが学習や回答に使用するデータをインターネット上からかき集めるAIクローラーは、AI開発者にとっては有用なものですが、一部のクリエイターはAIによるコンテンツの無断使用を問題視しています。そんな中、ウェブサイトやアプリといったコンテンツの配信を高速化・最適化するCloudflareが、ニュースレター配信サービスのbeehiivと提携して、クリエイターが簡単",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
+      "src": "GIGAZINE",
+      "cat": "AI全般",
+      "score": 34
     },
     {
       "title": "NVIDIAが「お風呂よりも高温の冷却液」で冷やす完全液冷システムを発表、電力消費量と水使用量を最大100％削減できるとアピール",
@@ -148,39 +203,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "Wealthy Design、中小企業向け「Webサイト制作・公開運用環境構築」を開始。制作からAWS公開、AIを活用した更新環境まで一貫支援",
-      "link": "https://ascii.jp/elem/000/004/413/4413036/?rss",
-      "date": "2026-06-24T10:30:00+09:00",
-      "dateLabel": "06/24 10:30",
-      "desc": "Wealthy Design、中小企業向け「Webサイト制作・公開運用環境構築」を開始。制作からAWS公開、AIを活用した更新環境まで一貫支援",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "日程調整URLを「送りづらい」と感じる方へ--テキスト型日程調整AI「即レスくん」提供開始",
-      "link": "https://ascii.jp/elem/000/004/413/4413040/?rss",
-      "date": "2026-06-24T10:10:00+09:00",
-      "dateLabel": "06/24 10:10",
-      "desc": "日程調整URLを「送りづらい」と感じる方へ--テキスト型日程調整AI「即レスくん」提供開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "映像解析AIのアジラ、独自VLM「AsillaVision」を国内大型施設で本格展開へ",
-      "link": "https://ascii.jp/elem/000/004/413/4413091/?rss",
-      "date": "2026-06-24T10:00:00+09:00",
-      "dateLabel": "06/24 10:00",
-      "desc": "映像解析AIのアジラ、独自VLM「AsillaVision」を国内大型施設で本格展開へ",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -217,69 +239,47 @@
       "score": 34
     },
     {
-      "title": "Google AI Studioにクレカ等の支払い方法登録不要でアプリ公開を始められる「Starter Tier」が登場",
-      "link": "https://gigazine.net/news/20260623-starter-tier-google-ai-studio/",
-      "date": "2026-06-23T14:25:00+09:00",
-      "dateLabel": "06/23 14:25",
-      "desc": "GoogleのAI開発プラットフォーム「Google AI Studio」では、AIを使って文章やプレゼンテーションの作成、アプリ開発などを行うことができます。そんなGoogle AI Studioで作成したアプリを、Googleアカウントさえあればクレジットカードなどの支払い方法や請求アカウントの登録なしで公開できる新機能「Starter Tier」の詳細",
+      "title": "複数の写真から3Dシーンを生成するAIモデル「ArtiFixer」をNVIDIAが発表、写真にない部分も生成処理で補完可能",
+      "link": "https://gigazine.net/news/20260623-nvidia-artifixer-3d-representation/",
+      "date": "2026-06-23T16:04:00+09:00",
+      "dateLabel": "06/23 16:04",
+      "desc": "NVIDIAが複数の写真から3Dシーンを生成できるAIモデル「ArtiFixer」を開発しました。ArtiFixerは動画生成AIのWan 2.1をベースに開発されており、参考画像に含まれていない部分を生成処理で補って高品質な3Dシーンを作り出すことができます。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "AI全般",
+      "cat": "半導体/GPU",
       "score": 34
     },
     {
-      "title": "NRIセキュア、未公表の脆弱性を「Mythosと同等のレベルで」検出する診断サービス提供",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000118/",
-      "date": "2026-06-23T13:12:15+09:00",
-      "dateLabel": "06/23 13:12",
-      "desc": "「米AnthropicのClaude Mythos Previewと同等のレベルで未公表の脆弱性を検出できる」のが売り。Anthropicの日本法人代表も新サービスにコメントを寄せている。",
+      "title": "AI導入を阻む「現状維持志向」は打破できるか OpenAI・Anthropicの「業務現場支援」が与える影響",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news069.html",
+      "date": "2026-06-23T13:00:00+09:00",
+      "dateLabel": "06/23 13:00",
+      "desc": "ノークリサーチは、OpenAIの「Deploy Co」やAnthropicの新会社設立が日本のSIerビジネスに与える影響を分析したレポートを発表した。",
       "img": "",
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 34
     },
     {
-      "title": "2億2600万パラメーターで100億パラメーター級の画像補完性能を示すAIフレームワーク「Moebius」、不要物の除去や顔の置き換えが可能",
-      "link": "https://gigazine.net/news/20260623-moebius-image-inpainting-framework/",
-      "date": "2026-06-23T12:32:00+09:00",
-      "dateLabel": "06/23 12:32",
-      "desc": "中国の華中科技大学とVIVO AI Labの共同研究チームが、画像の欠損領域を周囲と自然につながるように生成する「インペインティング」向けの軽量AIフレームワーク「Moebius」を発表しました。Moebiusは約2億2600万パラメーターで動作しながら、100億パラメーター級の大規模産業用モデルに近い、あるいは一部の評価で上回る品質を目指した用途特化型モデ",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI実装",
-      "score": 34
-    },
-    {
-      "title": "Claude Opus級のGLM-5.2をローカルで動かすガイドが公開される、最小構成の目安はメモリ223GB",
-      "link": "https://gigazine.net/news/20260623-glm-local-unsloth/",
-      "date": "2026-06-23T11:46:00+09:00",
-      "dateLabel": "06/23 11:46",
-      "desc": "高性能AIモデル「GLM-5.2」をローカル環境で実行するためのガイドをAIモデルの量子化やローカル実行環境を手がけるUnslothが公開しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "主婦がAIアニメでYouTube登録者100万人を突破――1億ユーザーのAI動画生成サービス「PixVerse」の実態",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000116/",
-      "date": "2026-06-24T12:00:00+09:00",
-      "dateLabel": "06/24 12:00",
-      "desc": "1億人超のユーザーを持つAI動画生成プラットフォーム「PixVerse」とは何か。運営企業の担当者が活用事例などを語った。",
+      "title": "【解説】キオクシアなぜ急成長？ 半導体メモリって何？ AIブームを見通すための基礎知識",
+      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news110.html",
+      "date": "2026-06-24T15:40:00+09:00",
+      "dateLabel": "06/24 15:40",
+      "desc": "注目を集める半導体メモリ大手のキオクシア。同社はなぜAI需要を取り込めたのか。いま押さえたい基礎知識を解説する。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "生成AI/マルチモーダル",
+      "cat": "半導体/GPU",
       "score": 26
     },
     {
-      "title": "日本語対応のOCRモデル「Mistral OCR 4」が登場、PDFや表だらけの文書をAIが「使えるデータ」に変換",
-      "link": "https://gigazine.net/news/20260624-mistral-ocr-4/",
-      "date": "2026-06-24T11:47:00+09:00",
-      "dateLabel": "06/24 11:47",
-      "desc": "Mistral AIが文書読み取りモデル「Mistral OCR 4」をリリースしました。PDFやOffice文書などから文字を取り出すだけでなく、表や数式や署名といった文書内の要素を見分け、どこに何が書かれているのかまで構造化して出力可能なモデルとなっています。 続きを読む...",
+      "title": "国内ユーザー数「前年比1582％増」――AI開発支援「Devin」は競合と何が違う？ 日本法人代表が語る事業戦略",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000124/",
+      "date": "2026-06-24T15:24:09+09:00",
+      "dateLabel": "06/24 15:24",
+      "desc": "ソフトウェア開発向けAIエージェント「Devin」をどのように日本市場で展開するのか。Devinを手掛ける米Cognition AI日本法人の正井拓己代表が語った。",
       "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
       "score": 26
     }
   ]
