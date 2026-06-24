@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T05:27:46.886053+09:00",
-  "generatedLabel": "2026/06/25 05:27",
+  "generatedAt": "2026-06-25T07:07:44.799986+09:00",
+  "generatedLabel": "2026/06/25 07:07",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 53,
+  "candidates": 56,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 0
+      "items": 3
     },
     {
       "source": "PC Watch",
@@ -62,6 +62,17 @@
     }
   ],
   "articles": [
+    {
+      "title": "熱中症対策IoTソリューション「ThingBridge VISION」、AIによるリスク判定とレポート出力機能を提供開始",
+      "link": "https://ascii.jp/elem/000/004/413/4413338/?rss",
+      "date": "2026-06-25T07:00:00+09:00",
+      "dateLabel": "06/25 07:00",
+      "desc": "株式会社Agxは6月19日に、同社が建設業・製造業・倉庫業などの現場向けに提供する熱中症対策IoTサービス「ThingBridge VISION」において、AIを活用した新機能（熱中症リスク判定機能、AIレポート出力機能）の追加を発表した。AIによるリスク判定の可視化と自動レポート機能によって、現場における熱中症対策の周知・記録・分析の自動化を図るという。",
+      "img": "https://ascii.jp/img/2026/06/24/4488858/s/985badcbe51668e5.png",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 58
+    },
     {
       "title": "Anthropic、Slackで「＠Claude」を呼べる「Claude Tag」提供──チームの一員として非同期でタスク遂行",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000120/",
@@ -116,6 +127,17 @@
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
       "score": 42
+    },
+    {
+      "title": "AI学習サポートアプリ「聞ける・伝えるAIアバター（きけつたAI）」提供開始、子どもの学習と保護者の状況把握をサポート",
+      "link": "https://ascii.jp/elem/000/004/413/4413337/?rss",
+      "date": "2026-06-25T07:00:00+09:00",
+      "dateLabel": "06/25 07:00",
+      "desc": "株式会社AIアバターは6月12日に、AI学習サポートアプリ「聞ける・伝えるAIアバター（きけつたAI）」の提供を開始した。スマートフォンのカメラで問題を撮影すると、子どもには理解度に合わせた解説などを提供するとともに、保護者には子どもの学習レポートを届けるという。",
+      "img": "https://ascii.jp/img/2026/06/24/4488850/s/b6165d88e14f370f.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
     },
     {
       "title": "VRAM32GBで激安なIntelグラボ「Intel Arc Pro B70 Creator 32GB」を買ったので開封の儀、外観や搭載ポートはこんな感じ",
@@ -184,26 +206,15 @@
       "score": 34
     },
     {
-      "title": "「最初は壊れ過ぎてビビった」──1220億円投じたソフトバンク「AIスパコン」、それでもNVIDIAのGPUを選ぶワケ",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news059.html",
-      "date": "2026-06-24T07:00:00+09:00",
-      "dateLabel": "06/24 07:00",
-      "desc": "AIブームの波に乗って時価総額世界1位に躍り出たNVIDIA。一体なぜ、AIインフラにNVIDIA製GPUが採用されるのか。その理由をAIスパコン開発者に聞いた。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "Geminiで「AIを使いたい現場」と「ダメと言う会社」のギャップを埋める方法",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2606/26/news003.html",
-      "date": "2026-06-24T07:00:00+09:00",
-      "dateLabel": "06/24 07:00",
-      "desc": "生成AIやAIエージェントの取り組みが活発化している。ただ、その取り組みが検証止まりになるケースも多い。グーグル・クラウド・ジャパンの北瀬公彦氏は、そうした「AI活用のカベ」を乗り越えるために「スピードと守りを両立が重要」と語った。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
+      "title": "「EU Inc.」でひとつの巨大市場へ VivaTech2026で見えた欧州エコシステムの最新動向",
+      "link": "https://ascii.jp/elem/000/004/413/4413345/?rss",
+      "date": "2026-06-25T06:00:00+09:00",
+      "dateLabel": "06/25 06:00",
+      "desc": "世界最大級のイノベーション祭典へと成長した「Viva Technology 2026」が、2026年6月17日から20日にかけてフランス・パリで開催された。フランスおよび欧州全体のスタートアップ・エコシステムの最新動向や、AIハブとして存在感を高めるパリの現状が各セッションで語られた。",
+      "img": "https://ascii.jp/img/2026/06/24/4488898/s/64f0a9f50001f6ca.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "陸自駐屯地で四足歩行型の警備用ロボットが見回り GMOインターネットグループが開発",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "生成AI/マルチモーダル",
-      "score": 26
-    },
-    {
-      "title": "日本語対応のOCRモデル「Mistral OCR 4」が登場、PDFや表だらけの文書をAIが「使えるデータ」に変換",
-      "link": "https://gigazine.net/news/20260624-mistral-ocr-4/",
-      "date": "2026-06-24T11:47:00+09:00",
-      "dateLabel": "06/24 11:47",
-      "desc": "Mistral AIが文書読み取りモデル「Mistral OCR 4」をリリースしました。PDFやOffice文書などから文字を取り出すだけでなく、表や数式や署名といった文書内の要素を見分け、どこに何が書かれているのかまで構造化して出力可能なモデルとなっています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
       "score": 26
     }
   ]
