@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T08:58:38.965932+09:00",
-  "generatedLabel": "2026/06/25 08:58",
+  "generatedAt": "2026-06-25T12:30:23.105213+09:00",
+  "generatedLabel": "2026/06/25 12:30",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 55,
+  "candidates": 65,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 10
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 12
+      "items": 16
     },
     {
       "source": "CNET Japan",
@@ -63,15 +63,48 @@
   ],
   "articles": [
     {
-      "title": "熱中症対策IoTソリューション「ThingBridge VISION」、AIによるリスク判定とレポート出力機能を提供開始",
-      "link": "https://ascii.jp/elem/000/004/413/4413338/?rss",
-      "date": "2026-06-25T07:00:00+09:00",
-      "dateLabel": "06/25 07:00",
-      "desc": "株式会社Agxは6月19日に、同社が建設業・製造業・倉庫業などの現場向けに提供する熱中症対策IoTサービス「ThingBridge VISION」において、AIを活用した新機能（熱中症リスク判定機能、AIレポート出力機能）の追加を発表した。AIによるリスク判定の可視化と自動レポート機能によって、現場における熱中症対策の周知・記録・分析の自動化を図るという。",
-      "img": "https://ascii.jp/img/2026/06/24/4488858/s/985badcbe51668e5.png",
-      "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
+      "title": "OpenAIがBroadcomと共同開発したLLM最適推論チップ「Jalapeño」を発表",
+      "link": "https://gigazine.net/news/20260625-openai-broadcom-jalapeno/",
+      "date": "2026-06-25T10:50:00+09:00",
+      "dateLabel": "06/25 10:50",
+      "desc": "OpenAIが半導体企業のBroadcomと共同で設計・製造した初のカスタムプロセッサ「Jalapeño(ハラペーニョ)」を発表しました。このJalapeñoはOpenAIの推論システムに合わせて特別に設計されたチップで、OpenAIのAIを活用しながら設計から製品化までわずか9カ月で開発されたとのことです。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
       "score": 58
+    },
+    {
+      "title": "OpenAI、ついに独自AIチップ開発 ChatGPT支える",
+      "link": "https://ascii.jp/elem/000/004/413/4413371/?rss",
+      "date": "2026-06-25T10:10:00+09:00",
+      "dateLabel": "06/25 10:10",
+      "desc": "OpenAIは6月24日、Broadcomと共同で、大規模言語モデルの推論処理に最適化したAIチップ「Jalapeño（ハラペーニョ）」を発表した。",
+      "img": "https://ascii.jp/img/2026/06/25/4489079/s/815accb21ba9c149.png",
+      "src": "ASCII.jp",
+      "cat": "LLM/モデル",
+      "score": 58
+    },
+    {
+      "title": "QualcommがAIスタートアップのModularを約6400億円で買収",
+      "link": "https://gigazine.net/news/20260625-qualcomm-acquires-modular/",
+      "date": "2026-06-25T11:41:00+09:00",
+      "dateLabel": "06/25 11:41",
+      "desc": "半導体企業のQualcommが、AIソフトウェア開発のスタートアップ・Modularの買収で合意に至ったと発表しました。Qualcommは今回の買収を通じてデバイスからデータセンターまでを対象とするAI事業を強化し、開発者や企業が多様な半導体上でAIを展開しやすい環境の構築を目指しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 50
+    },
+    {
+      "title": "OpenAI、「GPT-5.5 Instant」をアップデート 会話の文脈維持や箇条書き減など「読みやすさ」を改善",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news062.html",
+      "date": "2026-06-25T09:23:00+09:00",
+      "dateLabel": "06/25 09:23",
+      "desc": "OpenAIは、ChatGPTで最も広く利用されているモデル「GPT-5.5 Instant」のアップデートを発表した。新機能の追加ではなく、日常的な会話の品質向上が中心。質問の意図を的確に捉えて文脈を維持する能力が向上するほか、テンプレート的な回答が減り、位置情報を活用した地域のビジネス検索などもより洗練されるとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 50
     },
     {
       "title": "OpenAI、初の独自AIチップ「Jalapeno」発表──Broadcomと共同開発の推論用アクセラレータ",
@@ -85,15 +118,59 @@
       "score": 50
     },
     {
-      "title": "Anthropic、Slackで「＠Claude」を呼べる「Claude Tag」提供──チームの一員として非同期でタスク遂行",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000120/",
-      "date": "2026-06-24T08:55:42+09:00",
-      "dateLabel": "06/24 08:55",
-      "desc": "Anthropicは、チーム向け新機能「Claude Tag」を発表し、「Slack」での提供を開始した。チャンネル内で「@Claude」とメンションすることで、各種ツールやコードベースと連携し、非同期かつ自律的にタスクを遂行する。基盤モデルには「Opus 4.8」が採用され、厳格な権限管理のもとで組織的な自動化が可能である。",
+      "title": "Gemini 3.5 Flashに画面を認識してクリックや文字入力する能力「computer use」が追加される、PCを操作するエージェントの構築が可能に",
+      "link": "https://gigazine.net/news/20260625-gemini-3-5-computer-use/",
+      "date": "2026-06-25T11:35:00+09:00",
+      "dateLabel": "06/25 11:35",
+      "desc": "GoogleがAIモデル「Gemini 3.5 Flash」に、画面を見ながらクリックや文字入力などを行う機能「computer use」を組み込んだと発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
+      "title": "富士通がAI効率を475倍にするTransformer代替アーキテクチャ「PHOTON」を開発",
+      "link": "https://gigazine.net/news/20260625-fujitsu-photon/",
+      "date": "2026-06-25T11:08:00+09:00",
+      "dateLabel": "06/25 11:08",
+      "desc": "2026年6月24日、富士通が大規模言語モデル(LLM)の大幅なコスト削減を実現するアーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks(PHOTON)」を発表しました。LLMの基盤アーキテクチャであるTransformerと比較して、GPUリソース当たりのスループットを最大475倍に改善",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
+      "title": "QualcommがAIデータセンター向け製品「Qualcomm Dragonfly」を発表、エージェントAI向けCPU「C1000」やAIラック「AI300」など",
+      "link": "https://gigazine.net/news/20260625-qualcomm-dragonfly/",
+      "date": "2026-06-25T11:01:00+09:00",
+      "dateLabel": "06/25 11:01",
+      "desc": "2026年6月25日、Qualcommがデータセンター向けの複数の製品群を発表しました。エージェント型AIをこれまで以上に低電力・低コストで稼働させられるものだと説明されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
+      "title": "ワークマン、冷房ウェア緊急入荷 猛暑対策で号外チラシ2000万部",
+      "link": "https://ascii.jp/elem/000/004/413/4413373/?rss",
+      "date": "2026-06-25T10:50:00+09:00",
+      "dateLabel": "06/25 10:50",
+      "desc": "ワークマンは6月24日、ペルチェ半導体を搭載した冷房ウエア「WindCore ICE×HEATERペルチェベスト」シリーズを、6月26日から全国のワークマン店舗に緊急入荷すると発表した。",
+      "img": "https://ascii.jp/img/2026/06/25/4489095/s/83e1f086540c7bc8.png",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
+      "title": "Google、「Gemini 3.5 Flash」に「Computer Use」を標準搭載──AIが画面を見てブラウザやアプリを操作",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/25/2000000127/",
+      "date": "2026-06-25T10:08:52+09:00",
+      "dateLabel": "06/25 10:08",
+      "desc": "Googleは、AIモデル「Gemini 3.5 Flash」に、AIがコンピュータの画面を認識してマウス操作やキーボード入力を自動で実行する「Computer Use」機能を標準ツールとして搭載したと発表した。これまで専用モデルでのみ提供していた機能を主力モデルに統合したもので、開発者はWebブラウザやモバイル、デスクトップ環境で動作するエージェントを構築",
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
-      "score": 50
+      "score": 42
     },
     {
       "title": "「Transformerの最大475倍」 富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
@@ -140,14 +217,25 @@
       "score": 42
     },
     {
-      "title": "AI学習サポートアプリ「聞ける・伝えるAIアバター（きけつたAI）」提供開始、子どもの学習と保護者の状況把握をサポート",
-      "link": "https://ascii.jp/elem/000/004/413/4413337/?rss",
-      "date": "2026-06-25T07:00:00+09:00",
-      "dateLabel": "06/25 07:00",
-      "desc": "株式会社AIアバターは6月12日に、AI学習サポートアプリ「聞ける・伝えるAIアバター（きけつたAI）」の提供を開始した。スマートフォンのカメラで問題を撮影すると、子どもには理解度に合わせた解説などを提供するとともに、保護者には子どもの学習レポートを届けるという。",
-      "img": "https://ascii.jp/img/2026/06/24/4488850/s/b6165d88e14f370f.png",
+      "title": "arrows Alpha2 F-51G発表 5370mAhバッテリーとDimensity 8350 Extreme搭載の最上位モデル",
+      "link": "https://ascii.jp/elem/000/004/413/4413375/?rss",
+      "date": "2026-06-25T11:45:00+09:00",
+      "dateLabel": "06/25 11:45",
+      "desc": "FCNTはNTTドコモ向け最上位スマホ「arrows Alpha2 F-51G」を発表。Dimensity 8350 Extreme、5370mAhバッテリー、144Hz対応LTPOディスプレー、AI機能を搭載し、8月下旬以降に発売予定です。",
+      "img": "https://ascii.jp/img/2026/06/25/4489105/s/15060a805a6c8025.png",
       "src": "ASCII.jp",
       "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "AIは『道具』から『相棒』へ。代表溝橋とCRO大須賀が語る、働き方の新OSと『1年で40のAIエージェントを輩出する』真意",
+      "link": "https://ascii.jp/elem/000/004/413/4413405/?rss",
+      "date": "2026-06-25T10:10:00+09:00",
+      "dateLabel": "06/25 10:10",
+      "desc": "AIは『道具』から『相棒』へ。代表溝橋とCRO大須賀が語る、働き方の新OSと『1年で40のAIエージェントを輩出する』真意",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
       "score": 34
     },
     {
@@ -184,102 +272,14 @@
       "score": 34
     },
     {
-      "title": "NVIDIAが「お風呂よりも高温の冷却液」で冷やす完全液冷システムを発表、電力消費量と水使用量を最大100％削減できるとアピール",
-      "link": "https://gigazine.net/news/20260624-nvidia-45-degree-liquid-cooling/",
-      "date": "2026-06-24T12:15:00+09:00",
-      "dateLabel": "06/24 12:15",
-      "desc": "NVIDIAが45℃の冷却液を循環させるAIサーバー向けの完全液体冷却方式を発表しました。Rubin世代のAIインフラではチップやネットワーク機器を含む全ての主要部品を閉ループ式の液体で冷却し、ファンを使わない設計を採用するとしています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "「Apps in ChatGPT」にメルカリ登場 自社MCP基盤を活用、会話で商品検索など",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000123/",
-      "date": "2026-06-24T11:59:13+09:00",
-      "dateLabel": "06/24 11:59",
-      "desc": "1月に公開したAI接続基盤「Mercari MCP」（Model Context Protocol）を活用。ChatGPTでの会話を通じて商品を検索したり、出品時の説明文の下書きを作成したりできる。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "AmazonはNVIDIAに挑戦状を突きつけるのか",
-      "link": "https://eetimes.itmedia.co.jp/ee/articles/2606/24/news039.html",
-      "date": "2026-06-24T11:00:00+09:00",
-      "dateLabel": "06/24 11:00",
-      "desc": "世界最大のハイパースケーラーであるAWSは、AIアクセラレーターを大規模に販売することで、半導体市場の好機を捉えようとしているのだろうか。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "「風邪はしょうがない」覆せるか、民間主導の呼吸器ウイルス根絶計画",
-      "link": "https://ascii.jp/elem/000/004/413/4413356/?rss",
-      "date": "2026-06-25T06:55:44+09:00",
-      "dateLabel": "06/25 06:55",
-      "desc": "ストライプ、アンソロピック、オープンAI財団、ビル・ゲイツ——。豪華な顔ぶれが5億ドルを出し合い、風邪とインフルエンザの根絶を目指す非営利団体が動き出す。「技術的には可能でも商業的動機がない」領域に、慈善資金で挑む。",
-      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
+      "title": "MSI「MAG 245C X24」発売、240Hz・1ms対応の23.6型湾曲ゲーミングモニター",
+      "link": "https://ascii.jp/elem/000/004/413/4413403/?rss",
+      "date": "2026-06-25T12:15:00+09:00",
+      "dateLabel": "06/25 12:15",
+      "desc": "MSIは、240Hzの高リフレッシュレートと1ms応答速度、1500R湾曲パネルを採用した23.6インチゲーミングモニター「MAG 245C X24」を発売。FreeSync PremiumやAI Vision対応で、価格は約2万1800円です。",
+      "img": "https://ascii.jp/img/2026/06/25/4489119/s/d7cdfd5866e93676.png",
       "src": "ASCII.jp",
       "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "「EU Inc.」でひとつの巨大市場へ VivaTech2026で見えた欧州エコシステムの最新動向",
-      "link": "https://ascii.jp/elem/000/004/413/4413345/?rss",
-      "date": "2026-06-25T06:00:00+09:00",
-      "dateLabel": "06/25 06:00",
-      "desc": "世界最大級のイノベーション祭典へと成長した「Viva Technology 2026」が、2026年6月17日から20日にかけてフランス・パリで開催された。フランスおよび欧州全体のスタートアップ・エコシステムの最新動向や、AIハブとして存在感を高めるパリの現状が各セッションで語られた。",
-      "img": "https://ascii.jp/img/2026/06/24/4488898/s/64f0a9f50001f6ca.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "陸自駐屯地で四足歩行型の警備用ロボットが見回り GMOインターネットグループが開発",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news130.html",
-      "date": "2026-06-24T18:25:00+09:00",
-      "dateLabel": "06/24 18:25",
-      "desc": "GMOインターネットグループ4社は、国産ロボット開発を担う未来ロボットと組み、国産の四足歩行型警備用ロボットを開発し、陸上自衛隊の駐屯地での導入検証を始めると発表した。警備の省人化を図り、24時間警備体制の実現を目指すという。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI実装",
-      "score": 26
-    },
-    {
-      "title": "民生VRグローブにロボット業界が注目 日本発ベンチャーがB2B加速",
-      "link": "https://eetimes.itmedia.co.jp/ee/articles/2606/24/news095.html",
-      "date": "2026-06-24T16:25:00+09:00",
-      "dateLabel": "06/24 16:25",
-      "desc": "Diver-Xは2026年6月23日、グローブ型仮想現実（VR）コントローラー新製品「ContactGlove3」を発表した。電磁場トラッキング方式の採用により推奨環境下で中央値0.5mm、最大値1.5mmの誤差という高精度を実現した。民生用と業務用を用意していて、ロボティクスの手の学習に使えるという。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI実装",
-      "score": 26
-    },
-    {
-      "title": "【解説】キオクシアなぜ急成長？ 半導体メモリって何？ AIブームを見通すための基礎知識",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/24/news110.html",
-      "date": "2026-06-24T15:40:00+09:00",
-      "dateLabel": "06/24 15:40",
-      "desc": "注目を集める半導体メモリ大手のキオクシア。同社はなぜAI需要を取り込めたのか。いま押さえたい基礎知識を解説する。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 26
-    },
-    {
-      "title": "国内ユーザー数「前年比1582％増」――AI開発支援「Devin」は競合と何が違う？ 日本法人代表が語る事業戦略",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000124/",
-      "date": "2026-06-24T15:24:09+09:00",
-      "dateLabel": "06/24 15:24",
-      "desc": "ソフトウェア開発向けAIエージェント「Devin」をどのように日本市場で展開するのか。Devinを手掛ける米Cognition AI日本法人の正井拓己代表が語った。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
       "score": 26
     }
   ]
