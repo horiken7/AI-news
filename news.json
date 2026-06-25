@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T12:30:23.105213+09:00",
-  "generatedLabel": "2026/06/25 12:30",
+  "generatedAt": "2026-06-25T16:33:45.159775+09:00",
+  "generatedLabel": "2026/06/25 16:33",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 65,
+  "candidates": 57,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 10
+      "items": 4
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 16
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -74,17 +74,6 @@
       "score": 58
     },
     {
-      "title": "OpenAI、ついに独自AIチップ開発 ChatGPT支える",
-      "link": "https://ascii.jp/elem/000/004/413/4413371/?rss",
-      "date": "2026-06-25T10:10:00+09:00",
-      "dateLabel": "06/25 10:10",
-      "desc": "OpenAIは6月24日、Broadcomと共同で、大規模言語モデルの推論処理に最適化したAIチップ「Jalapeño（ハラペーニョ）」を発表した。",
-      "img": "https://ascii.jp/img/2026/06/25/4489079/s/815accb21ba9c149.png",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 58
-    },
-    {
       "title": "QualcommがAIスタートアップのModularを約6400億円で買収",
       "link": "https://gigazine.net/news/20260625-qualcomm-acquires-modular/",
       "date": "2026-06-25T11:41:00+09:00",
@@ -116,6 +105,28 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 50
+    },
+    {
+      "title": "既存AIエージェントと連携してPC操作を自動化、APIなしのアプリも画面を見て操作する「HoloDesktop CLI」が登場",
+      "link": "https://gigazine.net/news/20260625-holodesktop-cli/",
+      "date": "2026-06-25T16:30:00+09:00",
+      "dateLabel": "06/25 16:30",
+      "desc": "AI企業のH Companyが、人間向けに作られたデスクトップ画面をAIエージェントに操作させるためのクライアント「HoloDesktop CLI」を発表しました。HoloDesktop CLIによってAIエージェントに「画面を見る能力」と「PCを操作する能力」を追加できると述べられています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
+      "title": "Claude Mythosがアメリカ政府の機密システムの脆弱性を発見",
+      "link": "https://gigazine.net/news/20260625-anthropic-mythos-found-vulnerabilities/",
+      "date": "2026-06-25T12:35:00+09:00",
+      "dateLabel": "06/25 12:35",
+      "desc": "サイバー攻撃性能が非常に高いとされているAnthropicのAI「Claude Mythos」が、アメリカ政府の機密システムに隠れていた脆弱性を発見していたことが、当局者の証言によって明らかになりました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
     },
     {
       "title": "Gemini 3.5 Flashに画面を認識してクリックや文字入力する能力「computer use」が追加される、PCを操作するエージェントの構築が可能に",
@@ -151,17 +162,6 @@
       "score": 42
     },
     {
-      "title": "ワークマン、冷房ウェア緊急入荷 猛暑対策で号外チラシ2000万部",
-      "link": "https://ascii.jp/elem/000/004/413/4413373/?rss",
-      "date": "2026-06-25T10:50:00+09:00",
-      "dateLabel": "06/25 10:50",
-      "desc": "ワークマンは6月24日、ペルチェ半導体を搭載した冷房ウエア「WindCore ICE×HEATERペルチェベスト」シリーズを、6月26日から全国のワークマン店舗に緊急入荷すると発表した。",
-      "img": "https://ascii.jp/img/2026/06/25/4489095/s/83e1f086540c7bc8.png",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
       "title": "Google、「Gemini 3.5 Flash」に「Computer Use」を標準搭載──AIが画面を見てブラウザやアプリを操作",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/25/2000000127/",
       "date": "2026-06-25T10:08:52+09:00",
@@ -184,58 +184,58 @@
       "score": 42
     },
     {
-      "title": "ClaudeをSlackチャンネルに召喚、“チームの一員”として直接指示 新機能「Claude Tag」登場",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
-      "date": "2026-06-24T15:27:00+09:00",
-      "dateLabel": "06/24 15:27",
-      "desc": "Anthropicは、「Slack」上で「Claude」を利用できる新機能「Claude Tag」のベータ版提供を23日から開始した。指定したチャンネルにClaudeを招待し、メンションをつけてタスクを依頼すると、Claudeが関連情報をもとにタスク計画を自動構築する。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "動画生成AI「Seedance 2.5」をByteDanceが発表、最大50個の参照素材から最大30秒の動画を生成可能",
-      "link": "https://gigazine.net/news/20260624-bytedance-seedance-2-5/",
-      "date": "2026-06-24T12:45:00+09:00",
-      "dateLabel": "06/24 12:45",
-      "desc": "ByteDanceは同社のクラウド事業である火山引擎(Volcano Engine)が主催する「FORCE原動力大会」で、動画生成AI「Seedance 2.5」を発表しました。Seedance 2.5は画像、動画、音声などを含む最大50個のマルチモーダル参照素材を入力でき、1回の生成で最長30秒の動画を出力できる点が特徴です。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "生成AI/マルチモーダル",
-      "score": 42
-    },
-    {
-      "title": "SlackにClaudeを参加させてAIエージェントにタスクを依頼できる「Claude Tag」が登場、Anthropic製品チームのコードの65％はClaude Tagで作成",
-      "link": "https://gigazine.net/news/20260624-claude-tag-slack/",
-      "date": "2026-06-24T12:40:00+09:00",
-      "dateLabel": "06/24 12:40",
-      "desc": "ClaudeをSlackのチャットに参加させられる機能「Claude Tag」が登場しました。Claude Tagを用いると「@Claude」でClaudeに話しかけてタスクを依頼したり関連情報を確認したりできます。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "arrows Alpha2 F-51G発表 5370mAhバッテリーとDimensity 8350 Extreme搭載の最上位モデル",
-      "link": "https://ascii.jp/elem/000/004/413/4413375/?rss",
-      "date": "2026-06-25T11:45:00+09:00",
-      "dateLabel": "06/25 11:45",
-      "desc": "FCNTはNTTドコモ向け最上位スマホ「arrows Alpha2 F-51G」を発表。Dimensity 8350 Extreme、5370mAhバッテリー、144Hz対応LTPOディスプレー、AI機能を搭載し、8月下旬以降に発売予定です。",
-      "img": "https://ascii.jp/img/2026/06/25/4489105/s/15060a805a6c8025.png",
+      "title": "エレコム、半固体リチウムイオン採用モバイルバッテリーがVGP2026 SUMMER部門賞を受賞",
+      "link": "https://ascii.jp/elem/000/004/413/4413594/?rss",
+      "date": "2026-06-25T16:15:00+09:00",
+      "dateLabel": "06/25 16:15",
+      "desc": "エレコムの最新モバイルバッテリー製品が、VGPアワード2026で部門賞を受賞。半固体電池の高い安全性と触覚フィードバックによる直感的操作が、新たな価値をユーザーに提供する。",
+      "img": "https://ascii.jp/img/2026/06/25/4489344/s/66a27d7b98e0d0ec.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
+      "cat": "規制/安全",
       "score": 34
     },
     {
-      "title": "AIは『道具』から『相棒』へ。代表溝橋とCRO大須賀が語る、働き方の新OSと『1年で40のAIエージェントを輩出する』真意",
-      "link": "https://ascii.jp/elem/000/004/413/4413405/?rss",
-      "date": "2026-06-25T10:10:00+09:00",
-      "dateLabel": "06/25 10:10",
-      "desc": "AIは『道具』から『相棒』へ。代表溝橋とCRO大須賀が語る、働き方の新OSと『1年で40のAIエージェントを輩出する』真意",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "title": "メモリ32GB化が777円。RTX 4050搭載ガレリアノートが19万円切り",
+      "link": "https://ascii.jp/elem/000/004/413/4413283/?rss",
+      "date": "2026-06-25T15:00:00+09:00",
+      "dateLabel": "06/25 15:00",
+      "desc": "ドスパラのゲーミングノートPC「GALLERIA RL7C-R45-5N」が189,980円で販売中。Core i7-13620HとGeForce RTX 4050 Laptop GPUを搭載する15.6型モデルで、165Hz対応のフルHD液晶も備える。現在は「夏のボーナス先取りキャンペーン」の対象となっており、通常16GBメモリから32GBメモリへの変更を",
+      "img": "https://ascii.jp/img/2026/06/24/4488650/s/ffb87901dea440fc.jpg",
       "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "7種類の実行環境を再現するAIモデル「Qwen-AgentWorld」が登場、実環境不要でAIエージェントが行動結果を事前予測できるよう訓練可能",
+      "link": "https://gigazine.net/news/20260625-qwen-agentworld/",
+      "date": "2026-06-25T14:10:00+09:00",
+      "dateLabel": "06/25 14:10",
+      "desc": "中国の大手テクノロジー企業「Alibaba」のAI研究チームであるQwenが、「Qwen-AgentWorld」を2026年6月23日にリリースしました。QwenによるとQwen-AgentWorldは言語モデルに基づいて構築された世界モデルであり、このアプローチが汎用(はんよう)エージェント能力の限界を押し上げる方法である可能性があるそうです。 続きを読む",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "AnthropicがAlibabaを「蒸留攻撃」で非難、Claudeに2880万回以上のアクセスか",
+      "link": "https://gigazine.net/news/20260625-anthropic-accuses-alibaba/",
+      "date": "2026-06-25T13:35:00+09:00",
+      "dateLabel": "06/25 13:35",
+      "desc": "「Claude」シリーズを展開しているAI企業のAnthropicが、中国のビッグテック・AlibabaのAI研究機関・Qwen labによる「蒸留攻撃」を受けているとして、ホワイトハウス関係者や上院議員に対して告発文を送付したことがわかりました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "半導体製造大手のTSMCが値上げを検討中との報道、NVIDIAやAppleに影響か",
+      "link": "https://gigazine.net/news/20260625-tsmc-reportedly-hiking-prices-all-advanced-nodes/",
+      "date": "2026-06-25T13:27:00+09:00",
+      "dateLabel": "06/25 13:27",
+      "desc": "世界最大の半導体受託製造企業であるTSMCが、3nmプロセスだけでなく7nmプロセスや従来製品も含めた先進チップ製造ポートフォリオ全体で値上げを実施する予定であると顧客に伝えたことが報じられました。この値上げはApple・NVIDIA・AMD・Qualcomm・Broadcom・MediaTekといった主要なチップ設計企業のコスト上昇につながる可能性がありま",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
       "score": 34
     },
     {
@@ -261,24 +261,24 @@
       "score": 34
     },
     {
-      "title": "AIにコンテンツのスクレイピングを許可するかどうかをクリエイターが簡単に制御できる機能をCloudflareが提供開始",
-      "link": "https://gigazine.net/news/20260624-cloudflare-beehiiv-ai-crawl-control/",
-      "date": "2026-06-24T15:00:00+09:00",
-      "dateLabel": "06/24 15:00",
-      "desc": "AIが学習や回答に使用するデータをインターネット上からかき集めるAIクローラーは、AI開発者にとっては有用なものですが、一部のクリエイターはAIによるコンテンツの無断使用を問題視しています。そんな中、ウェブサイトやアプリといったコンテンツの配信を高速化・最適化するCloudflareが、ニュースレター配信サービスのbeehiivと提携して、クリエイターが簡単",
+      "title": "ClaudeをSlackチャンネルに召喚、“チームの一員”として直接指示 新機能「Claude Tag」登場",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/24/news115.html",
+      "date": "2026-06-24T15:27:00+09:00",
+      "dateLabel": "06/24 15:27",
+      "desc": "Anthropicは、「Slack」上で「Claude」を利用できる新機能「Claude Tag」のベータ版提供を23日から開始した。指定したチャンネルにClaudeを招待し、メンションをつけてタスクを依頼すると、Claudeが関連情報をもとにタスク計画を自動構築する。",
       "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI全般",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
       "score": 34
     },
     {
-      "title": "MSI「MAG 245C X24」発売、240Hz・1ms対応の23.6型湾曲ゲーミングモニター",
-      "link": "https://ascii.jp/elem/000/004/413/4413403/?rss",
-      "date": "2026-06-25T12:15:00+09:00",
-      "dateLabel": "06/25 12:15",
-      "desc": "MSIは、240Hzの高リフレッシュレートと1ms応答速度、1500R湾曲パネルを採用した23.6インチゲーミングモニター「MAG 245C X24」を発売。FreeSync PremiumやAI Vision対応で、価格は約2万1800円です。",
-      "img": "https://ascii.jp/img/2026/06/25/4489119/s/d7cdfd5866e93676.png",
-      "src": "ASCII.jp",
+      "title": "白血病など16疾患の診断をAIが支援、日立がAUC0.9以上の新技術",
+      "link": "https://monoist.itmedia.co.jp/mn/articles/2606/25/news087.html",
+      "date": "2026-06-25T15:00:00+09:00",
+      "dateLabel": "06/25 15:00",
+      "desc": "日立製作所と九州大学病院は、血液悪性腫瘍の診断に用いるフローサイトメトリー検査において、医師の鑑別診断を支援する機械学習型のAI技術を開発した。複数疾患の同時分類において、識別性能を示す指標AUCで0.9以上の性能を確認した。",
+      "img": "",
+      "src": "ITmedia AI+",
       "cat": "AI全般",
       "score": 26
     }
