@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-25T19:33:40.614159+09:00",
-  "generatedLabel": "2026/06/25 19:33",
+  "generatedAt": "2026-06-25T22:11:01.662032+09:00",
+  "generatedLabel": "2026/06/25 22:11",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 61,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 6
     },
     {
       "source": "PC Watch",
@@ -74,6 +74,17 @@
       "score": 58
     },
     {
+      "title": "Radeon RX 7000シリーズが予定より早くFSR 4に対応、中堅GPUでもより鮮明でリアルな映像を実現！",
+      "link": "https://ascii.jp/elem/000/004/413/4413639/?rss",
+      "date": "2026-06-25T19:00:00+09:00",
+      "dateLabel": "06/25 19:00",
+      "desc": "AMDが6月23日に公開した「AMD Software Adrenalin 26.6.2」において、RX 7000シリーズにおけるFSR 4対応が解禁となった。既存のFSR 3と比較して性能や画質がどう変化するのかに絞って検証する。",
+      "img": "https://ascii.jp/img/2026/06/25/4489365/s/cc3d8fc8a467f3dc.png",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 50
+    },
+    {
       "title": "QualcommがAIスタートアップのModularを約6400億円で買収",
       "link": "https://gigazine.net/news/20260625-qualcomm-acquires-modular/",
       "date": "2026-06-25T11:41:00+09:00",
@@ -82,6 +93,17 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "半導体/GPU",
+      "score": 50
+    },
+    {
+      "title": "「AIエージェント基盤の構築は色々大変」 Claude Managed Agentsはどう進化しているのか",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/25/news058.html",
+      "date": "2026-06-25T11:00:00+09:00",
+      "dateLabel": "06/25 11:00",
+      "desc": "Anthropicがβ版で公開したAIエージェント実行基盤「Claude Managed Agents」。構築の課題が多い実行基盤をフルマネージド化し、さまざまな機能を追加し続けている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
       "score": 50
     },
     {
@@ -105,17 +127,6 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 50
-    },
-    {
-      "title": "ファイルサーバーをChatGPTに学習させる「ChatSense」、デスクトップ機能をリリース予定",
-      "link": "https://ascii.jp/elem/000/004/413/4413699/?rss",
-      "date": "2026-06-25T16:44:53+09:00",
-      "dateLabel": "06/25 16:44",
-      "desc": "ファイルサーバーをChatGPTに学習させる「ChatSense」、デスクトップ機能をリリース予定",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 42
     },
     {
       "title": "既存AIエージェントと連携してPC操作を自動化、APIなしのアプリも画面を見て操作する「HoloDesktop CLI」が登場",
@@ -184,35 +195,13 @@
       "score": 42
     },
     {
-      "title": "「Transformerの最大475倍」 富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/",
-      "date": "2026-06-24T19:54:58+09:00",
-      "dateLabel": "06/24 19:54",
-      "desc": "富士通が、大規模言語モデル（LLM）を少ないGPUで動かせる新アーキテクチャ「PHOTON」（フォトン）を開発した。GPU当たりの処理性能（スループット）が、現在のLLMで主流のアーキテクチャ「Transformer」の最大475倍に達するという。LLMの運用に必要なGPUを抑え、大幅なコスト削減につなげられるとしている。",
+      "title": "Flashの再来？ Figmaの新機能「Figma Motion」に懐かしいとの声 アニメーション生成するAI機能も",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news132.html",
+      "date": "2026-06-25T21:05:00+09:00",
+      "dateLabel": "06/25 21:05",
+      "desc": "Figmaが発表した新機能「Figma Motion」が、かつてのAdobe Flashを思わせるとSNSで話題だ。タイムラインでキーフレームを打つ操作感が懐かしさを呼んだが、実際に触ると別物との声もみられる。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
-      "title": "テロップもナレーションも、直さなくていい。動画コンテンツ制作に携わるクリエイターを支援する、AIカット表自動生成ツール「ぱかっと」正式リリース",
-      "link": "https://ascii.jp/elem/000/004/413/4413684/?rss",
-      "date": "2026-06-25T17:00:00+09:00",
-      "dateLabel": "06/25 17:00",
-      "desc": "テロップもナレーションも、直さなくていい。動画コンテンツ制作に携わるクリエイターを支援する、AIカット表自動生成ツール「ぱかっと」正式リリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "広報向け「AI事前学習対策」ツール「ディギディギ」を2026年6月25日にリリース",
-      "link": "https://ascii.jp/elem/000/004/413/4413698/?rss",
-      "date": "2026-06-25T16:50:00+09:00",
-      "dateLabel": "06/25 16:50",
-      "desc": "広報向け「AI事前学習対策」ツール「ディギディギ」を2026年6月25日にリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 34
     },
@@ -250,15 +239,37 @@
       "score": 34
     },
     {
-      "title": "VRAM32GBで激安なIntelグラボ「Intel Arc Pro B70 Creator 32GB」を買ったので開封の儀、外観や搭載ポートはこんな感じ",
-      "link": "https://gigazine.net/news/20260624-asrock-intel-arc-pro-b70-creator-32gb-appearance/",
-      "date": "2026-06-24T20:00:00+09:00",
-      "dateLabel": "06/24 20:00",
-      "desc": "Intel製GPU「Intel Arc Pro B70」を搭載したASRock製グラフィックボード「Intel Arc Pro B70 Creator 32GB」が2026年6月19日に登場しました。Intel Arc Pro B70 Creator 32GBは名前の通りVRAMを32GB搭載したグラフィックボードで、VRAM容量32GBのNVIDIA製GP",
+      "title": "「Transformerの最大475倍」 富士通、GPUを効率的に使うLLMアーキテクチャ「PHOTON」開発",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/24/2000000125/",
+      "date": "2026-06-24T19:54:58+09:00",
+      "dateLabel": "06/24 19:54",
+      "desc": "富士通が、大規模言語モデル（LLM）を少ないGPUで動かせる新アーキテクチャ「PHOTON」（フォトン）を開発した。GPU当たりの処理性能（スループット）が、現在のLLMで主流のアーキテクチャ「Transformer」の最大475倍に達するという。LLMの運用に必要なGPUを抑え、大幅なコスト削減につなげられるとしている。",
       "img": "",
-      "src": "GIGAZINE",
+      "src": "ITmedia AI+",
       "cat": "半導体/GPU",
       "score": 34
+    },
+    {
+      "title": "MacBook Neoが2万円、Airも4万円の値上げ 価格上昇＋円安適用のダブル直撃 なお、今回はiPhoneは改定なし",
+      "link": "https://ascii.jp/elem/000/004/413/4413753/?rss",
+      "date": "2026-06-25T22:00:00+09:00",
+      "dateLabel": "06/25 22:00",
+      "desc": "アップルはApple Storeでの価格を改定。Macを中心として値上げが実施されている。一例を挙げると、MacBook Neoは256GBモデルが11万9800円、512GBモデルが13万7800円とそれぞれ2万円と2万3000円の値上げとなっている。",
+      "img": "https://ascii.jp/img/2026/06/25/4489526/s/1a6a7ac8e4137bec.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "特価で24万円台！ AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」がお買い得",
+      "link": "https://ascii.jp/elem/000/004/413/4413747/?rss",
+      "date": "2026-06-25T22:00:00+09:00",
+      "dateLabel": "06/25 22:00",
+      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
+      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "Codexのログ記録バグによりローカルSSDに年間640TB相当の書き込みを行う不具合、最新版で大半を修正",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 26
-    },
-    {
-      "title": "番狂わせ続きのサッカーW杯、その背景に“AI参謀”あり？ すべての参加チームが使う「FIFA AI Pro」とは",
-      "link": "https://ascii.jp/elem/000/004/413/4413350/?rss",
-      "date": "2026-06-25T18:30:00+09:00",
-      "dateLabel": "06/25 18:30",
-      "desc": "FIFAワールドカップ2026の予選リーグで“番狂わせ”が続いている。アフリカの島国・カーボベルデが、強豪国スペインを90分間封じ込めて引き分けに持ち込んだ。また、カリブ海の小国・キュラソーも、実力国のエクアドルを抑え込み、勝ち点を獲得している。何が起きているのか。",
-      "img": "https://ascii.jp/img/2026/06/25/4489015/s/b22b1ce39652e04c.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 26
     }
   ]
