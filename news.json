@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-26T19:14:18.187255+09:00",
-  "generatedLabel": "2026/06/26 19:14",
+  "generatedAt": "2026-06-26T22:03:13.653713+09:00",
+  "generatedLabel": "2026/06/26 22:03",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 55,
+  "candidates": 57,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 2
+      "items": 3
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 14
+      "items": 15
     },
     {
       "source": "CNET Japan",
@@ -96,17 +96,6 @@
       "score": 42
     },
     {
-      "title": "【SORACOM Discovery 2026】問い合わせ対応をAIでどう自動化・効率化する？ LINE連携の成功事例セッション ＆ 会場で試せる最新デモの見どころ",
-      "link": "https://ascii.jp/elem/000/004/414/4414023/?rss",
-      "date": "2026-06-26T17:00:00+09:00",
-      "dateLabel": "06/26 17:00",
-      "desc": "【SORACOM Discovery 2026】問い合わせ対応をAIでどう自動化・効率化する？ LINE連携の成功事例セッション ＆ 会場で試せる最新デモの見どころ",
-      "img": "https://ascii.jp/img/2026/06/26/4490009/s/40d41b857ed5c44d.png",
-      "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
       "title": "AIエージェントに「タスクに合ったAIモデルを見つける能力」を与える「OpenRouter MCP Server」が登場",
       "link": "https://gigazine.net/news/20260626-openrouter-mcp-server/",
       "date": "2026-06-26T13:50:00+09:00",
@@ -151,14 +140,25 @@
       "score": 42
     },
     {
-      "title": "福岡県半導体・デジタル産業振興会議講演会・交流会を開催",
-      "link": "https://ascii.jp/elem/000/004/414/4414036/?rss",
-      "date": "2026-06-26T17:22:22+09:00",
-      "dateLabel": "06/26 17:22",
-      "desc": "福岡県半導体・デジタル産業振興会議講演会・交流会を開催",
+      "title": "中国の開発者が公式価格の約10％でAnthropicのAIモデルを利用できるAPIプロキシ「中转站」が支えるグレー経済圏の実態とは？",
+      "link": "https://gigazine.net/news/20260626-china-anthropic-api/",
+      "date": "2026-06-26T21:00:00+09:00",
+      "dateLabel": "06/26 21:00",
+      "desc": "Anthropicは中国をClaudeの提供地域から除外していますが、中国では海外のAPIプロキシ「中转站」を介し、ClaudeやClaude Codeを公式価格の約10％で利用できるグレー市場が広がっていると報告されています。利用者は個人開発者や学生、企業、再販業者に及び、この市場は単なるアクセス回避策にとどまらず、データ収集や不正取引とも結び付く供給網を",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "【楽天市場限定50％OFF】通常29,900円→14,950円！POCKAM P10PRO｜Android 16・Gemini AIのタブレット 特価！さらに最大100,000ポイントが当たるチャンス",
+      "link": "https://ascii.jp/elem/000/004/414/4414068/?rss",
+      "date": "2026-06-26T18:15:08+09:00",
+      "dateLabel": "06/26 18:15",
+      "desc": "【楽天市場限定50％OFF】通常29,900円→14,950円！POCKAM P10PRO｜Android 16・Gemini AIのタブレット 特価！さらに最大100,000ポイントが当たるチャンス",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "半導体/GPU",
+      "cat": "LLM/モデル",
       "score": 34
     },
     {
@@ -195,17 +195,6 @@
       "score": 34
     },
     {
-      "title": "Flashの再来？ Figmaの新機能「Figma Motion」に懐かしいとの声 アニメーション生成するAI機能も",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news132.html",
-      "date": "2026-06-25T21:05:00+09:00",
-      "dateLabel": "06/25 21:05",
-      "desc": "Figmaが発表した新機能「Figma Motion」が、かつてのAdobe Flashを思わせるとSNSで話題だ。タイムラインでキーフレームを打つ操作感が懐かしさを呼んだが、実際に触ると別物との声もみられる。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
       "title": "Google、「Gemini 3.5 Flash」に「Computer Use」を標準搭載──AIが画面を見てブラウザやアプリを操作",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/25/2000000127/",
       "date": "2026-06-25T10:08:52+09:00",
@@ -215,6 +204,28 @@
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
       "score": 34
+    },
+    {
+      "title": "特価で24万5300円！ AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」がお買い得",
+      "link": "https://ascii.jp/elem/000/004/413/4413748/?rss",
+      "date": "2026-06-26T22:00:00+09:00",
+      "dateLabel": "06/26 22:00",
+      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
+      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "生成AI時代のパワポ活用術・スライド資料づくりを体系的に学ぶ！ 7/17（金）～ 無料セミナー「AI時代のPowerPoint活用術」（全10回）がスタート!!",
+      "link": "https://ascii.jp/elem/000/004/414/4414070/?rss",
+      "date": "2026-06-26T18:00:00+09:00",
+      "dateLabel": "06/26 18:00",
+      "desc": "生成AI時代のパワポ活用術・スライド資料づくりを体系的に学ぶ！ 7/17（金）～ 無料セミナー「AI時代のPowerPoint活用術」（全10回）がスタート!!",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 26
     },
     {
       "title": "AppleはM6チップの上位モデルをスキップして2027年にM7シリーズの展開を計画しているという報道、デバイス上のAI機能を強化するため",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "半導体/GPU",
-      "score": 26
-    },
-    {
-      "title": "“流れていく会話”をAIが構造化 チャット履歴を会社の資産に",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2606/26/news041.html",
-      "date": "2026-06-26T07:00:00+09:00",
-      "dateLabel": "06/26 07:00",
-      "desc": "業務上の会話には、後から参照すべき貴重な情報が多く含まれる。しかし、従来型のチャットでは、こうした情報が整理されないまま流れ、必要な場面で見つけにくい。そうした課題を解決するために、AIチャットエージェントが役立つかもしれない。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
       "score": 26
     }
   ]
