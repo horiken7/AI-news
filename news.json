@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T05:27:04.196884+09:00",
-  "generatedLabel": "2026/06/27 05:27",
+  "generatedAt": "2026-06-27T07:02:47.858723+09:00",
+  "generatedLabel": "2026/06/27 07:02",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 56,
@@ -129,17 +129,6 @@
       "score": 42
     },
     {
-      "title": "OpenAI、「GPT-5.5 Instant」をアップデート 会話の文脈維持や箇条書き減など「読みやすさ」を改善",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news062.html",
-      "date": "2026-06-25T09:23:00+09:00",
-      "dateLabel": "06/25 09:23",
-      "desc": "OpenAIは、ChatGPTで最も広く利用されているモデル「GPT-5.5 Instant」のアップデートを発表した。新機能の追加ではなく、日常的な会話の品質向上が中心。質問の意図を的確に捉えて文脈を維持する能力が向上するほか、テンプレート的な回答が減り、位置情報を活用した地域のビジネス検索などもより洗練されるとしている。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
       "title": "中国の開発者が公式価格の約10％でAnthropicのAIモデルを利用できるAPIプロキシ「中转站」が支えるグレー経済圏の実態とは？",
       "link": "https://gigazine.net/news/20260626-china-anthropic-api/",
       "date": "2026-06-26T21:00:00+09:00",
@@ -204,6 +193,17 @@
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
       "score": 34
+    },
+    {
+      "title": "OpenAI、次世代「GPT-5.6」シリーズを限定プレビュー 米政府と調整、命名は「Sol／Terra／Luna」に刷新",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000134/",
+      "date": "2026-06-27T04:56:10+09:00",
+      "dateLabel": "06/27 04:56",
+      "desc": "米OpenAIは6月26日（現地時間）、次世代AIモデル「GPT-5.6」シリーズの限定プレビューを始めた。フラッグシップの「Sol」、日常業務向けでバランス型の「Terra」、高速・低価格の「Luna」の3モデルで構成する。コーディングや科学、サイバーセキュリティの能力を高める一方、同社として過去最も強固と位置付ける安全対策を組み合わせた。数週間以内に一般",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 26
     },
     {
       "title": "特価で24万5300円！ AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」がお買い得",
