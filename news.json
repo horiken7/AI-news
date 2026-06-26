@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-26T08:07:39.867553+09:00",
-  "generatedLabel": "2026/06/26 08:07",
+  "generatedAt": "2026-06-26T11:15:44.269575+09:00",
+  "generatedLabel": "2026/06/26 11:15",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 61,
+  "candidates": 63,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 10
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 15
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -63,68 +63,24 @@
   ],
   "articles": [
     {
-      "title": "Radeon RX 7000シリーズが予定より早くFSR 4に対応、中堅GPUでもより鮮明でリアルな映像を実現！",
-      "link": "https://ascii.jp/elem/000/004/413/4413639/?rss",
-      "date": "2026-06-25T19:00:00+09:00",
-      "dateLabel": "06/25 19:00",
-      "desc": "AMDが6月23日に公開した「AMD Software Adrenalin 26.6.2」において、RX 7000シリーズにおけるFSR 4対応が解禁となった。既存のFSR 3と比較して性能や画質がどう変化するのかに絞って検証する。",
-      "img": "https://ascii.jp/img/2026/06/25/4489365/s/cc3d8fc8a467f3dc.png",
+      "title": "AIインフラ市場“一強体制”を崩せるか AMDが「Helios」で体現するオープン戦略とフィジカルAIのラストマイル",
+      "link": "https://ascii.jp/elem/000/004/410/4410410/?rss",
+      "date": "2026-06-26T11:00:00+09:00",
+      "dateLabel": "06/26 11:00",
+      "desc": "これまでNVIDIA一強だったAIインフラの市場において、急速に存在感を示しているのがAMDだ。ハイパースケーラーは、AMDのGPUを採用することで、“一社依存”からの脱却を図り始めている。",
+      "img": "https://ascii.jp/img/2026/06/15/4483536/s/ad7b90fc13b6e90a.jpg",
       "src": "ASCII.jp",
       "cat": "半導体/GPU",
-      "score": 50
-    },
-    {
-      "title": "QualcommがAIスタートアップのModularを約6400億円で買収",
-      "link": "https://gigazine.net/news/20260625-qualcomm-acquires-modular/",
-      "date": "2026-06-25T11:41:00+09:00",
-      "dateLabel": "06/25 11:41",
-      "desc": "半導体企業のQualcommが、AIソフトウェア開発のスタートアップ・Modularの買収で合意に至ったと発表しました。Qualcommは今回の買収を通じてデバイスからデータセンターまでを対象とするAI事業を強化し、開発者や企業が多様な半導体上でAIを展開しやすい環境の構築を目指しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 50
-    },
-    {
-      "title": "「AIエージェント基盤の構築は色々大変」 Claude Managed Agentsはどう進化しているのか",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/25/news058.html",
-      "date": "2026-06-25T11:00:00+09:00",
-      "dateLabel": "06/25 11:00",
-      "desc": "Anthropicがβ版で公開したAIエージェント実行基盤「Claude Managed Agents」。構築の課題が多い実行基盤をフルマネージド化し、さまざまな機能を追加し続けている。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 50
-    },
-    {
-      "title": "OpenAI、「GPT-5.5 Instant」をアップデート 会話の文脈維持や箇条書き減など「読みやすさ」を改善",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news062.html",
-      "date": "2026-06-25T09:23:00+09:00",
-      "dateLabel": "06/25 09:23",
-      "desc": "OpenAIは、ChatGPTで最も広く利用されているモデル「GPT-5.5 Instant」のアップデートを発表した。新機能の追加ではなく、日常的な会話の品質向上が中心。質問の意図を的確に捉えて文脈を維持する能力が向上するほか、テンプレート的な回答が減り、位置情報を活用した地域のビジネス検索などもより洗練されるとしている。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 50
-    },
-    {
-      "title": "「AIシステム品質検証」提供開始、AI機能を組み込んだシステムや社内ツールの品質やリスクを可視化",
-      "link": "https://ascii.jp/elem/000/004/413/4413680/?rss",
-      "date": "2026-06-26T07:00:00+09:00",
-      "dateLabel": "06/26 07:00",
-      "desc": "株式会社ProVisionは6月19日に、AI活用における品質とリスクの検証を支援する「AIシステム品質検証」の提供開始を発表した。AI機能が組み込まれたシステムのほか、開発工程でAIを使用しているシステム、社内AIツールなどを対象に、AIの出力品質やセキュリティ、運用時のリスクを検証するという。",
-      "img": "https://ascii.jp/img/2026/06/25/4489432/s/a8a1bc8141ee5b00.png",
-      "src": "ASCII.jp",
-      "cat": "AI実装",
       "score": 42
     },
     {
-      "title": "微細化の限界を超え、IBMがムーアの法則を10年伸ばす積層チップ",
-      "link": "https://ascii.jp/elem/000/004/413/4413774/?rss",
-      "date": "2026-06-26T06:55:56+09:00",
-      "dateLabel": "06/26 06:55",
-      "desc": "トランジスターの微細化が物理の限界に近づく中、IBMはトランジスターを2層に積む新チップを発表した。爪サイズに約1000億個を集積し、処理は最大5割増、消費電力は最大7割減という。量産は半導体メーカーと組んでこれからだが、ムーアの法則を10年以上延ばす可能性がある。",
-      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
-      "src": "ASCII.jp",
+      "title": "IBMが世界初とする0.7nmノードのチップ技術を発表、3D構造「nanostack」でトランジスタ密度をほぼ2倍に",
+      "link": "https://gigazine.net/news/20260626-ibm-0-7-nm-node-nanostack/",
+      "date": "2026-06-26T10:57:00+09:00",
+      "dateLabel": "06/26 10:57",
+      "desc": "IBMが世界初とする0.7nm、7Å(オングストローム)ノードのチップ技術を2026年6月25日に発表しました。この技術は「nanostack」という3次元トランジスタアーキテクチャを基盤としており、半導体の微細化が物理的な限界に近づく中で、計算機、家電、通信機器、輸送システム、重要インフラの性能と効率を高める基盤技術になるとIBMは位置付けています。 続き",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "半導体/GPU",
       "score": 42
     },
@@ -151,47 +107,25 @@
       "score": 42
     },
     {
-      "title": "Gemini 3.5 Flashに画面を認識してクリックや文字入力する能力「computer use」が追加される、PCを操作するエージェントの構築が可能に",
-      "link": "https://gigazine.net/news/20260625-gemini-3-5-computer-use/",
-      "date": "2026-06-25T11:35:00+09:00",
-      "dateLabel": "06/25 11:35",
-      "desc": "GoogleがAIモデル「Gemini 3.5 Flash」に、画面を見ながらクリックや文字入力などを行う機能「computer use」を組み込んだと発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "富士通がAI効率を475倍にするTransformer代替アーキテクチャ「PHOTON」を開発",
-      "link": "https://gigazine.net/news/20260625-fujitsu-photon/",
-      "date": "2026-06-25T11:08:00+09:00",
-      "dateLabel": "06/25 11:08",
-      "desc": "2026年6月24日、富士通が大規模言語モデル(LLM)の大幅なコスト削減を実現するアーキテクチャ「Parallel Hierarchical Operation for TOp-down Networks(PHOTON)」を発表しました。LLMの基盤アーキテクチャであるTransformerと比較して、GPUリソース当たりのスループットを最大475倍に改善",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
-      "title": "QualcommがAIデータセンター向け製品「Qualcomm Dragonfly」を発表、エージェントAI向けCPU「C1000」やAIラック「AI300」など",
-      "link": "https://gigazine.net/news/20260625-qualcomm-dragonfly/",
-      "date": "2026-06-25T11:01:00+09:00",
-      "dateLabel": "06/25 11:01",
-      "desc": "2026年6月25日、Qualcommがデータセンター向けの複数の製品群を発表しました。エージェント型AIをこれまで以上に低電力・低コストで稼働させられるものだと説明されています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
-      "title": "Google、「Gemini 3.5 Flash」に「Computer Use」を標準搭載──AIが画面を見てブラウザやアプリを操作",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/25/2000000127/",
-      "date": "2026-06-25T10:08:52+09:00",
-      "dateLabel": "06/25 10:08",
-      "desc": "Googleは、AIモデル「Gemini 3.5 Flash」に、AIがコンピュータの画面を認識してマウス操作やキーボード入力を自動で実行する「Computer Use」機能を標準ツールとして搭載したと発表した。これまで専用モデルでのみ提供していた機能を主力モデルに統合したもので、開発者はWebブラウザやモバイル、デスクトップ環境で動作するエージェントを構築",
+      "title": "「AIエージェント基盤の構築は色々大変」 Claude Managed Agentsはどう進化しているのか",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/25/news058.html",
+      "date": "2026-06-25T11:00:00+09:00",
+      "dateLabel": "06/25 11:00",
+      "desc": "Anthropicがβ版で公開したAIエージェント実行基盤「Claude Managed Agents」。構築の課題が多い実行基盤をフルマネージド化し、さまざまな機能を追加し続けている。",
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
+      "title": "OpenAI、「GPT-5.5 Instant」をアップデート 会話の文脈維持や箇条書き減など「読みやすさ」を改善",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news062.html",
+      "date": "2026-06-25T09:23:00+09:00",
+      "dateLabel": "06/25 09:23",
+      "desc": "OpenAIは、ChatGPTで最も広く利用されているモデル「GPT-5.5 Instant」のアップデートを発表した。新機能の追加ではなく、日常的な会話の品質向上が中心。質問の意図を的確に捉えて文脈を維持する能力が向上するほか、テンプレート的な回答が減り、位置情報を活用した地域のビジネス検索などもより洗練されるとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
       "score": 42
     },
     {
@@ -204,6 +138,17 @@
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 42
+    },
+    {
+      "title": "【熊本】ChatGPTが講師を推薦―株式会社ミセカタ、全国クリーニング生活衛生同業組合 九州ブロック向けにGoogleマップ・SNS集客講座を開催",
+      "link": "https://ascii.jp/elem/000/004/413/4413803/?rss",
+      "date": "2026-06-26T09:10:00+09:00",
+      "dateLabel": "06/26 09:10",
+      "desc": "【熊本】ChatGPTが講師を推薦―株式会社ミセカタ、全国クリーニング生活衛生同業組合 九州ブロック向けにGoogleマップ・SNS集客講座を開催",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "LLM/モデル",
+      "score": 34
     },
     {
       "title": "Flashの再来？ Figmaの新機能「Figma Motion」に懐かしいとの声 アニメーション生成するAI機能も",
@@ -250,34 +195,89 @@
       "score": 34
     },
     {
-      "title": "チャットの貴重な情報をAIが収集 AIエージェントで会話を資産に",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2606/26/news041.html",
-      "date": "2026-06-26T07:00:00+09:00",
-      "dateLabel": "06/26 07:00",
-      "desc": "業務上の会話には、後から参照すべき貴重な情報が多く含まれる。しかし、従来型のチャットでは、こうした情報が整理されないまま流れ、必要な場面で見つけにくい。そうした課題を解決するために、AIチャットエージェントが役立つかもしれない。",
+      "title": "Google、「Gemini 3.5 Flash」に「Computer Use」を標準搭載──AIが画面を見てブラウザやアプリを操作",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/25/2000000127/",
+      "date": "2026-06-25T10:08:52+09:00",
+      "dateLabel": "06/25 10:08",
+      "desc": "Googleは、AIモデル「Gemini 3.5 Flash」に、AIがコンピュータの画面を認識してマウス操作やキーボード入力を自動で実行する「Computer Use」機能を標準ツールとして搭載したと発表した。これまで専用モデルでのみ提供していた機能を主力モデルに統合したもので、開発者はWebブラウザやモバイル、デスクトップ環境で動作するエージェントを構築",
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "STOP！何でもコピペ！ 生成AIに入力してはいけないデータと、“秘密の会話”の始め方",
+      "link": "https://ascii.jp/elem/000/004/409/4409211/?rss",
+      "date": "2026-06-26T11:00:00+09:00",
+      "dateLabel": "06/26 11:00",
+      "desc": "本連載は生成AIをこれから活用しようとしている方たちのために、生成AIの基本やコピペしてそのまま使えるプロンプトなどを紹介。兎にも角にも生成AIに触り始めることで、AIに対する理解を深め、AIスキルを身に着けて欲しい。第63回は生成AIへ入力してはいけない情報と、履歴を残さず一時的に使用する方法について解説する。",
+      "img": "https://ascii.jp/img/2026/06/09/4480575/s/953617c026045611.jpg",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
       "score": 26
     },
     {
-      "title": "MacBook Neoが2万円、Airも4万円の値上げ 価格上昇＋円安適用のダブル直撃 なお、今回はiPhoneは改定なし",
-      "link": "https://ascii.jp/elem/000/004/413/4413753/?rss",
-      "date": "2026-06-25T22:00:00+09:00",
-      "dateLabel": "06/25 22:00",
-      "desc": "アップルはApple Storeでの価格を改定。Macを中心として値上げが実施されている。一例を挙げると、MacBook Neoは256GBモデルが11万9800円、512GBモデルが13万7800円とそれぞれ2万円と2万3000円の値上げとなっている。",
-      "img": "https://ascii.jp/img/2026/06/25/4489526/s/1a6a7ac8e4137bec.png",
+      "title": "AIキャラクターチャットアプリ「anini」に、人気恋愛アドベンチャーゲーム『COSPLAY LOVE!』のヒロイン・御月千代が登場！",
+      "link": "https://ascii.jp/elem/000/004/413/4413800/?rss",
+      "date": "2026-06-26T10:00:00+09:00",
+      "dateLabel": "06/26 10:00",
+      "desc": "AIキャラクターチャットアプリ「anini」に、人気恋愛アドベンチャーゲーム『COSPLAY LOVE!』のヒロイン・御月千代が登場！",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
     {
-      "title": "特価で24万円台！ AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」がお買い得",
-      "link": "https://ascii.jp/elem/000/004/413/4413747/?rss",
-      "date": "2026-06-25T22:00:00+09:00",
-      "dateLabel": "06/25 22:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
+      "title": "AIを“使う”から“経営に活かす”へ。Spotify番組「あなたのAI顧問ラジオ」を配信開始｜NEXT INNOVAITION株式会社",
+      "link": "https://ascii.jp/elem/000/004/413/4413801/?rss",
+      "date": "2026-06-26T09:41:18+09:00",
+      "dateLabel": "06/26 09:41",
+      "desc": "AIを“使う”から“経営に活かす”へ。Spotify番組「あなたのAI顧問ラジオ」を配信開始｜NEXT INNOVAITION株式会社",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "生成AIとの壁打ちから商品化へ、養鶏農家の「全卵ジェラート」が誕生",
+      "link": "https://ascii.jp/elem/000/004/413/4413802/?rss",
+      "date": "2026-06-26T09:17:25+09:00",
+      "dateLabel": "06/26 09:17",
+      "desc": "生成AIとの壁打ちから商品化へ、養鶏農家の「全卵ジェラート」が誕生",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 26
+    },
+    {
+      "title": "ワオ・コーポレーション、CeeGlassの総合型・推薦指導AIツール「シーグラス スイート」を導入 ～新サービス「Total Pass（トータル パス）」の基盤に～",
+      "link": "https://ascii.jp/elem/000/004/413/4413807/?rss",
+      "date": "2026-06-26T09:10:00+09:00",
+      "dateLabel": "06/26 09:10",
+      "desc": "ワオ・コーポレーション、CeeGlassの総合型・推薦指導AIツール「シーグラス スイート」を導入 ～新サービス「Total Pass（トータル パス）」の基盤に～",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "AI自動営業「AIアポろうくん」、分析ダッシュボード＆レポート機能を搭載-「数打ち」フォーム営業から、KPI逆算型の“勝てる営業”へ",
+      "link": "https://ascii.jp/elem/000/004/413/4413806/?rss",
+      "date": "2026-06-26T09:03:11+09:00",
+      "dateLabel": "06/26 09:03",
+      "desc": "AI自動営業「AIアポろうくん」、分析ダッシュボード＆レポート機能を搭載-「数打ち」フォーム営業から、KPI逆算型の“勝てる営業”へ",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "忘れない時代へ。世界30万人以上が利用するAIウェアラブル「AIomi」、2026年6月26日よりMakuakeで先行販売開始",
+      "link": "https://ascii.jp/elem/000/004/413/4413810/?rss",
+      "date": "2026-06-26T09:00:00+09:00",
+      "dateLabel": "06/26 09:00",
+      "desc": "忘れない時代へ。世界30万人以上が利用するAIウェアラブル「AIomi」、2026年6月26日よりMakuakeで先行販売開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
