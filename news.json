@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-27T15:21:45.698842+09:00",
-  "generatedLabel": "2026/06/27 15:21",
+  "generatedAt": "2026-06-27T18:22:54.914149+09:00",
+  "generatedLabel": "2026/06/27 18:22",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 60,
+  "candidates": 58,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -74,6 +74,17 @@
       "score": 50
     },
     {
+      "title": "無料でセルフホスト型のChatGPTやClaudeっぽいローカルAIワークスペースが実現できる「Odysseus」、ファイルアップロード・モデルダウンロード・ウェブ検索・メール/カレンダー連携が可能",
+      "link": "https://gigazine.net/news/20260627-odysseus/",
+      "date": "2026-06-27T18:00:00+09:00",
+      "dateLabel": "06/27 18:00",
+      "desc": "Odysseusはチャット・エージェント・ディープリサーチ・ドキュメント・メール・メモ・カレンダー・ローカルモデルワークフローに対応したセルフホスト型のAIワークスペースです。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
       "title": "AIモデル「ミュトス」、米国の一部組織に再提供へ 米政府が許可",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000135/",
       "date": "2026-06-27T11:07:50+09:00",
@@ -81,17 +92,6 @@
       "desc": "米Anthropicは6月26日（現地時間）、12日から提供を一時停止していたAIモデル「Claude Mythos 5」について、米国の一部組織に限定して再提供を始めると発表した。米政府から許可を得たという。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "トランプ政権がOpenAIに「GPT-5.6」のリリースを遅らせるよう要請",
-      "link": "https://gigazine.net/news/20260626-openai-will-delay-gpt-5-6/",
-      "date": "2026-06-26T18:10:00+09:00",
-      "dateLabel": "06/26 18:10",
-      "desc": "OpenAIの次期大型モデル「GPT-5.6」について、潜在的な安全保障問題への懸念から、トランプ政権がリリースを遅らせるように要請していることが明らかになりました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 42
     },
@@ -184,6 +184,17 @@
       "score": 34
     },
     {
+      "title": "トランプ政権がOpenAIに「GPT-5.6」のリリースを遅らせるよう要請",
+      "link": "https://gigazine.net/news/20260626-openai-will-delay-gpt-5-6/",
+      "date": "2026-06-26T18:10:00+09:00",
+      "dateLabel": "06/26 18:10",
+      "desc": "OpenAIの次期大型モデル「GPT-5.6」について、潜在的な安全保障問題への懸念から、トランプ政権がリリースを遅らせるように要請していることが明らかになりました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
       "title": "AIエージェントに「タスクに合ったAIモデルを見つける能力」を与える「OpenRouter MCP Server」が登場",
       "link": "https://gigazine.net/news/20260626-openrouter-mcp-server/",
       "date": "2026-06-26T13:50:00+09:00",
@@ -212,28 +223,6 @@
       "dateLabel": "06/27 13:00",
       "desc": "2022年、カタール大会の“三苫の1ミリ”で注目を集めたのが「VAR」のテクノロジーだ。実は、ビデオ映像を目視で確認するだけでなく、AIも用いた高度な選手とボールのトラッキング（追跡）システムも使われている。そして今回の2026年大会では、オフサイド判定の精度とスピードが大幅に向上している。その裏側を解説する。",
       "img": "https://ascii.jp/img/2026/06/27/4490293/s/7f34bc4e7a538055.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "中国ECサイトではAI検索の導入が進む インフルエンサーのレビューより、AIのアドバイスの方が影響度大の時代に!?",
-      "link": "https://ascii.jp/elem/000/004/413/4413733/?rss",
-      "date": "2026-06-27T10:00:00+09:00",
-      "dateLabel": "06/27 10:00",
-      "desc": "中国最大のEC祭りの1つ、618セールが今年も来た。ここではメーカー各社が期待の新製品を投入するだけでなく、ECサイト側も新技術を導入。今年の目立ったのはAI検索。実はすでに日本語の自然文での検索も可能だ。",
-      "img": "https://ascii.jp/img/2026/06/25/4489496/s/e51d31e3255466d9.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "【受付開始】農業関係者向け「農業AI活用事例」無料オンラインセミナー、希望団体を募集",
-      "link": "https://ascii.jp/elem/000/004/414/4414089/?rss",
-      "date": "2026-06-27T08:50:00+09:00",
-      "dateLabel": "06/27 08:50",
-      "desc": "【受付開始】農業関係者向け「農業AI活用事例」無料オンラインセミナー、希望団体を募集",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
@@ -280,6 +269,17 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
+      "score": 26
+    },
+    {
+      "title": "企業のAI支出そろそろ“様子見”は終わり？ Gartner予測、本格投資の行方は",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
+      "date": "2026-06-26T11:00:00+09:00",
+      "dateLabel": "06/26 11:00",
+      "desc": "Gartnerは2026年の世界AI支出が前年比47％増の2兆5956億ドルに達するとの予測を発表。2026年は企業によるAI支出が拡大局面へ移行する転換点になるとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
       "score": 26
     }
   ]
