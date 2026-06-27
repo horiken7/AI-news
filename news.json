@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-27T20:20:05.736278+09:00",
-  "generatedLabel": "2026/06/27 20:20",
+  "generatedAt": "2026-06-27T22:09:19.562396+09:00",
+  "generatedLabel": "2026/06/27 22:09",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 59,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 5
+      "items": 6
     },
     {
       "source": "PC Watch",
@@ -107,6 +107,17 @@
       "score": 42
     },
     {
+      "title": "Office付きCopilot+ PC。Zenbook 14 OLEDがAmazonで7％オフ",
+      "link": "https://ascii.jp/elem/000/004/413/4413816/?rss",
+      "date": "2026-06-27T21:00:00+09:00",
+      "dateLabel": "06/27 21:00",
+      "desc": "ASUSの「Zenbook 14 OLED（UX3405CA-TU7161BLWS）」がAmazonで割引対象。参考価格279,800円のところ、7％オフの259,800円で販売中。Office搭載のCopilot+ PCで、有機ELタッチディスプレーを採用した14型ノートPC。AI対応モデルを探しているならチェックしたい。",
+      "img": "https://ascii.jp/img/2026/06/26/4489787/s/cd1c2912383fc4da.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
       "title": "「Rokid スマートAIグラス」を衝動買い 周辺ツールが育てるAIグラス",
       "link": "https://ascii.jp/elem/000/004/414/4414074/?rss",
       "date": "2026-06-27T12:00:00+09:00",
@@ -126,28 +137,6 @@
       "img": "https://ascii.jp/img/2026/06/26/4489970/s/ae02b68caee22dd9.jpg",
       "src": "ASCII.jp",
       "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "生成AIは商品推薦でどんな検索クエリを使うのか？Optyino.aiがAI回答5,707件を分析、ChatGPT5.2は平均8.16語で最長",
-      "link": "https://ascii.jp/elem/000/004/414/4414101/?rss",
-      "date": "2026-06-27T10:48:52+09:00",
-      "dateLabel": "06/27 10:48",
-      "desc": "生成AIは商品推薦でどんな検索クエリを使うのか？Optyino.aiがAI回答5,707件を分析、ChatGPT5.2は平均8.16語で最長",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "【7月25日(土)10:30～無料ウェビナー開催】広告を出しても売れない企業が急増――AI・SNS時代に必要な“脳内の看板”をつくる認知戦略を公開！",
-      "link": "https://ascii.jp/elem/000/004/414/4414095/?rss",
-      "date": "2026-06-27T10:10:00+09:00",
-      "dateLabel": "06/27 10:10",
-      "desc": "【7月25日(土)10:30～無料ウェビナー開催】広告を出しても売れない企業が急増――AI・SNS時代に必要な“脳内の看板”をつくる認知戦略を公開！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -173,17 +162,6 @@
       "score": 34
     },
     {
-      "title": "中国の開発者が公式価格の約10％でAnthropicのAIモデルを利用できるAPIプロキシ「中转站」が支えるグレー経済圏の実態とは？",
-      "link": "https://gigazine.net/news/20260626-china-anthropic-api/",
-      "date": "2026-06-26T21:00:00+09:00",
-      "dateLabel": "06/26 21:00",
-      "desc": "Anthropicは中国をClaudeの提供地域から除外していますが、中国では海外のAPIプロキシ「中转站」を介し、ClaudeやClaude Codeを公式価格の約10％で利用できるグレー市場が広がっていると報告されています。利用者は個人開発者や学生、企業、再販業者に及び、この市場は単なるアクセス回避策にとどまらず、データ収集や不正取引とも結び付く供給網を",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
       "title": "トランプ政権がOpenAIに「GPT-5.6」のリリースを遅らせるよう要請",
       "link": "https://gigazine.net/news/20260626-openai-will-delay-gpt-5-6/",
       "date": "2026-06-26T18:10:00+09:00",
@@ -206,15 +184,37 @@
       "score": 34
     },
     {
-      "title": "IBMが世界初とする0.7nmノードのチップ技術を発表、3D構造「nanostack」でトランジスタ密度をほぼ2倍に",
-      "link": "https://gigazine.net/news/20260626-ibm-0-7-nm-node-nanostack/",
-      "date": "2026-06-26T10:57:00+09:00",
-      "dateLabel": "06/26 10:57",
-      "desc": "IBMが世界初とする0.7nm、7Å(オングストローム)ノードのチップ技術を2026年6月25日に発表しました。この技術は「nanostack」という3次元トランジスタアーキテクチャを基盤としており、半導体の微細化が物理的な限界に近づく中で、計算機、家電、通信機器、輸送システム、重要インフラの性能と効率を高める基盤技術になるとIBMは位置付けています。 続き",
+      "title": "AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」が、特価で24万5300円！",
+      "link": "https://ascii.jp/elem/000/004/413/4413749/?rss",
+      "date": "2026-06-27T22:00:00+09:00",
+      "dateLabel": "06/27 22:00",
+      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
+      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "Amazonタイムセールで13万円台。HDMI入力搭載のASUS 23.8型一体型PC",
+      "link": "https://ascii.jp/elem/000/004/413/4413793/?rss",
+      "date": "2026-06-27T20:30:00+09:00",
+      "dateLabel": "06/27 20:30",
+      "desc": "ASUSの23.8型一体型PC「V400 AiO V440VAK-BPC199W」がAmazonタイムセール対象。参考価格144,800円のところ、5％オフの137,560円で販売中。HDMI入力を搭載した23.8型一体型PCで、自宅用や仕事用のデスクトップPCを探しているなら、比較候補に加えたいモデルだ。",
+      "img": "https://ascii.jp/img/2026/06/26/4489761/s/054298a63b895027.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "合体ロボットアニメ『獣王無神ダンデヴァイン』ティザーPV公開、グッドスマイルカンパニー創業25周年プロジェクト「合体神シリーズ」第1弾作品",
+      "link": "https://gigazine.net/news/20260627-dandivine/",
+      "date": "2026-06-27T20:30:00+09:00",
+      "dateLabel": "06/27 20:30",
+      "desc": "フィギュアメーカー・グッドスマイルカンパニーの創業25周年プロジェクト「合体神シリーズ」の第1弾作品となるTVアニメ『獣王無神ダンデヴァイン』のティザーPVが公開されました。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 34
+      "cat": "AI実装",
+      "score": 26
     },
     {
       "title": "ワールドカップ2026で実現 より速く、正確なオフサイド判定テクノロジーの裏側",
@@ -250,6 +250,17 @@
       "score": 26
     },
     {
+      "title": "中国の開発者が公式価格の約10％でAnthropicのAIモデルを利用できるAPIプロキシ「中转站」が支えるグレー経済圏の実態とは？",
+      "link": "https://gigazine.net/news/20260626-china-anthropic-api/",
+      "date": "2026-06-26T21:00:00+09:00",
+      "dateLabel": "06/26 21:00",
+      "desc": "Anthropicは中国をClaudeの提供地域から除外していますが、中国では海外のAPIプロキシ「中转站」を介し、ClaudeやClaude Codeを公式価格の約10％で利用できるグレー市場が広がっていると報告されています。利用者は個人開発者や学生、企業、再販業者に及び、この市場は単なるアクセス回避策にとどまらず、データ収集や不正取引とも結び付く供給網を",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 26
+    },
+    {
       "title": "「OpenAIはAzureだけ」の時代が終了 「GPT-5.5」「Codex」をAWSで利用するメリットは何か",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news045.html",
       "date": "2026-06-26T13:00:00+09:00",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
-      "title": "企業のAI支出そろそろ“様子見”は終わり？ Gartner予測、本格投資の行方は",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
-      "date": "2026-06-26T11:00:00+09:00",
-      "dateLabel": "06/26 11:00",
-      "desc": "Gartnerは2026年の世界AI支出が前年比47％増の2兆5956億ドルに達するとの予測を発表。2026年は企業によるAI支出が拡大局面へ移行する転換点になるとしている。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
       "score": 26
     }
   ]
