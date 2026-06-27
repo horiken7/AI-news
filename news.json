@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-27T08:54:54.267309+09:00",
-  "generatedLabel": "2026/06/27 08:54",
+  "generatedAt": "2026-06-27T11:10:33.655549+09:00",
+  "generatedLabel": "2026/06/27 11:10",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 56,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 15
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -104,17 +104,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "IBMが世界初とする0.7nmノードのチップ技術を発表、3D構造「nanostack」でトランジスタ密度をほぼ2倍に",
-      "link": "https://gigazine.net/news/20260626-ibm-0-7-nm-node-nanostack/",
-      "date": "2026-06-26T10:57:00+09:00",
-      "dateLabel": "06/26 10:57",
-      "desc": "IBMが世界初とする0.7nm、7Å(オングストローム)ノードのチップ技術を2026年6月25日に発表しました。この技術は「nanostack」という3次元トランジスタアーキテクチャを基盤としており、半導体の微細化が物理的な限界に近づく中で、計算機、家電、通信機器、輸送システム、重要インフラの性能と効率を高める基盤技術になるとIBMは位置付けています。 続き",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
       "score": 42
     },
     {
@@ -195,14 +184,14 @@
       "score": 34
     },
     {
-      "title": "企業のAI支出そろそろ“様子見”は終わり？ Gartner予測、本格投資の行方は",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
-      "date": "2026-06-26T11:00:00+09:00",
-      "dateLabel": "06/26 11:00",
-      "desc": "Gartnerは2026年の世界AI支出が前年比47％増の2兆5956億ドルに達するとの予測を発表。2026年は企業によるAI支出が拡大局面へ移行する転換点になるとしている。",
+      "title": "IBMが世界初とする0.7nmノードのチップ技術を発表、3D構造「nanostack」でトランジスタ密度をほぼ2倍に",
+      "link": "https://gigazine.net/news/20260626-ibm-0-7-nm-node-nanostack/",
+      "date": "2026-06-26T10:57:00+09:00",
+      "dateLabel": "06/26 10:57",
+      "desc": "IBMが世界初とする0.7nm、7Å(オングストローム)ノードのチップ技術を2026年6月25日に発表しました。この技術は「nanostack」という3次元トランジスタアーキテクチャを基盤としており、半導体の微細化が物理的な限界に近づく中で、計算機、家電、通信機器、輸送システム、重要インフラの性能と効率を高める基盤技術になるとIBMは位置付けています。 続き",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
       "score": 34
     },
     {
@@ -239,14 +228,14 @@
       "score": 26
     },
     {
-      "title": "生成AI時代のパワポ活用術・スライド資料づくりを体系的に学ぶ！ 7/17（金）～ 無料セミナー「AI時代のPowerPoint活用術」（全10回）がスタート!!",
-      "link": "https://ascii.jp/elem/000/004/414/4414070/?rss",
-      "date": "2026-06-26T18:00:00+09:00",
-      "dateLabel": "06/26 18:00",
-      "desc": "生成AI時代のパワポ活用術・スライド資料づくりを体系的に学ぶ！ 7/17（金）～ 無料セミナー「AI時代のPowerPoint活用術」（全10回）がスタート!!",
+      "title": "Bufff、経済産業省「IP360」に採択 AI活用・カジュアルゲーム特化型プラットフォーム「JAMMM」を始動",
+      "link": "https://ascii.jp/elem/000/004/414/4414087/?rss",
+      "date": "2026-06-26T19:44:28+09:00",
+      "dateLabel": "06/26 19:44",
+      "desc": "Bufff、経済産業省「IP360」に採択 AI活用・カジュアルゲーム特化型プラットフォーム「JAMMM」を始動",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
+      "cat": "AI全般",
       "score": 26
     },
     {
@@ -280,6 +269,17 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
+      "score": 26
+    },
+    {
+      "title": "企業のAI支出そろそろ“様子見”は終わり？ Gartner予測、本格投資の行方は",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
+      "date": "2026-06-26T11:00:00+09:00",
+      "dateLabel": "06/26 11:00",
+      "desc": "Gartnerは2026年の世界AI支出が前年比47％増の2兆5956億ドルに達するとの予測を発表。2026年は企業によるAI支出が拡大局面へ移行する転換点になるとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
       "score": 26
     }
   ]
