@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T08:54:19.565454+09:00",
-  "generatedLabel": "2026/06/28 08:54",
+  "generatedAt": "2026-06-28T11:32:10.468046+09:00",
+  "generatedLabel": "2026/06/28 11:32",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 59,
+  "candidates": 58,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 6
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -74,6 +74,17 @@
       "score": 50
     },
     {
+      "title": "【4.5万円オフ】GeForce RTX 5070搭載＆180Hz液晶の高性能ゲーミングノートが買い！ ゲーム以外にも色々使える1台",
+      "link": "https://ascii.jp/elem/000/004/413/4413779/?rss",
+      "date": "2026-06-28T11:00:00+09:00",
+      "dateLabel": "06/28 11:00",
+      "desc": "夏ボでゲーミングPCを買いたいという人にオススメの1台がセール中！ CPU＆GPUとも高性能で、高解像度＆高リフレッシュレートの16型液晶で、ゲームにも普段使いにも便利なゲーミングノートが4万5000円引き。PCライフを充実させてくれる1台。要チェックです！",
+      "img": "https://ascii.jp/img/2026/06/26/4489726/s/13315023d42528c9.jpg",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
       "title": "無料でセルフホスト型のChatGPTやClaudeっぽいローカルAIワークスペースが実現できる「Odysseus」、ファイルアップロード・モデルダウンロード・ウェブ検索・メール/カレンダー連携が可能",
       "link": "https://gigazine.net/news/20260627-odysseus/",
       "date": "2026-06-27T18:00:00+09:00",
@@ -82,17 +93,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "AIモデル「ミュトス」、米国の一部組織に再提供へ 米政府が許可",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000135/",
-      "date": "2026-06-27T11:07:50+09:00",
-      "dateLabel": "06/27 11:07",
-      "desc": "米Anthropicは6月26日（現地時間）、12日から提供を一時停止していたAIモデル「Claude Mythos 5」について、米国の一部組織に限定して再提供を始めると発表した。米政府から許可を得たという。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
       "score": 42
     },
     {
@@ -118,24 +118,13 @@
       "score": 34
     },
     {
-      "title": "「Rokid スマートAIグラス」を衝動買い 周辺ツールが育てるAIグラス",
-      "link": "https://ascii.jp/elem/000/004/414/4414074/?rss",
-      "date": "2026-06-27T12:00:00+09:00",
-      "dateLabel": "06/27 12:00",
-      "desc": "スマートグラスはまだ発展途上のカテゴリーだ。本体性能だけでなく、度付きレンズへの対応、装着感、サウンド、充電環境といった周辺アクセサリーの完成度が実用性を大きく左右する。",
-      "img": "https://ascii.jp/img/2026/06/26/4490185/s/befe5d5206eafdfb.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "Googleの新スマートスピーカーはGemini搭載で超賢くて別物に進化！ 複数の指示が出せて驚いた！",
-      "link": "https://ascii.jp/elem/000/004/413/4413990/?rss",
-      "date": "2026-06-27T12:00:00+09:00",
-      "dateLabel": "06/27 12:00",
-      "desc": "約6年ぶりに発売された1万6800円の新型「Google Homeスピーカー」の実機レビューです 。Gemini搭載により複雑な文脈や連続指示を理解でき、英会話の練習にも活用可能 。低音が豊かで音質も大幅に向上しており、2台ペアリングによるステレオ再生もおすすめです 。",
-      "img": "https://ascii.jp/img/2026/06/26/4489970/s/ae02b68caee22dd9.jpg",
-      "src": "ASCII.jp",
+      "title": "AIモデル「ミュトス」、米国の一部組織に再提供へ 米政府が許可",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000135/",
+      "date": "2026-06-27T11:07:50+09:00",
+      "dateLabel": "06/27 11:07",
+      "desc": "米Anthropicは6月26日（現地時間）、12日から提供を一時停止していたAIモデル「Claude Mythos 5」について、米国の一部組織に限定して再提供を始めると発表した。米政府から許可を得たという。",
+      "img": "",
+      "src": "ITmedia AI+",
       "cat": "LLM/モデル",
       "score": 34
     },
@@ -281,6 +270,17 @@
       "src": "ITmedia AI+",
       "cat": "AI全般",
       "score": 26
+    },
+    {
+      "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+      "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "date": "2026-06-16T00:46:43+09:00",
+      "dateLabel": "06/16 00:46",
+      "desc": "Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。 What i...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 24
     }
   ]
 }
