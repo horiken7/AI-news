@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-28T15:54:46.881018+09:00",
-  "generatedLabel": "2026/06/28 15:54",
+  "generatedAt": "2026-06-28T18:53:00.776711+09:00",
+  "generatedLabel": "2026/06/28 18:53",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 59,
+  "candidates": 57,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 6
+      "items": 4
     },
     {
       "source": "PC Watch",
@@ -85,17 +85,6 @@
       "score": 42
     },
     {
-      "title": "無料でセルフホスト型のChatGPTやClaudeっぽいローカルAIワークスペースが実現できる「Odysseus」、ファイルアップロード・モデルダウンロード・ウェブ検索・メール/カレンダー連携が可能",
-      "link": "https://gigazine.net/news/20260627-odysseus/",
-      "date": "2026-06-27T18:00:00+09:00",
-      "dateLabel": "06/27 18:00",
-      "desc": "Odysseusはチャット・エージェント・ディープリサーチ・ドキュメント・メール・メモ・カレンダー・ローカルモデルワークフローに対応したセルフホスト型のAIワークスペースです。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
       "title": "約400紙の新聞を発行する新聞社が記事を無断でスクレイピングされたとしてOpenAIとMicrosoftを提訴",
       "link": "https://gigazine.net/news/20260626-publishers-sue-microsoft-openai/",
       "date": "2026-06-26T13:40:00+09:00",
@@ -105,6 +94,17 @@
       "src": "GIGAZINE",
       "cat": "規制/安全",
       "score": 42
+    },
+    {
+      "title": "Copilot+ PCが、FMV直販ならこの価格で手に入る！ 目玉品に注目！",
+      "link": "https://ascii.jp/elem/000/004/414/4414140/?rss",
+      "date": "2026-06-28T16:00:00+09:00",
+      "dateLabel": "06/28 16:00",
+      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
+      "img": "https://ascii.jp/img/2026/06/28/4490472/s/db096cc143d24841.png",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 34
     },
     {
       "title": "「亀戸 居酒屋 コスパ」で3つのAIが共通して出した店はゼロ──飲食店のAI検索可視化サービス「GEOスコープ」を2026年7月1日より無料公開",
@@ -118,13 +118,13 @@
       "score": 34
     },
     {
-      "title": "Office付きCopilot+ PC。Zenbook 14 OLEDがAmazonで7％オフ",
-      "link": "https://ascii.jp/elem/000/004/413/4413816/?rss",
-      "date": "2026-06-27T21:00:00+09:00",
-      "dateLabel": "06/27 21:00",
-      "desc": "ASUSの「Zenbook 14 OLED（UX3405CA-TU7161BLWS）」がAmazonで割引対象。参考価格279,800円のところ、7％オフの259,800円で販売中。Office搭載のCopilot+ PCで、有機ELタッチディスプレーを採用した14型ノートPC。AI対応モデルを探しているならチェックしたい。",
-      "img": "https://ascii.jp/img/2026/06/26/4489787/s/cd1c2912383fc4da.jpg",
-      "src": "ASCII.jp",
+      "title": "無料でセルフホスト型のChatGPTやClaudeっぽいローカルAIワークスペースが実現できる「Odysseus」、ファイルアップロード・モデルダウンロード・ウェブ検索・メール/カレンダー連携が可能",
+      "link": "https://gigazine.net/news/20260627-odysseus/",
+      "date": "2026-06-27T18:00:00+09:00",
+      "dateLabel": "06/27 18:00",
+      "desc": "Odysseusはチャット・エージェント・ディープリサーチ・ドキュメント・メール・メモ・カレンダー・ローカルモデルワークフローに対応したセルフホスト型のAIワークスペースです。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
       "score": 34
     },
@@ -179,28 +179,6 @@
       "dateLabel": "06/28 12:00",
       "desc": "【新サービス】ホテルのフロント業務をAIで無人化・省力化。宿泊施設向け「もしもしAI」の提供を開始",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」が、特価で24万5300円！",
-      "link": "https://ascii.jp/elem/000/004/413/4413749/?rss",
-      "date": "2026-06-27T22:00:00+09:00",
-      "dateLabel": "06/27 22:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "Amazonタイムセールで13万円台。HDMI入力搭載のASUS 23.8型一体型PC",
-      "link": "https://ascii.jp/elem/000/004/413/4413793/?rss",
-      "date": "2026-06-27T20:30:00+09:00",
-      "dateLabel": "06/27 20:30",
-      "desc": "ASUSの23.8型一体型PC「V400 AiO V440VAK-BPC199W」がAmazonタイムセール対象。参考価格144,800円のところ、5％オフの137,560円で販売中。HDMI入力を搭載した23.8型一体型PCで、自宅用や仕事用のデスクトップPCを探しているなら、比較候補に加えたいモデルだ。",
-      "img": "https://ascii.jp/img/2026/06/26/4489761/s/054298a63b895027.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
@@ -281,6 +259,28 @@
       "src": "ITmedia AI+",
       "cat": "AI全般",
       "score": 26
+    },
+    {
+      "title": "Flashの再来？ Figmaの新機能「Figma Motion」に懐かしいとの声 アニメーション生成するAI機能も",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/25/news132.html",
+      "date": "2026-06-25T21:05:00+09:00",
+      "dateLabel": "06/25 21:05",
+      "desc": "Figmaが発表した新機能「Figma Motion」が、かつてのAdobe Flashを思わせるとSNSで話題だ。タイムラインでキーフレームを打つ操作感が懐かしさを呼んだが、実際に触ると別物との声もみられる。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+      "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "date": "2026-06-16T00:46:43+09:00",
+      "dateLabel": "06/16 00:46",
+      "desc": "Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。 What i...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 24
     }
   ]
 }
