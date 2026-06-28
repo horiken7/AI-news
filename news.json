@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-29T06:54:10.981370+09:00",
-  "generatedLabel": "2026/06/29 06:54",
+  "generatedAt": "2026-06-29T07:54:29.558048+09:00",
+  "generatedLabel": "2026/06/29 07:54",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 55,
@@ -13,12 +13,12 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 19
+      "items": 18
     },
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 4
+      "items": 6
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 12
+      "items": 11
     },
     {
       "source": "CNET Japan",
@@ -83,6 +83,28 @@
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 50
+    },
+    {
+      "title": "海域スキャン「RADAR GRiD」海運業界向けサービス提供開始、海上の障害物を自動で認識し可視化",
+      "link": "https://ascii.jp/elem/000/004/414/4414157/?rss",
+      "date": "2026-06-29T07:00:00+09:00",
+      "dateLabel": "06/29 07:00",
+      "desc": "アイディア株式会社は6月22日に、独自開発した海域スキャン「RADAR GRiD（レーダーグリッド）」の海運業界向けサービスの提供開始を発表した。「RADAR GRiD」は「海の可視化」をコンセプトに、レーダーやAIS（船舶自動識別装置）、カメラの情報をAIがリアルタイムに統合解析し、AIS非搭載の漁船や小型船、流木などのさまざまな海上障害物を認識し識別して",
+      "img": "https://ascii.jp/img/2026/06/28/4490534/s/51976e4b166bd9ae.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
+    },
+    {
+      "title": "スペースシフト、SAR衛星データとAI解析による「新規建物検知データ」をデータマーケットプレイスで提供開始",
+      "link": "https://ascii.jp/elem/000/004/413/4413679/?rss",
+      "date": "2026-06-29T07:00:00+09:00",
+      "dateLabel": "06/29 07:00",
+      "desc": "株式会社スペースシフトは6月19日に、SAR衛星データとAI解析によって新たに建設された建物を検知した「新規建物検知データ」を、​「Snowflake マーケットプレイス​​​​」で提供開始したと発表。建設活動の動きを客観的に、広域かつ継続的に捉えることで、都市の成長や経済活動の把握を支援するという。",
+      "img": "https://ascii.jp/img/2026/06/25/4489428/s/b919b45b44bac4b7.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
     },
     {
       "title": "無料でAI最適化「AEO」をChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどで確認できる「Elmo」、オープンソースで開発されセルフホスト可能",
@@ -151,15 +173,15 @@
       "score": 34
     },
     {
-      "title": "AIエージェントに「タスクに合ったAIモデルを見つける能力」を与える「OpenRouter MCP Server」が登場",
-      "link": "https://gigazine.net/news/20260626-openrouter-mcp-server/",
-      "date": "2026-06-26T13:50:00+09:00",
-      "dateLabel": "06/26 13:50",
-      "desc": "数多くのAI企業が多種多様なAIモデルをリリースしており、AIモデルごとに「ウェブページのデザインが得意」「性能はそこそこだが、非常に安価」といったように特徴が異なります。「OpenRouter MCP Server」はAIエージェントにAIモデルの選別能力を付与できるMCPサーバーで、OpenRouter上で提供されているモデルやプロバイダーの中から目的に",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 34
+      "title": "OPPO Reno15 Aは7000mAh超長持ちバッテリーが魅力の全部入りスマホ！の巻：スマホ総研定例会384",
+      "link": "https://ascii.jp/elem/000/004/414/4414055/?rss",
+      "date": "2026-06-29T07:00:00+09:00",
+      "dateLabel": "06/29 07:00",
+      "desc": "「OPPO Reno15 A」をいち早く実機レビュー。防水・防塵、FeliCaなど全部入りはこれまでと同じで、今回はさらに7000mAhの大容量バッテリーも搭載！ クラウドを活用したAI関連機能など、便利な要素一杯の1台を詳しく紹介！",
+      "img": "https://ascii.jp/img/2025/09/21/4324644/s/e5d31b25c80240f3.png",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」が、特価で24万円台！",
@@ -180,17 +202,6 @@
       "desc": "2026年上半期に＠ITで公開された記事の中から、AI系の話題で特に注目を集めた5本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "【新サービス】ホテルのフロント業務をAIで無人化・省力化。宿泊施設向け「もしもしAI」の提供を開始",
-      "link": "https://ascii.jp/elem/000/004/414/4414149/?rss",
-      "date": "2026-06-28T12:00:00+09:00",
-      "dateLabel": "06/28 12:00",
-      "desc": "【新サービス】ホテルのフロント業務をAIで無人化・省力化。宿泊施設向け「もしもしAI」の提供を開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
@@ -269,17 +280,6 @@
       "img": "",
       "src": "Publickey",
       "cat": "AI全般",
-      "score": 24
-    },
-    {
-      "title": "Ubuntu、サンドボックス化された開発環境をコマンド一発で構築。新機能「Workshop」リリース",
-      "link": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
-      "date": "2026-06-09T00:43:33+09:00",
-      "dateLabel": "06/09 00:43",
-      "desc": "Ubuntuの開発元であるCanonicalは、AIエージェントなどに適したサンドボックス化された開発環境をコマンド一発で構築できる新機能「Workshop」をリリースしました。 Today we announced Workshop – ...",
-      "img": "",
-      "src": "Publickey",
-      "cat": "AIエージェント/業務",
       "score": 24
     }
   ]
