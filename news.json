@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T18:53:00.776711+09:00",
-  "generatedLabel": "2026/06/28 18:53",
+  "generatedAt": "2026-06-28T20:41:47.478285+09:00",
+  "generatedLabel": "2026/06/28 20:41",
   "feedOk": 7,
   "feedNg": 4,
   "candidates": 57,
@@ -62,6 +62,17 @@
     }
   ],
   "articles": [
+    {
+      "title": "OpenAIのサム・アルトマンCEOとAnthropicのダリオ・アモデイCEOの間には10年にもわたる確執がある",
+      "link": "https://gigazine.net/news/20260628-dario-amodei-sam-altman/",
+      "date": "2026-06-28T20:00:00+09:00",
+      "dateLabel": "06/28 20:00",
+      "desc": "Claude AIを開発するAI企業・Anthropicのダリオ・アモデイCEOは、2016年からChatGPTなどを展開するAI企業のOpenAIに務めていましたが、事業に関する方向性の違いにより2020年にOpenAIを離れています。そんなアモデイCEOとOpenAIのサム・アルトマンCEOの間には約10年にわたる確執があると、ウォール・ストリート・ジャ",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 50
+    },
     {
       "title": "無料でAI最適化「AEO」をChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどで確認できる「Elmo」、オープンソースで開発されセルフホスト可能",
       "link": "https://gigazine.net/news/20260628-elmo/",
@@ -184,17 +195,6 @@
       "score": 26
     },
     {
-      "title": "合体ロボットアニメ『獣王無神ダンデヴァイン』ティザーPV公開、グッドスマイルカンパニー創業25周年プロジェクト「合体神シリーズ」第1弾作品",
-      "link": "https://gigazine.net/news/20260627-dandivine/",
-      "date": "2026-06-27T20:30:00+09:00",
-      "dateLabel": "06/27 20:30",
-      "desc": "フィギュアメーカー・グッドスマイルカンパニーの創業25周年プロジェクト「合体神シリーズ」の第1弾作品となるTVアニメ『獣王無神ダンデヴァイン』のティザーPVが公開されました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI実装",
-      "score": 26
-    },
-    {
       "title": "ミシシッピ州の住民がデータセンター関連施設からの「ほぼ絶え間ない騒音」を理由にxAIを提訴",
       "link": "https://gigazine.net/news/20260627-mississippi-residents-sue-xai/",
       "date": "2026-06-27T08:00:00+09:00",
@@ -239,17 +239,6 @@
       "score": 26
     },
     {
-      "title": "メールをAIで便利に管理できる「Notion Mail」が2026年9月でサービス終了、ユーザーの大半が受信トレイを開かなくなったのでAIエージェントに注力",
-      "link": "https://gigazine.net/news/20260626-notion-mail-is-going-away/",
-      "date": "2026-06-26T11:45:00+09:00",
-      "dateLabel": "06/26 11:45",
-      "desc": "受信トレイのメールをAIが便利に管理してくれるメールクライアント「Notion Mail」が、2026年9月22日でサービス終了となることが発表されました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
       "title": "企業のAI支出そろそろ“様子見”は終わり？ Gartner予測、本格投資の行方は",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news055.html",
       "date": "2026-06-26T11:00:00+09:00",
@@ -280,6 +269,17 @@
       "img": "",
       "src": "Publickey",
       "cat": "AIエージェント/業務",
+      "score": 24
+    },
+    {
+      "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
+      "link": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
+      "date": "2026-06-11T00:29:34+09:00",
+      "dateLabel": "06/11 00:29",
+      "desc": "Appleは日本時間6月9日未明に開催した開発者向けの年次イベント「WWDC26」で、macOSに統合された形でLinuxコンテナを起動し、利用できる新機能「Container machine」バージョン1.0のリリースを発表しました。 C...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AI全般",
       "score": 24
     }
   ]
