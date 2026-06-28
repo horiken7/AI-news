@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-29T00:11:33.996136+09:00",
-  "generatedLabel": "2026/06/29 00:11",
+  "generatedAt": "2026-06-29T01:58:16.804387+09:00",
+  "generatedLabel": "2026/06/29 01:58",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 56,
+  "candidates": 55,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 13
+      "items": 12
     },
     {
       "source": "CNET Japan",
@@ -93,17 +93,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "約400紙の新聞を発行する新聞社が記事を無断でスクレイピングされたとしてOpenAIとMicrosoftを提訴",
-      "link": "https://gigazine.net/news/20260626-publishers-sue-microsoft-openai/",
-      "date": "2026-06-26T13:40:00+09:00",
-      "dateLabel": "06/26 13:40",
-      "desc": "合わせて約400紙の新聞を所有・運営する新聞社が、OpenAIとMicrosoftを「許可や報酬なしに、コンテンツをスクレイピングしてChatGPTやMicrosoft Copilotのような製品を構築した」として2026年6月24日に訴訟を起こしました。訴状では、生成AIは企業に数十億ドル規模の市場価値をもたらした一方で、コンテンツを奪われた側には1セント",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
       "score": 42
     },
     {
@@ -280,6 +269,17 @@
       "img": "",
       "src": "Publickey",
       "cat": "AI全般",
+      "score": 24
+    },
+    {
+      "title": "Ubuntu、サンドボックス化された開発環境をコマンド一発で構築。新機能「Workshop」リリース",
+      "link": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+      "date": "2026-06-09T00:43:33+09:00",
+      "dateLabel": "06/09 00:43",
+      "desc": "Ubuntuの開発元であるCanonicalは、AIエージェントなどに適したサンドボックス化された開発環境をコマンド一発で構築できる新機能「Workshop」をリリースしました。 Today we announced Workshop – ...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
       "score": 24
     }
   ]
