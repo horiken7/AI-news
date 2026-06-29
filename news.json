@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-29T09:00:49.800088+09:00",
-  "generatedLabel": "2026/06/29 09:00",
+  "generatedAt": "2026-06-29T14:22:39.239986+09:00",
+  "generatedLabel": "2026/06/29 14:22",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 55,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 5
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 11
+      "items": 12
     },
     {
       "source": "CNET Japan",
@@ -63,6 +63,28 @@
   ],
   "articles": [
     {
+      "title": "OpenAIが「GPT-5.6」シリーズを発表、Claude Mythos 5超えだがアメリカ政府の指示で限定プレビュー公開",
+      "link": "https://gigazine.net/news/20260629-gpt-5-6-sol-terra-luna/",
+      "date": "2026-06-29T11:20:00+09:00",
+      "dateLabel": "06/29 11:20",
+      "desc": "OpenAIがGPT-5.6シリーズを2026年6月26日に発表しました。最上位モデルのGPT-5.6 SolはAnthropicの最高峰モデルであるClaude Mythos 5を超える性能を記録していますが、記事作成時点では一般公開されておらず、一部の組織を対象に限定公開されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 66
+    },
+    {
+      "title": "Claude Opus 4.7と同等性能のコーディングAIモデル「Ornith-1.0」が登場、ローカルで動作する小型モデルもラインナップ",
+      "link": "https://gigazine.net/news/20260629-ornith-agentic-coding-ai/",
+      "date": "2026-06-29T13:16:00+09:00",
+      "dateLabel": "06/29 13:16",
+      "desc": "AI研究組織のDeepReinforceがAIモデルファミリー「Ornith-1.0」をオープンモデルとして公開しました。最上位モデルのOrnith-1.0-397Bは複数のベンチマークテストでClaude Opus 4.7を上回っています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 50
+    },
+    {
       "title": "無料でローカルPCの操作を自動化できる「UI-TARS-desktop」について現状を確認してみた",
       "link": "https://gigazine.net/news/20260628-ui-tars-desktop/",
       "date": "2026-06-28T22:00:00+09:00",
@@ -85,37 +107,70 @@
       "score": 50
     },
     {
-      "title": "海域スキャン「RADAR GRiD」海運業界向けサービス提供開始、海上の障害物を自動で認識し可視化",
-      "link": "https://ascii.jp/elem/000/004/414/4414157/?rss",
-      "date": "2026-06-29T07:00:00+09:00",
-      "dateLabel": "06/29 07:00",
-      "desc": "アイディア株式会社は6月22日に、独自開発した海域スキャン「RADAR GRiD（レーダーグリッド）」の海運業界向けサービスの提供開始を発表した。「RADAR GRiD」は「海の可視化」をコンセプトに、レーダーやAIS（船舶自動識別装置）、カメラの情報をAIがリアルタイムに統合解析し、AIS非搭載の漁船や小型船、流木などのさまざまな海上障害物を認識し識別して",
-      "img": "https://ascii.jp/img/2026/06/28/4490534/s/51976e4b166bd9ae.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 42
-    },
-    {
-      "title": "スペースシフト、SAR衛星データとAI解析による「新規建物検知データ」をデータマーケットプレイスで提供開始",
-      "link": "https://ascii.jp/elem/000/004/413/4413679/?rss",
-      "date": "2026-06-29T07:00:00+09:00",
-      "dateLabel": "06/29 07:00",
-      "desc": "株式会社スペースシフトは6月19日に、SAR衛星データとAI解析によって新たに建設された建物を検知した「新規建物検知データ」を、​「Snowflake マーケットプレイス​​​​」で提供開始したと発表。建設活動の動きを客観的に、広域かつ継続的に捉えることで、都市の成長や経済活動の把握を支援するという。",
-      "img": "https://ascii.jp/img/2026/06/25/4489428/s/b919b45b44bac4b7.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 42
-    },
-    {
-      "title": "無料でAI最適化「AEO」をChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどで確認できる「Elmo」、オープンソースで開発されセルフホスト可能",
-      "link": "https://gigazine.net/news/20260628-elmo/",
-      "date": "2026-06-28T12:00:00+09:00",
-      "dateLabel": "06/28 12:00",
-      "desc": "ユーザーがAIに相談した時「自社ブランドが候補として表示されるか」「正しく紹介されるか」は、企業やサイト運営者にとって重要な確認項目です。AI向けのサイト最適化「AEO」を効率よく行うためにChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどの回答を記録し、引用元や競合の出現状況まで確認でき",
+      "title": "AIエージェントの投資優先順位、どう決める？ Gartnerが「投資スコア」の作り方を公開",
+      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/29/news068.html",
+      "date": "2026-06-29T13:30:00+09:00",
+      "dateLabel": "06/29 13:30",
+      "desc": "業務におけるAIエージェントの投資優先順位をどう決めればよいか。業務・業種別のAIエージェントはどう進化していくか。ガートナージャパンの著名アナリストである亦賀忠明氏のWebセミナーから探る。",
       "img": "",
-      "src": "GIGAZINE",
+      "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
       "score": 42
+    },
+    {
+      "title": "「AI活用が単発質問の企業は大敗」 楽天にコストと遅延の30％低下も達成させた、AIエージェント運用の勝ち筋",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news061.html",
+      "date": "2026-06-29T13:00:00+09:00",
+      "dateLabel": "06/29 13:00",
+      "desc": "Anthropicは、先進的な企業がどのようにAIエージェントを活用して業務を変革しているかを紹介するガイド「Building AI agents for the enterprise」を公開した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
+      "title": "AI推し活アプリ「OSHIAI」、推しのアイとドラマのようなストーリーの世界に入り込む新機能「ドラマモード」をリリース",
+      "link": "https://ascii.jp/elem/000/004/414/4414338/?rss",
+      "date": "2026-06-29T12:00:00+09:00",
+      "dateLabel": "06/29 12:00",
+      "desc": "AI推し活アプリ「OSHIAI」、推しのアイとドラマのようなストーリーの世界に入り込む新機能「ドラマモード」をリリース",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
+    },
+    {
+      "title": "トランプ政権がAnthropicの「Claude Fable 5」復帰を近く容認か、早ければ7月上旬にも制限解除の可能性",
+      "link": "https://gigazine.net/news/20260629-anthropic-fable-5-return-soon/",
+      "date": "2026-06-29T11:50:00+09:00",
+      "dateLabel": "06/29 11:50",
+      "desc": "AI企業のAnthropicが提供する高性能AIモデル「Claude Fable 5」について、トランプ政権がアクセス再開を近く認める見込みであると複数のメディアが報じました。制限は早ければ2026年7月上旬にも解除される可能性があるとのことです。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "音楽生成AIのSunoが独立系アーティストを支援するプログラム「Spark」を開始、「Sunoの悪口禁止」「Sunoに対する裁判への参加権放棄」といった条件が注目を集める",
+      "link": "https://gigazine.net/news/20260629-suno-incubator-program-spark/",
+      "date": "2026-06-29T11:39:00+09:00",
+      "dateLabel": "06/29 11:39",
+      "desc": "AI音楽ジェネレーターの「Suno」は、AIのトレーニングに著作権で保護されている楽曲を利用していると指摘されており、これが原因で訴訟を提起されています。そんなSunoが、独立系アーティストを支援するためのプログラム「Spark」を発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "規制/安全",
+      "score": 42
+    },
+    {
+      "title": "AIエージェント時代を生き抜く「DXイノベーション検定(TM)」の締め切り間近！",
+      "link": "https://ascii.jp/elem/000/004/414/4414316/?rss",
+      "date": "2026-06-29T12:00:00+09:00",
+      "dateLabel": "06/29 12:00",
+      "desc": "AIエージェント時代を生き抜く「DXイノベーション検定(TM)」の締め切り間近！",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 34
     },
     {
       "title": "製造現場のトラブル解消を「AI工場長」が支援？ 「エージェント型工場」とは",
@@ -129,33 +184,11 @@
       "score": 34
     },
     {
-      "title": "【SORACOM Discovery 2026】展示ブース紹介 第2弾：シルバースポンサー / ニューフェイススポンサー（デバイス/ソリューション編）",
-      "link": "https://ascii.jp/elem/000/004/414/4414083/?rss",
-      "date": "2026-06-29T08:00:00+09:00",
-      "dateLabel": "06/29 08:00",
-      "desc": "【SORACOM Discovery 2026】展示ブース紹介 第2弾：シルバースポンサー / ニューフェイススポンサー（デバイス/ソリューション編）",
-      "img": "https://ascii.jp/img/2026/06/29/4490680/s/60fba0c182832384.png",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
-      "score": 34
-    },
-    {
-      "title": "Copilot+ PCが、FMV直販ならこの価格で手に入る！ 目玉品に注目！",
-      "link": "https://ascii.jp/elem/000/004/414/4414140/?rss",
-      "date": "2026-06-28T16:00:00+09:00",
-      "dateLabel": "06/28 16:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/06/28/4490472/s/db096cc143d24841.png",
-      "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "無料でセルフホスト型のChatGPTやClaudeっぽいローカルAIワークスペースが実現できる「Odysseus」、ファイルアップロード・モデルダウンロード・ウェブ検索・メール/カレンダー連携が可能",
-      "link": "https://gigazine.net/news/20260627-odysseus/",
-      "date": "2026-06-27T18:00:00+09:00",
-      "dateLabel": "06/27 18:00",
-      "desc": "Odysseusはチャット・エージェント・ディープリサーチ・ドキュメント・メール・メモ・カレンダー・ローカルモデルワークフローに対応したセルフホスト型のAIワークスペースです。 続きを読む...",
+      "title": "無料でAI最適化「AEO」をChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどで確認できる「Elmo」、オープンソースで開発されセルフホスト可能",
+      "link": "https://gigazine.net/news/20260628-elmo/",
+      "date": "2026-06-28T12:00:00+09:00",
+      "dateLabel": "06/28 12:00",
+      "desc": "ユーザーがAIに相談した時「自社ブランドが候補として表示されるか」「正しく紹介されるか」は、企業やサイト運営者にとって重要な確認項目です。AI向けのサイト最適化「AEO」を効率よく行うためにChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどの回答を記録し、引用元や競合の出現状況まで確認でき",
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
@@ -173,79 +206,68 @@
       "score": 34
     },
     {
-      "title": "トランプ政権がOpenAIに「GPT-5.6」のリリースを遅らせるよう要請",
-      "link": "https://gigazine.net/news/20260626-openai-will-delay-gpt-5-6/",
-      "date": "2026-06-26T18:10:00+09:00",
-      "dateLabel": "06/26 18:10",
-      "desc": "OpenAIの次期大型モデル「GPT-5.6」について、潜在的な安全保障問題への懸念から、トランプ政権がリリースを遅らせるように要請していることが明らかになりました。 続きを読む...",
+      "title": "Metaが要求したGeminiの計算能力をGoogleが提供しきれずMetaの社内プロジェクトが中断・遅延",
+      "link": "https://gigazine.net/news/20260629-meta-google-gemini-limit/",
+      "date": "2026-06-29T12:45:00+09:00",
+      "dateLabel": "06/29 12:45",
+      "desc": "Googleが、Metaに対してGeminiへのアクセスに制限を課したと報じられました。世界最大級のAI企業でさえインフラ面で制約があることを示す事例として話題になっています。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 34
+      "score": 26
     },
     {
-      "title": "「逆境を進化に変えよ」 アスクル社長、ランサム被害をバネに進めるAI駆動開発を語る",
-      "link": "https://ascii.jp/elem/000/004/414/4414161/?rss",
-      "date": "2026-06-29T08:00:00+09:00",
-      "dateLabel": "06/29 08:00",
-      "desc": "2025年10月、ランサムウェア被害に見舞われたアスクル。ECサイトは停止し、翌月の売上は95%減。全面復旧には3か月半もの期間を要した。現在、この逆境を“進化”に変えるべく、ゼロスタートで挑んでいるのが「AI-DLC（AI駆動開発ライフサイクル）」である。",
-      "img": "https://ascii.jp/img/2026/06/28/4490615/s/7976c6fb2f567ec9.jpg",
+      "title": "実務で即戦力となるAIスキルを体系的に習得する「生成AI活用研修」を開始：社員研修のリスキル",
+      "link": "https://ascii.jp/elem/000/004/414/4414334/?rss",
+      "date": "2026-06-29T12:05:59+09:00",
+      "dateLabel": "06/29 12:05",
+      "desc": "実務で即戦力となるAIスキルを体系的に習得する「生成AI活用研修」を開始：社員研修のリスキル",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 26
+    },
+    {
+      "title": "AI時代だからこそ、アスリートの価値は高まる。水球元日本代表と起業家が「競技人生の次」を考える対話イベントを吉祥寺で開催",
+      "link": "https://ascii.jp/elem/000/004/414/4414335/?rss",
+      "date": "2026-06-29T12:00:00+09:00",
+      "dateLabel": "06/29 12:00",
+      "desc": "AI時代だからこそ、アスリートの価値は高まる。水球元日本代表と起業家が「競技人生の次」を考える対話イベントを吉祥寺で開催",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
       "cat": "AI全般",
       "score": 26
     },
     {
-      "title": "若手エンジニアの半数が「管理職になりたくない」理由は／AIコーディング普及で開発ボトルネックは「レビュー」へ／社内不正が増加傾向、ほか",
-      "link": "https://ascii.jp/elem/000/004/414/4414160/?rss",
-      "date": "2026-06-29T08:00:00+09:00",
-      "dateLabel": "06/29 08:00",
-      "desc": "今回（2026年6月20日～6月26日）は、AIコーディング（AI生成コード）の導入効果と今後の課題、日本企業の社内不正被害の実態、進んでいないランサムウェア被害への備え、若手ITエンジニアが「管理職になりたくない」意識の背景についてのデータを紹介します。",
-      "img": "https://ascii.jp/img/2026/06/28/4490605/s/0297eb00cb7bda63.jpg",
+      "title": "【目標達成】物品寄付「キモチと」で目標支援金額を達成。不用品が介護現場の「生成AI・ICT活用」に変わる！",
+      "link": "https://ascii.jp/elem/000/004/414/4414315/?rss",
+      "date": "2026-06-29T12:00:00+09:00",
+      "dateLabel": "06/29 12:00",
+      "desc": "【目標達成】物品寄付「キモチと」で目標支援金額を達成。不用品が介護現場の「生成AI・ICT活用」に変わる！",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
+      "cat": "生成AI/マルチモーダル",
       "score": 26
     },
     {
-      "title": "OPPO Reno15 Aは7000mAh超長持ちバッテリーが魅力の全部入りスマホ！の巻：スマホ総研定例会384",
-      "link": "https://ascii.jp/elem/000/004/414/4414055/?rss",
-      "date": "2026-06-29T07:00:00+09:00",
-      "dateLabel": "06/29 07:00",
-      "desc": "「OPPO Reno15 A」をいち早く実機レビュー。防水・防塵、FeliCaなど全部入りはこれまでと同じで、今回はさらに7000mAhの大容量バッテリーも搭載！ クラウドを活用したAI関連機能など、便利な要素一杯の1台を詳しく紹介！",
-      "img": "https://ascii.jp/img/2025/09/21/4324644/s/e5d31b25c80240f3.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "AMD Ryzen AI 7 350搭載の一体型デスクトップ「FMV WF3-L1」が、特価で24万円台！",
-      "link": "https://ascii.jp/elem/000/004/413/4413750/?rss",
-      "date": "2026-06-28T22:00:00+09:00",
-      "dateLabel": "06/28 22:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "ひろゆき氏「SIer衰退予測」、AI代替の「逆転現象」の理由 2026年に生き残るエンジニア“4つの役割”",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/28/news006.html",
-      "date": "2026-06-28T13:00:00+09:00",
-      "dateLabel": "06/28 13:00",
-      "desc": "2026年上半期に＠ITで公開された記事の中から、AI系の話題で特に注目を集めた5本をランキング形式で紹介します。何が読者の関心を引いたのでしょうか。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "ミシシッピ州の住民がデータセンター関連施設からの「ほぼ絶え間ない騒音」を理由にxAIを提訴",
-      "link": "https://gigazine.net/news/20260627-mississippi-residents-sue-xai/",
-      "date": "2026-06-27T08:00:00+09:00",
-      "dateLabel": "06/27 08:00",
-      "desc": "xAIがミシシッピ州に建設したデータセンター向け発電施設から騒音が出ているとして、3人の地元住民が集団訴訟を提起しました。住民らは「xAIが騒音を抑制する義務を怠った」と主張しています。 続きを読む...",
+      "title": "Apple Vision Proやスマートグラスを開発する幹部がOpenAIに転職するとの報道",
+      "link": "https://gigazine.net/news/20260629-apple-vision-pro-chief-openai/",
+      "date": "2026-06-29T10:46:00+09:00",
+      "dateLabel": "06/29 10:46",
+      "desc": "AIとハードウェアの開発に関わる人材を確保するべく、各企業間でし烈な争いが繰り広げられています。新たに、Apple Vision Proやスマートグラス開発プロジェクトの責任者がAppleを退職してOpenAIに入社すると経済メディアのBloombergが報じました。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 26
+    },
+    {
+      "title": "ロボットの模倣学習を60時間→4.8時間に AWSのGPUでフィジカルAI開発を加速 ファナック",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/29/2000000136/",
+      "date": "2026-06-29T10:39:09+09:00",
+      "dateLabel": "06/29 10:39",
+      "desc": "ファナックは「AWS Summit Japan 2026」の基調講演で、ロボットに動作を教える「模倣学習」の時間を、AWSのGPU活用で60時間から4.8時間へ短縮したと示した。",
+      "img": "",
+      "src": "ITmedia AI+",
       "cat": "半導体/GPU",
       "score": 26
     },
@@ -258,28 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AI実装",
-      "score": 26
-    },
-    {
-      "title": "中国の開発者が公式価格の約10％でAnthropicのAIモデルを利用できるAPIプロキシ「中转站」が支えるグレー経済圏の実態とは？",
-      "link": "https://gigazine.net/news/20260626-china-anthropic-api/",
-      "date": "2026-06-26T21:00:00+09:00",
-      "dateLabel": "06/26 21:00",
-      "desc": "Anthropicは中国をClaudeの提供地域から除外していますが、中国では海外のAPIプロキシ「中转站」を介し、ClaudeやClaude Codeを公式価格の約10％で利用できるグレー市場が広がっていると報告されています。利用者は個人開発者や学生、企業、再販業者に及び、この市場は単なるアクセス回避策にとどまらず、データ収集や不正取引とも結び付く供給網を",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 26
-    },
-    {
-      "title": "「OpenAIはAzureだけ」の時代が終了 「GPT-5.5」「Codex」をAWSで利用するメリットは何か",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/26/news045.html",
-      "date": "2026-06-26T13:00:00+09:00",
-      "dateLabel": "06/26 13:00",
-      "desc": "OpenAIとAmazon Web Services（AWS）が戦略的パートナーシップを拡大した。OpenAIのモデル、コーディングエージェント「Codex」、マネージドエージェントを、企業がAWS環境で利用できるようにする。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
       "score": 26
     }
   ]
