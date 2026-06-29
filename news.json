@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T07:46:06.918299+09:00",
-  "generatedLabel": "2026/06/30 07:46",
+  "generatedAt": "2026-06-30T08:53:48.523421+09:00",
+  "generatedLabel": "2026/06/30 08:53",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 61,
+  "candidates": 62,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 9
     },
     {
       "source": "PC Watch",
@@ -58,7 +58,7 @@
     {
       "source": "AI-SCHOLAR",
       "ok": false,
-      "error": "HTTP Error 502: Bad Gateway"
+      "error": "not well-formed (invalid token): line 2, column 274"
     }
   ],
   "articles": [
@@ -272,15 +272,15 @@
       "score": 34
     },
     {
-      "title": "製造現場のトラブル解消を「AI工場長」が支援？ 「エージェント型工場」とは",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news055.html",
-      "date": "2026-06-29T08:00:00+09:00",
-      "dateLabel": "06/29 08:00",
-      "desc": "AccentureとAvanadeはMicrosoftと協働し、製造業向け工場インテリジェンスシステム「エージェント型工場」を開発したと発表した。",
+      "title": "「Fable 5を全タスクに使う必要はない」 Anthropic開発者直伝のトークンコスト節約術",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000137/",
+      "date": "2026-06-30T08:00:00+09:00",
+      "dateLabel": "06/30 08:00",
+      "desc": "Anthropicの開発者がトークンコストを抑えるための戦略を語った。タスクに応じてモデルを使い分けると共に、適切な入力方式を選ぶことが重要だ。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
+      "cat": "LLM/モデル",
+      "score": 26
     }
   ]
 }
