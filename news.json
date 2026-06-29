@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-29T14:22:39.239986+09:00",
-  "generatedLabel": "2026/06/29 14:22",
+  "generatedAt": "2026-06-29T19:21:37.486936+09:00",
+  "generatedLabel": "2026/06/29 19:21",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 55,
+  "candidates": 53,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 12
+      "items": 10
     },
     {
       "source": "CNET Japan",
@@ -96,15 +96,26 @@
       "score": 50
     },
     {
-      "title": "OpenAIのサム・アルトマンCEOとAnthropicのダリオ・アモデイCEOの間には10年にもわたる確執がある",
-      "link": "https://gigazine.net/news/20260628-dario-amodei-sam-altman/",
-      "date": "2026-06-28T20:00:00+09:00",
-      "dateLabel": "06/28 20:00",
-      "desc": "Claude AIを開発するAI企業・Anthropicのダリオ・アモデイCEOは、2016年からChatGPTなどを展開するAI企業のOpenAIに務めていましたが、事業に関する方向性の違いにより2020年にOpenAIを離れています。そんなアモデイCEOとOpenAIのサム・アルトマンCEOの間には約10年にわたる確執があると、ウォール・ストリート・ジャ",
+      "title": "株式会社プリファードと株式会社マイトラシス、AIで作ったアプリの安全な公開・運用を支援する「おまかせAIガード」を先行発表",
+      "link": "https://ascii.jp/elem/000/004/414/4414497/?rss",
+      "date": "2026-06-29T18:33:20+09:00",
+      "dateLabel": "06/29 18:33",
+      "desc": "株式会社プリファードと株式会社マイトラシス、AIで作ったアプリの安全な公開・運用を支援する「おまかせAIガード」を先行発表",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
+    },
+    {
+      "title": "「土日の方がAIの個人用途は多い」「女性の方が使用時間は長い」「高賃金タスクは夜間も実行されがち」などClaudeの利用実態レポートが公開される",
+      "link": "https://gigazine.net/news/20260629-anthropic-economic-report/",
+      "date": "2026-06-29T16:54:00+09:00",
+      "dateLabel": "06/29 16:54",
+      "desc": "Anthropicは自社製AIサービスの利用データをプライバシーに配慮しつつ収集して分析しています。2026年6月26日にはClaude CodeやAPIを介した利用も踏まえた利用実態レポートが公開されました。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 50
+      "cat": "規制/安全",
+      "score": 42
     },
     {
       "title": "AIエージェントの投資優先順位、どう決める？ Gartnerが「投資スコア」の作り方を公開",
@@ -126,17 +137,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "AI推し活アプリ「OSHIAI」、推しのアイとドラマのようなストーリーの世界に入り込む新機能「ドラマモード」をリリース",
-      "link": "https://ascii.jp/elem/000/004/414/4414338/?rss",
-      "date": "2026-06-29T12:00:00+09:00",
-      "dateLabel": "06/29 12:00",
-      "desc": "AI推し活アプリ「OSHIAI」、推しのアイとドラマのようなストーリーの世界に入り込む新機能「ドラマモード」をリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 42
     },
     {
@@ -162,14 +162,25 @@
       "score": 42
     },
     {
-      "title": "AIエージェント時代を生き抜く「DXイノベーション検定(TM)」の締め切り間近！",
-      "link": "https://ascii.jp/elem/000/004/414/4414316/?rss",
-      "date": "2026-06-29T12:00:00+09:00",
-      "dateLabel": "06/29 12:00",
-      "desc": "AIエージェント時代を生き抜く「DXイノベーション検定(TM)」の締め切り間近！",
+      "title": "DeepSeekがAI言語モデルの生成速度を最大85％向上させる「DSpark」を公開",
+      "link": "https://gigazine.net/news/20260629-deepseek-dspark/",
+      "date": "2026-06-29T19:00:00+09:00",
+      "dateLabel": "06/29 19:00",
+      "desc": "DeepSeekが大規模言語モデルの文章生成を高速化する投機的デコード技術「DSpark」を公開しました。DSparkは新しい言語モデルではなく、プレビュー版のDeepSeek-V4-FlashおよびDeepSeek-V4-Proの既存チェックポイントに投機的デコード用モジュールを追加したものです。DeepSeekは実際のユーザーからのリクエストを処理する運",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "Biz Architects、既存のエンタープライズシステム基盤を最大活用する企業向けAI Agent導入サービス「Biz AI Works」を提供開始",
+      "link": "https://ascii.jp/elem/000/004/414/4414479/?rss",
+      "date": "2026-06-29T17:35:04+09:00",
+      "dateLabel": "06/29 17:35",
+      "desc": "Biz Architects、既存のエンタープライズシステム基盤を最大活用する企業向けAI Agent導入サービス「Biz AI Works」を提供開始",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AIエージェント/業務",
+      "cat": "AI全般",
       "score": 34
     },
     {
@@ -180,17 +191,6 @@
       "desc": "AccentureとAvanadeはMicrosoftと協働し、製造業向け工場インテリジェンスシステム「エージェント型工場」を開発したと発表した。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "無料でAI最適化「AEO」をChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどで確認できる「Elmo」、オープンソースで開発されセルフホスト可能",
-      "link": "https://gigazine.net/news/20260628-elmo/",
-      "date": "2026-06-28T12:00:00+09:00",
-      "dateLabel": "06/28 12:00",
-      "desc": "ユーザーがAIに相談した時「自社ブランドが候補として表示されるか」「正しく紹介されるか」は、企業やサイト運営者にとって重要な確認項目です。AI向けのサイト最適化「AEO」を効率よく行うためにChatGPT・Google AI Overviews・Perplexity・Gemini・Copilot・Grokなどの回答を記録し、引用元や競合の出現状況まで確認でき",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
       "score": 34
     },
@@ -206,6 +206,50 @@
       "score": 34
     },
     {
+      "title": "最小構成こそ買いやすい！ 「iPad Air（M4）」必要十分スペックで狙い目",
+      "link": "https://ascii.jp/elem/000/004/414/4414466/?rss",
+      "date": "2026-06-29T19:00:00+09:00",
+      "dateLabel": "06/29 19:00",
+      "desc": "「iPad Air（M4）」がAmazon.co.jpで売れています。M4チップとLiquid Retina ディスプレイを搭載してパフォーマンスは十分。「とにかく扱いやすい」と好評の一品です。",
+      "img": "https://ascii.jp/img/2026/06/29/4491135/s/bbe573044a9706e3.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "これぞヤバメガネ！ 視界に情報が浮かぶ「SABERAスマートグラス」が未来すぎる！",
+      "link": "https://ascii.jp/elem/000/004/412/4412141/?rss",
+      "date": "2026-06-29T18:00:00+09:00",
+      "dateLabel": "06/29 18:00",
+      "desc": "福井県鯖江市の老舗がデザインした約40gの軽量スマートグラス「SABERA」のレビューです。カメラ非搭載で普通のメガネに見えるのが特徴。スマホと連動し、右目の視界にナビやリアルタイム翻訳、AIからの回答などを緑色の文字で表示でき、日常を劇的に便利にしてくれます。",
+      "img": "https://ascii.jp/img/2026/06/24/4488908/s/3e18304c0ffe58cb.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "20万円以下に値下げ。Ryzen AI 7・32GB・1TB SSD搭載のHP「OmniBook 5 16-ag」",
+      "link": "https://ascii.jp/elem/000/004/414/4414304/?rss",
+      "date": "2026-06-29T17:00:00+09:00",
+      "dateLabel": "06/29 17:00",
+      "desc": "HPの16型ノートPC「OmniBook 5 16-ag（BF8J2PA-AAAA）」がAmazonで割引対象。参考価格218,900円のところ、9％オフの199,800円で販売中。Ryzen AI 7 350、32GBメモリ、1TB SSDを搭載した16型モデル。",
+      "img": "https://ascii.jp/img/2026/06/29/4490867/s/f7a602bbee6ec573.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "「ヤフコメまとめ」開始 ヤフコメの論点、AIがグラフで可視化",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/29/news114.html",
+      "date": "2026-06-29T16:32:00+09:00",
+      "dateLabel": "06/29 16:32",
+      "desc": "OpenAIのAPIを活用し、ユーザーが投稿したコメントの論点を生成AIが分類し、グラフ化する。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 26
+    },
+    {
       "title": "Metaが要求したGeminiの計算能力をGoogleが提供しきれずMetaの社内プロジェクトが中断・遅延",
       "link": "https://gigazine.net/news/20260629-meta-google-gemini-limit/",
       "date": "2026-06-29T12:45:00+09:00",
@@ -214,39 +258,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 26
-    },
-    {
-      "title": "実務で即戦力となるAIスキルを体系的に習得する「生成AI活用研修」を開始：社員研修のリスキル",
-      "link": "https://ascii.jp/elem/000/004/414/4414334/?rss",
-      "date": "2026-06-29T12:05:59+09:00",
-      "dateLabel": "06/29 12:05",
-      "desc": "実務で即戦力となるAIスキルを体系的に習得する「生成AI活用研修」を開始：社員研修のリスキル",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
-      "score": 26
-    },
-    {
-      "title": "AI時代だからこそ、アスリートの価値は高まる。水球元日本代表と起業家が「競技人生の次」を考える対話イベントを吉祥寺で開催",
-      "link": "https://ascii.jp/elem/000/004/414/4414335/?rss",
-      "date": "2026-06-29T12:00:00+09:00",
-      "dateLabel": "06/29 12:00",
-      "desc": "AI時代だからこそ、アスリートの価値は高まる。水球元日本代表と起業家が「競技人生の次」を考える対話イベントを吉祥寺で開催",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "【目標達成】物品寄付「キモチと」で目標支援金額を達成。不用品が介護現場の「生成AI・ICT活用」に変わる！",
-      "link": "https://ascii.jp/elem/000/004/414/4414315/?rss",
-      "date": "2026-06-29T12:00:00+09:00",
-      "dateLabel": "06/29 12:00",
-      "desc": "【目標達成】物品寄付「キモチと」で目標支援金額を達成。不用品が介護現場の「生成AI・ICT活用」に変わる！",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "生成AI/マルチモーダル",
       "score": 26
     },
     {
@@ -269,17 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "半導体/GPU",
-      "score": 26
-    },
-    {
-      "title": "官民投資フィジカルAIに10.5兆円示す、「実証から実装へ」動き出す現場",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2606/27/news009.html",
-      "date": "2026-06-27T07:00:00+09:00",
-      "dateLabel": "06/27 07:00",
-      "desc": "2026年6月22日～26日に公開された記事の中から、MONOist編集部が厳選した今週の注目ニュースをお届けします。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI実装",
       "score": 26
     }
   ]
