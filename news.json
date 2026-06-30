@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-01T07:08:58.513192+09:00",
-  "generatedLabel": "2026/07/01 07:08",
+  "generatedAt": "2026-07-01T08:58:34.397443+09:00",
+  "generatedLabel": "2026/07/01 08:58",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 64,
+  "candidates": 63,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 7
     },
     {
       "source": "PC Watch",
@@ -151,6 +151,17 @@
       "score": 42
     },
     {
+      "title": "AIで“ゲームキャラの出産二次創作”を何千回と生成する人も……ChatGPTの会話57万件から見えたヘビーな利用実態",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news027.html",
+      "date": "2026-07-01T08:00:00+09:00",
+      "dateLabel": "07/01 08:00",
+      "desc": "米ワシントン大学などに所属する研究者らが発表した論文「AI Fiction in the Wild」は、AIチャットとの会話データを分析し、ユーザーがAIを使ってどれだけフィクションを生成しているのかを調べた研究報告だ。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
       "title": "Diver-X、ロボティクス向けデータグローブ「ContactGlove3 Pro」発表 ロボット遠隔操作・模倣学習データ収集の標準インターフェース目指す",
       "link": "https://ascii.jp/elem/000/004/414/4414958/?rss",
       "date": "2026-07-01T07:00:00+09:00",
@@ -269,17 +280,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "規制/安全",
-      "score": 26
-    },
-    {
-      "title": "AMD Ryzen AI 7 350搭載デスクトップが、FMV直販サイトで特価の24万5300円！",
-      "link": "https://ascii.jp/elem/000/004/413/4413752/?rss",
-      "date": "2026-06-30T22:00:00+09:00",
-      "dateLabel": "06/30 22:00",
-      "desc": "FMVパソコン通販サイト「FMV Store」では、複数のモデルを対象にセールを開催中。",
-      "img": "https://ascii.jp/img/2026/04/24/4457952/s/de9ac1662f82d96a.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 26
     }
   ]
