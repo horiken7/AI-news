@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T15:46:30.736624+09:00",
-  "generatedLabel": "2026/06/30 15:46",
+  "generatedAt": "2026-06-30T19:25:40.597024+09:00",
+  "generatedLabel": "2026/06/30 19:25",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 60,
+  "candidates": 67,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 2
+      "items": 8
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 17
+      "items": 18
     },
     {
       "source": "CNET Japan",
@@ -107,6 +107,17 @@
       "score": 50
     },
     {
+      "title": "広島のAI研修会社WEAVE、自社で働くAIエージェント「AI社員きんちゃん」を初公開し、次世代のAI活用事例を対面セミナーで紹介。",
+      "link": "https://ascii.jp/elem/000/004/414/4414926/?rss",
+      "date": "2026-06-30T17:30:00+09:00",
+      "dateLabel": "06/30 17:30",
+      "desc": "広島のAI研修会社WEAVE、自社で働くAIエージェント「AI社員きんちゃん」を初公開し、次世代のAI活用事例を対面セミナーで紹介。",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
       "title": "「従来のモデルルーティングはクソ」 コスト35％減で最先端モデルの性能を維持する「Devin Fusion」発表",
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000140/",
       "date": "2026-06-30T13:17:34+09:00",
@@ -115,17 +126,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "月額10万円で実行に特化した格安LLMO（AIO）対策サービス「メントリAIO」をリリース",
-      "link": "https://ascii.jp/elem/000/004/414/4414813/?rss",
-      "date": "2026-06-30T13:00:00+09:00",
-      "dateLabel": "06/30 13:00",
-      "desc": "月額10万円で実行に特化した格安LLMO（AIO）対策サービス「メントリAIO」をリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
       "score": 42
     },
     {
@@ -140,15 +140,70 @@
       "score": 42
     },
     {
-      "title": "「土日の方がAIの個人用途は多い」「女性の方が使用時間は長い」「高賃金タスクは夜間も実行されがち」などClaudeの利用実態レポートが公開される",
-      "link": "https://gigazine.net/news/20260629-anthropic-economic-report/",
-      "date": "2026-06-29T16:54:00+09:00",
-      "dateLabel": "06/29 16:54",
-      "desc": "Anthropicは自社製AIサービスの利用データをプライバシーに配慮しつつ収集して分析しています。2026年6月26日にはClaude CodeやAPIを介した利用も踏まえた利用実態レポートが公開されました。 続きを読む...",
+      "title": "消費者の“生の音声”で顧客のデジタルツインを構築！アンケート調査を瞬時に代替する「AI生活者プラットフォーム」ベータ版を提供開始",
+      "link": "https://ascii.jp/elem/000/004/414/4414943/?rss",
+      "date": "2026-06-30T18:15:57+09:00",
+      "dateLabel": "06/30 18:15",
+      "desc": "消費者の“生の音声”で顧客のデジタルツインを構築！アンケート調査を瞬時に代替する「AI生活者プラットフォーム」ベータ版を提供開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "輸出管理AIエージェント「TRAFEED」、日本最大級のスタートアップカンファレンス「IVS2026」（京都）に出展",
+      "link": "https://ascii.jp/elem/000/004/414/4414916/?rss",
+      "date": "2026-06-30T17:30:00+09:00",
+      "dateLabel": "06/30 17:30",
+      "desc": "輸出管理AIエージェント「TRAFEED」、日本最大級のスタートアップカンファレンス「IVS2026」（京都）に出展",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "AIエージェントの「物忘れ」を防ぐMicrosoftの長期記憶アーキテクチャ「Memora」とは？",
+      "link": "https://gigazine.net/news/20260630-microsoft-memora-harmonic-memory/",
+      "date": "2026-06-30T16:55:00+09:00",
+      "dateLabel": "06/30 16:55",
+      "desc": "Microsoft Researchが2026年6月29日にAIエージェント向けの長期記憶アーキテクチャ「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を公開しました。長期間にわたる会話や作業の履歴をAIエージェントが効率よく保存し、必要な情報だけ",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 42
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "Scene、3D CADから組立工程・手順書を、AIも活用して作成する「3D Docs AI」をβリリース",
+      "link": "https://ascii.jp/elem/000/004/414/4414918/?rss",
+      "date": "2026-06-30T16:48:12+09:00",
+      "dateLabel": "06/30 16:48",
+      "desc": "Scene、3D CADから組立工程・手順書を、AIも活用して作成する「3D Docs AI」をβリリース",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "歯科医療者向けオリジナルAI「TERRACE AI for Dental」をリリース",
+      "link": "https://ascii.jp/elem/000/004/414/4414897/?rss",
+      "date": "2026-06-30T16:38:21+09:00",
+      "dateLabel": "06/30 16:38",
+      "desc": "歯科医療者向けオリジナルAI「TERRACE AI for Dental」をリリース",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "メモリ価格は2026年第3四半期に40～50％上昇して2028年まで改善の見込みはないとの予測",
+      "link": "https://gigazine.net/news/20260630-memory-prices-surge-until-2028/",
+      "date": "2026-06-30T16:00:00+09:00",
+      "dateLabel": "06/30 16:00",
+      "desc": "世界的な半導体不足によってPCやスマートフォンに搭載されるメモリ価格が上昇を続ける中で、市場調査機関のJefferies Equity Researchが「メモリ価格は2026年第3四半期に40～50％上昇し、その後も上昇傾向は続いて2028年まで改善の見込みはない」との予測を発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 34
     },
     {
       "title": "国内大手が共同出資のAI開発企業「日本AI基盤モデル開発」、新名称「Noetra」で始動 産総研と国産マルチモーダルAI開発へ",
@@ -217,68 +272,13 @@
       "score": 34
     },
     {
-      "title": "DeepSeekがAI言語モデルの生成速度を最大85％向上させる「DSpark」を公開",
-      "link": "https://gigazine.net/news/20260629-deepseek-dspark/",
-      "date": "2026-06-29T19:00:00+09:00",
-      "dateLabel": "06/29 19:00",
-      "desc": "DeepSeekが大規模言語モデルの文章生成を高速化する投機的デコード技術「DSpark」を公開しました。DSparkは新しい言語モデルではなく、プレビュー版のDeepSeek-V4-FlashおよびDeepSeek-V4-Proの既存チェックポイントに投機的デコード用モジュールを追加したものです。DeepSeekは実際のユーザーからのリクエストを処理する運",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "iOS版Cursorが登場、CursorのエージェントタスクをiPhoneから管理可能",
-      "link": "https://gigazine.net/news/20260630-cursor-for-ios/",
-      "date": "2026-06-30T14:15:00+09:00",
-      "dateLabel": "06/30 14:15",
-      "desc": "AIコードエディタ「Cursor」のiPhone向けアプリ「Cursor for iOS」が登場しました。Cursor for iOSでは、クラウド上で常時稼働するエージェントを起動できるほか、PC上で動作しているエージェントをiPhoneから遠隔操作でき、外出中に開発タスクを開始して進行中の作業をiPhoneから管理できるようになります。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
-      "title": "AIランキングサイト「Arena」が商用サービス開始から8カ月で年換算収益160億円を突破、AIモデルを「実際に使って比べる」評価が巨大ビジネスに",
-      "link": "https://gigazine.net/news/20260630-arena-revenue/",
-      "date": "2026-06-30T14:02:00+09:00",
-      "dateLabel": "06/30 14:02",
-      "desc": "AIモデルの性能ランキングサイト「Arena」が商用サービス開始から8カ月で年換算収益1億ドル(約162億円)を突破したとTechCrunchが報じました。Arenaはアメリカのカリフォルニア大学バークレー校発の研究プロジェクトから始まったAI評価プラットフォームで、企業向け評価サービスでも急速に存在感を高めています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "アマナイメージズ、AI時代に即して企業のクリエイティブ活動全般を支援する体制を強化",
-      "link": "https://ascii.jp/elem/000/004/414/4414816/?rss",
-      "date": "2026-06-30T13:00:00+09:00",
-      "dateLabel": "06/30 13:00",
-      "desc": "アマナイメージズ、AI時代に即して企業のクリエイティブ活動全般を支援する体制を強化",
+      "title": "株式会社AIrkaiz、株式会社あかのれんのTVer CMにてAI人物モデルを活用した動画クリエイティブ制作を支援",
+      "link": "https://ascii.jp/elem/000/004/414/4414944/?rss",
+      "date": "2026-06-30T18:04:33+09:00",
+      "dateLabel": "06/30 18:04",
+      "desc": "株式会社AIrkaiz、株式会社あかのれんのTVer CMにてAI人物モデルを活用した動画クリエイティブ制作を支援",
       "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "【徹底入門】AIエージェントで注目の「AX」とは何か 人間だけじゃなく“AI視点の使いやすさ”も重要に？",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000132/",
-      "date": "2026-06-30T12:00:00+09:00",
-      "dateLabel": "06/30 12:00",
-      "desc": "AIエージェント時代に注目を集めつつある「AX」（Agent Experience、エージェント体験）とは何か解説する。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 26
-    },
-    {
-      "title": "AmazonにAIが生成した「未発売ゲームの偽攻略本」が並んでいる",
-      "link": "https://gigazine.net/news/20260630-amazon-ai-generated-game-guide/",
-      "date": "2026-06-30T11:40:00+09:00",
-      "dateLabel": "06/30 11:40",
-      "desc": "Amazonで発売前や詳細未発表のゲームを対象にしたAI生成とみられる攻略本が販売されていると報告されています。表紙や商品説明は一見もっともらしく作られており、公式のガイドブックと誤認する購入者が出る懸念があります。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "AI全般",
       "score": 26
     }
