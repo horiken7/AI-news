@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T11:27:14.721051+09:00",
-  "generatedLabel": "2026/06/30 11:27",
+  "generatedAt": "2026-06-30T15:46:30.736624+09:00",
+  "generatedLabel": "2026/06/30 15:46",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 64,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 9
+      "items": 2
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 14
+      "items": 17
     },
     {
       "source": "CNET Japan",
@@ -63,24 +63,24 @@
   ],
   "articles": [
     {
-      "title": "OpenAIが「GPT-5.6」シリーズを発表、Claude Mythos 5超えだがアメリカ政府の指示で限定プレビュー公開",
-      "link": "https://gigazine.net/news/20260629-gpt-5-6-sol-terra-luna/",
-      "date": "2026-06-29T11:20:00+09:00",
-      "dateLabel": "06/29 11:20",
-      "desc": "OpenAIがGPT-5.6シリーズを2026年6月26日に発表しました。最上位モデルのGPT-5.6 SolはAnthropicの最高峰モデルであるClaude Mythos 5を超える性能を記録していますが、記事作成時点では一般公開されておらず、一部の組織を対象に限定公開されています。 続きを読む...",
+      "title": "Claude CodeなどのAIエージェントでComfyUIを使った画像・動画生成の自動化が可能な「Comfy MCP」が登場、Comfy Cloudを使用するので低スペックPCでもOK",
+      "link": "https://gigazine.net/news/20260630-comfy-mcp-comfyui-ai-agent/",
+      "date": "2026-06-30T12:05:00+09:00",
+      "dateLabel": "06/30 12:05",
+      "desc": "ComfyUIは数多くの画像生成AIや動画生成AIに対応した生成AI実行環境ですが、使いこなすには「複数のノードを自分で組み合わせてワークフローを構築する」「他人が作成した複雑なワークフローを読み解いて自分好みにカスタムする」といった複雑な作業が必要です。そんな状況を改善するツールとして「Comfy MCP」のパブリックベータ版が発表されました。Comfy ",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "LLM/モデル",
+      "cat": "AIエージェント/業務",
       "score": 58
     },
     {
-      "title": "ChatGPT・Claudeの共有機能を悪用 マルウェア感染に誘導する新手口「LLMShare」とは",
-      "link": "https://ascii.jp/elem/000/004/414/4414306/?rss",
-      "date": "2026-06-30T11:00:00+09:00",
-      "dateLabel": "06/30 11:00",
-      "desc": "正規の生成 AI サービスを装った偽サイトや広告を用いて、利用者をフィッシングページや不正なアプリへ誘導する手口が確認されています。",
-      "img": "https://ascii.jp/img/2026/06/29/4490876/s/fefdc317a2b2e5a5.jpg",
-      "src": "ASCII.jp",
+      "title": "カリフォルニア州がAnthropicと提携、Claudeを州機関や自治体が半額で利用可能に",
+      "link": "https://gigazine.net/news/20260630-california-anthropic-partnership/",
+      "date": "2026-06-30T11:51:00+09:00",
+      "dateLabel": "06/30 11:51",
+      "desc": "カリフォルニア州のギャビン・ニューサム知事が、AI「Claude」シリーズで知られるカリフォルニア州を代表する企業・Anthropicと提携したことを発表しました。提携によって、州当局や地方自治体はClaudeを50％割引で利用可能になり、開発者からの支援なども提供されます。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
       "cat": "LLM/モデル",
       "score": 50
     },
@@ -107,15 +107,26 @@
       "score": 50
     },
     {
-      "title": "Claude Opus 4.7と同等性能のコーディングAIモデル「Ornith-1.0」が登場、ローカルで動作する小型モデルもラインナップ",
-      "link": "https://gigazine.net/news/20260629-ornith-agentic-coding-ai/",
-      "date": "2026-06-29T13:16:00+09:00",
-      "dateLabel": "06/29 13:16",
-      "desc": "AI研究組織のDeepReinforceがAIモデルファミリー「Ornith-1.0」をオープンモデルとして公開しました。最上位モデルのOrnith-1.0-397Bは複数のベンチマークテストでClaude Opus 4.7を上回っています。 続きを読む...",
+      "title": "「従来のモデルルーティングはクソ」 コスト35％減で最先端モデルの性能を維持する「Devin Fusion」発表",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000140/",
+      "date": "2026-06-30T13:17:34+09:00",
+      "dateLabel": "06/30 13:17",
+      "desc": "コーディングエージェント「Devin」などを提供するCognitionは、複数のAIモデルを使い分けてコーディングするマルチモデルハーネス「Devin Fusion」を発表。高コスパモデルを組み合わせることで、フロンティアモデル並みの性能を、41％低いコストで維持できるという。",
       "img": "",
-      "src": "GIGAZINE",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 42
+    },
+    {
+      "title": "月額10万円で実行に特化した格安LLMO（AIO）対策サービス「メントリAIO」をリリース",
+      "link": "https://ascii.jp/elem/000/004/414/4414813/?rss",
+      "date": "2026-06-30T13:00:00+09:00",
+      "dateLabel": "06/30 13:00",
+      "desc": "月額10万円で実行に特化した格安LLMO（AIO）対策サービス「メントリAIO」をリリース",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
       "cat": "LLM/モデル",
-      "score": 50
+      "score": 42
     },
     {
       "title": "Googleが「自分の好みを知っている画像生成AI」を無料提供、アメリカからスタート",
@@ -126,28 +137,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "建設・製造・重要インフラ… あらゆる「現場」にBizStackでAIとデータの力を届けたい！",
-      "link": "https://ascii.jp/elem/000/004/413/4413885/?rss",
-      "date": "2026-06-30T11:00:00+09:00",
-      "dateLabel": "06/30 11:00",
-      "desc": "MODEが展開するソリューション型IoTプラットフォーム「BizStack（ビズスタック）」は、建設／土木や製造などの“現場IoTデータ”を、独自のEntityモデルを用いて統合、可視化し、現場におけるデータ活用を促している。MODEとの資本・業務提携を発表したソフトバンクとMODEに、どんな未来を考えているのかを聞いた。",
-      "img": "https://ascii.jp/img/2026/06/26/4489867/s/ec2d160a0a1a8491.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI実装",
-      "score": 42
-    },
-    {
-      "title": "ホロライブコラボPCケース「HYTE Y70」発売、駿河屋限定モデルが登場",
-      "link": "https://ascii.jp/elem/000/004/414/4414528/?rss",
-      "date": "2026-06-30T10:30:00+09:00",
-      "dateLabel": "06/30 10:30",
-      "desc": "HYTEが「hololive English -Advent-」とtokidokiがコラボした特別仕様のPCケース「HYTE tokidoki x hololive English -Advent- Y70」を発売。ピラーレスデザインや大型GPU対応などの特徴、価格や駿河屋限定販売の詳細を紹介します。",
-      "img": "https://ascii.jp/img/2026/06/30/4491493/s/02c7d744dae174b6.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
       "score": 42
     },
     {
@@ -162,68 +151,35 @@
       "score": 42
     },
     {
-      "title": "AIエージェントの投資優先順位、どう決める？ Gartnerが「投資スコア」の作り方を公開",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2606/29/news068.html",
-      "date": "2026-06-29T13:30:00+09:00",
-      "dateLabel": "06/29 13:30",
-      "desc": "業務におけるAIエージェントの投資優先順位をどう決めればよいか。業務・業種別のAIエージェントはどう進化していくか。ガートナージャパンの著名アナリストである亦賀忠明氏のWebセミナーから探る。",
+      "title": "国内大手が共同出資のAI開発企業「日本AI基盤モデル開発」、新名称「Noetra」で始動 産総研と国産マルチモーダルAI開発へ",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000138/",
+      "date": "2026-06-30T12:10:52+09:00",
+      "dateLabel": "06/30 12:10",
+      "desc": "国内の大手企業が共同で出資するAI開発企業の日本AI基盤モデル開発（東京都渋谷区）は6月30日までに、1日付で名称をNoetraに変更したと発表した。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "「AI活用が単発質問の企業は大敗」 楽天にコストと遅延の30％低下も達成させた、AIエージェント運用の勝ち筋",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2606/29/news061.html",
-      "date": "2026-06-29T13:00:00+09:00",
-      "dateLabel": "06/29 13:00",
-      "desc": "Anthropicは、先進的な企業がどのようにAIエージェントを活用して業務を変革しているかを紹介するガイド「Building AI agents for the enterprise」を公開した。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "トランプ政権がAnthropicの「Claude Fable 5」復帰を近く容認か、早ければ7月上旬にも制限解除の可能性",
-      "link": "https://gigazine.net/news/20260629-anthropic-fable-5-return-soon/",
-      "date": "2026-06-29T11:50:00+09:00",
-      "dateLabel": "06/29 11:50",
-      "desc": "AI企業のAnthropicが提供する高性能AIモデル「Claude Fable 5」について、トランプ政権がアクセス再開を近く認める見込みであると複数のメディアが報じました。制限は早ければ2026年7月上旬にも解除される可能性があるとのことです。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "音楽生成AIのSunoが独立系アーティストを支援するプログラム「Spark」を開始、「Sunoの悪口禁止」「Sunoに対する裁判への参加権放棄」といった条件が注目を集める",
-      "link": "https://gigazine.net/news/20260629-suno-incubator-program-spark/",
-      "date": "2026-06-29T11:39:00+09:00",
-      "dateLabel": "06/29 11:39",
-      "desc": "AI音楽ジェネレーターの「Suno」は、AIのトレーニングに著作権で保護されている楽曲を利用していると指摘されており、これが原因で訴訟を提起されています。そんなSunoが、独立系アーティストを支援するためのプログラム「Spark」を発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 42
-    },
-    {
-      "title": "DataCurrent、AIは「導入」から「定着」へ。現場の業務に寄り添い、データに基づく意思決定を根づかせるAI分析基盤「OwnSight Agent」を提供開始",
-      "link": "https://ascii.jp/elem/000/004/414/4414536/?rss",
-      "date": "2026-06-30T10:00:00+09:00",
-      "dateLabel": "06/30 10:00",
-      "desc": "DataCurrent、AIは「導入」から「定着」へ。現場の業務に寄り添い、データに基づく意思決定を根づかせるAI分析基盤「OwnSight Agent」を提供開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
-      "title": "DAIV 10周年記念「柊マグネタイト」コラボ始動 限定モデルを期間限定販売",
-      "link": "https://ascii.jp/elem/000/004/414/4414516/?rss",
-      "date": "2026-06-30T09:15:00+09:00",
-      "dateLabel": "06/30 09:15",
-      "desc": "マウスコンピューターが、DAIV誕生10周年を記念した「DAIV meets 柊マグネタイト」を6月26日に公開した。柊マグネタイトらが参加したオリジナル楽曲とMVに加え、制作背景のインタビューを特設ページで公開し、特別モデルも2027年3月31日まで期間限定販売する",
-      "img": "https://ascii.jp/img/2026/06/30/4491468/s/92056da404d91eab.jpg",
-      "src": "ASCII.jp",
+      "title": "韓国が160兆円超をメモリチップ生産とヒューマノイドロボット開発に投じる",
+      "link": "https://gigazine.net/news/20260630-south-korea-spend-1-trillion-memory-humanoid-robots/",
+      "date": "2026-06-30T11:31:00+09:00",
+      "dateLabel": "06/30 11:31",
+      "desc": "韓国政府と大手テクノロジー企業が、2028年までに世界のメモリチップ供給を強化し、新しいAIデータセンターを建設し、ヒューマノイドロボットの商業展開を促進する可能性のある複数のプロジェクトに1兆ドル(約160兆円)を投じると発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 34
+    },
+    {
+      "title": "GitHub、AIによる雑なプルリクエストを抑制へ ユーザー当たりのプルリク数に上限を設定できる新機能",
+      "link": "https://www.itmedia.co.jp/news/articles/2606/30/news102.html",
+      "date": "2026-06-30T10:49:00+09:00",
+      "dateLabel": "06/30 10:49",
+      "desc": "米GitHubは、ユーザーに対してプルリクエスト数の上限を設定できる新機能の導入を発表しました。",
+      "img": "",
+      "src": "ITmedia AI+",
       "cat": "AI全般",
       "score": 34
     },
@@ -272,14 +228,58 @@
       "score": 34
     },
     {
-      "title": "「過剰な通信遮断」を引き起こした権利者に責任を求めるようISPが要求",
-      "link": "https://gigazine.net/news/20260630-isp-rightsholder-overblocking/",
-      "date": "2026-06-30T11:20:00+09:00",
-      "dateLabel": "06/30 11:20",
-      "desc": "海賊版サイトの著作権侵害を止めるために、権利者はインターネットサービスプロバイダー(ISP)に対してIPアドレスやドメインに基づいてアクセス遮断を求めるなどしていますが、プロサッカーリーグが試合の違法視聴をブロックしたことで数百万もの無害なサイトが巻き添えになった事例のように、海賊版対策が大きな問題につながることもあります。ヨーロッパのISPを代表する団体が",
+      "title": "iOS版Cursorが登場、CursorのエージェントタスクをiPhoneから管理可能",
+      "link": "https://gigazine.net/news/20260630-cursor-for-ios/",
+      "date": "2026-06-30T14:15:00+09:00",
+      "dateLabel": "06/30 14:15",
+      "desc": "AIコードエディタ「Cursor」のiPhone向けアプリ「Cursor for iOS」が登場しました。Cursor for iOSでは、クラウド上で常時稼働するエージェントを起動できるほか、PC上で動作しているエージェントをiPhoneから遠隔操作でき、外出中に開発タスクを開始して進行中の作業をiPhoneから管理できるようになります。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "規制/安全",
+      "cat": "AIエージェント/業務",
+      "score": 26
+    },
+    {
+      "title": "AIランキングサイト「Arena」が商用サービス開始から8カ月で年換算収益160億円を突破、AIモデルを「実際に使って比べる」評価が巨大ビジネスに",
+      "link": "https://gigazine.net/news/20260630-arena-revenue/",
+      "date": "2026-06-30T14:02:00+09:00",
+      "dateLabel": "06/30 14:02",
+      "desc": "AIモデルの性能ランキングサイト「Arena」が商用サービス開始から8カ月で年換算収益1億ドル(約162億円)を突破したとTechCrunchが報じました。Arenaはアメリカのカリフォルニア大学バークレー校発の研究プロジェクトから始まったAI評価プラットフォームで、企業向け評価サービスでも急速に存在感を高めています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "アマナイメージズ、AI時代に即して企業のクリエイティブ活動全般を支援する体制を強化",
+      "link": "https://ascii.jp/elem/000/004/414/4414816/?rss",
+      "date": "2026-06-30T13:00:00+09:00",
+      "dateLabel": "06/30 13:00",
+      "desc": "アマナイメージズ、AI時代に即して企業のクリエイティブ活動全般を支援する体制を強化",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
+    },
+    {
+      "title": "【徹底入門】AIエージェントで注目の「AX」とは何か 人間だけじゃなく“AI視点の使いやすさ”も重要に？",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000132/",
+      "date": "2026-06-30T12:00:00+09:00",
+      "dateLabel": "06/30 12:00",
+      "desc": "AIエージェント時代に注目を集めつつある「AX」（Agent Experience、エージェント体験）とは何か解説する。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 26
+    },
+    {
+      "title": "AmazonにAIが生成した「未発売ゲームの偽攻略本」が並んでいる",
+      "link": "https://gigazine.net/news/20260630-amazon-ai-generated-game-guide/",
+      "date": "2026-06-30T11:40:00+09:00",
+      "dateLabel": "06/30 11:40",
+      "desc": "Amazonで発売前や詳細未発表のゲームを対象にしたAI生成とみられる攻略本が販売されていると報告されています。表紙や商品説明は一見もっともらしく作られており、公式のガイドブックと誤認する購入者が出る懸念があります。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AI全般",
       "score": 26
     }
   ]
