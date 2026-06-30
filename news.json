@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T08:53:48.523421+09:00",
-  "generatedLabel": "2026/06/30 08:53",
+  "generatedAt": "2026-06-30T11:27:14.721051+09:00",
+  "generatedLabel": "2026/06/30 11:27",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 62,
+  "candidates": 64,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -13,7 +13,7 @@
     {
       "source": "ITmedia AI+",
       "ok": true,
-      "items": 19
+      "items": 20
     },
     {
       "source": "ASCII.jp",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 13
+      "items": 14
     },
     {
       "source": "CNET Japan",
@@ -71,7 +71,18 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 66
+      "score": 58
+    },
+    {
+      "title": "ChatGPT・Claudeの共有機能を悪用 マルウェア感染に誘導する新手口「LLMShare」とは",
+      "link": "https://ascii.jp/elem/000/004/414/4414306/?rss",
+      "date": "2026-06-30T11:00:00+09:00",
+      "dateLabel": "06/30 11:00",
+      "desc": "正規の生成 AI サービスを装った偽サイトや広告を用いて、利用者をフィッシングページや不正なアプリへ誘導する手口が確認されています。",
+      "img": "https://ascii.jp/img/2026/06/29/4490876/s/fefdc317a2b2e5a5.jpg",
+      "src": "ASCII.jp",
+      "cat": "LLM/モデル",
+      "score": 50
     },
     {
       "title": "タスクの難易度でローカルAIとクラウドAIを自動切り替えする「Wayfinder」、切り替え判断にAIを使わずコストを削減",
@@ -107,14 +118,36 @@
       "score": 50
     },
     {
-      "title": "株式会社プリファードと株式会社マイトラシス、AIで作ったアプリの安全な公開・運用を支援する「おまかせAIガード」を先行発表",
-      "link": "https://ascii.jp/elem/000/004/414/4414497/?rss",
-      "date": "2026-06-29T18:33:20+09:00",
-      "dateLabel": "06/29 18:33",
-      "desc": "株式会社プリファードと株式会社マイトラシス、AIで作ったアプリの安全な公開・運用を支援する「おまかせAIガード」を先行発表",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "title": "Googleが「自分の好みを知っている画像生成AI」を無料提供、アメリカからスタート",
+      "link": "https://gigazine.net/news/20260630-google-personal-intelligence-nano-banana/",
+      "date": "2026-06-30T11:10:00+09:00",
+      "dateLabel": "06/30 11:10",
+      "desc": "GoogleがGeminiアプリで、ユーザーの好みや生活に合わせた画像を生成できる機能をアメリカのユーザー向けに無料で提供開始したと発表しました。Googleの個人最適化機能「Personal Intelligence」と画像生成モデル「Nano Banana」を組み合わせることで、細かい説明や写真の手動アップロードなしに自分らしい画像を作れるようになるとの",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "建設・製造・重要インフラ… あらゆる「現場」にBizStackでAIとデータの力を届けたい！",
+      "link": "https://ascii.jp/elem/000/004/413/4413885/?rss",
+      "date": "2026-06-30T11:00:00+09:00",
+      "dateLabel": "06/30 11:00",
+      "desc": "MODEが展開するソリューション型IoTプラットフォーム「BizStack（ビズスタック）」は、建設／土木や製造などの“現場IoTデータ”を、独自のEntityモデルを用いて統合、可視化し、現場におけるデータ活用を促している。MODEとの資本・業務提携を発表したソフトバンクとMODEに、どんな未来を考えているのかを聞いた。",
+      "img": "https://ascii.jp/img/2026/06/26/4489867/s/ec2d160a0a1a8491.jpg",
       "src": "ASCII.jp",
-      "cat": "AI全般",
+      "cat": "AI実装",
+      "score": 42
+    },
+    {
+      "title": "ホロライブコラボPCケース「HYTE Y70」発売、駿河屋限定モデルが登場",
+      "link": "https://ascii.jp/elem/000/004/414/4414528/?rss",
+      "date": "2026-06-30T10:30:00+09:00",
+      "dateLabel": "06/30 10:30",
+      "desc": "HYTEが「hololive English -Advent-」とtokidokiがコラボした特別仕様のPCケース「HYTE tokidoki x hololive English -Advent- Y70」を発売。ピラーレスデザインや大型GPU対応などの特徴、価格や駿河屋限定販売の詳細を紹介します。",
+      "img": "https://ascii.jp/img/2026/06/30/4491493/s/02c7d744dae174b6.jpg",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
       "score": 42
     },
     {
@@ -173,6 +206,28 @@
       "score": 42
     },
     {
+      "title": "DataCurrent、AIは「導入」から「定着」へ。現場の業務に寄り添い、データに基づく意思決定を根づかせるAI分析基盤「OwnSight Agent」を提供開始",
+      "link": "https://ascii.jp/elem/000/004/414/4414536/?rss",
+      "date": "2026-06-30T10:00:00+09:00",
+      "dateLabel": "06/30 10:00",
+      "desc": "DataCurrent、AIは「導入」から「定着」へ。現場の業務に寄り添い、データに基づく意思決定を根づかせるAI分析基盤「OwnSight Agent」を提供開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "DAIV 10周年記念「柊マグネタイト」コラボ始動 限定モデルを期間限定販売",
+      "link": "https://ascii.jp/elem/000/004/414/4414516/?rss",
+      "date": "2026-06-30T09:15:00+09:00",
+      "dateLabel": "06/30 09:15",
+      "desc": "マウスコンピューターが、DAIV誕生10周年を記念した「DAIV meets 柊マグネタイト」を6月26日に公開した。柊マグネタイトらが参加したオリジナル楽曲とMVに加え、制作背景のインタビューを特設ページで公開し、特別モデルも2027年3月31日まで期間限定販売する",
+      "img": "https://ascii.jp/img/2026/06/30/4491468/s/92056da404d91eab.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
       "title": "自社の業務に合わせたAIエージェントを「10分で作成」 freeeが「AI戦略」を強化",
       "link": "https://www.itmedia.co.jp/business/articles/2606/30/news064.html",
       "date": "2026-06-30T07:00:00+09:00",
@@ -180,61 +235,6 @@
       "desc": "クラウド会計システム「freee」の開発などを手掛けるフリーは、2月に発表したAI戦略の実現に向けた新たな取り組みとして「freee AIアシスタント」と「freee カスタムオーダー」の提供を6月に開始した。「AIから最も使いやすいSaaS」として、AI業界におけるリーディングカンパニーの地位確立を目指す。",
       "img": "",
       "src": "ITmedia AI+",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "米国AI依存の危うさ Fable禁輸で“ソブリンAI”注目集める",
-      "link": "https://ascii.jp/limit/group/ida/elem/000/004/414/4414392/?rss",
-      "date": "2026-06-30T07:00:00+09:00",
-      "dateLabel": "06/30 07:00",
-      "desc": "米政府によるAIの最新モデルの囲い込みが始まったことから、「ソブリン（主権）AI」という考え方に注目が集まっている。",
-      "img": "https://ascii.jp/img/2026/06/29/4490960/s/a8484949436a15b6.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "スペースデータ、宇宙AIプラットフォーム「SpaceBrain」リリース 衛星やデブリなどの観測データを統合監視",
-      "link": "https://ascii.jp/elem/000/004/414/4414222/?rss",
-      "date": "2026-06-30T07:00:00+09:00",
-      "dateLabel": "06/30 07:00",
-      "desc": "株式会社スペースデータは6月22日に、宇宙空間の脅威を統合的に監視・分析・予測するという宇宙AIプラットフォーム「SpaceBrain」をリリースした。人工衛星やスペースデブリ、ロケット、小惑星、宇宙天気、飛翔体などさまざまな観測データを統合し、AIなどによる軌道予測、異常検知、衝突リスク評価、脅威分析等を実施。これにより、従来は個別に管理・分析されていた情",
-      "img": "https://ascii.jp/img/2026/06/29/4490777/s/c03657730e9c64b5.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "AGRIST、営農支援アプリ「AGRIST Farming Planner」実運用開始 栽培計画立案や作業割り振りをAIがサポート",
-      "link": "https://ascii.jp/elem/000/004/414/4414221/?rss",
-      "date": "2026-06-30T07:00:00+09:00",
-      "dateLabel": "06/30 07:00",
-      "desc": "AGRIST株式会社は、生産者の管理業務における工数削減と人員配置の最適化をサポートする営農支援アプリ「AGRIST Farming Planner（アグリストファーミングプランナー）」を開発したと発表。同社の自社農場にて実運用を始めており、AIによる年間作業計画の作成やシフト調整を通じて、持続可能な農業経営を支援するという。",
-      "img": "https://ascii.jp/img/2026/06/29/4490772/s/d715b3110cb7b73b.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "複数のAIを使い分ける“司令塔”、Sakana Fuguの実力を試した",
-      "link": "https://ascii.jp/elem/000/004/412/4412978/?rss",
-      "date": "2026-06-30T07:00:00+09:00",
-      "dateLabel": "06/30 07:00",
-      "desc": "Sakana AIが公開した「Sakana Fugu」は、1つのAPIで最適なAIモデルを自動的に選んでくれるサービス。モデル選びを任せられるFuguを、Chatboxから実際に呼び出して試した。",
-      "img": "https://ascii.jp/img/2026/06/23/4488200/s/626cad726e0fd536.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "AIエージェントの「従業員化」、作業ミスの見逃しを招く",
-      "link": "https://ascii.jp/elem/000/004/414/4414515/?rss",
-      "date": "2026-06-30T06:46:58+09:00",
-      "dateLabel": "06/30 06:46",
-      "desc": "画像クレジット:Photo Illustration by Sarah Rogers/MITTR | Photos Getty",
-      "img": "https://ascii.jp/img/2019/11/06/1510916/s/ed8de61ce6796246.png",
-      "src": "ASCII.jp",
       "cat": "AIエージェント/業務",
       "score": 34
     },
@@ -272,14 +272,14 @@
       "score": 34
     },
     {
-      "title": "「Fable 5を全タスクに使う必要はない」 Anthropic開発者直伝のトークンコスト節約術",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000137/",
-      "date": "2026-06-30T08:00:00+09:00",
-      "dateLabel": "06/30 08:00",
-      "desc": "Anthropicの開発者がトークンコストを抑えるための戦略を語った。タスクに応じてモデルを使い分けると共に、適切な入力方式を選ぶことが重要だ。",
+      "title": "「過剰な通信遮断」を引き起こした権利者に責任を求めるようISPが要求",
+      "link": "https://gigazine.net/news/20260630-isp-rightsholder-overblocking/",
+      "date": "2026-06-30T11:20:00+09:00",
+      "dateLabel": "06/30 11:20",
+      "desc": "海賊版サイトの著作権侵害を止めるために、権利者はインターネットサービスプロバイダー(ISP)に対してIPアドレスやドメインに基づいてアクセス遮断を求めるなどしていますが、プロサッカーリーグが試合の違法視聴をブロックしたことで数百万もの無害なサイトが巻き添えになった事例のように、海賊版対策が大きな問題につながることもあります。ヨーロッパのISPを代表する団体が",
       "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
+      "src": "GIGAZINE",
+      "cat": "規制/安全",
       "score": 26
     }
   ]
