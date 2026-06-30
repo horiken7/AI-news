@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-30T19:25:40.597024+09:00",
-  "generatedLabel": "2026/06/30 19:25",
+  "generatedAt": "2026-06-30T22:03:44.872513+09:00",
+  "generatedLabel": "2026/06/30 22:03",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 67,
+  "candidates": 64,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 7
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 18
+      "items": 16
     },
     {
       "source": "CNET Japan",
@@ -107,6 +107,17 @@
       "score": 50
     },
     {
+      "title": "日本のIPO件数はわずか18件で15年ぶりの低水準を記録、日本にAI・データセンター・半導体関連のスタートアップが不足していることが一因",
+      "link": "https://gigazine.net/news/20260630-japan-ipo-fall-15-year-low/",
+      "date": "2026-06-30T20:00:00+09:00",
+      "dateLabel": "06/30 20:00",
+      "desc": "日本の新規公開株(IPO)の件数が15年ぶりの低水準を記録したと、経済メディアのFinancial Timesが報じました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
       "title": "広島のAI研修会社WEAVE、自社で働くAIエージェント「AI社員きんちゃん」を初公開し、次世代のAI活用事例を対面セミナーで紹介。",
       "link": "https://ascii.jp/elem/000/004/414/4414926/?rss",
       "date": "2026-06-30T17:30:00+09:00",
@@ -170,28 +181,6 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "Scene、3D CADから組立工程・手順書を、AIも活用して作成する「3D Docs AI」をβリリース",
-      "link": "https://ascii.jp/elem/000/004/414/4414918/?rss",
-      "date": "2026-06-30T16:48:12+09:00",
-      "dateLabel": "06/30 16:48",
-      "desc": "Scene、3D CADから組立工程・手順書を、AIも活用して作成する「3D Docs AI」をβリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "歯科医療者向けオリジナルAI「TERRACE AI for Dental」をリリース",
-      "link": "https://ascii.jp/elem/000/004/414/4414897/?rss",
-      "date": "2026-06-30T16:38:21+09:00",
-      "dateLabel": "06/30 16:38",
-      "desc": "歯科医療者向けオリジナルAI「TERRACE AI for Dental」をリリース",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
       "score": 34
     },
     {
@@ -270,6 +259,17 @@
       "src": "AINOW",
       "cat": "AIエージェント/業務",
       "score": 34
+    },
+    {
+      "title": "「マッチしてからがスムーズ」。AI時代のマッチングアプリ「ヨイトキ（Yoitoki）」、6km絞り込み機能で日常圏での出会いを支援",
+      "link": "https://ascii.jp/elem/000/004/414/4414951/?rss",
+      "date": "2026-06-30T18:10:00+09:00",
+      "dateLabel": "06/30 18:10",
+      "desc": "「マッチしてからがスムーズ」。AI時代のマッチングアプリ「ヨイトキ（Yoitoki）」、6km絞り込み機能で日常圏での出会いを支援",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 26
     },
     {
       "title": "株式会社AIrkaiz、株式会社あかのれんのTVer CMにてAI人物モデルを活用した動画クリエイティブ制作を支援",
