@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-01T08:58:34.397443+09:00",
-  "generatedLabel": "2026/07/01 08:58",
+  "generatedAt": "2026-07-01T12:43:59.050902+09:00",
+  "generatedLabel": "2026/07/01 12:43",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 63,
+  "candidates": 59,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 7
+      "items": 4
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 17
+      "items": 16
     },
     {
       "source": "CNET Japan",
@@ -63,15 +63,70 @@
   ],
   "articles": [
     {
-      "title": "Claude CodeなどのAIエージェントでComfyUIを使った画像・動画生成の自動化が可能な「Comfy MCP」が登場、Comfy Cloudを使用するので低スペックPCでもOK",
-      "link": "https://gigazine.net/news/20260630-comfy-mcp-comfyui-ai-agent/",
-      "date": "2026-06-30T12:05:00+09:00",
-      "dateLabel": "06/30 12:05",
-      "desc": "ComfyUIは数多くの画像生成AIや動画生成AIに対応した生成AI実行環境ですが、使いこなすには「複数のノードを自分で組み合わせてワークフローを構築する」「他人が作成した複雑なワークフローを読み解いて自分好みにカスタムする」といった複雑な作業が必要です。そんな状況を改善するツールとして「Comfy MCP」のパブリックベータ版が発表されました。Comfy ",
+      "title": "「Claude Sonnet 5」新登場 低コストでOpus 4.8に匹敵とうたうも、タスク当たりコスト増加との評価も",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000147/",
+      "date": "2026-07-01T12:18:58+09:00",
+      "dateLabel": "07/01 12:18",
+      "desc": "Anthropicが新モデル「Claude Sonnet 5」を発表した。上位の「Opus 4.8」に迫る性能を低価格で実現するとうたう。一方、第三者機関の評価ではトークン使用量が多く、1タスク当たりコストはOpus 4.8を上回るとの指摘もある。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 58
+    },
+    {
+      "title": "「Claude Sonnet 5」が登場、Opus 4.8に近い性能で安価＆無料プランでも使用可能",
+      "link": "https://gigazine.net/news/20260701-claude-sonnet-5/",
+      "date": "2026-07-01T11:20:00+09:00",
+      "dateLabel": "07/01 11:20",
+      "desc": "AnthropicがAIモデル「Claude Sonnet 5」を現地時間の2026年6月30日にリリースしました。Claude Sonnet 5は無料プランでも使用可能なコストパフォーマンスに優れたモデルで、ベンチマークテストではClaude Opus 4.8に近いスコアを記録しています。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
+      "cat": "LLM/モデル",
       "score": 58
+    },
+    {
+      "title": "Googleがより高速で安価な画像生成モデル「Nano Banana 2 Lite」と動画生成モデル「Gemini Omni Flash」を発表",
+      "link": "https://gigazine.net/news/20260701-google-nano-banana-2-lite-gemini-omni-flash/",
+      "date": "2026-07-01T11:45:00+09:00",
+      "dateLabel": "07/01 11:45",
+      "desc": "GoogleのAI部門であるGoogle DeepMindが画像生成モデル「Nano Banana 2 Lite」と動画生成モデル「Gemini Omni Flash」を公開しました。高速な画像生成と対話型の動画編集を組み合わせ、生成メディアの試作から制作までを一連の流れで支援する狙いです。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 50
+    },
+    {
+      "title": "「Claude Fable 5」が帰ってくる 「Mythos 5」含む輸出規制解除へ Anthropic発表",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news068.html",
+      "date": "2026-07-01T10:50:00+09:00",
+      "dateLabel": "07/01 10:50",
+      "desc": "Anthropicは6月30日（現地時間）、「Claude Fable 5」「Mythos 5」への輸出規制が解除されたと明らかにした。7月1日からアクセスを回復し、詳細は近日中に発表するとしている。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "規制/安全",
+      "score": 50
+    },
+    {
+      "title": "アメリカ政府がClaude Fable 5とClaude Mythos 5の規制を解除",
+      "link": "https://gigazine.net/news/20260701-claude-fable-mythos-5/",
+      "date": "2026-07-01T10:20:00+09:00",
+      "dateLabel": "07/01 10:20",
+      "desc": "アメリカ政府によるClaude Fable 5とClaude Mythos 5の規制が解除されたことが日本時間の2026年7月1日8時52分に発表されました。Anthropicが近日中にサービスを再開することを表明しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "規制/安全",
+      "score": 50
+    },
+    {
+      "title": "Anthropic、科学研究向けAIワークベンチ「Claude Science」を発表──NVIDIAのBioNeMoツールキットと連携",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000145/",
+      "date": "2026-07-01T09:54:25+09:00",
+      "dateLabel": "07/01 09:54",
+      "desc": "Anthropicは、科学者が計算研究を一貫して行えるAI実行環境「Claude Science」を発表した。データベースやツールを1つのインタフェースに統合し、文献分析から論文執筆、図表作成まで対応する。NVIDIAのツールキットとも連携し、機密データを外部に送信しない設計が特徴。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "半導体/GPU",
+      "score": 50
     },
     {
       "title": "中国のオープンウェイトモデル「GLM-5.2」が脆弱性検出ベンチマークでClaude Codeを上回る",
@@ -85,15 +140,48 @@
       "score": 50
     },
     {
-      "title": "カリフォルニア州がAnthropicと提携、Claudeを州機関や自治体が半額で利用可能に",
-      "link": "https://gigazine.net/news/20260630-california-anthropic-partnership/",
-      "date": "2026-06-30T11:51:00+09:00",
-      "dateLabel": "06/30 11:51",
-      "desc": "カリフォルニア州のギャビン・ニューサム知事が、AI「Claude」シリーズで知られるカリフォルニア州を代表する企業・Anthropicと提携したことを発表しました。提携によって、州当局や地方自治体はClaudeを50％割引で利用可能になり、開発者からの支援なども提供されます。 続きを読む...",
+      "title": "Claude CodeなどのAIエージェントでComfyUIを使った画像・動画生成の自動化が可能な「Comfy MCP」が登場、Comfy Cloudを使用するので低スペックPCでもOK",
+      "link": "https://gigazine.net/news/20260630-comfy-mcp-comfyui-ai-agent/",
+      "date": "2026-06-30T12:05:00+09:00",
+      "dateLabel": "06/30 12:05",
+      "desc": "ComfyUIは数多くの画像生成AIや動画生成AIに対応した生成AI実行環境ですが、使いこなすには「複数のノードを自分で組み合わせてワークフローを構築する」「他人が作成した複雑なワークフローを読み解いて自分好みにカスタムする」といった複雑な作業が必要です。そんな状況を改善するツールとして「Comfy MCP」のパブリックベータ版が発表されました。Comfy ",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
+      "score": 50
+    },
+    {
+      "title": "Anthropicが科学者向けAIアプリ「Claude Science」を公開、文献調査や図表作成を単一アプリで実行可能",
+      "link": "https://gigazine.net/news/20260701-anthropic-claude-science/",
+      "date": "2026-07-01T12:35:00+09:00",
+      "dateLabel": "07/01 12:35",
+      "desc": "Anthropicが科学研究向けAIワークベンチ「Claude Science」をベータ版として公開しました。Claude Scienceは文献調査から解析、図表や原稿の作成、計算資源の管理までを単一の環境に統合し、検証可能で再現可能な研究作業を支援するツールです。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
-      "score": 50
+      "score": 42
+    },
+    {
+      "title": "OpenAIがAIの科学能力を測定するベンチマークテスト「GeneBench-Pro」を発表",
+      "link": "https://gigazine.net/news/20260701-genebench-pro/",
+      "date": "2026-07-01T12:05:00+09:00",
+      "dateLabel": "07/01 12:05",
+      "desc": "データを確認したAIが、そのデータがノイズなのか有意なものなのかを判断した上で解析を行えるかどうかを測る計算生物学のベンチマーク「GeneBench-Pro」がOpenAIから発表されました。このベンチマークで測定した上でAIを改善していけば、科学的発見を大幅に加速できる可能性があると期待されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "中小企業のためのXDR「Symantec CBX」が誕生 これ1つで包括的セキュリティを実現",
+      "link": "https://ascii.jp/elem/000/004/414/4414675/?rss",
+      "date": "2026-07-01T11:00:00+09:00",
+      "dateLabel": "07/01 11:00",
+      "desc": "Interop Tokyo 2026のBroadcomブースでは、今年8月にリリース予定のXDRプラットフォーム「Symantec CBX」が大きく紹介されていた。中小企業でも運用できる本格的なXDRソリューションとして、Broadcomが買収したSymantecとCarbon Blackのテクノロジーを統合し、そこに最新のAI技術も追加して提供されるクラウ",
+      "img": "https://ascii.jp/img/2026/06/30/4491589/s/80fc3737f6ee2a52.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 42
     },
     {
       "title": "日本のIPO件数はわずか18件で15年ぶりの低水準を記録、日本にAI・データセンター・半導体関連のスタートアップが不足していることが一因",
@@ -118,28 +206,6 @@
       "score": 42
     },
     {
-      "title": "Googleが「自分の好みを知っている画像生成AI」を無料提供、アメリカからスタート",
-      "link": "https://gigazine.net/news/20260630-google-personal-intelligence-nano-banana/",
-      "date": "2026-06-30T11:10:00+09:00",
-      "dateLabel": "06/30 11:10",
-      "desc": "GoogleがGeminiアプリで、ユーザーの好みや生活に合わせた画像を生成できる機能をアメリカのユーザー向けに無料で提供開始したと発表しました。Googleの個人最適化機能「Personal Intelligence」と画像生成モデル「Nano Banana」を組み合わせることで、細かい説明や写真の手動アップロードなしに自分らしい画像を作れるようになるとの",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "タスクの難易度でローカルAIとクラウドAIを自動切り替えする「Wayfinder」、切り替え判断にAIを使わずコストを削減",
-      "link": "https://gigazine.net/news/20260630-wayfinder/",
-      "date": "2026-06-30T07:00:00+09:00",
-      "dateLabel": "06/30 07:00",
-      "desc": "短い文章の要約や誤字修正は手元の小さなAIに任せ、複雑な推論や長いコードの解析は高性能なクラウドAIに送るという判断を自動化するオープンソースツール「Wayfinder Router」がGitHubで公開されています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
       "title": "クアルコムがPythonライクな新言語「Mojo」開発元のModular社買収を発表。AIデータセンター市場へ本格参入",
       "link": "https://www.publickey1.jp/blog/26/pythonmojomodularai.html",
       "date": "2026-06-30T00:33:20+09:00",
@@ -149,6 +215,50 @@
       "src": "Publickey",
       "cat": "半導体/GPU",
       "score": 42
+    },
+    {
+      "title": "パナソニックが200Vの電気衣類乾燥機 乾太くんの強力ライバルに",
+      "link": "https://ascii.jp/elem/000/004/415/4415050/?rss",
+      "date": "2026-07-01T11:45:00+09:00",
+      "dateLabel": "07/01 11:45",
+      "desc": "パナソニックは7月1日、屋外排気式の電気衣類乾燥機「Solaire（ソレイル）」を発表した。",
+      "img": "https://ascii.jp/img/2026/07/01/4492238/s/3a301c0b895f9b7f.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "ミクシィが動画生成AIのRunwayと戦略的パートナーシップを締結、すでにモンストの映像制作などでRunwayのAIを使用",
+      "link": "https://gigazine.net/news/20260701-mixi-runway-strategic-partnership/",
+      "date": "2026-07-01T11:12:00+09:00",
+      "dateLabel": "07/01 11:12",
+      "desc": "MIXIが動画生成AIサービスの展開で知られるAI企業「Runway」との戦略的パートナーシップ締結を発表しました。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "生成AI/マルチモーダル",
+      "score": 34
+    },
+    {
+      "title": "キーボード入力時の脳の動きから打った文章を割り出す技術、Metaが発表 手術不要、“埋め込み式”に迫る",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news063.html",
+      "date": "2026-07-01T11:05:00+09:00",
+      "dateLabel": "07/01 11:05",
+      "desc": "米Metaが、手術を伴わずに脳の活動を文章へ変換する研究「Brain2Qwerty v2」を発表した。頭部に装着する装置で脳の信号を読み取り、人がキーボードへ入力した文章をリアルタイムで解読する。脳の病気で話す力を失った人の意思疎通を支える技術として、学習用のコードも公開した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "米政府「Fable 5／Mythos 5」の輸出規制解除 Anthropic「明日からアクセス回復」",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000146/",
+      "date": "2026-07-01T09:59:03+09:00",
+      "dateLabel": "07/01 09:59",
+      "desc": "「ユーザーの辛抱に感謝するとともに、モデルの再展開に協力いただいたすべての方々に感謝する」",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "規制/安全",
+      "score": 34
     },
     {
       "title": "AIで“ゲームキャラの出産二次創作”を何千回と生成する人も……ChatGPTの会話57万件から見えたヘビーな利用実態",
@@ -162,17 +272,6 @@
       "score": 34
     },
     {
-      "title": "Diver-X、ロボティクス向けデータグローブ「ContactGlove3 Pro」発表 ロボット遠隔操作・模倣学習データ収集の標準インターフェース目指す",
-      "link": "https://ascii.jp/elem/000/004/414/4414958/?rss",
-      "date": "2026-07-01T07:00:00+09:00",
-      "dateLabel": "07/01 07:00",
-      "desc": "Diver-X株式会社は6月24日に、ロボティクス向けデータグローブ「ContactGlove3 Pro」を発表した。同製品は、業務用途のロボット遠隔操作および作業データ収集向けインターフェース。EMF（電磁場）方式による指先トラッキングと、ROS 2／C++／Python SDK のネイティブ対応、Linux／macOS／Windowsのクロスプラットフォ",
-      "img": "https://ascii.jp/img/2026/06/30/4491998/s/fe44714d0e4b7d83.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI実装",
-      "score": 34
-    },
-    {
       "title": "Windows上でLinuxコンテナが動く「WSL Containers」がパブリックプレビュー。Windowsファイルへのアクセスが2倍高速に",
       "link": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containerswindows2.html",
       "date": "2026-07-01T00:45:51+09:00",
@@ -182,105 +281,6 @@
       "src": "Publickey",
       "cat": "AI全般",
       "score": 34
-    },
-    {
-      "title": "泣く子も黙る「HX Plus」+「RTX5090」＝今最高のゲーミングノートを買うならこちら＝「ROG Strix SCAR 18」実機レビュー",
-      "link": "https://ascii.jp/elem/000/004/414/4414506/?rss",
-      "date": "2026-07-01T00:01:00+09:00",
-      "dateLabel": "07/01 00:01",
-      "desc": "「Core Ultra 9 290HX Plus」に「NVIDIA GeForce RTX 5080/90」の爆速ゲーミングノートPCです",
-      "img": "https://ascii.jp/img/2026/06/29/4491300/s/f0dc179a53539e92.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "消費者の“生の音声”で顧客のデジタルツインを構築！アンケート調査を瞬時に代替する「AI生活者プラットフォーム」ベータ版を提供開始",
-      "link": "https://ascii.jp/elem/000/004/414/4414943/?rss",
-      "date": "2026-06-30T18:15:57+09:00",
-      "dateLabel": "06/30 18:15",
-      "desc": "消費者の“生の音声”で顧客のデジタルツインを構築！アンケート調査を瞬時に代替する「AI生活者プラットフォーム」ベータ版を提供開始",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "AIエージェントの「物忘れ」を防ぐMicrosoftの長期記憶アーキテクチャ「Memora」とは？",
-      "link": "https://gigazine.net/news/20260630-microsoft-memora-harmonic-memory/",
-      "date": "2026-06-30T16:55:00+09:00",
-      "dateLabel": "06/30 16:55",
-      "desc": "Microsoft Researchが2026年6月29日にAIエージェント向けの長期記憶アーキテクチャ「Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity」を公開しました。長期間にわたる会話や作業の履歴をAIエージェントが効率よく保存し、必要な情報だけ",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "メモリ価格は2026年第3四半期に40～50％上昇して2028年まで改善の見込みはないとの予測",
-      "link": "https://gigazine.net/news/20260630-memory-prices-surge-until-2028/",
-      "date": "2026-06-30T16:00:00+09:00",
-      "dateLabel": "06/30 16:00",
-      "desc": "世界的な半導体不足によってPCやスマートフォンに搭載されるメモリ価格が上昇を続ける中で、市場調査機関のJefferies Equity Researchが「メモリ価格は2026年第3四半期に40～50％上昇し、その後も上昇傾向は続いて2028年まで改善の見込みはない」との予測を発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "国内大手が共同出資のAI開発企業「日本AI基盤モデル開発」、新名称「Noetra」で始動 産総研と国産マルチモーダルAI開発へ",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000138/",
-      "date": "2026-06-30T12:10:52+09:00",
-      "dateLabel": "06/30 12:10",
-      "desc": "国内の大手企業が共同で出資するAI開発企業の日本AI基盤モデル開発（東京都渋谷区）は6月30日までに、1日付で名称をNoetraに変更したと発表した。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "韓国が160兆円超をメモリチップ生産とヒューマノイドロボット開発に投じる",
-      "link": "https://gigazine.net/news/20260630-south-korea-spend-1-trillion-memory-humanoid-robots/",
-      "date": "2026-06-30T11:31:00+09:00",
-      "dateLabel": "06/30 11:31",
-      "desc": "韓国政府と大手テクノロジー企業が、2028年までに世界のメモリチップ供給を強化し、新しいAIデータセンターを建設し、ヒューマノイドロボットの商業展開を促進する可能性のある複数のプロジェクトに1兆ドル(約160兆円)を投じると発表しました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 34
-    },
-    {
-      "title": "GitHub、AIによる雑なプルリクエストを抑制へ ユーザー当たりのプルリク数に上限を設定できる新機能",
-      "link": "https://www.itmedia.co.jp/news/articles/2606/30/news102.html",
-      "date": "2026-06-30T10:49:00+09:00",
-      "dateLabel": "06/30 10:49",
-      "desc": "米GitHubは、ユーザーに対してプルリクエスト数の上限を設定できる新機能の導入を発表しました。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "AI・データ活用が社内で止まる。WeDraftが狙う情報資産管理の空白地帯",
-      "link": "https://ascii.jp/elem/000/004/414/4414907/?rss",
-      "date": "2026-07-01T07:00:00+09:00",
-      "dateLabel": "07/01 07:00",
-      "desc": "2026年6月30日、個人情報・情報資産管理プラットフォーム「Flows」 を提供する株式会社WeDraftは、DNX Venturesを引受先とするシードラウンドで1億円を調達した。調達資金は、「Flows」のサービス基盤強化、初期顧客の成果創出、組織体制の強化に充てる。",
-      "img": "https://ascii.jp/img/2026/06/30/4491882/s/8d87f62b353e3522.png",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 26
-    },
-    {
-      "title": "人口ゼロの孤島から送られたDMCA申請により記事がGoogleのインデックスから削除される",
-      "link": "https://gigazine.net/news/20260630-pollen-google-dmca/",
-      "date": "2026-06-30T22:55:00+09:00",
-      "dateLabel": "06/30 22:55",
-      "desc": "Googleは著作権侵害の可能性のあるコンテンツを検索結果に表示しないように取り組んでおり、デジタルミレニアム著作権法(DMCA)にもとづく削除申請を受け付けています。イベント企業・Pollenの経営破綻を調査した記事が、虚偽とみられる著作権侵害の申し立てによってGoogle検索から削除される事態が発生し、著者は「GoogleのDMCA申請システムは簡単に悪",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 26
     }
   ]
 }
