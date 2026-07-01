@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-01T17:02:48.497685+09:00",
-  "generatedLabel": "2026/07/01 17:02",
+  "generatedAt": "2026-07-01T20:51:04.434649+09:00",
+  "generatedLabel": "2026/07/01 20:51",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 57,
+  "candidates": 60,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 2
+      "items": 4
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 16
+      "items": 17
     },
     {
       "source": "CNET Japan",
@@ -162,6 +162,28 @@
       "score": 50
     },
     {
+      "title": "Claude Codeがユーザーの接続経路を「日付の書式を変更する」という手法で記録していたとの指摘、「2026-06-30」「2026/06/30」といった書式の違いで見分ける仕組み",
+      "link": "https://gigazine.net/news/20260701-claude-code-prompt-steganography/",
+      "date": "2026-07-01T19:00:00+09:00",
+      "dateLabel": "07/01 19:00",
+      "desc": "AnthropicのAIコーディングツール「Claude Code」が送信するシステムプロンプト内の日付文に目立たない文字の違いを埋め込み、APIの接続先やタイムゾーンに応じてリクエストに目印を付けていたとの調査結果が公開されました。調査した個人開発者のThereallo氏は仕組みを「プロンプト・ステガノグラフィー」と表現しています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
+      "score": 42
+    },
+    {
+      "title": "ゲットワークス、水冷GPUサーバー用コンテナ型データセンターの需要拡大に対応すべく、水冷設備を中心とした国内外の技術者育成プログラムを開始",
+      "link": "https://ascii.jp/elem/000/004/415/4415530/?rss",
+      "date": "2026-07-01T18:00:00+09:00",
+      "dateLabel": "07/01 18:00",
+      "desc": "ゲットワークス、水冷GPUサーバー用コンテナ型データセンターの需要拡大に対応すべく、水冷設備を中心とした国内外の技術者育成プログラムを開始",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "半導体/GPU",
+      "score": 42
+    },
+    {
       "title": "Protonがプライバシー重視チャットAI「Lumo 2.0」を発表、Claude Sonnet 4.6を超える性能",
       "link": "https://gigazine.net/news/20260701-proton-lumo-2-0/",
       "date": "2026-07-01T14:40:00+09:00",
@@ -217,17 +239,6 @@
       "score": 42
     },
     {
-      "title": "日本のIPO件数はわずか18件で15年ぶりの低水準を記録、日本にAI・データセンター・半導体関連のスタートアップが不足していることが一因",
-      "link": "https://gigazine.net/news/20260630-japan-ipo-fall-15-year-low/",
-      "date": "2026-06-30T20:00:00+09:00",
-      "dateLabel": "06/30 20:00",
-      "desc": "日本の新規公開株(IPO)の件数が15年ぶりの低水準を記録したと、経済メディアのFinancial Timesが報じました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
       "title": "クアルコムがPythonライクな新言語「Mojo」開発元のModular社買収を発表。AIデータセンター市場へ本格参入",
       "link": "https://www.publickey1.jp/blog/26/pythonmojomodularai.html",
       "date": "2026-06-30T00:33:20+09:00",
@@ -239,6 +250,28 @@
       "score": 42
     },
     {
+      "title": "Aile The Shota、新曲「ONGAKU」が7月8日(水)リリース決定",
+      "link": "https://ascii.jp/elem/000/004/415/4415510/?rss",
+      "date": "2026-07-01T18:10:04+09:00",
+      "dateLabel": "07/01 18:10",
+      "desc": "Aile The Shota、新曲「ONGAKU」が7月8日(水)リリース決定",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "AI全般",
+      "score": 34
+    },
+    {
+      "title": "ソフトバンクG、OpenAIに1兆6273億円の追加出資 第3弾は10月に",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news139.html",
+      "date": "2026-07-01T18:10:00+09:00",
+      "dateLabel": "07/01 18:10",
+      "desc": "ソフトバンクグループは7月1日、米OpenAIへの総額300億ドル（約4兆6743億円）の追加出資のうち、第2弾となる100億ドル（同1兆6273億円）を実行したと発表した。残る第3弾の100億ドルは10月1日に予定する。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
       "title": "Sakana AIはなぜ「Fugu」の基盤にGoogle Cloudを選んだのか 「元DeepMindだから」だけじゃない",
       "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000149/",
       "date": "2026-07-01T16:52:21+09:00",
@@ -247,39 +280,6 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "AIエージェント/業務",
-      "score": 34
-    },
-    {
-      "title": "Mistralが自動定理証明向けAI「Leanstral 1.5」リリース、Lean 4の証明作業を支援",
-      "link": "https://gigazine.net/news/20260701-mistral-leanstral-1-5/",
-      "date": "2026-07-01T16:05:00+09:00",
-      "dateLabel": "07/01 16:05",
-      "desc": "Mistral AIが数学の証明やプログラムの正しさを機械的に確かめる作業を支援するAIモデル「Leanstral 1.5」を2026年6月30日に公開しました。Leanstral 1.5は形式証明ツール「Lean 4」向けの自動定理証明と自動形式化に最適化されたモデルで、Mistral AIのLabs枠で無料利用できると案内されています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 34
-    },
-    {
-      "title": "Zoom、AIで会議から提案書まで自動作成「AI Productivity Suite」を提供開始",
-      "link": "https://ascii.jp/elem/000/004/415/4415264/?rss",
-      "date": "2026-07-01T15:00:00+09:00",
-      "dateLabel": "07/01 15:00",
-      "desc": "Zoomは、会議やチャットの内容からスライド、提案書、レポート、スプレッドシートをAIで自動生成する「AI Productivity Suite」の提供を開始。日本でも利用可能で、資料作成業務の効率化を支援します。",
-      "img": "https://ascii.jp/img/2026/07/01/4492374/s/06f8a7f64f103dfe.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
-      "title": "OpenAIのエンジニアがAIの推論コストを半分以下に削減する方法を見つけたとの報道",
-      "link": "https://gigazine.net/news/20260701-openai-discovers-cut-inference-costs-half/",
-      "date": "2026-07-01T15:00:00+09:00",
-      "dateLabel": "07/01 15:00",
-      "desc": "AIモデルを大規模に提供する企業にとって課題となっているのが、ユーザーの入力に応じてAIモデルが出力を生成するプロセスにかかる推論コストです。新たに、OpenAIのエンジニアたちが「推論コストを半分以下に削減する方法を見つけた」と語ったと、海外メディアのThe Informationが報じました。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
       "score": 34
     }
   ]
