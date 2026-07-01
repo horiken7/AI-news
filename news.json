@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-02T04:29:35.390022+09:00",
-  "generatedLabel": "2026/07/02 04:29",
+  "generatedAt": "2026-07-02T06:17:47.606920+09:00",
+  "generatedLabel": "2026/07/02 06:17",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 58,
+  "candidates": 57,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 3
+      "items": 2
     },
     {
       "source": "PC Watch",
@@ -261,17 +261,6 @@
       "score": 34
     },
     {
-      "title": "Aile The Shota、新曲「ONGAKU」が7月8日(水)リリース決定",
-      "link": "https://ascii.jp/elem/000/004/415/4415510/?rss",
-      "date": "2026-07-01T18:10:04+09:00",
-      "dateLabel": "07/01 18:10",
-      "desc": "Aile The Shota、新曲「ONGAKU」が7月8日(水)リリース決定",
-      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
-      "src": "ASCII.jp",
-      "cat": "AI全般",
-      "score": 34
-    },
-    {
       "title": "ソフトバンクG、OpenAIに1兆6273億円の追加出資 第3弾は10月に",
       "link": "https://www.itmedia.co.jp/news/articles/2607/01/news139.html",
       "date": "2026-07-01T18:10:00+09:00",
@@ -280,6 +269,17 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "Sakana AIはなぜ「Fugu」の基盤にGoogle Cloudを選んだのか 「元DeepMindだから」だけじゃない",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000149/",
+      "date": "2026-07-01T16:52:21+09:00",
+      "dateLabel": "07/01 16:52",
+      "desc": "Sakana AIはマルチエージェントシステム「Sakana Fugu」の運用基盤に、Google Cloudの「Gemini Enterprise Agent Platform」を採用した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
       "score": 34
     }
   ]
