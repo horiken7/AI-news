@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-02T11:12:45.004620+09:00",
-  "generatedLabel": "2026/07/02 11:12",
+  "generatedAt": "2026-07-02T15:30:51.310769+09:00",
+  "generatedLabel": "2026/07/02 15:30",
   "feedOk": 7,
   "feedNg": 4,
-  "candidates": 63,
+  "candidates": 59,
   "status": [
     {
       "source": "ITmedia NEWS",
@@ -18,7 +18,7 @@
     {
       "source": "ASCII.jp",
       "ok": true,
-      "items": 8
+      "items": 7
     },
     {
       "source": "PC Watch",
@@ -28,7 +28,7 @@
     {
       "source": "GIGAZINE",
       "ok": true,
-      "items": 16
+      "items": 13
     },
     {
       "source": "CNET Japan",
@@ -63,15 +63,37 @@
   ],
   "articles": [
     {
-      "title": "NVIDIAのAIチップを使わずにGemini 3.1 Pro並みの性能を実現した1.6兆パラメーターの中国製AIモデル「LongCat-2.0」が登場",
-      "link": "https://gigazine.net/news/20260701-longcat-2-0/",
-      "date": "2026-07-01T13:25:00+09:00",
-      "dateLabel": "07/01 13:25",
-      "desc": "1.6兆パラメータ・100万トークンのコンテキスト長を持つAIモデル「LongCat-2.0」が中国企業の美団(Meituan)から公開されました。事前学習から推論までの全プロセスを、国内の5万基以上のチップで実行したモデルとのことです。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
+      "title": "ASUSのRTX 5090搭載「ProArt」登場 小型PC向け2.5スロット設計を採用",
+      "link": "https://ascii.jp/elem/000/004/415/4415595/?rss",
+      "date": "2026-07-02T13:00:00+09:00",
+      "dateLabel": "07/02 13:00",
+      "desc": "ASUS JAPANが、ProArtブランドの新型ビデオカード「ProArt GeForce RTX 5090 OC Edition」を発表した。NVIDIA GeForce RTX 5090搭載、2.5スロットのコンパクト設計、USB Type-C対応、相変化GPUサーマルパッドや大型ヴェイパーチャンバーを採用し、7月3日に発売する。",
+      "img": "https://ascii.jp/img/2026/07/02/4492872/s/f39d685c05bae423.png",
+      "src": "ASCII.jp",
       "cat": "半導体/GPU",
       "score": 58
+    },
+    {
+      "title": "エレコム、Red Dot Design Award 2026受賞 モバイルバッテリーとIST PROが高評価",
+      "link": "https://ascii.jp/elem/000/004/415/4415655/?rss",
+      "date": "2026-07-02T12:45:00+09:00",
+      "dateLabel": "07/02 12:45",
+      "desc": "エレコムがナトリウムイオン電池モバイルバッテリーとトラックボール「IST PRO」でRed Dot Design Award 2026を受賞したと発表した。長寿命・高安全性の電池採用モデルと、10ボタン搭載の高性能トラックボールが評価された内容だ。",
+      "img": "https://ascii.jp/img/2026/07/02/4492946/s/a562aeadc012e1c9.jpg",
+      "src": "ASCII.jp",
+      "cat": "規制/安全",
+      "score": 50
+    },
+    {
+      "title": "Stella AI、Anthropic社の最新モデル「Claude Sonnet 5」「Claude Sonnet 4.5」を追加",
+      "link": "https://ascii.jp/elem/000/004/415/4415766/?rss",
+      "date": "2026-07-02T12:04:44+09:00",
+      "dateLabel": "07/02 12:04",
+      "desc": "Stella AI、Anthropic社の最新モデル「Claude Sonnet 5」「Claude Sonnet 4.5」を追加",
+      "img": "https://ascii.jp/img/2019/05/13/1510511/s/5e76a3dd2752b473.jpg",
+      "src": "ASCII.jp",
+      "cat": "LLM/モデル",
+      "score": 50
     },
     {
       "title": "「Claude Sonnet 5」新登場 低コストでOpus 4.8に匹敵とうたうも、タスク当たりコスト増加との評価も",
@@ -82,72 +104,50 @@
       "img": "",
       "src": "ITmedia AI+",
       "cat": "LLM/モデル",
-      "score": 58
+      "score": 50
     },
     {
-      "title": "「Claude Sonnet 5」が登場、Opus 4.8に近い性能で安価＆無料プランでも使用可能",
-      "link": "https://gigazine.net/news/20260701-claude-sonnet-5/",
-      "date": "2026-07-01T11:20:00+09:00",
-      "dateLabel": "07/01 11:20",
-      "desc": "AnthropicがAIモデル「Claude Sonnet 5」を現地時間の2026年6月30日にリリースしました。Claude Sonnet 5は無料プランでも使用可能なコストパフォーマンスに優れたモデルで、ベンチマークテストではClaude Opus 4.8に近いスコアを記録しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 58
+      "title": "SORACOM、IoT向け「Connectivity Hypervisor」提供開始 SGP.32対応SIMで通信を最適化",
+      "link": "https://ascii.jp/elem/000/004/415/4415749/?rss",
+      "date": "2026-07-02T15:00:00+09:00",
+      "dateLabel": "07/02 15:00",
+      "desc": "ソラコムは、新たなIoT通信基盤「SORACOM Connectivity Hypervisor」の商用提供を開始し、長期的な通信運用の柔軟性を実現。SGP.32対応IoT SIMによるリモートプロビジョニングと通信プロファイルの最適化を可能にする。",
+      "img": "https://ascii.jp/img/2026/07/02/4493056/s/224f1b755bbeb1e7.png",
+      "src": "ASCII.jp",
+      "cat": "生成AI/マルチモーダル",
+      "score": 42
     },
     {
-      "title": "AIエージェント経由でXのAPIを操作して「投稿検索」「トレンド分析」などが可能な「X MCP」が公開される",
-      "link": "https://gigazine.net/news/20260701-x-mcp/",
-      "date": "2026-07-01T13:45:00+09:00",
-      "dateLabel": "07/01 13:45",
-      "desc": "Xは2026年6月30日に、ユーザー自身のアカウント権限を使用してAIツールがX APIと通信できるようにするホスト型モデルコンテキストプロトコル(MCP)サーバー「X MCP」を発表しました。X MCPを用いることで、ClaudeやGrok BuildといったAIアシスタントやその他のMCP互換アプリがXに直接接続しやすくなり、Xの投稿分析や情報の要約など",
+      "title": "CloudflareがAIボットを「検索」「代理操作」「学習」など種類ごとに制御する仕組みを公開、無料プランでも「検索は許可、AI学習は拒否」を設定可能",
+      "link": "https://gigazine.net/news/20260702-cloudflare-ai-traffic-option/",
+      "date": "2026-07-02T14:15:00+09:00",
+      "dateLabel": "07/02 14:15",
+      "desc": "CloudflareがウェブサイトにアクセスするAI関連ボットを用途ごとに管理できる新しいアクセス制御オプションを全ユーザー向けに公開したと発表しました。新オプションでは検索向けの巡回を許可しつつ、AIモデルの学習やユーザーの代わりに操作するエージェントによるアクセスを制限するといった設定が可能になります。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
-      "score": 50
+      "score": 42
     },
     {
-      "title": "Googleがより高速で安価な画像生成モデル「Nano Banana 2 Lite」と動画生成モデル「Gemini Omni Flash」を発表",
-      "link": "https://gigazine.net/news/20260701-google-nano-banana-2-lite-gemini-omni-flash/",
-      "date": "2026-07-01T11:45:00+09:00",
-      "dateLabel": "07/01 11:45",
-      "desc": "GoogleのAI部門であるGoogle DeepMindが画像生成モデル「Nano Banana 2 Lite」と動画生成モデル「Gemini Omni Flash」を公開しました。高速な画像生成と対話型の動画編集を組み合わせ、生成メディアの試作から制作までを一連の流れで支援する狙いです。 続きを読む...",
+      "title": "「賢さよりツール連携力が重要」 Microsoftが実験的な小型AIエージェント基盤を公開",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/02/news050.html",
+      "date": "2026-07-02T13:00:00+09:00",
+      "dateLabel": "07/02 13:00",
+      "desc": "MicrosoftのAI研究チームであるMicrosoft Research AI Frontiersは、小型モデル向けに最適化したエージェント基盤「MagenticLite」を公開した。「エージェント能力は知識量ではなくツール統合と実行ハーネスで決まる」という仮説に基づき構成されており、小型モデルでも実用的なエージェント性能を引き出すという。",
       "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 50
-    },
-    {
-      "title": "コスト・人手不足・AI… ITインフラの悩みをオプテージが最新データセンターで解決",
-      "link": "https://ascii.jp/elem/000/004/414/4414366/?rss",
-      "date": "2026-07-02T11:00:00+09:00",
-      "dateLabel": "07/02 11:00",
-      "desc": "クラウドコストの高騰、運用人材不足、AI/GPUサーバー設置の電力要件……。ITインフラの運用をめぐって新たな課題が生まれている。Interop Tokyo 2026のオプテージブースでは、そうした課題を整理し、オプテージの最新データセンターやサービスがどう解決策になるのかを紹介していた。",
-      "img": "https://ascii.jp/img/2026/06/29/4490948/s/95a0a05105195d42.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
       "score": 42
     },
     {
-      "title": "ASUS、2.5スロット設計の「ProArt GeForce RTX 5090 OC Edition」発売 小型でも高冷却を実現",
-      "link": "https://ascii.jp/elem/000/004/415/4415558/?rss",
-      "date": "2026-07-02T10:45:00+09:00",
-      "dateLabel": "07/02 10:45",
-      "desc": "ASUS JAPANが、ProArtブランド初のNVIDIA GeForce RTX 5090搭載ビデオカード「ProArt GeForce RTX 5090 OC Edition」を7月3日に発売する。2.5スロットのコンパクト設計と高性能冷却機構、USB Type-Cポートを備えたクリエイター向け上位モデルだ。",
-      "img": "https://ascii.jp/img/2026/07/02/4492852/s/673959684c42610a.png",
+      "title": "“Juniper・MistとArubaの融合”でCiscoに対抗 HPE Networkingが語る「AI時代のあるべき姿」",
+      "link": "https://ascii.jp/elem/000/004/415/4415658/?rss",
+      "date": "2026-07-02T12:45:00+09:00",
+      "dateLabel": "07/02 12:45",
+      "desc": "6月に米国で開催された「HPE Discover 2026」において、Hewlett Packard Enterprise（HPE）は、買収したJuniperやArubaの技術を融合させた「自律型ネットワーク（Self-Driving Networks）」の製品群を多数発表した。",
+      "img": "https://ascii.jp/img/2026/07/02/4492955/s/02fe016926d938d1.jpg",
       "src": "ASCII.jp",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
-      "title": "現場主導の“AI業務改善”を当たり前に ジョイゾーが初期費用36万の伴走支援サービス",
-      "link": "https://ascii.jp/elem/000/004/414/4414999/?rss",
-      "date": "2026-07-02T10:00:00+09:00",
-      "dateLabel": "07/02 10:00",
-      "desc": "ジョイゾーは、生成AI（Claude）を活用した現場主導の業務改善を定着させる伴走支援サービス「スキル39（スキルサンキュー）」を提供開始した。同時に、「60分間の無償個別相談セッション」の受付もスタートしている。",
-      "img": "https://ascii.jp/img/2026/07/01/4492208/s/7491ed6768ea7657.jpg",
-      "src": "ASCII.jp",
-      "cat": "LLM/モデル",
+      "cat": "AI全般",
       "score": 42
     },
     {
@@ -156,61 +156,6 @@
       "date": "2026-07-01T19:00:00+09:00",
       "dateLabel": "07/01 19:00",
       "desc": "AnthropicのAIコーディングツール「Claude Code」が送信するシステムプロンプト内の日付文に目立たない文字の違いを埋め込み、APIの接続先やタイムゾーンに応じてリクエストに目印を付けていたとの調査結果が公開されました。調査した個人開発者のThereallo氏は仕組みを「プロンプト・ステガノグラフィー」と表現しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "Protonがプライバシー重視チャットAI「Lumo 2.0」を発表、Claude Sonnet 4.6を超える性能",
-      "link": "https://gigazine.net/news/20260701-proton-lumo-2-0/",
-      "date": "2026-07-01T14:40:00+09:00",
-      "dateLabel": "07/01 14:40",
-      "desc": "プライバシー重視のメールサービス「Proton Mail」を手がけるProtonがチャットボットAI「Lumo 2.0」を2026年6月30日に発表しました。Lumo 2.0は新たなアーキテクチャが採用されており、画像生成・編集、ウェブ検索、利用者が管理できる記憶機能、用途別アシスタントを追加しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 42
-    },
-    {
-      "title": "Claude Fable 5、日本で明日再開もサブスクで使えるのは「1週間限定」",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000148/",
-      "date": "2026-07-01T13:59:01+09:00",
-      "dateLabel": "07/01 13:59",
-      "desc": "米Anthropicは6月30日（現地時間、以下同）、提供再開を発表したAIモデル「Claude Fable 5」について、7月1日から日本を含む全世界のユーザーが使えるようになると発表した。ただしサブスクリプションプランで使えるのは7日まで。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "OpenAIがCodex用の新ハードウェアを予告",
-      "link": "https://gigazine.net/news/20260701-openai-codex-hardware/",
-      "date": "2026-07-01T12:58:00+09:00",
-      "dateLabel": "07/01 12:58",
-      "desc": "OpenAIがAIエージェント「Codex」に関連するデバイスのムービーをXに投稿しました。投稿には「7月15日」という日付と「お気に入りのCodexショートカットがアップグレードされます」というテキストが記載されており、2026年7月15日に何らかの追加情報が発表されると見られています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "AIエージェント/業務",
-      "score": 42
-    },
-    {
-      "title": "Anthropicが科学者向けAIアプリ「Claude Science」を公開、文献調査や図表作成を単一アプリで実行可能",
-      "link": "https://gigazine.net/news/20260701-anthropic-claude-science/",
-      "date": "2026-07-01T12:35:00+09:00",
-      "dateLabel": "07/01 12:35",
-      "desc": "Anthropicが科学研究向けAIワークベンチ「Claude Science」をベータ版として公開しました。Claude Scienceは文献調査から解析、図表や原稿の作成、計算資源の管理までを単一の環境に統合し、検証可能で再現可能な研究作業を支援するツールです。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "LLM/モデル",
-      "score": 42
-    },
-    {
-      "title": "OpenAIがAIの科学能力を測定するベンチマークテスト「GeneBench-Pro」を発表",
-      "link": "https://gigazine.net/news/20260701-genebench-pro/",
-      "date": "2026-07-01T12:05:00+09:00",
-      "dateLabel": "07/01 12:05",
-      "desc": "データを確認したAIが、そのデータがノイズなのか有意なものなのかを判断した上で解析を行えるかどうかを測る計算生物学のベンチマーク「GeneBench-Pro」がOpenAIから発表されました。このベンチマークで測定した上でAIを改善していけば、科学的発見を大幅に加速できる可能性があると期待されています。 続きを読む...",
       "img": "",
       "src": "GIGAZINE",
       "cat": "LLM/モデル",
@@ -228,28 +173,6 @@
       "score": 42
     },
     {
-      "title": "アメリカ政府がClaude Fable 5とClaude Mythos 5の規制を解除",
-      "link": "https://gigazine.net/news/20260701-claude-fable-mythos-5/",
-      "date": "2026-07-01T10:20:00+09:00",
-      "dateLabel": "07/01 10:20",
-      "desc": "アメリカ政府によるClaude Fable 5とClaude Mythos 5の規制が解除されたことが日本時間の2026年7月1日8時52分に発表されました。Anthropicが近日中にサービスを再開することを表明しています。 続きを読む...",
-      "img": "",
-      "src": "GIGAZINE",
-      "cat": "規制/安全",
-      "score": 42
-    },
-    {
-      "title": "Anthropic、科学研究向けAIワークベンチ「Claude Science」を発表──NVIDIAのBioNeMoツールキットと連携",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000145/",
-      "date": "2026-07-01T09:54:25+09:00",
-      "dateLabel": "07/01 09:54",
-      "desc": "Anthropicは、科学者が計算研究を一貫して行えるAI実行環境「Claude Science」を発表した。データベースやツールを1つのインタフェースに統合し、文献分析から論文執筆、図表作成まで対応する。NVIDIAのツールキットとも連携し、機密データを外部に送信しない設計が特徴。",
-      "img": "",
-      "src": "ITmedia AI+",
-      "cat": "半導体/GPU",
-      "score": 42
-    },
-    {
       "title": "クアルコムがPythonライクな新言語「Mojo」開発元のModular社買収を発表。AIデータセンター市場へ本格参入",
       "link": "https://www.publickey1.jp/blog/26/pythonmojomodularai.html",
       "date": "2026-06-30T00:33:20+09:00",
@@ -261,14 +184,14 @@
       "score": 42
     },
     {
-      "title": "mouse K5登場 RTX 3050×Core i7搭載の高コスパ15.6型ノートPC",
-      "link": "https://ascii.jp/elem/000/004/415/4415541/?rss",
-      "date": "2026-07-02T11:00:00+09:00",
-      "dateLabel": "07/02 11:00",
-      "desc": "マウスコンピューターが、GeForce RTX 3050 Laptop GPU搭載の15.6型ノート「mouse K5」を販売開始。Core i7/Core i5選択対応、最大3画面出力、家族で共有しやすい高コスパモデルを紹介する。",
-      "img": "https://ascii.jp/img/2026/07/02/4492831/s/9cb6241f994d0c73.jpg",
-      "src": "ASCII.jp",
-      "cat": "半導体/GPU",
+      "title": "AIがウェブサイトに訪問するたびに課金できるシステム「Monetization Gateway」をCloudflareが発表",
+      "link": "https://gigazine.net/news/20260702-cloudflare-monetization-gateway/",
+      "date": "2026-07-02T12:10:00+09:00",
+      "dateLabel": "07/02 12:10",
+      "desc": "Cloudflareは2026年7月1日、Cloudflareで保護しているウェブページやデータセット、API、MCPツールなどにアクセスごとの課金を設定できる「Cloudflare Monetization Gateway」を発表しました。AIエージェントやソフトウェアからのアクセスに対して、x402という支払いプロトコルを使って料金を請求できる仕組みです",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "AIエージェント/業務",
       "score": 34
     },
     {
@@ -280,6 +203,83 @@
       "img": "",
       "src": "GIGAZINE",
       "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "AIアシスタントで設計検証を迅速化、3D CAD「Creo」最新版を提供開始",
+      "link": "https://monoist.itmedia.co.jp/mn/articles/2607/02/news006.html",
+      "date": "2026-07-02T09:00:00+09:00",
+      "dateLabel": "07/02 09:00",
+      "desc": "PTCは、オンプレミス版の3D CADソリューション「Creo 13」と、SaaS版の「Creo+ 13.3」の提供開始を発表した。新たにAIアシスタント機能を導入した他、設計、シミュレーション、製造の各領域で機能を強化している。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "AIに「相手に電気ショックを与えろ」と命じ続けたらボタンを押すのか？ 11のLLMで“ミルグラム実験” 抵抗できたのは……",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/02/news029.html",
+      "date": "2026-07-02T08:00:00+09:00",
+      "dateLabel": "07/02 08:00",
+      "desc": "エストニアとフィリピンに住む独立系研究者らが発表した論文「Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment」は、AIは権威からの残酷な命令を拒絶し続けられるのかを検証した研究報告だ。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "Anthropicの営業はAIエージェントをこう使う！ 日本法人メンバーが明かす手の内",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/02/news017.html",
+      "date": "2026-07-02T07:00:00+09:00",
+      "dateLabel": "07/02 07:00",
+      "desc": "Anthropicの社員自身はどのようにAIエージェントを業務に役立てているのか──「AWS Summit Japan 2026」のAnthropicブースで、日本法人で営業担当を務めるイブラギモブ・シャボズさんが「自身の業務で使うAIエージェント」をテーマに講演した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "DNSを基盤にAIエージェントに信頼できる名前を与える「Agent Name Service（ANS）」、立ち上げ意向をLinux Foundationが発表",
+      "link": "https://www.publickey1.jp/blog/26/dnsaiagent_name_serviceanslinux_foundation.html",
+      "date": "2026-07-02T00:04:00+09:00",
+      "dateLabel": "07/02 00:04",
+      "desc": "Linux Foundationは、既存のドメインネームシステム（DNS）基盤を拡張してインターネット上で稼働するAIエージェントに信頼できる識別子としての名前などを提供する新しいオープンソース標準「Agent Name Service（A...",
+      "img": "",
+      "src": "Publickey",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "ソフトバンクG、OpenAIに1兆6273億円の追加出資 第3弾は10月に",
+      "link": "https://www.itmedia.co.jp/news/articles/2607/01/news139.html",
+      "date": "2026-07-01T18:10:00+09:00",
+      "dateLabel": "07/01 18:10",
+      "desc": "ソフトバンクグループは7月1日、米OpenAIへの総額300億ドル（約4兆6743億円）の追加出資のうち、第2弾となる100億ドル（同1兆6273億円）を実行したと発表した。残る第3弾の100億ドルは10月1日に予定する。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "LLM/モデル",
+      "score": 34
+    },
+    {
+      "title": "Sakana AIはなぜ「Fugu」の基盤にGoogle Cloudを選んだのか 「元DeepMindだから」だけじゃない",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/01/2000000149/",
+      "date": "2026-07-01T16:52:21+09:00",
+      "dateLabel": "07/01 16:52",
+      "desc": "Sakana AIはマルチエージェントシステム「Sakana Fugu」の運用基盤に、Google Cloudの「Gemini Enterprise Agent Platform」を採用した。",
+      "img": "",
+      "src": "ITmedia AI+",
+      "cat": "AIエージェント/業務",
+      "score": 34
+    },
+    {
+      "title": "Mistralが自動定理証明向けAI「Leanstral 1.5」リリース、Lean 4の証明作業を支援",
+      "link": "https://gigazine.net/news/20260701-mistral-leanstral-1-5/",
+      "date": "2026-07-01T16:05:00+09:00",
+      "dateLabel": "07/01 16:05",
+      "desc": "Mistral AIが数学の証明やプログラムの正しさを機械的に確かめる作業を支援するAIモデル「Leanstral 1.5」を2026年6月30日に公開しました。Leanstral 1.5は形式証明ツール「Lean 4」向けの自動定理証明と自動形式化に最適化されたモデルで、Mistral AIのLabs枠で無料利用できると案内されています。 続きを読む...",
+      "img": "",
+      "src": "GIGAZINE",
+      "cat": "LLM/モデル",
       "score": 34
     }
   ]
